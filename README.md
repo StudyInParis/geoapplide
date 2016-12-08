@@ -25,35 +25,35 @@ Description détaillée des données :
 - Distributeurs de préservatifs :
   - https://opendata.paris.fr/explore/dataset/distributeurspreservatifsmasculinsparis2012/export/
   - format json et geojson
-  - informations fournises dans le fichier : id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), lattitude/longitude, adresse complète, arrondissement, horaires normales.
+  - informations fournies dans le fichier : id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), lattitude/longitude, adresse complète, arrondissement, horaires normales.
 - cafés à 1€
   - https://opendata.paris.fr/explore/dataset/liste-des-cafes-a-un-euro/export/
   - format json et geojson
-  - informations fournises dans le fichier : id, arrondissement, adresse, prix, géolocalisation, nom du café, prix en terrasse, date, prix au comptoir.
+  - informations fournies dans le fichier : id, arrondissement, adresse, prix, géolocalisation, nom du café, prix en terrasse, date, prix au comptoir.
 - cinémas
   - https://opendata.paris.fr/explore/dataset/cinemas-a-paris/api/
   - format json et geojson
-  - informations fournises dans le fichier : id, nombre d'écrans, nombre de fauteuils, ndegauto, arrondissement, art et essai (NON/A), adresse, nom de l'établissement, coordonnées (lat, long).
+  - informations fournies dans le fichier : id, nombre d'écrans, nombre de fauteuils, ndegauto, arrondissement, art et essai (NON/A), adresse, nom de l'établissement, coordonnées (lat, long).
 - marchés de quartiers
   - https://opendata.paris.fr/explore/dataset/liste_des_marches_de_quartier_a_paris/api/
   - format json et geojson
-  - informations fournises dans le fichier : id, marché, jour (horaires), arrondissement, adresse complète, localisation (détail adresse), société gestionnaire.
+  - informations fournies dans le fichier : id, marché, jour (horaires), arrondissement, adresse complète, localisation (détail adresse), société gestionnaire.
 - bières, openbeermap
   - https://www.data.gouv.fr/fr/datasets/bars-pubs-et-brasseries-artisanales-dopen-beer-map-ile-de-france-mai-2015/
-  - informations fournises dans le fichier : nom de l'établissement, gml id, osm id, brewer (Oui/Non), bières (noms de bières), type (bar/pub).
+  - informations fournies dans le fichier : nom de l'établissement, gml id, osm id, brewer (Oui/Non), bières (noms de bières), type (bar/pub).
   - format csv, séparateur = ","
 - bibliothèques
   - https://www.data.gouv.fr/fr/datasets/adresses-des-bibliotheques-publiques/
   - format csv, séparateur = ","
-  - informations fournises dans le fichier :id, numéro INSEE, ville, région, type de voie, voie, CPBIBLIO, nom de la voie, numéro de voie, département, population légale, libellé 1 (type de biliothèque, bibliothèque, médiathèque, communale, municipale), libellé 2 (nom de la bibliothèque).
+  - informations fournies dans le fichier :id, numéro INSEE, ville, région, type de voie, voie, CPBIBLIO, nom de la voie, numéro de voie, département, population légale, libellé 1 (type de biliothèque, bibliothèque, médiathèque, communale, municipale), libellé 2 (nom de la bibliothèque).
 - quartiers administratifs
   - https://opendata.paris.fr/explore/dataset/quartier_paris/
   - format json et geojson
-  - informations fournises dans le fichier : id, et coordonnées des points du polygone qui définit le quartier (geom/type/coordinates/item/item/lat - long), numéro INSEE, nom du quartier, arrondissement.
+  - informations fournies dans le fichier : id, et coordonnées des points du polygone qui définit le quartier (geom/type/coordinates/item/item/lat - long), numéro INSEE, nom du quartier, arrondissement.
 - établissements universitaires
   - https://www.data.gouv.fr/fr/datasets/annuaire-immobilier-de-l-enseignement-superieur-prs/
   - format json
-  - informations fournises dans le fichier :
+  - informations fournies dans le fichier :id, code postale, adresse, parcelle, surface, propriétaire, occupant, type, tutelle pédagogique, statut (public/privé), pres (?).
 - CROUS (France entière)
   - https://www.data.gouv.fr/fr/datasets/ensemble-des-lieux-de-restauration-des-crous-france-entiere-1/
-  - informations fournises dans le fichier :
+  - informations fournies dans le fichier : id, lat, long, nom, type (resto/cafeteria), contact (adresse complète).
