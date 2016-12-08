@@ -1,6 +1,6 @@
 # geoapplide
 
-*guide de l'endroit optimal à Paris par parties localisées indexées et destiné aux étudiants
+*guide de l'endroit optimal à Paris par parties localisées indexées et destiné aux étudiants*
 
 Projet M2 pour les cours de XML et de python réalisé par :
 Chloé Monnin
