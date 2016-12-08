@@ -1,8 +1,12 @@
 # crispy-carnival
 
-Projet M2 pour les cours de XML et de python
+Projet M2 pour les cours de XML et de python réalisé par :
+Chloé Monnin
+Mathilde POULAIN
+Léon-Paul SCHAUB
 
-Objectif : déterminer le meilleur quartier étudiant en fonction de
+## Objectif :
+Déterminer le meilleur quartier étudiant en fonction de
 - la présence de distributeurs de préservatifs
 - les cinémas
 - les marchés de quartiers
@@ -14,4 +18,9 @@ Objectif : déterminer le meilleur quartier étudiant en fonction de
 
 Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalament sur le site https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
 
+## Données
 Description détaillée des données :
+- Distributeurs de préservatifs :
+  - https://opendata.paris.fr/explore/dataset/distributeurspreservatifsmasculinsparis2012/export/
+  - format json et geojson
+  -
