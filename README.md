@@ -8,7 +8,7 @@ Mathilde POULAIN
 Léon-Paul SCHAUB
 
 ## Objectif :
-Déterminer le meilleur quartier étudiant en fonction de
+Déterminer le meilleur quartier étudiant en fonction de :
 - la présence de distributeurs de préservatifs
 - les cinémas
 - les marchés de quartiers
@@ -25,9 +25,11 @@ Description détaillée des données :
 - Distributeurs de préservatifs :
   - https://opendata.paris.fr/explore/dataset/distributeurspreservatifsmasculinsparis2012/export/
   - format json et geojson
-- cafés à 1€ : json, geojson
+  - informations fournises dans le fichier : id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), lattitude/longitude, adresse complète, arrondissement, horaires normales.
+- cafés à 1€
   - https://opendata.paris.fr/explore/dataset/liste-des-cafes-a-un-euro/export/
   - format json et geojson
+  - informations fournises dans le fichier : id, arrondissement, adresse, prix, géolocalisation, nom du café, prix en terrasse, date, prix au comptoir.
 - cinémas
   - https://opendata.paris.fr/explore/dataset/cinemas-a-paris/api/
   - format json et geojson
