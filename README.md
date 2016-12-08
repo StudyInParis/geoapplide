@@ -73,7 +73,7 @@ Modules utilisés pour la réalisation des scripts :
 - csv
 - codecs
 - xml.sax
-- dicttoxml (génère un fichier xml à partir d'un dictionnaire python)
+- [https://github.com/quandyfactory/dicttoxml](dicttoxml) (génère un fichier xml à partir d'un dictionnaire python)
 - json (gestion des fichiers json et conversion en dictionnaire python)
 - lxml
 
