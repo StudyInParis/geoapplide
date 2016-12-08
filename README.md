@@ -25,7 +25,7 @@ Description détaillée des données :
 - Distributeurs de préservatifs :
   - https://opendata.paris.fr/explore/dataset/distributeurspreservatifsmasculinsparis2012/export/
   - format json et geojson
-  - informations fournies dans le fichier : id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), lattitude/longitude, adresse complète, arrondissement, horaires normales.
+  - informations fournies dans le fichier : id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), latitude/longitude, adresse complète, arrondissement, horaires normales.
 - cafés à 1€
   - https://opendata.paris.fr/explore/dataset/liste-des-cafes-a-un-euro/export/
   - format json et geojson
@@ -59,11 +59,18 @@ Description détaillée des données :
   - informations fournies dans le fichier : id, lat, long, nom, type (resto/cafeteria), contact (adresse complète).
 
 ## Transformation de toutes les données en XML
-Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos données en XML, ce sont les suivants, présents dans le dossier /scripts, accompagnés d'une doc :
+Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos données en XML, ce sont les suivants, présents dans le dossier /scripts :
 - openbeermap2xml.py (transormation du fichier CSV d'OpenBeerMap)
 - json2xml.py (transformation des fichiers au format json vers du XML)
 - csv2xml.py (transformation du fichier CSV adresse_bibliotheque)
 - format_xml (formattage du fichier CROUS)
 
+### Problèmes rencontrés lors de la création des scripts
+#### OpenBeerMap
+Le fichier OpenBeerMap est construit de la façon suivante :
+*OpenBeerMap_IDF.1126088147,1126088147,(1:Akerbeltz_ambrée),Non,L'Express,pub*
+Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :
+*OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub*
+Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contanant toutes les informations pour les imprimer dans le fichier de sortie.
 
 ## Création d'un fichier XML pivot
