@@ -59,7 +59,7 @@ Description détaillée des données :
   - informations fournies dans le fichier : id, lat, long, nom, type (resto/cafeteria), contact (adresse complète).
 
 ## Transformation de toutes les données en XML
-Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos données en XML, ce sont les suivants, présents dans le dossier /scripts :
+Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos données en XML, ce sont les suivants, présents dans le dossier /scripts, accompagnés d'une doc :
 - openbeermap2xml.py (transormation du fichier CSV d'OpenBeerMap)
 - json2xml.py (transformation des fichiers au format json vers du XML)
 - csv2xml.py (transformation du fichier CSV adresse_bibliotheque)
