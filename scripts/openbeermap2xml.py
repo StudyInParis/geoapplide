@@ -10,7 +10,7 @@ def line_mod(line):
 	sortie : tableau : {balise:contenu_balise}
 	"""
 	lines = {}
-	# nettoyage de la ligne
+	# nettoyage de la ligne en enelevant ce qui est entre parenthèse (donc les bières qui sont traitées à part)
 	line = re.sub('(\(.*\))','',line)
 	line = re.sub('&','&amp;',line)
 	# split de la ligne
@@ -43,21 +43,30 @@ if __name__ == '__main__':
 		for line in c.readlines():
 			# recuperation des bieres
 			out_beers = {}
+			# recherche des éléments entre parenthèse
 			pattern1 = re.search('\(.*\)',line)
 			if pattern1:
 				beer = pattern1.group()
+				# récupération du contenu des parenthèses
 				pattern2 = re.search('\,', beer)
 				if pattern2:
+					# si il trouve des virgules, donc on a une liste des bières donc création d'une liste
 					beers = beer.split(',')
 					out_list = []
 					for element in beers:
+						# nettoyage
 						element = beer_mod(element)
 						out_list.append(element)
+					# ajout dans le tableau
 					out_beers["beer"] = out_list
 				else:
+					# si pas de virgules, alors il n'y a qu'une seule bière, nettoyage
 					beer = beer_mod(beer)
+					# ajout dans le tableau
 					out_beers["beer"] = beer
+				# nettoyage de la ligne et récupération des infos dans un tableau
 				lines = line_mod(line)
+				# on ajoute les infos sur les bières
 				lines["beer"] = out_beers
 				final_tab[cpt_line] = lines
 				cpt_line += 1
