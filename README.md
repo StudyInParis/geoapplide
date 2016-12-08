@@ -78,7 +78,9 @@ Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :
 
 *OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub*
 
-Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contanant toutes les informations pour les imprimer dans le fichier de sortie.
+Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contenant toutes les informations pour les imprimer dans le fichier de sortie.
+
+On obtient le fichier openbeermap.xml.
 #### Scripts json2xml
 Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contnant toutes les données du fichier.
 
