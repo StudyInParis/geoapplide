@@ -65,6 +65,15 @@ Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos do
 - csv2xml.py (transformation du fichier CSV adresse_bibliotheque)
 - format_xml (formattage du fichier CROUS)
 
+Modules utilisés pour la réalisation des scripts :
+- re (utilisation des expressions régulières)
+- csv
+- codecs
+- xml.sax
+- dicttoxml (génère un fichier xml à partir d'un dictionnaire python)
+- json (gestion des fichiers json et conversion en dictionnaire python)
+- lxml
+
 ### Problèmes rencontrés lors de la création des scripts
 #### OpenBeerMap
 Le fichier OpenBeerMap est construit de la façon suivante :
