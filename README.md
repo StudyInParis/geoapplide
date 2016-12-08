@@ -21,7 +21,7 @@ Déterminer le meilleur quartier étudiant en fonction de :
 - les établissements universitaires
 - les CROUS (restoU)
 
-Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalement sur les sites https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
+Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalement sur les sites [Paris OpenData](https://opendata.paris.fr/page/home/) et [Data.gouv](http://www.data.gouv.fr/fr/). Nos données sont donc uniquement opensource, réutilisables à volonté !
 
 ## Données
 Description détaillée des données :
@@ -79,6 +79,16 @@ Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :
 *OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub*
 
 Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contanant toutes les informations pour les imprimer dans le fichier de sortie.
+#### Scripts json2xml
+Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contnant toutes les données du fichier.
+
+Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
+- facs.xml
+- cinemas.xml
+- preservatifs.xml
+- quartiers.xml
+- cafes.xml
+- marches.xml
 
 ## Création d'un fichier XML pivot
 On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.
