@@ -60,7 +60,7 @@ Description détaillée des données :
 
 ## Transformation de toutes les données en XML
 Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos données en XML, ce sont les suivants, présents dans le dossier /scripts :
-- openbeermap2xml.py (transormation du fihcier CSV d'OpenBeerMap)
+- openbeermap2xml.py (transormation du fichier CSV d'OpenBeerMap)
 - json2xml.py (transformation des fichiers au format json vers du XML)
 - csv2xml.py (transformation du fichier CSV adresse_bibliotheque)
 - format_xml (formattage du fichier CROUS)
