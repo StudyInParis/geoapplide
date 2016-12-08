@@ -18,7 +18,7 @@ Déterminer le meilleur quartier étudiant en fonction de :
 - les établissements universitaires
 - les CROUS (restoU)
 
-Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalament sur le site https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
+Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalement sur le site https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
 
 ## Données
 Description détaillée des données :
