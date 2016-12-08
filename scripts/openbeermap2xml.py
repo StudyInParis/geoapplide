@@ -5,6 +5,7 @@ xml_output = open('../donnees_XML/OpenBeerMap.xml','w')
 
 def line_mod(line):
 	"""
+	fonction de nettoyage des lignes (suppression fins de ligne, et caractères spéciaux) et construit un dictionnaire à partir des éléments de la ligne.
 	entree : string line = une ligne
 	sortie : tableau : {balise:contenu_balise}
 	"""
@@ -14,6 +15,7 @@ def line_mod(line):
 	line = re.sub('&','&amp;',line)
 	# split de la ligne
 	items = line.split(',')
+	# construction du tableau de sortie
 	lines["gml_id"] = items[0].split(".")[-1]
 	lines["osm_id"] = items[1]
 	lines["brewer"] = items[3]
@@ -23,7 +25,7 @@ def line_mod(line):
 
 def beer_mod(beer):
 	"""
-	nettoyage d'une ligne
+	nettoyage des noms de bières (suppression des :,(,),[0-9])
 	entree : string beer
 	sortie : string beer
 	"""
@@ -32,18 +34,6 @@ def beer_mod(beer):
 	beer = re.sub(':','', beer)
 	beer = re.sub('\)','', beer)
 	return beer
-
-def tablification(tab1, tab2,i):
-	"""
-	ajoute les donnees d'un tableau a un autre tableau
-	entree : 2 tableaux
-	sortie : 1 tableau avec tab2 a la suite de tab1
-	"""
-	megatab = {}
-	for element in tab1:
-		megatab[element] = tab1[element]
-	return megatab
-
 
 if __name__ == '__main__':
 	cpt_line = 1
@@ -72,7 +62,7 @@ if __name__ == '__main__':
 				final_tab[cpt_line] = lines
 				cpt_line += 1
 
-
+	# Impression du résultat dans le fichier de sortie
 	xml_output.write('<?xml version="1.0" standalone="yes"?>\n<document id="open beer map">\n')
 	for element in final_tab:
 		xml_output.write('<item id="'+str(element)+'">\n')
