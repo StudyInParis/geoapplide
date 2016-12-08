@@ -1,0 +1,1000 @@
+  844  git -m commit "mise à jour fichier readme.md"
+  845  git commit -m "mise à jour fichier readme.md"
+  846  git push
+  847  git pull
+  848  cd ~/coursIM/
+  849  git pull
+  850  cd ~/Dropbox/cours/XML/TD5/
+  851  ls
+  852  xmllint fnac.xml --relaxng fnac.rng 
+  853  xmllint fnac.xml --relaxng fnac.rng --noout
+  854  cd ~/coursIM/eleves/ma
+  855  cd ~/coursIM/eleves/mathildePoulain/
+  856  ls
+  857  git push
+  858  git add *
+  859  git commit -m 'ajout fnac.xml et fnac.rng de l'exercice 5"
+  860  git commit -m 'ajout fnac.xml et fnac.rng de l'exercice 5'
+  861  git commit -m "ajout fnac.xml et fnac.rng de l'exercice 5"
+  862  git push
+  863  git status
+  864  cd Dropbox/cours/statistiques_corpus/TP1/
+  865  ls
+  866  python3 nbmot_phrase.py 
+  867  python nbmot_phrase.py 
+  868  python nbmot_phrase.py > carac_phrase.csv
+  869  python nbmot_phrase.py
+  870  python nbmot_phrase.py > carac_phrase.csv
+  871  python nbmot_phrase.py
+  872  sudo pip install -U nltk
+  873  python
+  874  emacs
+  875  sudo apt-get install emacs24
+  876  emacs
+  877  cd Dropbox/cours/langages_de_scripts/
+  878  ls
+  879  python test.py 
+  880  python test.py 3 4
+  881  python test.py 3
+  882  python test.py 4
+  883  python3 test.py "baudelaire.txt"
+  884  python3 m_poeme_v1.py 
+  885  python3 m_poeme_v1.py baudelaire.txt
+  886  cd cours3
+  887  ls
+  888  python3 main_voc_commun.py 
+  889  python3 main_voc_commun.py zola_-ventre-de-paris.txt balzac_petits-bourgeois.txt
+  890  python3 main_voc_commun.py zola_ventre-de-paris.txt balzac_petits-bourgeois.txt
+  891  cd Dropbox/cours/langages_de_scripts/
+  892  ls
+  893  python3 test.py 
+  894  ipython
+  895  ipython3
+  896  python3 -m timeit [x**2 for x in range(100)]
+  897  python3 -m timeit [x**2 for  x in range (100)
+  898  python3 -m timeit [x**2 for x in range(100)]
+  899  python3
+  900  python3 -m timeit "[x**2 for x in range(100)]"
+  901  python3 -m
+  902  cd Dropbox/cours/langages_de_scripts/
+  903  python3 test.py 
+  904  python test.py 
+  905  ls
+  906  python3 test.py 
+  907  ipython
+  908  cd cours3
+  909  python3 main_voc_commun
+  910  python3 main_voc_commun.py
+  911  python3 main_voc_commun._v1py
+  912  python3 main_voc_commun._v1.py
+  913  python3 main_voc_commun_v1.py zola_ventre-de-paris.txt balzac_petits-bourgeois.txt
+  914  python3 main_voc_commun_v1.py zola_ventre-de-paris.txt balzac_petits-bourgeois.txtB
+  915  python3 main_voc_commun_v1.py zola_ventre-de-paris.txt balzac_petits-bourgeois.txt
+  916  cd Dropbox/cours/statistiques_corpus/TP1/
+  917  ls
+  918  python nbmot_phrase.py 
+  919  cd ../../langages_de_scripts/cours4
+  920  ls
+  921  python3 regex.py 
+  922  python3 regex.py Lexique381.txt 
+  923  python3 test.py 
+  924  python3 regex.py 
+  925  python3 regex.py Lexique381.txt 
+  926  python3 regex_v1.py Lexique381.txt 
+  927  python3 regex_v1.py Lexique381.txt -phon
+  928  python3
+  929  cd Dropbox/cours/langages_de_scripts/
+  930  ls
+  931  cd cours4
+  932  cd ../exo_codingame/
+  933  ls
+  934  python3 batman.py 
+  935  python3 test.py
+  936  python3 batman.py 
+  937  python3
+  938  python3 batman.py 
+  939  python3
+  940  cd Dropbox/cours/langages_de_scripts/cours4
+  941  ls
+  942  python3 regex_v1.py 
+  943  python3 regex_v1.py Lexique381.txt 
+  944  python3 regex_v1.py -phon Lexique381.txt 
+  945  python3 regex_v1.py Lexique381.txt 
+  946  python3 regex_v1.py -phon Lexique381.txt 
+  947  python3 regex_v1.py Lexique381.txt 
+  948  python3 regex_v1.py -phon Lexique381.txt 
+  949  python3 regex_v1.py Lexique381.txt | egrep "aure"
+  950  python3 regex_v1.py Lexique381.txt | egrep "s$"
+  951  python3 regex_v1.py -phon Lexique381.txt | egrep "aures?"
+  952  python3 regex_v1.py -phon Lexique381.txt | egrep "aure(s)?"
+  953  python3 regex_v1.py -phon Lexique381.txt | egrep "aure"
+  954  python3 regex_v1.py -phon Lexique381.txt | egrep "s$"
+  955  python3 regex_v1.py -phon Lexique381.txt
+  956  python3 regex_v1.py Lexique381.txt
+  957  python3 url_search.py 
+  958  python url_search.py 
+  959  python url_search.py | egrep "DATA"
+  960  python3 url_search.py
+  961  python3 url_search.py > the_page.txt
+  962  egrep "https?" the_page.txt 
+  963  egrep "https?://www\.[^\.]" the_page.txt 
+  964  egrep "https?://www\.[^\.]+" the_page.txt 
+  965  egrep "https?://" the_page.txt 
+  966  python3 url_search.py
+  967  egrep -c "https" the_page.txt 
+  968  egrep -c "https?" the_page.txt 
+  969  egrep "https?" the_page.txt 
+  970  egrep -o "https?" the_page.txt 
+  971  egrep -co "https?" the_page.txt 
+  972  egrep -m "https?" the_page.txt 
+  973  man egrep
+  974  egrep -C "https?" the_page.txt 
+  975  egrep "https?" the_page.txt 
+  976  python3 url_search.py 
+  977  python3 url2.py 
+  978  python3 url_search.py 
+  979  ls
+  980  egrep "@" the_page.txt 
+  981  cat the_page.txt | egrep "@"
+  982  cat the_page.txt | egrep "&#64;"
+  983  cat the_page.txt | egrep "&#64"
+  984  cat the_page.txt | egrep "&64"
+  985  cat the_page.txt | egrep "&.64"
+  986  cat the_page.txt | egrep "&"
+  987  cat the_page.txt | egrep -o "&"
+  988  cat the_page.txt | egrep "&"
+  989  egrep "[a-z]+/[A-Z]+" brise-marine-POS.txt 
+  990  ipython
+  991  python3 regex_v1.py 
+  992  python3 regex_v1.py brise-marine-POS.txt 
+  993  python3 mail_search.py 
+  994  python3 url_search.py 
+  995  ipython
+  996  python3
+  997  cd Dropbox/cours/langages_de_scripts/exo_codingame/
+  998  ls
+  999  python2 batman.py 
+ 1000  cd ..
+ 1001  python batman.py 
+ 1002  kytea
+ 1003  cd Téléchargements/
+ 1004  wget https://github.com/downloads/atilika/kuromoji/kuromoji-0.7.7.tar.gz
+ 1005  tar -xzvf kuromoji-0.7.7.tar.gz
+ 1006  cd kuromoji-0.7.7/
+ 1007  javac -cp lib/kuromoji-0.7.7.jar src/main/java/org/atilika/kuromoji/example/TokenizerExample.java
+ 1008  首都は事実上東京都とされている。
+ 1009  javac -cp lib/kuromoji-0.7.7.jar src/main/java/org/atilika/kuromoji/example/TokenizerExample.java
+ 1010  java -Dfile.encoding=UTF-8 -cp lib/kuromoji-0.7.7.jar:src/main/java org.atilika.kuromoji.example.TokenizerExample
+ 1011  cd ..
+ 1012  git clone https://github.com/sile/gomoku
+ 1013  cd gomoku/
+ 1014  cd analyzer/
+ 1015  brew install ant
+ 1016  sudo apt-get install brew
+ 1017  sudo apt-get install ant
+ 1018  ant
+ 1019  首都は事実上東京都とされている。 > input.txt
+ 1020  "首都は事実上東京都とされている。" > input.txt
+ 1021  echo "首都は事実上東京都とされている。" > input.txt
+ 1022  cat input.txt 
+ 1023  java -cp gomoku-0.0.7.jar net.reduls.gomoku.bin.Gomoku < input.txt
+ 1024  cd ../..
+ 1025  ls
+ 1026  wget http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+ 1027  tar xzvf kakasi-2.3.6.tar.gz
+ 1028  cd kakasi-2.3.6/
+ 1029  ./configure
+ 1030  sudo make
+ 1031  suod make install
+ 1032  sudo make install
+ 1033  cd ../gomoku/analyzer/
+ 1034  ls
+ 1035  cp input.txt ../../kakasi-2.3.6
+ 1036  cd ../../kakasi-2.3.6/
+ 1037  ls
+ 1038  kakasi < input.txt 
+ 1039  cd coursIM/
+ 1040  git pull
+ 1041  cd Dropbox/cours/langages_de_scripts/exo_codingame/
+ 1042  python3 crusade.py 
+ 1043  cd Dropbox/cours/XML/TD5
+ 1044  ls
+ 1045  xmllint fnac.xml --relaxng fnac.rng
+ 1046  sudo apt-get update
+ 1047  libjs-pdf
+ 1048  man libjs-pdf
+ 1049  cd Dropbox/cours/XML/TD6/
+ 1050  ls
+ 1051  xmllint etudiants.xml --relaxng etudiants.rng 
+ 1052  xmllint etudiants.xml --relaxng etudiants.rng --noout
+ 1053  xmllint etudiants.xml 
+ 1054  xmllint etudiants.xml --relaxng etudiants.rng 
+ 1055  xmllint etudiants.xml --relaxng etudiants.rng | grep error
+ 1056  xmllint etudiants.xml --relaxng etudiants.rng --noout 
+ 1057  cd Téléchargements/TIGERSearchTools/
+ 1058  java -jar "TIGERSearchMain.jar"
+ 1059  emacs
+ 1060  cd Téléchargements/TIGERSearchTools/
+ 1061  java -jar "TIGERSearchMain.jar"
+ 1062  cd ..
+ 1063  cd TIGERSearchTools/
+ 1064  java -jar TIGERSearchMain.jar 
+ 1065  cd ..
+ 1066  cd ICARUS-1.3.7/
+ 1067  java -Xms1g -Xmx2g -jar icarus.jar 
+ 1068  cd ../TIGERSearchTools/
+ 1069  java -jar TIGERSearchMain.jar 
+ 1070  java -jar -Dims.tiger.install=. TIGERSearchMain.jar CorporaDir &
+ 1071  cd Téléchargements/TIGERSearchTools/
+ 1072  java -jar TIGERSearchMain.jar 
+ 1073  ls
+ 1074  java -jar -Dims.tiger.install=. TIGERSearchMain.jar CorporaDir &
+ 1075  sudo apt-get install shutter
+ 1076  xev
+ 1077  xmodmap -pke|grep Print
+ 1078  xev
+ 1079  gnome-screenshot
+ 1080  sudo apt-get install gnome-screenshot 
+ 1081  cd coursIM/
+ 1082  git pull
+ 1083  cd coursIM/
+ 1084  git pull
+ 1085  sudo apt-get install r-base-dev
+ 1086  cd Téléchargements/
+ 1087  ls
+ 1088  sudo dpkg -i iramuteq_0.7-alpha2_all.deb 
+ 1089  sudo apt-get install -f
+ 1090  sudo apt-get update
+ 1091  sudo apt-get install -f
+ 1092  sudo apt-get update
+ 1093  sudo apt-get dist-upgrade
+ 1094  sudo apt-get install -f
+ 1095  emacs
+ 1096  emac
+ 1097  emacs
+ 1098  cd Dropbox/cours/fouille_de_texte/05_propagation/
+ 1099  ls
+ 1100  cd BRATEval-0.0.2-SNAPSHOT/
+ 1101  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities sanspropagation reference true
+ 1102  cd ..
+ 1103  ls
+ 1104  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities sanspropagation reference true
+ 1105  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities ./sanspropagation ./reference true
+ 1106  ls
+ 1107  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities sans_propagation reference true
+ 1108  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities avec_propagation reference true
+ 1109  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities sans_propagation reference true > sans_propagation_reference.txt
+ 1110  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities avec_propagation reference true > avec_propagation_reference.txt
+ 1111  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities sans_propagation avec_propagation true > sans_avec_propagation.txt
+ 1112  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities sans_propagation avec_propagation true
+ 1113  ls
+ 1114  perl 713_format_brat2xml.pl sans_propagation
+ 1115  perl 713_format_brat2xml.pl sans_propagation/
+ 1116  perl 713_format_brat2xml.pl avec_propagation/
+ 1117  perl 713_format_brat2xml.pl reference/
+ 1118  cat reference/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "tête" -a2 -b2
+ 1119  cat avec_propagation/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "tête" -a2 -b2
+ 1120  cat sans_propagation/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "tête" -a2 -b2
+ 1121  cat sans_propagation/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "tête" -a2 -b2 > sans_propag.txt
+ 1122  cat avec_propagation/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "tête" -a2 -b2 > avec_propag.txt
+ 1123  cat reference/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "tête" -a2 -b2 > reference.txt
+ 1124  cat reference/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "SIGNSYMPTOM" -a2 -b2 > reference.txt
+ 1125  cat avec_propagation/*tag | perl -ne "s/ /\n/g; print $_" | egrep --col "SIGNSYMPTOM" -a2 -b2 > avec_propag.txt
+ 1126  diff avec_propag.txt reference.txt
+ 1127  diff avec_propag.txt reference.txt > diff.txt
+ 1128  man diff
+ 1129  diff -y avec_propag.txt reference.txt
+ 1130  emacs
+ 1131  cd coursIM/
+ 1132  git pull
+ 1133  ssh pi@192.168.0.14
+ 1134  find owncloud
+ 1135  sudo apt-get install owncloud-client
+ 1136  sudo sh -c "echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Ubuntu_16.04/ /' > /etc/apt/sources.list.d/owncloud-client.list"
+ 1137  sudo apt-get update
+ 1138  owncloud &
+ 1139  cd Téléchargements/
+ 1140  python3 test_fichier_biblio.py 
+ 1141  cd Téléchargements/
+ 1142  atom --safe
+ 1143  emacs
+ 1144  cd Téléchargements/
+ 1145  python3 test_fichier_biblio.py 
+ 1146  emacs
+ 1147  cd Téléchargements/
+ 1148  ls
+ 1149  python3 test_fichier_biblio.py 
+ 1150  atom --safe
+ 1151  python3 test_fichier_biblio.py 
+ 1152  atom --safe
+ 1153  sudo apt-get search atom
+ 1154  sudo apt-get remove atom
+ 1155  cd Téléchargements/
+ 1156  ls
+ 1157  sudo dpkg --install atom-amd64.deb
+ 1158  atom
+ 1159  exit
+ 1160  atom --safe
+ 1161  exit
+ 1162  sudo apt-get autoremove --purge atom
+ 1163  sudo apt-get autoclean
+ 1164  ls
+ 1165  sudo dpkg --install atom-amd64.deb
+ 1166  atom
+ 1167  freeze no reason
+ 1168  atom --safe
+ 1169  exit
+ 1170  cd ownCloud/
+ 1171  ls
+ 1172  cd cours/projet_python_xml/
+ 1173  ls
+ 1174  git clone https://github.com/omniscale/imposm-parser.git
+ 1175  l
+ 1176  python3 test1.py 
+ 1177  python test1.py 
+ 1178  cd imposm-parser/
+ 1179  ls
+ 1180  python setup.py
+ 1181  python setup.pyinstall
+ 1182  python setup.py install
+ 1183  sudo python setup.py install
+ 1184  cd ..
+ 1185  ls
+ 1186  python test2.py
+ 1187  cd ~/Téléchargements/
+ 1188  ls
+ 1189  cd osmread-master/
+ 1190  ls
+ 1191  sudo python setup.py install
+ 1192  cd ~/ownCloud/cours/projet_python_xml/
+ 1193  ls
+ 1194  python test2.py 
+ 1195  sudo apt-get install g++ make expat libexpat1-dev zlib1g-dev
+ 1196  cd ~/Téléchargements/osm-3s_v0.7.53/
+ 1197  ./configure CXXFLAGS="-O3" --prefix=$EXEC_DIR
+ 1198  make install
+ 1199  sudo make install
+ 1200  ./download_clone.sh --db-dir=database_dir --source=http://dev.overpass-api.de/api_drolbr/ --meta=yes
+ 1201  ls
+ 1202  cd ~/Téléchargements/
+ 1203  python3 test_fichier_biblio.py 
+ 1204  cd Téléchargements/brat-v1.3_Crunchy_Frog/
+ 1205  ls
+ 1206  sudo install.sh
+ 1207  ls
+ 1208  bash install.sh
+ 1209  python standalone.py
+ 1210  cd Dropbox/cours/fouille_de_texte/TP4/
+ 1211  ls
+ 1212  java -cp BRATEval-0.0.2-SNAPSHOT.jar au.com.nicta.csp.brateval.CompareEntities data/atoute/ data/reference/ true
+ 1213  perl accords-inter-annotateurs.pl data/sans/etudiant1/ data/sans/etudiant2/
+ 1214  perl accords-inter-annotateurs.pl data/atoute/sans data/reference/sans
+ 1215  perl accords-inter-annotateurs.pl data/atoute/sans/ data/reference/sans/
+ 1216  perl accords-inter-annotateurs.pl data/data_justine/sans/ data/data_chloe/sans/
+ 1217  perl accords-inter-annotateurs.pl data/data_justine/sans-propagation/ data/data_chloe/sans/
+ 1218  perl accords-inter-annotateurs.pl data/data_justine/sans-propagation data/data_chloe/sans/
+ 1219  perl accords-inter-annotateurs.pl data/atoute/sans/ data/reference/sans/
+ 1220  perl accords-inter-annotateurs.pl data/atoute/sans/ data/reference/sans_propagation/
+ 1221  perl accords-inter-annotateurs.pl data/atoute/avec/ data/reference/avec_propagation/
+ 1222  cd data/data_justine/sans_propagation/
+ 1223  cat *.txt > annotation_justine.txt
+ 1224  cat *.ann
+ 1225  cat *.ann > annotations_justine_sans.txt
+ 1226  cat *.ann >> annotations_justine.txt
+ 1227  cd ../../data_chloe/sans/
+ 1228  cat *.ann > annotations_chloe.txt
+ 1229  cd ../../
+ 1230  cd ..
+ 1231  cd ../05_propagation/
+ 1232  ls
+ 1233  cd ../TP4/
+ 1234  ls
+ 1235  perl accords-inter-annotateurs.pl data/atoute/avec/ data/atoute/sans/
+ 1236  perl accords-inter-annotateurs.pl data/reference/avec_propagation/ data/reference/sans_propagation/
+ 1237  perl accords-inter-annotateurs.pl data/atoute/avec/ data/atoute/sans/
+ 1238  - Coefficient S :Ao=0.845Ae=0.167S=0.814
+ 1239  - Coefficient Pi :Ao=0.845Ae=0.285P=0.783
+ 1240  - Coefficient Kappa :Ao=0.845Ae=0.276K=0.786
+ 1241  perl accords-inter-annotateurs.pl data/data_justine/avec_propagation/ data/data_justine/sans_propagation/
+ 1242  cd ~/Téléchargements/
+ 1243  cd brat-v1.3_Crunchy_Frog/
+ 1244  ls
+ 1245  bahs install.sh
+ 1246  bash install.sh
+ 1247  sudo bash install.sh
+ 1248  sudo ./install.sh
+ 1249  ./apache-group.sh
+ 1250  sudo chgrp -R ${YOUR_APACHE_GROUP} data work
+ 1251  sudo chgrp -R $mathilde data work
+ 1252  ls
+ 1253  python standalone.py
+ 1254  sudo ./install.sh
+ 1255  python standalone.py
+ 1256  cd Téléchargements/brat-v1.3_Crunchy_Frog/
+ 1257  python standalone.py 
+ 1258  cd Téléchargements/brat-v1.3_Crunchy_Frog/
+ 1259  python standalone.py 
+ 1260  cd '/home/mathilde/Téléchargements/brat-v1.3_Crunchy_Frog' 
+ 1261  python standalone.py 
+ 1262  cd Documents/brat-v1.3_Crunchy_Frog/
+ 1263  ./install.sh
+ 1264  python standalone.py 
+ 1265  cd /
+ 1266  ls
+ 1267  cd bin/
+ 1268  ls
+ 1269  ls | grep "firefox"
+ 1270  cd ..
+ 1271  ls
+ 1272  cd usr/
+ 1273  ls
+ 1274  cd bin/
+ 1275  l
+ 1276  ls | grep "firefox"
+ 1277  git clone https://github.com/SamuraiT/easy-cabocha.git
+ 1278  cd easy-cabocha/
+ 1279  sh install.sh 
+ 1280  cd ..
+ 1281  lsblk
+ 1282  sudo apt-get install usb-creator-common usb-creator-gtk
+ 1283  lsblk
+ 1284  sudo dd bs=4M if=nom.iso of=/dev/sdc
+ 1285  sudo dd bs=4M if=ubuntu-16.04.1-desktop-amd64.iso of=/dev/sdc
+ 1286  sync
+ 1287  sudo apt-get install frozen-bubble
+ 1288  ssh pi@192.168.0.14
+ 1289  cd ownCloud/cours/statistiques_de_corpus/TP3/
+ 1290  ls
+ 1291  python evalPos.py 
+ 1292  python evalPos.py 80jours-pos-ref.txt 
+ 1293  python evalPos.py 80jours-pos-train.txt 
+ 1294  python evalPos.py 80jours-pos-test.txt 
+ 1295  treetagger
+ 1296  cd ~/Téléchargements/
+ 1297  cd tree-tagger-ARM-3.2/
+ 1298  sh install-tagger.sh 
+ 1299  echo $PATH
+ 1300  export PATH=$PATH:/home/mathilde/Téléchargements/tree-tagger-ARM-3.2/cmd
+ 1301  echo $PATH
+ 1302  export PATH=$PATH:/home/mathilde/Téléchargements/tree-tagger-ARM-3.2/bin
+ 1303  ~/ownCloud/cours/statistiques_de_corpus/TP3/
+ 1304  ls
+ 1305  cd ~/ownCloud/cours/statistiques_de_corpus/TP3/
+ 1306  ls
+ 1307  echo "Hello world!" | cmd/tree-tagger-english
+ 1308  echo "Hello world!" | cmd/tree-tagger
+ 1309  echo "Hello world!" | treetagger
+ 1310  echo "Hello world!" | cmd/tree-tagger-french
+ 1311  cd ~/Téléchargements/
+ 1312  cd tree-tagger-ARM-3.2/
+ 1313  sh install-tagger.sh 
+ 1314  cd ~/ownCloud/cours/statistiques_de_corpus/TP3/
+ 1315  ls
+ 1316  echo "Hello world!" | cmd/tree-tagger-ARM-3.2
+ 1317  echo "Hello world!" | cmd/tree-tagger
+ 1318  echo "Hello world!" | cmd/tree-tagger-english
+ 1319  echo "Hello world!" | cmd/tree-tagger-french
+ 1320  echo $PATH
+ 1321  cd /home/mathilde/Téléchargements/tree-tagger-ARM-3.2/
+ 1322  cd ~/ownCloud/cours/statistiques_de_corpus/TP3/
+ 1323  ls
+ 1324  python tagger.py 
+ 1325  python tagger.py > tag.txt
+ 1326  python evalPos.py tag.txt
+ 1327  python tagger.py > tag.txt
+ 1328  python evalPos.py tag.txt
+ 1329  python tagger.py > tag.txt
+ 1330  python evalPos.py tag.txt
+ 1331  python tagger.py > tag.txt
+ 1332  python evalPos.py tag.txt
+ 1333  python tagger.py > tag.txt
+ 1334  python evalPos.py tag.txt
+ 1335  python tagger.py > tag.txt
+ 1336  python evalPos.py tag.txt
+ 1337  python tagger.py > tag.txt
+ 1338  python evalPos.py tag.txt
+ 1339  python tagger.py
+ 1340  python tagger.py > tag.txt 
+ 1341  python tagger.py
+ 1342  python tagger.py > tag.txt
+ 1343  python tagger.py
+ 1344  python tagger.py > tag.txt
+ 1345  python tagger.py
+ 1346  python tag_stat.py 
+ 1347  python tag_stat.py >tag_texte.txt
+ 1348  python evalPos.py tag_texte.txt 
+ 1349  python tag_stat.py >tag_texte.txt
+ 1350  python evalPos.py tag_texte.txt 
+ 1351  python tag_stat.py >tag_texte.txt
+ 1352  python evalPos.py tag_texte.txt 
+ 1353  python tag_stat.py >tag_texte.txt
+ 1354  python evalPos.py tag_texte.txt 
+ 1355  python tag_stat.py >tag_texte.txt
+ 1356  python evalPos.py tag_texte.txt 
+ 1357  python tag_stat.py >tag_texte.txt
+ 1358  python evalPos.py tag_texte.txt 
+ 1359  python tag_stat.py >tag_texte.txt
+ 1360  python evalPos.py tag_texte.txt 
+ 1361  python tag_stat.py >tag_texte.txt
+ 1362  python evalPos.py tag_texte.txt 
+ 1363  python tag_stat.py >tag_texte.txt
+ 1364  python evalPos.py tag_texte.txt 
+ 1365  python tag_stat.py >tag_texte.txt
+ 1366  python evalPos.py tag_texte.txt 
+ 1367  python tag_stat.py >tag_texte.txt
+ 1368  python evalPos.py tag_texte.txt 
+ 1369  python tag_stat.py >tag_texte.txt
+ 1370  python evalPos.py tag_texte.txt 
+ 1371  python tag_stat.py >tag_texte.txt
+ 1372  python evalPos.py tag_texte.txt 
+ 1373  python tag_stat.py >tag_texte.txt
+ 1374  python evalPos.py tag_texte.txt 
+ 1375  python tag_stat.py >tag_texte.txt
+ 1376  python evalPos.py tag_texte.txt 
+ 1377  python tag_stat.py >tag_texte.txt
+ 1378  python evalPos.py tag_texte.txt 
+ 1379  python tag_stat.py >tag_texte.txt
+ 1380  python evalPos.py tag_texte.txt 
+ 1381  python tag_stat.py >tag_texte.txt
+ 1382  python evalPos.py tag_texte.txt 
+ 1383  python tag_stat.py >tag_texte.txt
+ 1384  python evalPos.py tag_texte.txt 
+ 1385  python tag_stat.py >tag_texte.txt
+ 1386  python evalPos.py tag_texte.txt 
+ 1387  python tag_stat.py >tag_texte.txt
+ 1388  python evalPos.py tag_texte.txt 
+ 1389  python tag_stat.py >tag_texte.txt
+ 1390  python evalPos.py tag_texte.txt 
+ 1391  python tag_stat.py >tag_texte.txt
+ 1392  python evalPos.py tag_texte.txt 
+ 1393  python tag_stat.py >tag_texte.txt
+ 1394  python evalPos.py tag_texte.txt 
+ 1395  python tag_stat.py >tag_texte.txt
+ 1396  python evalPos.py tag_texte.txt 
+ 1397  python tag_stat.py >tag_texte.txt
+ 1398  python evalPos.py tag_texte.txt 
+ 1399  python tag_stat.py >tag_texte.txt
+ 1400  python evalPos.py tag_texte.txt 
+ 1401  python tag_stat.py >tag_texte.txt
+ 1402  python evalPos.py tag_texte.txt 
+ 1403  python tag_stat.py >tag_texte.txt
+ 1404  python evalPos.py tag_texte.txt 
+ 1405  python tag_stat.py >tag_texte.txt
+ 1406  python evalPos.py tag_texte.txt 
+ 1407  python tag_stat.py >tag_texte.txt
+ 1408  python evalPos.py tag_texte.txt 
+ 1409  python tag_stat.py >tag_texte.txt
+ 1410  python evalPos.py tag_texte.txt 
+ 1411  python tag_stat.py >tag_texte.txt
+ 1412  python evalPos.py tag_texte.txt 
+ 1413  python tag_stat.py >tag_texte.txt
+ 1414  python evalPos.py tag_texte.txt 
+ 1415  python tag_stat.py >tag_texte.txt
+ 1416  python evalPos.py tag_texte.txt 
+ 1417  python tag_stat.py >tag_texte.txt
+ 1418  python evalPos.py tag_texte.txt 
+ 1419  python tag_stat.py >tag_texte.txt
+ 1420  python evalPos.py tag_texte.txt 
+ 1421  python tag_stat.py >tag_texte.txt
+ 1422  python evalPos.py tag_texte.txt 
+ 1423  python tagger.py 
+ 1424  python tagger.py > tag_stat.py 
+ 1425  python tagger.py > tag.txt
+ 1426  emacs
+ 1427  cd ownCloud/cours/statistiques_de_corpus/TP3/
+ 1428  ls
+ 1429  python tag_statistiques.py 
+ 1430  python tag_statistiques.py > dico_tag_mot.txt
+ 1431  ls
+ 1432  python tag_statistiques.py 
+ 1433  cd ../../calculabilite/
+ 1434  ls
+ 1435  cd machine_turing/
+ 1436  ls
+ 1437  java -jar turingS.jar  programmesTS/addition.1.TS 2 1
+ 1438  cd turing_java/
+ 1439  ls
+ 1440  java -jar turingS.jar  programmesTS/addition.1.TS 2 1
+ 1441  java -jar turingS.jar  programmesTS/addition.1.TS 2 2
+ 1442  java -jar turingS.jar  programmesTS/equal_turing.TS
+ 1443  java -jar turingS.jar  programmesTS/equal_turing.TS 1
+ 1444  java -jar turingS.jar  programmesTS/equal_turing.TS 1 2
+ 1445  java -jar turingS.jar  programmesTS/equal_turing.TS
+ 1446  java -jar turingS.jar  programmesTS/equal_turing.TS 1
+ 1447  java -jar turingS.jar  programmesTS/equal_turing.TS 2
+ 1448  java -jar turingS.jar  programmesTS/equal_turing.TS 2 2
+ 1449  java -jar turingS.jar  programmesTS/equal_turing.TS 2 8
+ 1450  java -jar turingS.jar  programmesTS/equal_turing.TS 4 8
+ 1451  java -jar turingS.jar  programmesTS/equal_turing.TS 4 8 1
+ 1452  java -jar turingS.jar  programmesTS/equal_turing.TS 4 8
+ 1453  java -jar turingS.jar  programmesTS/equal_turing.TS 4 10
+ 1454  java -jar turingS.jar  programmesTS/equal_turing.TS 1 1 1
+ 1455  java -jar turingS.jar  programmesTS/equal_turing.TS 1 12 3
+ 1456  java -jar turingS.jar  programmesTS/equal_turing.TS 1 12
+ 1457  java -jar turingS.jar  programmesTS/equal_turing.TS
+ 1458  java -jar turingS.jar  programmesTS/equal_turing.TS 1
+ 1459  cd ownCloud/cours/statistiques_de_corpus/TP3/
+ 1460  ls
+ 1461  python tag_statistiques.py 
+ 1462  python3 tag_statistiques.py 
+ 1463  python tag_statistiques.py 
+ 1464  python evalPos.py output.txt
+ 1465  python tag_statistiques.py 
+ 1466  python evalPos.py output.txt
+ 1467  cd ownCloud/cours/projet_python_xml/
+ 1468  ls
+ 1469  python3 openbeermap2xml.py 
+ 1470  python3
+ 1471  python3 openbeermap2xml.py 
+ 1472  $suzanne = "bonjour"
+ 1473  python
+ 1474  cd ownCloud/cours/projet_python_xml/
+ 1475  ls
+ 1476  python openbeermap2xml.py 
+ 1477  cd ownCloud/cours/projet_python_xml/
+ 1478  python openbeermap2xml.py 
+ 1479  cd cours/langages_de_scripts/cours5/
+ 1480  ls
+ 1481  cut -f 1 Lexique381.txt 
+ 1482  cut -f 1 Lexique381.txt > lexique_orto.txt
+ 1483  python3 palindromes.py 
+ 1484  grep 'tort' Lexique381.txt 
+ 1485  python3 palindromes.py 
+ 1486  cd ../
+ 1487  cd ../projet_python_xml/imposm-parser/
+ 1488  ls
+ 1489  sudo rm -r build
+ 1490  ls
+ 1491  sudo rm -r imposm.parser.egg-info/
+ 1492  ls
+ 1493  cd ../
+ 1494  rm -r imposm-parser/
+ 1495  cd ../fouille_de_texte/
+ 1496  ls
+ 1497  cd 07_regles-lexiques/
+ 1498  ls
+ 1499  cd corpus-tree-tagger
+ 1500  ls
+ 1501  cat meamedica60.tag 
+ 1502  cat meamedica60.txt 
+ 1503  cat meamedica60.txt | egrep "ium$"
+ 1504  cat meamedica60.txt | egrep "(ium|ine)$"
+ 1505  cat meamedica60.txt | egrep "(ium|([tmhx]ine)$"
+ 1506  cat meamedica60.txt | egrep "(ium|[tmhx]ine)$"
+ 1507  cat meamedica60.txt | egrep "(ium|[tmhxl]ine)$"
+ 1508  cat meamedica60.txt | egrep "(ium|ine)$"
+ 1509  cat meamedica60.txt | egrep "jour"
+ 1510  cat meamedica60.txt | egrep "jours?"
+ 1511  cat meamedica60.txt | egrep "par jours?"
+ 1512  cat meamedica60.txt | egrep "jours?"
+ 1513  cd ../corpus-tree-tagger-alig/
+ 1514  ls
+ 1515  cat 00.alig 
+ 1516  cd ../corpus-tree-tagger
+ 1517  ls
+ 1518  cat meamedica60.txt | egrep "(ium|ine)$"
+ 1519  cat meamedica60.txt | egrep "(isme|ite)$"
+ 1520  cat meamedica60.txt | egrep "(mg)$"
+ 1521  cat meamedica60.txt | egrep "([0-9]mg)$"
+ 1522  cat meamedica60.txt | egrep "([0-9]?mg)$"
+ 1523  cat meamedica60.txt | egrep "([0-9]+mg)$"
+ 1524  cat meamedica60.txt | egrep "([0-9]+)?mg$"
+ 1525  cat meamedica60.txt | egrep "([0-9]+)?mg"
+ 1526  cd ..
+ 1527  ls
+ 1528  python3 recuperation_medicaments.py 
+ 1529  cd ownCloud/cours/projet_python_xml/
+ 1530  ls
+ 1531  python openbeermap2xml.py
+ 1532  jupyter notebook
+ 1533  cd ../../
+ 1534  jupyter notebook
+ 1535  cd ownCloud/cours/projet_python_xml/scripts_2xml/
+ 1536  python3 functions_openbeermap2xml.py 
+ 1537  python3 test.py 
+ 1538  python3 functions_openbeermap2xml.py 
+ 1539  python3 functions_openbeermap2xml.py > output.txt
+ 1540  python3 functions_openbeermap2xml.py
+ 1541  python3
+ 1542  python3 functions_openbeermap2xml.py
+ 1543  python3 test_search.py 
+ 1544  python3 functions_openbeermap2xml.py
+ 1545  python3 test_search.py 
+ 1546  python3 functions_openbeermap2xml.py
+ 1547  python3 test_search.py 
+ 1548  python3 functions_openbeermap2xml.py
+ 1549  python3 test_search.py 
+ 1550  python3 functions_openbeermap2xml.py
+ 1551  python3
+ 1552  python3 functions_openbeermap2xml.py
+ 1553  sudo pip3 install json2xml
+ 1554  pip install --upgrade pip
+ 1555  sudo pip install --upgrade pip
+ 1556  cd ownCloud/cours/projet_python_xml/scripts_2xml/
+ 1557  ls
+ 1558  python3 functions_openbeermap2xml.py 
+ 1559  cd coursIM/
+ 1560  git pull
+ 1561  cd ../ownCloud/cours/XML/
+ 1562  ls
+ 1563  mkdir TP9
+ 1564  ls
+ 1565  cd TP9
+ 1566  ls
+ 1567  xsltproc
+ 1568  sudo apt-get install xsltproc
+ 1569  sudo apt-get install saxon-xslt
+ 1570  saxon-xslt
+ 1571  sudo apt-get install libsaxon-java
+ 1572  saxon-xslt
+ 1573  cd ../
+ 1574  cd TP8/
+ 1575  ls
+ 1576  cd ../TP7
+ 1577  ls
+ 1578  cd ../TP6
+ 1579  ls
+ 1580  cd ../TP9
+ 1581  cd ../../projet_python_xml/
+ 1582  cd scripts_2xml/
+ 1583  python3 functions_openbeermap2xml.py 
+ 1584  ssh pi@192.168.0.14
+ 1585  cd '/home/mathilde/Téléchargements/weka-3-8-0' 
+ 1586  java -jar weka.jar
+ 1587  cd '/home/mathilde/ownCloud/cours/statistiques_de_corpus/TP3' 
+ 1588  ls
+ 1589  python tag_statistiques.py 
+ 1590  python evalPos.py output.txt
+ 1591  cd ../TP4
+ 1592  python entropie.py 
+ 1593  cd '/home/mathilde/Téléchargements/weka-3-8-0' 
+ 1594  java -jar weka.jar
+ 1595  cd '/home/mathilde/ownCloud/cours/statistiques_de_corpus/TP3' 
+ 1596  ls
+ 1597  python tag_statistiques.py 
+ 1598  ls
+ 1599  cat 80jours-pos-ref.txt && cat 80jours-pos-train.txt > 80jours-all.txt
+ 1600  cat 80jours-pos-ref.txt > 80jours-all.txt
+ 1601  cat 80jours-pos-ref.txt >> 80jours-all.txt
+ 1602  ls
+ 1603  python tag_statistiques.py 
+ 1604  cd '/home/mathilde/Téléchargements/weka-3-8-0' 
+ 1605  java -jar weka.jar 
+ 1606  cd '/home/mathilde/ownCloud/cours/statistiques_de_corpus/TP3' 
+ 1607  python tag_statistiques.py 
+ 1608  cd '/home/mathilde/ownCloud/cours/calculabilite/machine_turing' 
+ 1609  ls
+ 1610  cd turing_java/
+ 1611  cat HOW_TO_run_the_program.txt 
+ 1612  java -jar turingS.jar  programmesTS/addition.1.TS 2 1
+ 1613  java -jar turingS.jar  programmesTS/myequal.1.TS 2 1
+ 1614  java -jar turingS.jar  programmesTS/myequal.1.TS
+ 1615  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1616  java -jar turingS.jar  programmesTS/myequal.1.TS 1 2
+ 1617  java -jar turingS.jar  programmesTS/myequal.1.TS
+ 1618  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1619  java -jar turingS.jar  programmesTS/myequal.1.TS 2
+ 1620  java -jar turingS.jar  programmesTS/myequal.1.TS 3
+ 1621  java -jar turingS.jar  programmesTS/myequal.1.TS 0
+ 1622  java -jar turingS.jar  programmesTS/myequal.1.TS 2
+ 1623  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1624  java -jar turingS.jar  programmesTS/myequal.1.TS 1 1
+ 1625  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1626  java -jar turingS.jar  programmesTS/myequal.1.TS 1 1
+ 1627  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1628  java -jar turingS.jar  programmesTS/myequal.1.TS
+ 1629  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1630  java -jar turingS.jar  programmesTS/myequal.1.TS 4
+ 1631  java -jar turingS.jar  programmesTS/myequal.1.TS 2
+ 1632  java -jar turingS.jar  programmesTS/myequal.1.TS 
+ 1633  java -jar turingS.jar  programmesTS/myequal.1.TS 1 2
+ 1634  java -jar turingS.jar  programmesTS/myequal.1.TS 1 2 1
+ 1635  java -jar turingS.jar  programmesTS/myequal.1.TS 1 2
+ 1636  java -jar turingS.jar  programmesTS/myequal.1.TS 1
+ 1637  java -jar turingS.jar  programmesTS/myequal.1.TS 5
+ 1638  java -jar turingS.jar  programmesTS/myequal.1.TS 
+ 1639  java -jar turingS.jar  programmesTS/myequal.1.TS 1 2 3
+ 1640  cd '/home/mathilde/ownCloud/cours/langages_de_scripts/examen' 
+ 1641  python3 examen.py 
+ 1642  python3 examen.py > output.txt
+ 1643  python3 examen.py
+ 1644  pip install dicttoxml
+ 1645  sudo pip install dicttoxml
+ 1646  cd '/home/mathilde/ownCloud/cours/projet_python_xml/scripts_2xml' 
+ 1647  python3 json2xml.py 
+ 1648  sudo pip install dicttoxml
+ 1649  python3 json2xml.py 
+ 1650  sudo pip install dicttoxml
+ 1651  python json2xml.py 
+ 1652  cd ../donnees_XML/
+ 1653  xmllint preservatifs.xml 
+ 1654  xmllint preservatifs.xml --nooutput
+ 1655  xmllint preservatifs.xml --noout
+ 1656  python json2xml.py --help
+ 1657  python json2xml.py ../donnees_brutes/distributeurspreservatifsmasculinsparis2012.json ../donnees_XML/preservatifs_test.xml
+ 1658  cd ../scripts_2xml/
+ 1659  python json2xml.py ../donnees_brutes/distributeurspreservatifsmasculinsparis2012.json ../donnees_XML/preservatifs_test.xml
+ 1660  python json2xml.py ../donnees_brutes/liste-des-cafes-a-un-euro.json ../donnees_XML/liste_cafe.xml
+ 1661  python json2xml.py ../donnees_brutes/liste_des_marches_de_quartier_a_paris.json ../donnees_XML/liste_marches.xml
+ 1662  python json2xml.py ../donnees_brutes/quartier_paris.json ../donnees_XML/quartiers.xml
+ 1663  python json2xml.py ../donnees_brutes/cinemas-a-paris.json ../donnees_XML/cinemas.xml
+ 1664  python json2xml.py ../donnees_brutes/annuaire_immobilier_de_l_enseignement_superieur.json ../donnees_XML/facs.xml
+ 1665  python3 functions_openbeermap2xml.py 
+ 1666  cd '/home/mathilde/ownCloud/cours/projet_python_xml' 
+ 1667  cd scripts_2xml/
+ 1668  ls
+ 1669  python3 functions_openbeermap2xml.py 
+ 1670  ls
+ 1671  python3 functions_openbeermap2xml.py 
+ 1672  cd ../../../../Dropbox/cours
+ 1673  ls
+ 1674  cd XML/
+ 1675  ls
+ 1676  cd ../projet_python_xml/
+ 1677  ls
+ 1678  cd scripts_2xml/
+ 1679  ls
+ 1680  python3 functions_openbeermap2xml.py 
+ 1681  python"
+ 1682  python3
+ 1683  python3 functions_openbeermap2xml.py 
+ 1684  python3 xml_pivot.py 
+ 1685  cd coursIM/
+ 1686  git pull
+ 1687  cd ~/Dropbox/cours/projet_python_xml/
+ 1688  ls
+ 1689  cd scripts_2xml/
+ 1690  python3 xml_pivot.py 
+ 1691  sudo apt-get install git
+ 1692  cd ~
+ 1693  ls
+ 1694  git config --global user.name "matchouli"
+ 1695  git config --global user.email "mathilde.poulain@ouvaton.org"
+ 1696  mkdir crispy-carnaval
+ 1697  ls
+ 1698  cd crispy-carnaval/
+ 1699  git init
+ 1700  git pull
+ 1701  git remote add origin https://github.com/matchouli/crispy-carnaval.git
+ 1702  git remote -v
+ 1703  git pull
+ 1704  git remote add origin https://github.com/StudyInParis/crispy-carnival
+ 1705  git push
+ 1706  git push --set-upstream origin master
+ 1707  git push origin master
+ 1708  git config --global credential.helper cache
+ 1709  git config --global credential.helper 'cache --timeout=3600'
+ 1710  ls
+ 1711  cd ..
+ 1712  mkdir github_proj
+ 1713  cd github_proj/
+ 1714  git init
+ 1715  git config --global user.name "matchouli"
+ 1716  git config --global user.email "mathilde.poulain@ouvaton.org"
+ 1717  git init
+ 1718  git status
+ 1719  git add adresses_bibliotheques_2014.csv
+ 1720  git commit -m "ajout fichier biblio"
+ 1721  git push
+ 1722  git remote add <name> <url>
+ 1723  git remote add crisp-carnaval https://github.com/StudyInParis/crispy-carnival
+ 1724  git add adresses_bibliotheques_2014.csv crispy-carnaval
+ 1725  git clone https://github.com/StudyInParis/crispy-carnival
+ 1726  cd crispy-carnival/
+ 1727  git push
+ 1728  git commit -m "mise a jour, organisation des dossiers et complément dans le readme"
+ 1729  git push
+ 1730  git add /*
+ 1731  git add ./*
+ 1732  git commit -m "changement pour mise en place du git avec donnees brutes"
+ 1733  git push
+ 1734  git pull
+ 1735  git add ./*
+ 1736  git commit -m "mise à jour fichiers xml"
+ 1737  git push
+ 1738  git status
+ 1739  git pull
+ 1740  git status
+ 1741  git push
+ 1742  git add ./*
+ 1743  git commit -m "ajout des scripts dans un dossier séparé"
+ 1744  git push
+ 1745  git add ./*
+ 1746  git commit -m "ajout du scirpt pour construction du xml pivot"
+ 1747  git push
+ 1748  git pull
+ 1749  git add README.md
+ 1750  git commit -m "mise a jour"
+ 1751  git push
+ 1752  git add README.md
+ 1753  git commit -m "mise a jour"
+ 1754  git push
+ 1755  git pull
+ 1756  git add README.md 
+ 1757  git commit -m "ajout description donnees"
+ 1758  git push
+ 1759  git pull
+ 1760  git add README.md 
+ 1761  git commit -m "ajout description donnees"
+ 1762  git push
+ 1763  git pull
+ 1764  git push
+ 1765  git add ./*
+ 1766  git commit -m "mise a jour et ajout fichiers json"
+ 1767  git push
+ 1768  git pull
+ 1769  git push
+ 1770  git pull
+ 1771  git add ./*
+ 1772  git commit -m "ajout description donnees"
+ 1773  git push
+ 1774  git add ./*
+ 1775  git commit -m "ajout description donnees"
+ 1776  git push
+ 1777  git add ./*
+ 1778  git commit -m "ajout description donnees"
+ 1779  git push
+ 1780  git add ./*
+ 1781  git commit -m "ajout description donnees"
+ 1782  git push
+ 1783  git add ./*
+ 1784  git commit -m "ajout description donnees"
+ 1785  git push
+ 1786  git add ./*
+ 1787  git commit -m "ajout description donnees"
+ 1788  git push
+ 1789  git add ./*
+ 1790  git commit -m "ajout description donnees"
+ 1791  git push
+ 1792  git add ./*
+ 1793  git commit -m "ajout description donnees"
+ 1794  git push
+ 1795  cd '/home/mathilde/github_proj/crispy-carnival/scripts' 
+ 1796  ls
+ 1797  cd ../
+ 1798  git pull
+ 1799  git add ./*
+ 1800  git commit -m "ajout commentaires dans les scripts"
+ 1801  git push
+ 1802  git add ./*
+ 1803  git commit -m "ajout commentaires dans les scripts"
+ 1804  git push
+ 1805  git add ./*
+ 1806  git commit -m "ajout commentaires dans les scripts"
+ 1807  git push
+ 1808  git add ./*
+ 1809  git commit -m "ajout commentaires dans les scripts"
+ 1810  git push
+ 1811  git pull
+ 1812  git init
+ 1813  mkdir geoapplide
+ 1814  cd geoapplide/
+ 1815  cd ../
+ 1816  sudo rm -r geoapplide/
+ 1817  ls
+ 1818  cd '/home/mathilde/Dropbox/cours/geoapplide' 
+ 1819  git init
+ 1820  git config --global user.name "matchouli"
+ 1821  git config --global user.email "mathile.poulain@ouvaton.org"
+ 1822  git status
+ 1823  git pull
+ 1824  git remote add origin https://github.com/StudyInParis/geoapplide
+ 1825  curl http://wttr.in/Paris
+ 1826  git remote -v
+ 1827  git push
+ 1828  git push --set-upstream origin master
+ 1829  cd ../
+ 1830  sudo rm -r geoapplide/
+ 1831  git clone https://github.com/StudyInParis/geoapplide.git
+ 1832  git remote add origin https://github.com/StudyInParis/geoapplide.git
+ 1833  git remote -v
+ 1834  ls
+ 1835  cd geoapplide/
+ 1836  ls
+ 1837  cd scripts/
+ 1838  ls
+ 1839  cat csv2xml.py 
+ 1840  git add ./*
+ 1841  git commit -m 'mise a jour'
+ 1842  git push
+ 1843  history > history_git.txt

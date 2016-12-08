@@ -18,7 +18,7 @@ Déterminer le meilleur quartier étudiant en fonction de :
 - les établissements universitaires
 - les CROUS (restoU)
 
-Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalement sur le site https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
+Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalement sur les sites https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
 
 ## Données
 Description détaillée des données :
@@ -67,10 +67,10 @@ Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos do
 
 ### Problèmes rencontrés lors de la création des scripts
 #### OpenBeerMap
-Le fichier OpenBeerMap est construit de la façon suivante :
-*OpenBeerMap_IDF.1126088147,1126088147,(1:Akerbeltz_ambrée),Non,L'Express,pub*
-Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :
-*OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub*
+Le fichier OpenBeerMap est construit de la façon suivante :\n
+*OpenBeerMap_IDF.1126088147,1126088147,(1:Akerbeltz_ambrée),Non,L'Express,pub*\n
+Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :\n
+*OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub*\n
 Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contanant toutes les informations pour les imprimer dans le fichier de sortie.
 
 ## Création d'un fichier XML pivot
