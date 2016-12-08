@@ -25,4 +25,4 @@ Description détaillée des données :
 - Distributeurs de préservatifs :
   - https://opendata.paris.fr/explore/dataset/distributeurspreservatifsmasculinsparis2012/export/
   - format json et geojson
-  -
+  - 
