@@ -2,10 +2,13 @@
 
 *guide de l'endroit optimal à Paris par parties localisées indexées et destiné aux étudiants*
 
-Projet M2 pour les cours de XML et de python réalisé par :
-Chloé Monnin
-Mathilde POULAIN
-Léon-Paul SCHAUB
+Ce projet a été réalisé dnas le cadre de notre M2 TAL pour les cours de XML et de python réalisé par :
+
+Chloé Monnin, Mathilde POULAIN, Léon-Paul SCHAUB
+
+encadré par :
+
+Johan FERGUTH et Clément PLANCQ
 
 ## Objectif :
 Déterminer le meilleur quartier étudiant en fonction de :
