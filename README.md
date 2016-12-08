@@ -14,4 +14,4 @@ Objectif : déterminer le meilleur quartier étudiant en fonction de
 
 Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalament sur le site https://opendata.paris.fr/page/home/ et http://www.data.gouv.fr/fr/.
 
-Description des données :
+Description détaillée des données :
