@@ -2,13 +2,13 @@
 
 *guide de l'endroit optimal à Paris par parties localisées indexées et destiné aux étudiants*
 
-Ce projet a été réalisé dans le cadre de notre M2 TAL pour les cours de XML et de python réalisé par :
+Ce [projet](http://plancq.clement.free.fr/python/project/) a été réalisé dans le cadre de notre [M2 TAL](http://www.tal.univ-paris3.fr/plurital/) pour les cours de XML et de python réalisé par :
 
 Chloé Monnin, Mathilde POULAIN, Léon-Paul SCHAUB
 
 encadré par :
 
-Johan FERGUTH et [Clément PLANCQ](http://plancq.clement.free.fr/python/project/)
+Johan FERGUTH et Clément PLANCQ
 
 ## Objectif :
 Déterminer le meilleur quartier étudiant en fonction de :
@@ -94,3 +94,5 @@ Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'
 
 ## Création d'un fichier XML pivot
 On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.
+
+## Réalisation d'un site pour le rendu final
