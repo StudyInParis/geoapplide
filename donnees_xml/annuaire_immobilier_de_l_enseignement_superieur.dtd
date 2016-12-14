@@ -1,0 +1,1801 @@
+<!ELEMENT root (n344, n345, n346, n347, n340, n341, n342, n343, n348, n349, n298, n299, n296, n297, n294, n295, n292, n293, n290, n291, n199, n198, n195, n194, n197, n196, n191, n190, n193, n192, n270, n271, n272, n273, n274, n275, n276, n277, n278, n279, n524, n525, n526, n527, n520, n521, n522, n523, n528, n529, n449, n448, n443, n442, n441, n440, n447, n446, n445, n444, n108, n109, n102, n103, n100, n101, n106, n107, n104, n105, n39, n38, n33, n32, n31, n30, n37, n36, n35, n34, n438, n439, n436, n437, n434, n435, n432, n433, n430, n431, n339, n338, n335, n334, n337, n336, n331, n330, n333, n332, n6, n99, n98, n91, n90, n93, n92, n95, n94, n97, n96, n559, n558, n555, n554, n557, n556, n551, n550, n553, n552, n238, n239, n234, n235, n236, n237, n230, n231, n232, n233, n1, n146, n147, n144, n145, n142, n143, n140, n141, n148, n149, n133, n132, n131, n130, n137, n136, n135, n134, n494, n495, n139, n138, n490, n491, n492, n493, n24, n25, n26, n27, n20, n21, n22, n23, n28, n29, n407, n406, n405, n404, n403, n402, n401, n400, n409, n408, n379, n378, n371, n370, n373, n372, n375, n374, n377, n376, n393, n392, n88, n89, n397, n396, n395, n394, n82, n83, n80, n81, n86, n87, n84, n85, n7, n586, n587, n584, n585, n582, n583, n580, n581, n588, n589, n245, n244, n247, n246, n241, n240, n243, n242, n249, n248, n519, n518, n511, n510, n513, n512, n515, n514, n517, n516, n458, n459, n450, n451, n452, n453, n454, n455, n456, n457, n179, n178, n177, n176, n175, n174, n173, n172, n171, n170, n253, n182, n183, n180, n181, n186, n187, n184, n185, n188, n189, n11, n10, n13, n12, n15, n14, n17, n16, n19, n18, n62, n322, n323, n320, n321, n326, n327, n324, n325, n328, n329, n201, n200, n203, n202, n205, n204, n207, n206, n209, n208, n77, n76, n75, n74, n73, n72, n71, n70, n79, n78, n2, n542, n543, n540, n541, n546, n547, n544, n545, n8, n548, n549, n68, n120, n121, n122, n123, n124, n125, n126, n127, n128, n129, n414, n415, n416, n417, n410, n411, n412, n413, n498, n418, n419, n499, n319, n318, n313, n312, n311, n310, n317, n316, n315, n314, n496, n497, n3, n368, n369, n366, n367, n364, n365, n362, n363, n360, n361, n380, n381, n382, n383, n384, n385, n386, n387, n388, n389, n579, n578, n573, n572, n571, n570, n577, n576, n575, n574, n60, n61, n258, n259, n64, n65, n66, n67, n252, n69, n250, n251, n256, n257, n254, n255, n508, n509, n506, n507, n504, n505, n502, n503, n500, n501, n469, n468, n465, n464, n467, n466, n461, n460, n463, n462, n168, n169, n164, n165, n166, n167, n160, n161, n162, n163, n9, n357, n356, n355, n354, n353, n352, n351, n350, n359, n358, n216, n217, n214, n215, n212, n213, n210, n211, n218, n219, n289, n288, n4, n281, n280, n283, n282, n285, n284, n287, n286, n263, n262, n261, n260, n267, n266, n265, n264, n269, n268, n59, n58, n55, n54, n57, n56, n51, n50, n53, n52, n537, n536, n535, n63, n533, n532, n531, n530, n539, n538, n115, n114, n117, n116, n111, n110, n113, n112, n119, n118, n429, n428, n534, n421, n420, n423, n422, n425, n424, n427, n426, n308, n309, n300, n301, n302, n303, n304, n305, n306, n307, n568, n569, n560, n561, n562, n563, n564, n565, n566, n567, n229, n228, n227, n226, n225, n224, n223, n222, n221, n220, n391, n390, n151, n150, n153, n152, n155, n154, n157, n156, n159, n158, n399, n398, n48, n49, n46, n47, n44, n45, n42, n43, n40, n41, n5, n489, n488, n487, n486, n485, n484, n483, n482, n481, n480, n472, n473, n470, n471, n476, n477, n474, n475, n478, n479)>
+<!ELEMENT n344 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n344
+          id CDATA #REQUIRED>
+<!ELEMENT parcelle (#PCDATA)>
+<!ATTLIST parcelle
+          id CDATA #REQUIRED>
+<!ELEMENT ndeg_identifiant (#PCDATA)>
+<!ATTLIST ndeg_identifiant
+          id CDATA #REQUIRED>
+<!ELEMENT tutelle_pedagogique (#PCDATA)>
+<!ATTLIST tutelle_pedagogique
+          id CDATA #REQUIRED>
+<!ELEMENT adresse (#PCDATA)>
+<!ATTLIST adresse
+          id CDATA #REQUIRED>
+<!ELEMENT proprietaire (#PCDATA)>
+<!ATTLIST proprietaire
+          id CDATA #REQUIRED>
+<!ELEMENT occupant (#PCDATA)>
+<!ATTLIST occupant
+          id CDATA #REQUIRED>
+<!ELEMENT surface_de_la_parcelle (#PCDATA)>
+<!ATTLIST surface_de_la_parcelle
+          id CDATA #REQUIRED>
+<!ELEMENT cp (#PCDATA)>
+<!ATTLIST cp
+          id CDATA #REQUIRED>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST type
+          id CDATA #REQUIRED>
+<!ELEMENT statut_public_prive_ville_de_paris (#PCDATA)>
+<!ATTLIST statut_public_prive_ville_de_paris
+          id CDATA #REQUIRED>
+<!ELEMENT pres (#PCDATA)>
+<!ATTLIST pres
+          id CDATA #REQUIRED>
+<!ELEMENT n345 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n345
+          id CDATA #REQUIRED>
+<!ELEMENT n346 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n346
+          id CDATA #REQUIRED>
+<!ELEMENT n347 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, surface_de_la_parcelle, cp, statut_public_prive_ville_de_paris)>
+<!ATTLIST n347
+          id CDATA #REQUIRED>
+<!ELEMENT n340 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n340
+          id CDATA #REQUIRED>
+<!ELEMENT n341 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n341
+          id CDATA #REQUIRED>
+<!ELEMENT n342 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n342
+          id CDATA #REQUIRED>
+<!ELEMENT n343 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n343
+          id CDATA #REQUIRED>
+<!ELEMENT n348 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n348
+          id CDATA #REQUIRED>
+<!ELEMENT n349 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n349
+          id CDATA #REQUIRED>
+<!ELEMENT n298 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n298
+          id CDATA #REQUIRED>
+<!ELEMENT n299 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n299
+          id CDATA #REQUIRED>
+<!ELEMENT n296 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n296
+          id CDATA #REQUIRED>
+<!ELEMENT n297 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n297
+          id CDATA #REQUIRED>
+<!ELEMENT n294 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n294
+          id CDATA #REQUIRED>
+<!ELEMENT n295 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n295
+          id CDATA #REQUIRED>
+<!ELEMENT n292 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n292
+          id CDATA #REQUIRED>
+<!ELEMENT n293 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n293
+          id CDATA #REQUIRED>
+<!ELEMENT n290 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n290
+          id CDATA #REQUIRED>
+<!ELEMENT n291 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n291
+          id CDATA #REQUIRED>
+<!ELEMENT n199 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n199
+          id CDATA #REQUIRED>
+<!ELEMENT n198 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n198
+          id CDATA #REQUIRED>
+<!ELEMENT n195 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n195
+          id CDATA #REQUIRED>
+<!ELEMENT n194 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n194
+          id CDATA #REQUIRED>
+<!ELEMENT n197 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n197
+          id CDATA #REQUIRED>
+<!ELEMENT n196 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n196
+          id CDATA #REQUIRED>
+<!ELEMENT n191 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n191
+          id CDATA #REQUIRED>
+<!ELEMENT n190 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n190
+          id CDATA #REQUIRED>
+<!ELEMENT n193 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n193
+          id CDATA #REQUIRED>
+<!ELEMENT n192 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n192
+          id CDATA #REQUIRED>
+<!ELEMENT n270 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n270
+          id CDATA #REQUIRED>
+<!ELEMENT n271 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n271
+          id CDATA #REQUIRED>
+<!ELEMENT n272 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n272
+          id CDATA #REQUIRED>
+<!ELEMENT n273 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n273
+          id CDATA #REQUIRED>
+<!ELEMENT n274 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n274
+          id CDATA #REQUIRED>
+<!ELEMENT n275 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n275
+          id CDATA #REQUIRED>
+<!ELEMENT n276 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n276
+          id CDATA #REQUIRED>
+<!ELEMENT n277 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n277
+          id CDATA #REQUIRED>
+<!ELEMENT n278 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n278
+          id CDATA #REQUIRED>
+<!ELEMENT n279 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n279
+          id CDATA #REQUIRED>
+<!ELEMENT n524 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n524
+          id CDATA #REQUIRED>
+<!ELEMENT n525 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n525
+          id CDATA #REQUIRED>
+<!ELEMENT n526 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n526
+          id CDATA #REQUIRED>
+<!ELEMENT n527 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n527
+          id CDATA #REQUIRED>
+<!ELEMENT n520 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n520
+          id CDATA #REQUIRED>
+<!ELEMENT n521 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n521
+          id CDATA #REQUIRED>
+<!ELEMENT n522 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n522
+          id CDATA #REQUIRED>
+<!ELEMENT n523 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n523
+          id CDATA #REQUIRED>
+<!ELEMENT n528 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n528
+          id CDATA #REQUIRED>
+<!ELEMENT n529 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n529
+          id CDATA #REQUIRED>
+<!ELEMENT n449 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n449
+          id CDATA #REQUIRED>
+<!ELEMENT n448 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n448
+          id CDATA #REQUIRED>
+<!ELEMENT n443 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n443
+          id CDATA #REQUIRED>
+<!ELEMENT n442 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n442
+          id CDATA #REQUIRED>
+<!ELEMENT n441 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n441
+          id CDATA #REQUIRED>
+<!ELEMENT n440 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n440
+          id CDATA #REQUIRED>
+<!ELEMENT n447 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n447
+          id CDATA #REQUIRED>
+<!ELEMENT n446 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n446
+          id CDATA #REQUIRED>
+<!ELEMENT n445 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n445
+          id CDATA #REQUIRED>
+<!ELEMENT n444 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n444
+          id CDATA #REQUIRED>
+<!ELEMENT n108 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n108
+          id CDATA #REQUIRED>
+<!ELEMENT n109 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n109
+          id CDATA #REQUIRED>
+<!ELEMENT n102 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n102
+          id CDATA #REQUIRED>
+<!ELEMENT n103 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n103
+          id CDATA #REQUIRED>
+<!ELEMENT n100 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n100
+          id CDATA #REQUIRED>
+<!ELEMENT n101 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n101
+          id CDATA #REQUIRED>
+<!ELEMENT n106 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n106
+          id CDATA #REQUIRED>
+<!ELEMENT n107 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n107
+          id CDATA #REQUIRED>
+<!ELEMENT n104 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n104
+          id CDATA #REQUIRED>
+<!ELEMENT n105 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n105
+          id CDATA #REQUIRED>
+<!ELEMENT n39 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n39
+          id CDATA #REQUIRED>
+<!ELEMENT n38 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n38
+          id CDATA #REQUIRED>
+<!ELEMENT n33 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n33
+          id CDATA #REQUIRED>
+<!ELEMENT n32 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n32
+          id CDATA #REQUIRED>
+<!ELEMENT n31 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n31
+          id CDATA #REQUIRED>
+<!ELEMENT n30 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n30
+          id CDATA #REQUIRED>
+<!ELEMENT n37 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n37
+          id CDATA #REQUIRED>
+<!ELEMENT n36 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n36
+          id CDATA #REQUIRED>
+<!ELEMENT n35 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n35
+          id CDATA #REQUIRED>
+<!ELEMENT n34 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n34
+          id CDATA #REQUIRED>
+<!ELEMENT n438 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n438
+          id CDATA #REQUIRED>
+<!ELEMENT n439 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n439
+          id CDATA #REQUIRED>
+<!ELEMENT n436 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n436
+          id CDATA #REQUIRED>
+<!ELEMENT n437 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n437
+          id CDATA #REQUIRED>
+<!ELEMENT n434 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n434
+          id CDATA #REQUIRED>
+<!ELEMENT n435 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n435
+          id CDATA #REQUIRED>
+<!ELEMENT n432 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n432
+          id CDATA #REQUIRED>
+<!ELEMENT n433 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n433
+          id CDATA #REQUIRED>
+<!ELEMENT n430 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n430
+          id CDATA #REQUIRED>
+<!ELEMENT n431 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n431
+          id CDATA #REQUIRED>
+<!ELEMENT n339 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n339
+          id CDATA #REQUIRED>
+<!ELEMENT n338 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n338
+          id CDATA #REQUIRED>
+<!ELEMENT n335 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n335
+          id CDATA #REQUIRED>
+<!ELEMENT n334 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n334
+          id CDATA #REQUIRED>
+<!ELEMENT n337 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n337
+          id CDATA #REQUIRED>
+<!ELEMENT n336 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n336
+          id CDATA #REQUIRED>
+<!ELEMENT n331 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n331
+          id CDATA #REQUIRED>
+<!ELEMENT n330 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n330
+          id CDATA #REQUIRED>
+<!ELEMENT n333 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n333
+          id CDATA #REQUIRED>
+<!ELEMENT n332 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n332
+          id CDATA #REQUIRED>
+<!ELEMENT n6 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n6
+          id CDATA #REQUIRED>
+<!ELEMENT n99 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n99
+          id CDATA #REQUIRED>
+<!ELEMENT n98 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n98
+          id CDATA #REQUIRED>
+<!ELEMENT n91 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n91
+          id CDATA #REQUIRED>
+<!ELEMENT n90 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n90
+          id CDATA #REQUIRED>
+<!ELEMENT n93 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n93
+          id CDATA #REQUIRED>
+<!ELEMENT n92 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n92
+          id CDATA #REQUIRED>
+<!ELEMENT n95 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n95
+          id CDATA #REQUIRED>
+<!ELEMENT n94 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n94
+          id CDATA #REQUIRED>
+<!ELEMENT n97 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n97
+          id CDATA #REQUIRED>
+<!ELEMENT n96 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n96
+          id CDATA #REQUIRED>
+<!ELEMENT n559 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n559
+          id CDATA #REQUIRED>
+<!ELEMENT n558 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n558
+          id CDATA #REQUIRED>
+<!ELEMENT n555 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n555
+          id CDATA #REQUIRED>
+<!ELEMENT n554 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n554
+          id CDATA #REQUIRED>
+<!ELEMENT n557 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n557
+          id CDATA #REQUIRED>
+<!ELEMENT n556 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n556
+          id CDATA #REQUIRED>
+<!ELEMENT n551 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n551
+          id CDATA #REQUIRED>
+<!ELEMENT n550 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n550
+          id CDATA #REQUIRED>
+<!ELEMENT n553 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n553
+          id CDATA #REQUIRED>
+<!ELEMENT n552 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n552
+          id CDATA #REQUIRED>
+<!ELEMENT n238 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n238
+          id CDATA #REQUIRED>
+<!ELEMENT n239 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n239
+          id CDATA #REQUIRED>
+<!ELEMENT n234 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n234
+          id CDATA #REQUIRED>
+<!ELEMENT n235 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n235
+          id CDATA #REQUIRED>
+<!ELEMENT n236 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n236
+          id CDATA #REQUIRED>
+<!ELEMENT n237 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n237
+          id CDATA #REQUIRED>
+<!ELEMENT n230 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n230
+          id CDATA #REQUIRED>
+<!ELEMENT n231 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n231
+          id CDATA #REQUIRED>
+<!ELEMENT n232 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n232
+          id CDATA #REQUIRED>
+<!ELEMENT n233 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n233
+          id CDATA #REQUIRED>
+<!ELEMENT n1 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n1
+          id CDATA #REQUIRED>
+<!ELEMENT n146 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n146
+          id CDATA #REQUIRED>
+<!ELEMENT n147 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n147
+          id CDATA #REQUIRED>
+<!ELEMENT n144 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n144
+          id CDATA #REQUIRED>
+<!ELEMENT n145 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n145
+          id CDATA #REQUIRED>
+<!ELEMENT n142 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n142
+          id CDATA #REQUIRED>
+<!ELEMENT n143 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n143
+          id CDATA #REQUIRED>
+<!ELEMENT n140 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n140
+          id CDATA #REQUIRED>
+<!ELEMENT n141 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n141
+          id CDATA #REQUIRED>
+<!ELEMENT n148 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n148
+          id CDATA #REQUIRED>
+<!ELEMENT n149 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n149
+          id CDATA #REQUIRED>
+<!ELEMENT n133 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n133
+          id CDATA #REQUIRED>
+<!ELEMENT n132 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n132
+          id CDATA #REQUIRED>
+<!ELEMENT n131 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n131
+          id CDATA #REQUIRED>
+<!ELEMENT n130 (parcelle, surface_de_la_parcelle, adresse, proprietaire, occupant, ndeg_identifiant, cp)>
+<!ATTLIST n130
+          id CDATA #REQUIRED>
+<!ELEMENT n137 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n137
+          id CDATA #REQUIRED>
+<!ELEMENT n136 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n136
+          id CDATA #REQUIRED>
+<!ELEMENT n135 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n135
+          id CDATA #REQUIRED>
+<!ELEMENT n134 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n134
+          id CDATA #REQUIRED>
+<!ELEMENT n494 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n494
+          id CDATA #REQUIRED>
+<!ELEMENT n495 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n495
+          id CDATA #REQUIRED>
+<!ELEMENT n139 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n139
+          id CDATA #REQUIRED>
+<!ELEMENT n138 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n138
+          id CDATA #REQUIRED>
+<!ELEMENT n490 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n490
+          id CDATA #REQUIRED>
+<!ELEMENT n491 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n491
+          id CDATA #REQUIRED>
+<!ELEMENT n492 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n492
+          id CDATA #REQUIRED>
+<!ELEMENT n493 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n493
+          id CDATA #REQUIRED>
+<!ELEMENT n24 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n24
+          id CDATA #REQUIRED>
+<!ELEMENT n25 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n25
+          id CDATA #REQUIRED>
+<!ELEMENT n26 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n26
+          id CDATA #REQUIRED>
+<!ELEMENT n27 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n27
+          id CDATA #REQUIRED>
+<!ELEMENT n20 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n20
+          id CDATA #REQUIRED>
+<!ELEMENT n21 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n21
+          id CDATA #REQUIRED>
+<!ELEMENT n22 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n22
+          id CDATA #REQUIRED>
+<!ELEMENT n23 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n23
+          id CDATA #REQUIRED>
+<!ELEMENT n28 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n28
+          id CDATA #REQUIRED>
+<!ELEMENT n29 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n29
+          id CDATA #REQUIRED>
+<!ELEMENT n407 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n407
+          id CDATA #REQUIRED>
+<!ELEMENT n406 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n406
+          id CDATA #REQUIRED>
+<!ELEMENT n405 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n405
+          id CDATA #REQUIRED>
+<!ELEMENT n404 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n404
+          id CDATA #REQUIRED>
+<!ELEMENT n403 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n403
+          id CDATA #REQUIRED>
+<!ELEMENT n402 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n402
+          id CDATA #REQUIRED>
+<!ELEMENT n401 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n401
+          id CDATA #REQUIRED>
+<!ELEMENT n400 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n400
+          id CDATA #REQUIRED>
+<!ELEMENT n409 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n409
+          id CDATA #REQUIRED>
+<!ELEMENT n408 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n408
+          id CDATA #REQUIRED>
+<!ELEMENT n379 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n379
+          id CDATA #REQUIRED>
+<!ELEMENT n378 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n378
+          id CDATA #REQUIRED>
+<!ELEMENT n371 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n371
+          id CDATA #REQUIRED>
+<!ELEMENT n370 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n370
+          id CDATA #REQUIRED>
+<!ELEMENT n373 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n373
+          id CDATA #REQUIRED>
+<!ELEMENT n372 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n372
+          id CDATA #REQUIRED>
+<!ELEMENT n375 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n375
+          id CDATA #REQUIRED>
+<!ELEMENT n374 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n374
+          id CDATA #REQUIRED>
+<!ELEMENT n377 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n377
+          id CDATA #REQUIRED>
+<!ELEMENT n376 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n376
+          id CDATA #REQUIRED>
+<!ELEMENT n393 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n393
+          id CDATA #REQUIRED>
+<!ELEMENT n392 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n392
+          id CDATA #REQUIRED>
+<!ELEMENT n88 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n88
+          id CDATA #REQUIRED>
+<!ELEMENT n89 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n89
+          id CDATA #REQUIRED>
+<!ELEMENT n397 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n397
+          id CDATA #REQUIRED>
+<!ELEMENT n396 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n396
+          id CDATA #REQUIRED>
+<!ELEMENT n395 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n395
+          id CDATA #REQUIRED>
+<!ELEMENT n394 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n394
+          id CDATA #REQUIRED>
+<!ELEMENT n82 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n82
+          id CDATA #REQUIRED>
+<!ELEMENT n83 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n83
+          id CDATA #REQUIRED>
+<!ELEMENT n80 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n80
+          id CDATA #REQUIRED>
+<!ELEMENT n81 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n81
+          id CDATA #REQUIRED>
+<!ELEMENT n86 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n86
+          id CDATA #REQUIRED>
+<!ELEMENT n87 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n87
+          id CDATA #REQUIRED>
+<!ELEMENT n84 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n84
+          id CDATA #REQUIRED>
+<!ELEMENT n85 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n85
+          id CDATA #REQUIRED>
+<!ELEMENT n7 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n7
+          id CDATA #REQUIRED>
+<!ELEMENT n586 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n586
+          id CDATA #REQUIRED>
+<!ELEMENT n587 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n587
+          id CDATA #REQUIRED>
+<!ELEMENT n584 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n584
+          id CDATA #REQUIRED>
+<!ELEMENT n585 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n585
+          id CDATA #REQUIRED>
+<!ELEMENT n582 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n582
+          id CDATA #REQUIRED>
+<!ELEMENT n583 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n583
+          id CDATA #REQUIRED>
+<!ELEMENT n580 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n580
+          id CDATA #REQUIRED>
+<!ELEMENT n581 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n581
+          id CDATA #REQUIRED>
+<!ELEMENT n588 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n588
+          id CDATA #REQUIRED>
+<!ELEMENT n589 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n589
+          id CDATA #REQUIRED>
+<!ELEMENT n245 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n245
+          id CDATA #REQUIRED>
+<!ELEMENT n244 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n244
+          id CDATA #REQUIRED>
+<!ELEMENT n247 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n247
+          id CDATA #REQUIRED>
+<!ELEMENT n246 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n246
+          id CDATA #REQUIRED>
+<!ELEMENT n241 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n241
+          id CDATA #REQUIRED>
+<!ELEMENT n240 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n240
+          id CDATA #REQUIRED>
+<!ELEMENT n243 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n243
+          id CDATA #REQUIRED>
+<!ELEMENT n242 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n242
+          id CDATA #REQUIRED>
+<!ELEMENT n249 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n249
+          id CDATA #REQUIRED>
+<!ELEMENT n248 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n248
+          id CDATA #REQUIRED>
+<!ELEMENT n519 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n519
+          id CDATA #REQUIRED>
+<!ELEMENT n518 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n518
+          id CDATA #REQUIRED>
+<!ELEMENT n511 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n511
+          id CDATA #REQUIRED>
+<!ELEMENT n510 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n510
+          id CDATA #REQUIRED>
+<!ELEMENT n513 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n513
+          id CDATA #REQUIRED>
+<!ELEMENT n512 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n512
+          id CDATA #REQUIRED>
+<!ELEMENT n515 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n515
+          id CDATA #REQUIRED>
+<!ELEMENT n514 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n514
+          id CDATA #REQUIRED>
+<!ELEMENT n517 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n517
+          id CDATA #REQUIRED>
+<!ELEMENT n516 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n516
+          id CDATA #REQUIRED>
+<!ELEMENT n458 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n458
+          id CDATA #REQUIRED>
+<!ELEMENT n459 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n459
+          id CDATA #REQUIRED>
+<!ELEMENT n450 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n450
+          id CDATA #REQUIRED>
+<!ELEMENT n451 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n451
+          id CDATA #REQUIRED>
+<!ELEMENT n452 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n452
+          id CDATA #REQUIRED>
+<!ELEMENT n453 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n453
+          id CDATA #REQUIRED>
+<!ELEMENT n454 (ndeg_identifiant, adresse, proprietaire, occupant, surface_de_la_parcelle, cp)>
+<!ATTLIST n454
+          id CDATA #REQUIRED>
+<!ELEMENT n455 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n455
+          id CDATA #REQUIRED>
+<!ELEMENT n456 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n456
+          id CDATA #REQUIRED>
+<!ELEMENT n457 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n457
+          id CDATA #REQUIRED>
+<!ELEMENT n179 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n179
+          id CDATA #REQUIRED>
+<!ELEMENT n178 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n178
+          id CDATA #REQUIRED>
+<!ELEMENT n177 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n177
+          id CDATA #REQUIRED>
+<!ELEMENT n176 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n176
+          id CDATA #REQUIRED>
+<!ELEMENT n175 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n175
+          id CDATA #REQUIRED>
+<!ELEMENT n174 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n174
+          id CDATA #REQUIRED>
+<!ELEMENT n173 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n173
+          id CDATA #REQUIRED>
+<!ELEMENT n172 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n172
+          id CDATA #REQUIRED>
+<!ELEMENT n171 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n171
+          id CDATA #REQUIRED>
+<!ELEMENT n170 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n170
+          id CDATA #REQUIRED>
+<!ELEMENT n253 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n253
+          id CDATA #REQUIRED>
+<!ELEMENT n182 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n182
+          id CDATA #REQUIRED>
+<!ELEMENT n183 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n183
+          id CDATA #REQUIRED>
+<!ELEMENT n180 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n180
+          id CDATA #REQUIRED>
+<!ELEMENT n181 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n181
+          id CDATA #REQUIRED>
+<!ELEMENT n186 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n186
+          id CDATA #REQUIRED>
+<!ELEMENT n187 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n187
+          id CDATA #REQUIRED>
+<!ELEMENT n184 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n184
+          id CDATA #REQUIRED>
+<!ELEMENT n185 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n185
+          id CDATA #REQUIRED>
+<!ELEMENT n188 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n188
+          id CDATA #REQUIRED>
+<!ELEMENT n189 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n189
+          id CDATA #REQUIRED>
+<!ELEMENT n11 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n11
+          id CDATA #REQUIRED>
+<!ELEMENT n10 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n10
+          id CDATA #REQUIRED>
+<!ELEMENT n13 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n13
+          id CDATA #REQUIRED>
+<!ELEMENT n12 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n12
+          id CDATA #REQUIRED>
+<!ELEMENT n15 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n15
+          id CDATA #REQUIRED>
+<!ELEMENT n14 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n14
+          id CDATA #REQUIRED>
+<!ELEMENT n17 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n17
+          id CDATA #REQUIRED>
+<!ELEMENT n16 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n16
+          id CDATA #REQUIRED>
+<!ELEMENT n19 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n19
+          id CDATA #REQUIRED>
+<!ELEMENT n18 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n18
+          id CDATA #REQUIRED>
+<!ELEMENT n62 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n62
+          id CDATA #REQUIRED>
+<!ELEMENT n322 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n322
+          id CDATA #REQUIRED>
+<!ELEMENT n323 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n323
+          id CDATA #REQUIRED>
+<!ELEMENT n320 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n320
+          id CDATA #REQUIRED>
+<!ELEMENT n321 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n321
+          id CDATA #REQUIRED>
+<!ELEMENT n326 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n326
+          id CDATA #REQUIRED>
+<!ELEMENT n327 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n327
+          id CDATA #REQUIRED>
+<!ELEMENT n324 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n324
+          id CDATA #REQUIRED>
+<!ELEMENT n325 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n325
+          id CDATA #REQUIRED>
+<!ELEMENT n328 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n328
+          id CDATA #REQUIRED>
+<!ELEMENT n329 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n329
+          id CDATA #REQUIRED>
+<!ELEMENT n201 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n201
+          id CDATA #REQUIRED>
+<!ELEMENT n200 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n200
+          id CDATA #REQUIRED>
+<!ELEMENT n203 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n203
+          id CDATA #REQUIRED>
+<!ELEMENT n202 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n202
+          id CDATA #REQUIRED>
+<!ELEMENT n205 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n205
+          id CDATA #REQUIRED>
+<!ELEMENT n204 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n204
+          id CDATA #REQUIRED>
+<!ELEMENT n207 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n207
+          id CDATA #REQUIRED>
+<!ELEMENT n206 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n206
+          id CDATA #REQUIRED>
+<!ELEMENT n209 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n209
+          id CDATA #REQUIRED>
+<!ELEMENT n208 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n208
+          id CDATA #REQUIRED>
+<!ELEMENT n77 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n77
+          id CDATA #REQUIRED>
+<!ELEMENT n76 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n76
+          id CDATA #REQUIRED>
+<!ELEMENT n75 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n75
+          id CDATA #REQUIRED>
+<!ELEMENT n74 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n74
+          id CDATA #REQUIRED>
+<!ELEMENT n73 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n73
+          id CDATA #REQUIRED>
+<!ELEMENT n72 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n72
+          id CDATA #REQUIRED>
+<!ELEMENT n71 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n71
+          id CDATA #REQUIRED>
+<!ELEMENT n70 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n70
+          id CDATA #REQUIRED>
+<!ELEMENT n79 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n79
+          id CDATA #REQUIRED>
+<!ELEMENT n78 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n78
+          id CDATA #REQUIRED>
+<!ELEMENT n2 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n2
+          id CDATA #REQUIRED>
+<!ELEMENT n542 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n542
+          id CDATA #REQUIRED>
+<!ELEMENT n543 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n543
+          id CDATA #REQUIRED>
+<!ELEMENT n540 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n540
+          id CDATA #REQUIRED>
+<!ELEMENT n541 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n541
+          id CDATA #REQUIRED>
+<!ELEMENT n546 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n546
+          id CDATA #REQUIRED>
+<!ELEMENT n547 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n547
+          id CDATA #REQUIRED>
+<!ELEMENT n544 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n544
+          id CDATA #REQUIRED>
+<!ELEMENT n545 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n545
+          id CDATA #REQUIRED>
+<!ELEMENT n8 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n8
+          id CDATA #REQUIRED>
+<!ELEMENT n548 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n548
+          id CDATA #REQUIRED>
+<!ELEMENT n549 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n549
+          id CDATA #REQUIRED>
+<!ELEMENT n68 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n68
+          id CDATA #REQUIRED>
+<!ELEMENT n120 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n120
+          id CDATA #REQUIRED>
+<!ELEMENT n121 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n121
+          id CDATA #REQUIRED>
+<!ELEMENT n122 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n122
+          id CDATA #REQUIRED>
+<!ELEMENT n123 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n123
+          id CDATA #REQUIRED>
+<!ELEMENT n124 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n124
+          id CDATA #REQUIRED>
+<!ELEMENT n125 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n125
+          id CDATA #REQUIRED>
+<!ELEMENT n126 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n126
+          id CDATA #REQUIRED>
+<!ELEMENT n127 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n127
+          id CDATA #REQUIRED>
+<!ELEMENT n128 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n128
+          id CDATA #REQUIRED>
+<!ELEMENT n129 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n129
+          id CDATA #REQUIRED>
+<!ELEMENT n414 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n414
+          id CDATA #REQUIRED>
+<!ELEMENT n415 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n415
+          id CDATA #REQUIRED>
+<!ELEMENT n416 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n416
+          id CDATA #REQUIRED>
+<!ELEMENT n417 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n417
+          id CDATA #REQUIRED>
+<!ELEMENT n410 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n410
+          id CDATA #REQUIRED>
+<!ELEMENT n411 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n411
+          id CDATA #REQUIRED>
+<!ELEMENT n412 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n412
+          id CDATA #REQUIRED>
+<!ELEMENT n413 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n413
+          id CDATA #REQUIRED>
+<!ELEMENT n498 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n498
+          id CDATA #REQUIRED>
+<!ELEMENT n418 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n418
+          id CDATA #REQUIRED>
+<!ELEMENT n419 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n419
+          id CDATA #REQUIRED>
+<!ELEMENT n499 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n499
+          id CDATA #REQUIRED>
+<!ELEMENT n319 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n319
+          id CDATA #REQUIRED>
+<!ELEMENT n318 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n318
+          id CDATA #REQUIRED>
+<!ELEMENT n313 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n313
+          id CDATA #REQUIRED>
+<!ELEMENT n312 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n312
+          id CDATA #REQUIRED>
+<!ELEMENT n311 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n311
+          id CDATA #REQUIRED>
+<!ELEMENT n310 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n310
+          id CDATA #REQUIRED>
+<!ELEMENT n317 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n317
+          id CDATA #REQUIRED>
+<!ELEMENT n316 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n316
+          id CDATA #REQUIRED>
+<!ELEMENT n315 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n315
+          id CDATA #REQUIRED>
+<!ELEMENT n314 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n314
+          id CDATA #REQUIRED>
+<!ELEMENT n496 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n496
+          id CDATA #REQUIRED>
+<!ELEMENT n497 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n497
+          id CDATA #REQUIRED>
+<!ELEMENT n3 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n3
+          id CDATA #REQUIRED>
+<!ELEMENT n368 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n368
+          id CDATA #REQUIRED>
+<!ELEMENT n369 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n369
+          id CDATA #REQUIRED>
+<!ELEMENT n366 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n366
+          id CDATA #REQUIRED>
+<!ELEMENT n367 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n367
+          id CDATA #REQUIRED>
+<!ELEMENT n364 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n364
+          id CDATA #REQUIRED>
+<!ELEMENT n365 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n365
+          id CDATA #REQUIRED>
+<!ELEMENT n362 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n362
+          id CDATA #REQUIRED>
+<!ELEMENT n363 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n363
+          id CDATA #REQUIRED>
+<!ELEMENT n360 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n360
+          id CDATA #REQUIRED>
+<!ELEMENT n361 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n361
+          id CDATA #REQUIRED>
+<!ELEMENT n380 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n380
+          id CDATA #REQUIRED>
+<!ELEMENT n381 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n381
+          id CDATA #REQUIRED>
+<!ELEMENT n382 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n382
+          id CDATA #REQUIRED>
+<!ELEMENT n383 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n383
+          id CDATA #REQUIRED>
+<!ELEMENT n384 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n384
+          id CDATA #REQUIRED>
+<!ELEMENT n385 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n385
+          id CDATA #REQUIRED>
+<!ELEMENT n386 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n386
+          id CDATA #REQUIRED>
+<!ELEMENT n387 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n387
+          id CDATA #REQUIRED>
+<!ELEMENT n388 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n388
+          id CDATA #REQUIRED>
+<!ELEMENT n389 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n389
+          id CDATA #REQUIRED>
+<!ELEMENT n579 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n579
+          id CDATA #REQUIRED>
+<!ELEMENT n578 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n578
+          id CDATA #REQUIRED>
+<!ELEMENT n573 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n573
+          id CDATA #REQUIRED>
+<!ELEMENT n572 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n572
+          id CDATA #REQUIRED>
+<!ELEMENT n571 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n571
+          id CDATA #REQUIRED>
+<!ELEMENT n570 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n570
+          id CDATA #REQUIRED>
+<!ELEMENT n577 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n577
+          id CDATA #REQUIRED>
+<!ELEMENT n576 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n576
+          id CDATA #REQUIRED>
+<!ELEMENT n575 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n575
+          id CDATA #REQUIRED>
+<!ELEMENT n574 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n574
+          id CDATA #REQUIRED>
+<!ELEMENT n60 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n60
+          id CDATA #REQUIRED>
+<!ELEMENT n61 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n61
+          id CDATA #REQUIRED>
+<!ELEMENT n258 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n258
+          id CDATA #REQUIRED>
+<!ELEMENT n259 (parcelle, surface_de_la_parcelle, adresse, proprietaire, occupant, ndeg_identifiant, cp)>
+<!ATTLIST n259
+          id CDATA #REQUIRED>
+<!ELEMENT n64 (parcelle, surface_de_la_parcelle, adresse, proprietaire, occupant, ndeg_identifiant, cp, type)>
+<!ATTLIST n64
+          id CDATA #REQUIRED>
+<!ELEMENT n65 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n65
+          id CDATA #REQUIRED>
+<!ELEMENT n66 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n66
+          id CDATA #REQUIRED>
+<!ELEMENT n67 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n67
+          id CDATA #REQUIRED>
+<!ELEMENT n252 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n252
+          id CDATA #REQUIRED>
+<!ELEMENT n69 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n69
+          id CDATA #REQUIRED>
+<!ELEMENT n250 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n250
+          id CDATA #REQUIRED>
+<!ELEMENT n251 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n251
+          id CDATA #REQUIRED>
+<!ELEMENT n256 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n256
+          id CDATA #REQUIRED>
+<!ELEMENT n257 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n257
+          id CDATA #REQUIRED>
+<!ELEMENT n254 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n254
+          id CDATA #REQUIRED>
+<!ELEMENT n255 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n255
+          id CDATA #REQUIRED>
+<!ELEMENT n508 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n508
+          id CDATA #REQUIRED>
+<!ELEMENT n509 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n509
+          id CDATA #REQUIRED>
+<!ELEMENT n506 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n506
+          id CDATA #REQUIRED>
+<!ELEMENT n507 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n507
+          id CDATA #REQUIRED>
+<!ELEMENT n504 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n504
+          id CDATA #REQUIRED>
+<!ELEMENT n505 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n505
+          id CDATA #REQUIRED>
+<!ELEMENT n502 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n502
+          id CDATA #REQUIRED>
+<!ELEMENT n503 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n503
+          id CDATA #REQUIRED>
+<!ELEMENT n500 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n500
+          id CDATA #REQUIRED>
+<!ELEMENT n501 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n501
+          id CDATA #REQUIRED>
+<!ELEMENT n469 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n469
+          id CDATA #REQUIRED>
+<!ELEMENT n468 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n468
+          id CDATA #REQUIRED>
+<!ELEMENT n465 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n465
+          id CDATA #REQUIRED>
+<!ELEMENT n464 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n464
+          id CDATA #REQUIRED>
+<!ELEMENT n467 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n467
+          id CDATA #REQUIRED>
+<!ELEMENT n466 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n466
+          id CDATA #REQUIRED>
+<!ELEMENT n461 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n461
+          id CDATA #REQUIRED>
+<!ELEMENT n460 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n460
+          id CDATA #REQUIRED>
+<!ELEMENT n463 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n463
+          id CDATA #REQUIRED>
+<!ELEMENT n462 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n462
+          id CDATA #REQUIRED>
+<!ELEMENT n168 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n168
+          id CDATA #REQUIRED>
+<!ELEMENT n169 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n169
+          id CDATA #REQUIRED>
+<!ELEMENT n164 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n164
+          id CDATA #REQUIRED>
+<!ELEMENT n165 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n165
+          id CDATA #REQUIRED>
+<!ELEMENT n166 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n166
+          id CDATA #REQUIRED>
+<!ELEMENT n167 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n167
+          id CDATA #REQUIRED>
+<!ELEMENT n160 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n160
+          id CDATA #REQUIRED>
+<!ELEMENT n161 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n161
+          id CDATA #REQUIRED>
+<!ELEMENT n162 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n162
+          id CDATA #REQUIRED>
+<!ELEMENT n163 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n163
+          id CDATA #REQUIRED>
+<!ELEMENT n9 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n9
+          id CDATA #REQUIRED>
+<!ELEMENT n357 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n357
+          id CDATA #REQUIRED>
+<!ELEMENT n356 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n356
+          id CDATA #REQUIRED>
+<!ELEMENT n355 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n355
+          id CDATA #REQUIRED>
+<!ELEMENT n354 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n354
+          id CDATA #REQUIRED>
+<!ELEMENT n353 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n353
+          id CDATA #REQUIRED>
+<!ELEMENT n352 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n352
+          id CDATA #REQUIRED>
+<!ELEMENT n351 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n351
+          id CDATA #REQUIRED>
+<!ELEMENT n350 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n350
+          id CDATA #REQUIRED>
+<!ELEMENT n359 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n359
+          id CDATA #REQUIRED>
+<!ELEMENT n358 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n358
+          id CDATA #REQUIRED>
+<!ELEMENT n216 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n216
+          id CDATA #REQUIRED>
+<!ELEMENT n217 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n217
+          id CDATA #REQUIRED>
+<!ELEMENT n214 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n214
+          id CDATA #REQUIRED>
+<!ELEMENT n215 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n215
+          id CDATA #REQUIRED>
+<!ELEMENT n212 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n212
+          id CDATA #REQUIRED>
+<!ELEMENT n213 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n213
+          id CDATA #REQUIRED>
+<!ELEMENT n210 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n210
+          id CDATA #REQUIRED>
+<!ELEMENT n211 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n211
+          id CDATA #REQUIRED>
+<!ELEMENT n218 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n218
+          id CDATA #REQUIRED>
+<!ELEMENT n219 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n219
+          id CDATA #REQUIRED>
+<!ELEMENT n289 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n289
+          id CDATA #REQUIRED>
+<!ELEMENT n288 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n288
+          id CDATA #REQUIRED>
+<!ELEMENT n4 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n4
+          id CDATA #REQUIRED>
+<!ELEMENT n281 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n281
+          id CDATA #REQUIRED>
+<!ELEMENT n280 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n280
+          id CDATA #REQUIRED>
+<!ELEMENT n283 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n283
+          id CDATA #REQUIRED>
+<!ELEMENT n282 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n282
+          id CDATA #REQUIRED>
+<!ELEMENT n285 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n285
+          id CDATA #REQUIRED>
+<!ELEMENT n284 (ndeg_identifiant, proprietaire, cp, adresse, occupant)>
+<!ATTLIST n284
+          id CDATA #REQUIRED>
+<!ELEMENT n287 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n287
+          id CDATA #REQUIRED>
+<!ELEMENT n286 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n286
+          id CDATA #REQUIRED>
+<!ELEMENT n263 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n263
+          id CDATA #REQUIRED>
+<!ELEMENT n262 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n262
+          id CDATA #REQUIRED>
+<!ELEMENT n261 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n261
+          id CDATA #REQUIRED>
+<!ELEMENT n260 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n260
+          id CDATA #REQUIRED>
+<!ELEMENT n267 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n267
+          id CDATA #REQUIRED>
+<!ELEMENT n266 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n266
+          id CDATA #REQUIRED>
+<!ELEMENT n265 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n265
+          id CDATA #REQUIRED>
+<!ELEMENT n264 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n264
+          id CDATA #REQUIRED>
+<!ELEMENT n269 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n269
+          id CDATA #REQUIRED>
+<!ELEMENT n268 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n268
+          id CDATA #REQUIRED>
+<!ELEMENT n59 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n59
+          id CDATA #REQUIRED>
+<!ELEMENT n58 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n58
+          id CDATA #REQUIRED>
+<!ELEMENT n55 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n55
+          id CDATA #REQUIRED>
+<!ELEMENT n54 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n54
+          id CDATA #REQUIRED>
+<!ELEMENT n57 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n57
+          id CDATA #REQUIRED>
+<!ELEMENT n56 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n56
+          id CDATA #REQUIRED>
+<!ELEMENT n51 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n51
+          id CDATA #REQUIRED>
+<!ELEMENT n50 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n50
+          id CDATA #REQUIRED>
+<!ELEMENT n53 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n53
+          id CDATA #REQUIRED>
+<!ELEMENT n52 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n52
+          id CDATA #REQUIRED>
+<!ELEMENT n537 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n537
+          id CDATA #REQUIRED>
+<!ELEMENT n536 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n536
+          id CDATA #REQUIRED>
+<!ELEMENT n535 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n535
+          id CDATA #REQUIRED>
+<!ELEMENT n63 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n63
+          id CDATA #REQUIRED>
+<!ELEMENT n533 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n533
+          id CDATA #REQUIRED>
+<!ELEMENT n532 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n532
+          id CDATA #REQUIRED>
+<!ELEMENT n531 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n531
+          id CDATA #REQUIRED>
+<!ELEMENT n530 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n530
+          id CDATA #REQUIRED>
+<!ELEMENT n539 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n539
+          id CDATA #REQUIRED>
+<!ELEMENT n538 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n538
+          id CDATA #REQUIRED>
+<!ELEMENT n115 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n115
+          id CDATA #REQUIRED>
+<!ELEMENT n114 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n114
+          id CDATA #REQUIRED>
+<!ELEMENT n117 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n117
+          id CDATA #REQUIRED>
+<!ELEMENT n116 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n116
+          id CDATA #REQUIRED>
+<!ELEMENT n111 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n111
+          id CDATA #REQUIRED>
+<!ELEMENT n110 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n110
+          id CDATA #REQUIRED>
+<!ELEMENT n113 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n113
+          id CDATA #REQUIRED>
+<!ELEMENT n112 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n112
+          id CDATA #REQUIRED>
+<!ELEMENT n119 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n119
+          id CDATA #REQUIRED>
+<!ELEMENT n118 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n118
+          id CDATA #REQUIRED>
+<!ELEMENT n429 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n429
+          id CDATA #REQUIRED>
+<!ELEMENT n428 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n428
+          id CDATA #REQUIRED>
+<!ELEMENT n534 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n534
+          id CDATA #REQUIRED>
+<!ELEMENT n421 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n421
+          id CDATA #REQUIRED>
+<!ELEMENT n420 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n420
+          id CDATA #REQUIRED>
+<!ELEMENT n423 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n423
+          id CDATA #REQUIRED>
+<!ELEMENT n422 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n422
+          id CDATA #REQUIRED>
+<!ELEMENT n425 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n425
+          id CDATA #REQUIRED>
+<!ELEMENT n424 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n424
+          id CDATA #REQUIRED>
+<!ELEMENT n427 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n427
+          id CDATA #REQUIRED>
+<!ELEMENT n426 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n426
+          id CDATA #REQUIRED>
+<!ELEMENT n308 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n308
+          id CDATA #REQUIRED>
+<!ELEMENT n309 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n309
+          id CDATA #REQUIRED>
+<!ELEMENT n300 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n300
+          id CDATA #REQUIRED>
+<!ELEMENT n301 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n301
+          id CDATA #REQUIRED>
+<!ELEMENT n302 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n302
+          id CDATA #REQUIRED>
+<!ELEMENT n303 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n303
+          id CDATA #REQUIRED>
+<!ELEMENT n304 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n304
+          id CDATA #REQUIRED>
+<!ELEMENT n305 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n305
+          id CDATA #REQUIRED>
+<!ELEMENT n306 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n306
+          id CDATA #REQUIRED>
+<!ELEMENT n307 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n307
+          id CDATA #REQUIRED>
+<!ELEMENT n568 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n568
+          id CDATA #REQUIRED>
+<!ELEMENT n569 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n569
+          id CDATA #REQUIRED>
+<!ELEMENT n560 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n560
+          id CDATA #REQUIRED>
+<!ELEMENT n561 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n561
+          id CDATA #REQUIRED>
+<!ELEMENT n562 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n562
+          id CDATA #REQUIRED>
+<!ELEMENT n563 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n563
+          id CDATA #REQUIRED>
+<!ELEMENT n564 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n564
+          id CDATA #REQUIRED>
+<!ELEMENT n565 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n565
+          id CDATA #REQUIRED>
+<!ELEMENT n566 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n566
+          id CDATA #REQUIRED>
+<!ELEMENT n567 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n567
+          id CDATA #REQUIRED>
+<!ELEMENT n229 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n229
+          id CDATA #REQUIRED>
+<!ELEMENT n228 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n228
+          id CDATA #REQUIRED>
+<!ELEMENT n227 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n227
+          id CDATA #REQUIRED>
+<!ELEMENT n226 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n226
+          id CDATA #REQUIRED>
+<!ELEMENT n225 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n225
+          id CDATA #REQUIRED>
+<!ELEMENT n224 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n224
+          id CDATA #REQUIRED>
+<!ELEMENT n223 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n223
+          id CDATA #REQUIRED>
+<!ELEMENT n222 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n222
+          id CDATA #REQUIRED>
+<!ELEMENT n221 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n221
+          id CDATA #REQUIRED>
+<!ELEMENT n220 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n220
+          id CDATA #REQUIRED>
+<!ELEMENT n391 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n391
+          id CDATA #REQUIRED>
+<!ELEMENT n390 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n390
+          id CDATA #REQUIRED>
+<!ELEMENT n151 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n151
+          id CDATA #REQUIRED>
+<!ELEMENT n150 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n150
+          id CDATA #REQUIRED>
+<!ELEMENT n153 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n153
+          id CDATA #REQUIRED>
+<!ELEMENT n152 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n152
+          id CDATA #REQUIRED>
+<!ELEMENT n155 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n155
+          id CDATA #REQUIRED>
+<!ELEMENT n154 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n154
+          id CDATA #REQUIRED>
+<!ELEMENT n157 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n157
+          id CDATA #REQUIRED>
+<!ELEMENT n156 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n156
+          id CDATA #REQUIRED>
+<!ELEMENT n159 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n159
+          id CDATA #REQUIRED>
+<!ELEMENT n158 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n158
+          id CDATA #REQUIRED>
+<!ELEMENT n399 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n399
+          id CDATA #REQUIRED>
+<!ELEMENT n398 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n398
+          id CDATA #REQUIRED>
+<!ELEMENT n48 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n48
+          id CDATA #REQUIRED>
+<!ELEMENT n49 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n49
+          id CDATA #REQUIRED>
+<!ELEMENT n46 (parcelle, surface_de_la_parcelle, adresse, proprietaire, occupant, ndeg_identifiant, cp)>
+<!ATTLIST n46
+          id CDATA #REQUIRED>
+<!ELEMENT n47 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n47
+          id CDATA #REQUIRED>
+<!ELEMENT n44 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n44
+          id CDATA #REQUIRED>
+<!ELEMENT n45 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n45
+          id CDATA #REQUIRED>
+<!ELEMENT n42 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n42
+          id CDATA #REQUIRED>
+<!ELEMENT n43 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n43
+          id CDATA #REQUIRED>
+<!ELEMENT n40 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n40
+          id CDATA #REQUIRED>
+<!ELEMENT n41 (parcelle, ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n41
+          id CDATA #REQUIRED>
+<!ELEMENT n5 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, surface_de_la_parcelle, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n5
+          id CDATA #REQUIRED>
+<!ELEMENT n489 (ndeg_identifiant, tutelle_pedagogique, adresse, proprietaire, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n489
+          id CDATA #REQUIRED>
+<!ELEMENT n488 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n488
+          id CDATA #REQUIRED>
+<!ELEMENT n487 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n487
+          id CDATA #REQUIRED>
+<!ELEMENT n486 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n486
+          id CDATA #REQUIRED>
+<!ELEMENT n485 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n485
+          id CDATA #REQUIRED>
+<!ELEMENT n484 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n484
+          id CDATA #REQUIRED>
+<!ELEMENT n483 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n483
+          id CDATA #REQUIRED>
+<!ELEMENT n482 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n482
+          id CDATA #REQUIRED>
+<!ELEMENT n481 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n481
+          id CDATA #REQUIRED>
+<!ELEMENT n480 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n480
+          id CDATA #REQUIRED>
+<!ELEMENT n472 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n472
+          id CDATA #REQUIRED>
+<!ELEMENT n473 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n473
+          id CDATA #REQUIRED>
+<!ELEMENT n470 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n470
+          id CDATA #REQUIRED>
+<!ELEMENT n471 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n471
+          id CDATA #REQUIRED>
+<!ELEMENT n476 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n476
+          id CDATA #REQUIRED>
+<!ELEMENT n477 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n477
+          id CDATA #REQUIRED>
+<!ELEMENT n474 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris)>
+<!ATTLIST n474
+          id CDATA #REQUIRED>
+<!ELEMENT n475 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n475
+          id CDATA #REQUIRED>
+<!ELEMENT n478 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n478
+          id CDATA #REQUIRED>
+<!ELEMENT n479 (ndeg_identifiant, tutelle_pedagogique, adresse, occupant, cp, type, statut_public_prive_ville_de_paris, pres)>
+<!ATTLIST n479
+          id CDATA #REQUIRED>
