@@ -91,6 +91,7 @@ Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'
 - quartiers.xml
 - cafes.xml
 - marches.xml
+ 
  Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise <item> chaque liste du json d'origine, il y avait plusieurs balises <item>, dans différents noeuds...
   -> Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.
   Récurrente sur tous les fichiers json d'origine
