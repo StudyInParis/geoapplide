@@ -1,0 +1,127 @@
+<!ELEMENT root (n24, n25, n26, n27, n20, n21, n22, n23, n28, n29, n1, n3, n2, n5, n4, n7, n6, n9, n8, n11, n10, n13, n12, n15, n14, n17, n16, n19, n18, n31, n30)>
+<!ELEMENT n24 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n24
+          id CDATA #REQUIRED>
+<!ELEMENT annee_installation (#PCDATA)>
+<!ATTLIST annee_installation
+          id CDATA #REQUIRED>
+<!ELEMENT horaires_vacances_ete (#PCDATA)>
+<!ATTLIST horaires_vacances_ete
+          id CDATA #REQUIRED>
+<!ELEMENT adresse (#PCDATA)>
+<!ATTLIST adresse
+          id CDATA #REQUIRED>
+<!ELEMENT site (#PCDATA)>
+<!ATTLIST site
+          id CDATA #REQUIRED>
+<!ELEMENT horaires_vacances_hiver (#PCDATA)>
+<!ATTLIST horaires_vacances_hiver
+          id CDATA #REQUIRED>
+<!ELEMENT acces (#PCDATA)>
+<!ATTLIST acces
+          id CDATA #REQUIRED>
+<!ELEMENT xy (item+)>
+<!ATTLIST xy
+          id CDATA #REQUIRED>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+          id CDATA #REQUIRED>
+<!ELEMENT adresse_complete (#PCDATA)>
+<!ATTLIST adresse_complete
+          id CDATA #REQUIRED>
+<!ELEMENT arrond (#PCDATA)>
+<!ATTLIST arrond
+          id CDATA #REQUIRED>
+<!ELEMENT horaires_normal (#PCDATA)>
+<!ATTLIST horaires_normal
+          id CDATA #REQUIRED>
+<!ELEMENT n25 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n25
+          id CDATA #REQUIRED>
+<!ELEMENT n26 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n26
+          id CDATA #REQUIRED>
+<!ELEMENT n27 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n27
+          id CDATA #REQUIRED>
+<!ELEMENT n20 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n20
+          id CDATA #REQUIRED>
+<!ELEMENT n21 (adresse, site, annee_installation, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n21
+          id CDATA #REQUIRED>
+<!ELEMENT n22 (adresse, site, annee_installation, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n22
+          id CDATA #REQUIRED>
+<!ELEMENT n23 (annee_installation, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n23
+          id CDATA #REQUIRED>
+<!ELEMENT n28 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n28
+          id CDATA #REQUIRED>
+<!ELEMENT n29 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n29
+          id CDATA #REQUIRED>
+<!ELEMENT n1 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n1
+          id CDATA #REQUIRED>
+<!ELEMENT n3 (annee_installation, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n3
+          id CDATA #REQUIRED>
+<!ELEMENT n2 (adresse, site, annee_installation, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n2
+          id CDATA #REQUIRED>
+<!ELEMENT n5 (annee_installation, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n5
+          id CDATA #REQUIRED>
+<!ELEMENT n4 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n4
+          id CDATA #REQUIRED>
+<!ELEMENT n7 (annee_installation, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n7
+          id CDATA #REQUIRED>
+<!ELEMENT n6 (annee_installation, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n6
+          id CDATA #REQUIRED>
+<!ELEMENT n9 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n9
+          id CDATA #REQUIRED>
+<!ELEMENT n8 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n8
+          id CDATA #REQUIRED>
+<!ELEMENT n11 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n11
+          id CDATA #REQUIRED>
+<!ELEMENT n10 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n10
+          id CDATA #REQUIRED>
+<!ELEMENT n13 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n13
+          id CDATA #REQUIRED>
+<!ELEMENT n12 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n12
+          id CDATA #REQUIRED>
+<!ELEMENT n15 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n15
+          id CDATA #REQUIRED>
+<!ELEMENT n14 (annee_installation, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n14
+          id CDATA #REQUIRED>
+<!ELEMENT n17 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n17
+          id CDATA #REQUIRED>
+<!ELEMENT n16 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n16
+          id CDATA #REQUIRED>
+<!ELEMENT n19 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n19
+          id CDATA #REQUIRED>
+<!ELEMENT n18 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond)>
+<!ATTLIST n18
+          id CDATA #REQUIRED>
+<!ELEMENT n31 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n31
+          id CDATA #REQUIRED>
+<!ELEMENT n30 (annee_installation, horaires_vacances_ete, adresse, site, horaires_vacances_hiver, acces, xy, adresse_complete, arrond, horaires_normal)>
+<!ATTLIST n30
+          id CDATA #REQUIRED>
