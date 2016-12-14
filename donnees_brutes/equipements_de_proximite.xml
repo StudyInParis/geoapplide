@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<element id="1">
+		<Mairie gestionnaire>MAIRIE DU 19E</Mairie gestionnaire>
+		<AP_cp>75019</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE CRIMEE</Désignation_longue>
+		<Ap_voie>RUE PETIT</Ap_voie>
+		<AP_num>42</AP_num>
+	</element>
+	<element id="2">
+		<Mairie gestionnaire>MAIRIE DU  1ER</Mairie gestionnaire>
+		<AP_cp>75001</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE DU LOUVRE</Désignation_longue>
+		<Ap_voie>PLACE DU LOUVRE</Ap_voie>
+		<AP_num>4</AP_num>
+	</element>
+	<element id="4">
+		<Mairie gestionnaire>MAIRIE DU 10E</Mairie gestionnaire>
+		<AP_cp>75010</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE CHATEAU D'EAU</Désignation_longue>
+		<Ap_voie>RUE DU FAUBOURG SAINT-MARTIN</Ap_voie>
+		<AP_num>72</AP_num>
+	</element>
+	<element id="8">
+		<Mairie gestionnaire>MAIRIE DU 15E</Mairie gestionnaire>
+		<AP_cp>75015</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE GUTENBERG</Désignation_longue>
+		<Ap_voie>RUE DE LA MONTAGNE D'AULAS</Ap_voie>
+		<AP_num>8</AP_num>
+	</element>
+	<element id="16">
+		<Mairie gestionnaire>MAIRIE DU 16E</Mairie gestionnaire>
+		<AP_cp>75016</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE MUSSET</Désignation_longue>
+		<Ap_voie>RUE DE MUSSET</Ap_voie>
+		<AP_num>20</AP_num>
+	</element>
+	<element id="32">
+		<Mairie gestionnaire>MAIRIE DU  5E</Mairie gestionnaire>
+		<AP_cp>75005</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE L'HEURE JOYEUSE</Désignation_longue>
+		<Ap_voie>RUE DES PRETRES SAINT-SEVERIN</Ap_voie>
+		<AP_num>6</AP_num>
+	</element>
+	<element id="64">
+		<Mairie gestionnaire>MAIRIE DU 17E</Mairie gestionnaire>
+		<AP_cp>75017</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE COLETTE VIVIER</Désignation_longue>
+		<Ap_voie>RUE FOURNEYRON</Ap_voie>
+		<AP_num>6</AP_num>
+	</element>
+	<element id="128">
+		<Mairie gestionnaire>MAIRIE DU  4E</Mairie gestionnaire>
+		<AP_cp>75004</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE ISLE SAINT-LOUIS</Désignation_longue>
+		<Ap_voie>RUE SAINT-LOUIS EN L'ILE</Ap_voie>
+		<AP_num>21</AP_num>
+	</element>
+	<element id="256">
+		<Mairie gestionnaire>MAIRIE DU  8E</Mairie gestionnaire>
+		<AP_cp>75008</AP_cp>
+		<AP_cnu>T</AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE COURCELLES</Désignation_longue>
+		<Ap_voie>AVENUE BEAUCOUR</Ap_voie>
+		<AP_num>17</AP_num>
+	</element>
+	<element id="512">
+		<Mairie gestionnaire>MAIRIE DU 20E</Mairie gestionnaire>
+		<AP_cp>75020</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHÈQUE MÉDIATHÈQUE MARGUERITE DURAS</Désignation_longue>
+		<Ap_voie>RUE DE BAGNOLET</Ap_voie>
+		<AP_num>109</AP_num>
+	</element>
+	<element id="1024">
+		<Mairie gestionnaire>MAIRIE DU  3E</Mairie gestionnaire>
+		<AP_cp>75003</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MARGUERITE AUDOUX</Désignation_longue>
+		<Ap_voie>RUE PORTEFOIN</Ap_voie>
+		<AP_num>8</AP_num>
+	</element>
+	<element id="2048">
+		<Mairie gestionnaire>MAIRIE DU 20E</Mairie gestionnaire>
+		<AP_cp>75020</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE MORTIER</Désignation_longue>
+		<Ap_voie>BOULEVARD MORTIER</Ap_voie>
+		<AP_num>109</AP_num>
+	</element>
+	<element id="4096">
+		<Mairie gestionnaire>MAIRIE DU 18E</Mairie gestionnaire>
+		<AP_cp>75018</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE DE LA PORTE MONTMARTRE</Désignation_longue>
+		<Ap_voie>AVENUE DE LA PORTE DE MONTMARTRE</Ap_voie>
+		<AP_num>18</AP_num>
+	</element>
+	<element id="8192">
+		<Mairie gestionnaire>MAIRIE DU 19E</Mairie gestionnaire>
+		<AP_cp>75019</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE BENJAMIN RABIER</Désignation_longue>
+		<Ap_voie>AVENUE DE FLANDRE</Ap_voie>
+		<AP_num>141</AP_num>
+	</element>
+	<element id="16384">
+		<Mairie gestionnaire>MAIRIE DU 19E</Mairie gestionnaire>
+		<AP_cp>75019</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE FESSART</Désignation_longue>
+		<Ap_voie>RUE FESSART</Ap_voie>
+		<AP_num>6</AP_num>
+	</element>
+	<element id="32768">
+		<Mairie gestionnaire>MAIRIE DU  9E</Mairie gestionnaire>
+		<AP_cp>75009</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE DROUOT</Désignation_longue>
+		<Ap_voie>RUE DROUOT</Ap_voie>
+		<AP_num>11</AP_num>
+	</element>
+	<element id="65536">
+		<Mairie gestionnaire>MAIRIE DU 14E</Mairie gestionnaire>
+		<AP_cp>75014</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE GEORGES BRASSENS</Désignation_longue>
+		<Ap_voie>RUE GASSENDI</Ap_voie>
+		<AP_num>38</AP_num>
+	</element>
+	<element id="131072">
+		<Mairie gestionnaire>MAIRIE DU  4E</Mairie gestionnaire>
+		<AP_cp>75004</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE BAUDOYER</Désignation_longue>
+		<Ap_voie>PLACE BAUDOYER</Ap_voie>
+		<AP_num>2</AP_num>
+	</element>
+	<element id="262144">
+		<Mairie gestionnaire>MAIRIE DU 12E</Mairie gestionnaire>
+		<AP_cp>75012</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE DIDEROT</Désignation_longue>
+		<Ap_voie>AVENUE DAUMESNIL</Ap_voie>
+		<AP_num>42</AP_num>
+	</element>
+	<element id="524288">
+		<Mairie gestionnaire>MAIRIE DU  9E</Mairie gestionnaire>
+		<AP_cp>75009</AP_cp>
+		<AP_cnu>B</AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE CHAPTAL</Désignation_longue>
+		<Ap_voie>RUE CHAPTAL</Ap_voie>
+		<AP_num>26</AP_num>
+	</element>
+	<element id="1048576">
+		<Mairie gestionnaire>MAIRIE DU 20E</Mairie gestionnaire>
+		<AP_cp>75020</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE REUNION</Désignation_longue>
+		<Ap_voie>RUE DES HAIES</Ap_voie>
+		<AP_num>29</AP_num>
+	</element>
+	<element id="2097152">
+		<Mairie gestionnaire>MAIRIE DU 20E</Mairie gestionnaire>
+		<AP_cp>75020</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE SORBIER</Désignation_longue>
+		<Ap_voie>RUE SORBIER</Ap_voie>
+		<AP_num>17</AP_num>
+	</element>
+	<element id="4194304">
+		<Mairie gestionnaire>MAIRIE DU  1ER</Mairie gestionnaire>
+		<AP_cp>75001</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE LA FONTAINE</Désignation_longue>
+		<Ap_voie>RUE RAMBUTEAU</Ap_voie>
+		<AP_num>91</AP_num>
+	</element>
+	<element id="8388608">
+		<Mairie gestionnaire>MAIRIE DU  2E</Mairie gestionnaire>
+		<AP_cp>75002</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE CHARLOTTE BELBO</Désignation_longue>
+		<Ap_voie>PASSAGE DES PETITS PERES</Ap_voie>
+		<AP_num>2</AP_num>
+	</element>
+	<element id="16777216">
+		<Mairie gestionnaire>MAIRIE DU 19E</Mairie gestionnaire>
+		<AP_cp>75019</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE FLANDRE</Désignation_longue>
+		<Ap_voie>AVENUE DE FLANDRE</Ap_voie>
+		<AP_num>35</AP_num>
+	</element>
+	<element id="33554432">
+		<Mairie gestionnaire>MAIRIE DU 18E</Mairie gestionnaire>
+		<AP_cp>75018</AP_cp>
+		<AP_cnu></AP_cnu>
+		<Type d'équipement>Bibliothèque</Type d'équipement>
+		<Désignation_longue>BIBLIOTHEQUE MUNICIPALE MAURICE GENEVOIX</Désignation_longue>
+		<Ap_voie>RUE TRISTAN TZARA</Ap_voie>
+		<AP_num>19</AP_num>
+	</element>
+</root>
