@@ -1,0 +1,13 @@
+<!ELEMENT document (item+)>
+<!ATTLIST document
+          id CDATA #REQUIRED>
+<!ELEMENT item (brewer, gml_id, type_name, beers, osm_id, name)>
+<!ATTLIST item
+          id CDATA #REQUIRED>
+<!ELEMENT brewer (#PCDATA)>
+<!ELEMENT gml_id (#PCDATA)>
+<!ELEMENT type_name (#PCDATA)>
+<!ELEMENT beers (beer+)>
+<!ELEMENT beer (#PCDATA)>
+<!ELEMENT osm_id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>

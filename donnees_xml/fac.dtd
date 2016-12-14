@@ -1,0 +1,15 @@
+<!ELEMENT racine (etablissement+)>
+<!ELEMENT etablissement (ndeg_identifiant, cp?, adresse?, parcelle?, surface_de_la_parcelle?, proprietaire?, occupant?, type?, tutelle_pedagogique?, statut_public_prive_ville_de_paris?, pres?)>
+<!ATTLIST etablissement
+          id CDATA #REQUIRED>
+<!ELEMENT ndeg_identifiant (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT parcelle (#PCDATA)>
+<!ELEMENT surface_de_la_parcelle (#PCDATA)>
+<!ELEMENT proprietaire (#PCDATA)>
+<!ELEMENT occupant (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT tutelle_pedagogique (#PCDATA)>
+<!ELEMENT statut_public_prive_ville_de_paris (#PCDATA)>
+<!ELEMENT pres (#PCDATA)>
