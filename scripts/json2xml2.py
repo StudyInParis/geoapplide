@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json
 import dicttoxml
@@ -40,7 +40,7 @@ def main(input_file, outfile):
 		output.write(xml_file)
 
 if __name__ == '__main__':
-	liste=["annuaire_immobilier_de_l_enseignement_superieur","liste-des-cafes-a-un-euro","quartier_paris"]
+	liste=["annuaire_immobilier_de_l_enseignement_superieur","liste-des-cafes-a-un-euro","quartier_paris", "liste_des_marches_de_quartier_a_paris","cinemas-a-paris"]
 	for fichier in liste:
 		infile="../donnees_brutes/"+fichier+".json"
 		outfile="../donnees_xml/"+fichier+".xml"
