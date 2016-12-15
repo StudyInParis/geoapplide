@@ -1,0 +1,22 @@
+<root>
+	<arrondissement num ="10" loyer_m_carre ="20.34">
+		<elem id="75010_1" type="bar">
+			<long> 4,6541468 </long>
+			<lat> 45,456786 </lat>
+			<adresse> 15, rue du foot</adresse>
+			<nom> A la balle de match </nom>
+		</elem>
+		<elem id="75010_2" type ='bar'>
+			<long> 2,641468 </long>
+			<lat> 36,456786 </lat>
+			<adresse> 45, avenue des stylos</adresse>
+			<nom> Au quatre couleurs </nom>
+		</elem>
+		<elem id="75010_3" type ="bibli">
+			<long> 2,641468 </long>
+			<lat> 36,456786 </lat>
+			<adresse> 45, avenue des stylos</adresse>
+			<nom> Bibliothèque municipale Saint-Messi</nom>
+		</elem>
+	</arrondissement>
+</root>
