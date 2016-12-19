@@ -100,5 +100,6 @@ Récurrente sur tous les fichiers json d'origine
   Tous les XML ont à ce jour été validés par une DTD.
 ## Création d'un fichier XML pivot
 On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.
+# D'abord on formate avec python tous les xml pour qu'ils ressemblent au modèle de xml que l'on veut, puis on les met en commun pour obtenir un seul xml.
 
 ## Réalisation d'un site pour le rendu final
