@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<arrondissement num ="75016">
+		<element id="1" type="bibli">
+			<adresse>20, rue de musset</adresse>
+			<nom>bibliotheque municipale musset</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75008">
+		<element id="2" type="bibli">
+			<adresse>17, avenue beaucour</adresse>
+			<nom>bibliotheque municipale courcelles</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75019">
+		<element id="3" type="bibli">
+			<adresse>6, rue fessart</adresse>
+			<nom>bibliotheque municipale fessart</nom>
+		</element>
+		<element id="4" type="bibli">
+			<adresse>42, rue petit</adresse>
+			<nom>bibliotheque municipale crimee</nom>
+		</element>
+		<element id="5" type="bibli">
+			<adresse>35, avenue de flandre</adresse>
+			<nom>bibliotheque municipale flandre</nom>
+		</element>
+		<element id="6" type="bibli">
+			<adresse>141, avenue de flandre</adresse>
+			<nom>bibliotheque municipale benjamin rabier</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75020">
+		<element id="7" type="bibli">
+			<adresse>109, boulevard mortier</adresse>
+			<nom>bibliotheque municipale mortier</nom>
+		</element>
+		<element id="8" type="bibli">
+			<adresse>29, rue des haies</adresse>
+			<nom>bibliotheque municipale reunion</nom>
+		</element>
+		<element id="9" type="bibli">
+			<adresse>109, rue de bagnolet</adresse>
+			<nom>bibliothãˆque mã‰diathãˆque marguerite duras</nom>
+		</element>
+		<element id="10" type="bibli">
+			<adresse>17, rue sorbier</adresse>
+			<nom>bibliotheque municipale sorbier</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75009">
+		<element id="11" type="bibli">
+			<adresse>26, rue chaptal</adresse>
+			<nom>bibliotheque chaptal</nom>
+		</element>
+		<element id="12" type="bibli">
+			<adresse>11, rue drouot</adresse>
+			<nom>bibliotheque municipale drouot</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75018">
+		<element id="13" type="bibli">
+			<adresse>18, avenue de la porte de montmartre</adresse>
+			<nom>bibliotheque municipale de la porte montmartre</nom>
+		</element>
+		<element id="14" type="bibli">
+			<adresse>19, rue tristan tzara</adresse>
+			<nom>bibliotheque municipale maurice genevoix</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75003">
+		<element id="15" type="bibli">
+			<adresse>8, rue portefoin</adresse>
+			<nom>bibliotheque marguerite audoux</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75014">
+		<element id="16" type="bibli">
+			<adresse>38, rue gassendi</adresse>
+			<nom>bibliotheque municipale georges brassens</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75005">
+		<element id="17" type="bibli">
+			<adresse>6, rue des pretres saint-severin</adresse>
+			<nom>bibliotheque municipale l'heure joyeuse</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75015">
+		<element id="18" type="bibli">
+			<adresse>8, rue de la montagne d'aulas</adresse>
+			<nom>bibliotheque municipale gutenberg</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75017">
+		<element id="19" type="bibli">
+			<adresse>6, rue fourneyron</adresse>
+			<nom>bibliotheque colette vivier</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75001">
+		<element id="20" type="bibli">
+			<adresse>91, rue rambuteau</adresse>
+			<nom>bibliotheque municipale la fontaine</nom>
+		</element>
+		<element id="21" type="bibli">
+			<adresse>4, place du louvre</adresse>
+			<nom>bibliotheque municipale du louvre</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75002">
+		<element id="22" type="bibli">
+			<adresse>2, passage des petits peres</adresse>
+			<nom>bibliotheque municipale charlotte belbo</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75010">
+		<element id="23" type="bibli">
+			<adresse>72, rue du faubourg saint-martin</adresse>
+			<nom>bibliotheque municipale chateau d'eau</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75012">
+		<element id="24" type="bibli">
+			<adresse>42, avenue daumesnil</adresse>
+			<nom>bibliotheque municipale diderot</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75004">
+		<element id="25" type="bibli">
+			<adresse>2, place baudoyer</adresse>
+			<nom>bibliotheque municipale baudoyer</nom>
+		</element>
+		<element id="26" type="bibli">
+			<adresse>21, rue saint-louis en l'ile</adresse>
+			<nom>bibliotheque municipale isle saint-louis</nom>
+		</element>
+	</arrondissement>
+</root>
