@@ -4,604 +4,604 @@
 		<element id="1" type="cinema">
 			<adresse>Place du marché Saint Honoré 75001 Paris, France</adresse>
 			<nom>SAINT HONORE</nom>
-			<lat>48.867218</lat>
-			<long>2.331491</long>
+			<latitude>48.867218</latitude>
+			<longitude>2.331491</longitude>
 		</element>
 		<element id="2" type="cinema">
 			<adresse>Rue Montmartre 75001 Paris, France</adresse>
 			<nom>SAINT EUSTACHE</nom>
-			<lat>48.863922</lat>
-			<long>2.34558</long>
+			<latitude>48.863922</latitude>
+			<longitude>2.34558</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75002">
 		<element id="1" type="cinema">
 			<adresse>Place de la Bourse 75002 Paris, France</adresse>
 			<nom>BOURSE</nom>
-			<lat>48.868584</lat>
-			<long>2.341653</long>
+			<latitude>48.868584</latitude>
+			<longitude>2.341653</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75003">
 		<element id="1" type="cinema">
 			<adresse>33, Rue de Bretagne 75003 Paris, France</adresse>
 			<nom>Enfants rouges</nom>
-			<lat>48.862759</lat>
-			<long>2.36279</long>
+			<latitude>48.862759</latitude>
+			<longitude>2.36279</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75004">
 		<element id="1" type="cinema">
 			<adresse>Place Louis Lépine 75004 Paris, France</adresse>
 			<nom>CITE</nom>
-			<lat>48.855053</lat>
-			<long>2.347416</long>
+			<latitude>48.855053</latitude>
+			<longitude>2.347416</longitude>
 		</element>
 		<element id="2" type="cinema">
-			<adresse>Place Louis Lépine 75004 Paris, France</adresse>
-			<nom>OISEAUX CITE</nom>
-			<lat>48.855053</lat>
-			<long>2.347416</long>
-		</element>
-		<element id="3" type="cinema">
 			<adresse>Place Baudoyer 75004 Paris, France</adresse>
 			<nom>BAUDOYER</nom>
-			<lat>48.856209</lat>
-			<long>2.355425</long>
+			<latitude>48.856209</latitude>
+			<longitude>2.355425</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>Place Louis Lépine 75004 Paris, France</adresse>
+			<nom>OISEAUX CITE</nom>
+			<latitude>48.855053</latitude>
+			<longitude>2.347416</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75005">
 		<element id="1" type="cinema">
 			<adresse>Bd Port Royal 75005 Paris, France</adresse>
 			<nom>PORT ROYAL</nom>
-			<lat>48.837147</lat>
-			<long>2.348437</long>
+			<latitude>48.837147</latitude>
+			<longitude>2.348437</longitude>
 		</element>
 		<element id="2" type="cinema">
-			<adresse>Place Maubert 75005 Paris, France</adresse>
-			<nom>MAUBERT</nom>
-			<lat>48.849846</lat>
-			<long>2.34847</long>
-		</element>
-		<element id="3" type="cinema">
 			<adresse>Place Monge 75005 Paris, France</adresse>
 			<nom>MONGE</nom>
-			<lat>48.843224</lat>
-			<long>2.35144</long>
+			<latitude>48.843224</latitude>
+			<longitude>2.35144</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>Place Maubert 75005 Paris, France</adresse>
+			<nom>MAUBERT</nom>
+			<latitude>48.849846</latitude>
+			<longitude>2.34847</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75006">
 		<element id="1" type="cinema">
 			<adresse>4/8, Rue Lobineau 75006 Paris, France</adresse>
 			<nom>Saint Germain</nom>
-			<lat>48.851711</lat>
-			<long>2.33646</long>
+			<latitude>48.851711</latitude>
+			<longitude>2.33646</longitude>
 		</element>
 		<element id="2" type="cinema">
 			<adresse>Bd Raspail 75006 Paris, France</adresse>
 			<nom>RASPAIL</nom>
-			<lat>48.842701</lat>
-			<long>2.32947</long>
+			<latitude>48.842701</latitude>
+			<longitude>2.32947</longitude>
 		</element>
 		<element id="3" type="cinema">
 			<adresse>Boulevard Raspail 75006 Paris, France</adresse>
 			<nom>RASPAIL</nom>
-			<lat>48.842701</lat>
-			<long>2.32947</long>
+			<latitude>48.842701</latitude>
+			<longitude>2.32947</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75007">
 		<element id="1" type="cinema">
 			<adresse>17 av. de Saxe 75007 Paris, France</adresse>
 			<nom>SAXE BRETEUIL</nom>
-			<lat>48.849121</lat>
-			<long>2.30901</long>
+			<latitude>48.849121</latitude>
+			<longitude>2.30901</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75008">
 		<element id="1" type="cinema">
-			<adresse>1, Rue Corvetto 75008 Paris, France</adresse>
-			<nom>Treilhard</nom>
-			<lat>48.877171</lat>
-			<long>2.31489</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>Boulevard des Batignolles 75008 Paris, France</adresse>
-			<nom>BATIGNOLES</nom>
-			<lat>48.882229</lat>
-			<long>2.321756</long>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>Place de la Madeleine 75008 Paris, France</adresse>
-			<nom>MADELEINE</nom>
-			<lat>48.8708</lat>
-			<long>2.325134</long>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>Avenue de Marigny 75008 Paris, France</adresse>
-			<nom>CARRE MARIGNY</nom>
-			<lat>48.86948</lat>
-			<long>2.31503</long>
-		</element>
-		<element id="5" type="cinema">
 			<adresse>Place de la Madeleine 75008 Paris, France</adresse>
 			<nom>AGUESSEAU</nom>
-			<lat>48.8708</lat>
-			<long>2.325134</long>
+			<latitude>48.8708</latitude>
+			<longitude>2.325134</longitude>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>Place de la Madeleine 75008 Paris, France</adresse>
+			<nom>MADELEINE</nom>
+			<latitude>48.8708</latitude>
+			<longitude>2.325134</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>Avenue de Marigny 75008 Paris, France</adresse>
+			<nom>CARRE MARIGNY</nom>
+			<latitude>48.86948</latitude>
+			<longitude>2.31503</longitude>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>Boulevard des Batignolles 75008 Paris, France</adresse>
+			<nom>BATIGNOLES</nom>
+			<latitude>48.882229</latitude>
+			<longitude>2.321756</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>1, Rue Corvetto 75008 Paris, France</adresse>
+			<nom>Treilhard</nom>
+			<latitude>48.877171</latitude>
+			<longitude>2.31489</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75009">
 		<element id="1" type="cinema">
 			<adresse>Place d'Anvers 75009 Paris, France</adresse>
 			<nom>ANVERS</nom>
-			<lat>48.881874</lat>
-			<long>2.344889</long>
+			<latitude>48.881874</latitude>
+			<longitude>2.344889</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75010">
 		<element id="1" type="cinema">
 			<adresse>85 bis, Bd magenta 75010 Paris, France</adresse>
 			<nom>Saint Quentin</nom>
-			<lat>48.900951</lat>
-			<long>2.39055</long>
+			<latitude>48.900951</latitude>
+			<longitude>2.39055</longitude>
 		</element>
 		<element id="2" type="cinema">
-			<adresse>31/33, Rue du Château d'Eau 75010 Paris, France</adresse>
-			<nom>Saint Martin</nom>
-			<lat>48.870998</lat>
-			<long>2.35856</long>
-		</element>
-		<element id="3" type="cinema">
 			<adresse>rue Alibert 75010 Paris, France</adresse>
 			<nom>ALIBERT</nom>
-			<lat>48.871651</lat>
-			<long>2.367655</long>
+			<latitude>48.871651</latitude>
+			<longitude>2.367655</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>31/33, Rue du Château d'Eau 75010 Paris, France</adresse>
+			<nom>Saint Martin</nom>
+			<latitude>48.870998</latitude>
+			<longitude>2.35856</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75011">
 		<element id="1" type="cinema">
 			<adresse>boulevard Richard Lenoir 75011 Paris, France</adresse>
 			<nom>BASTILLE</nom>
-			<lat>48.860321</lat>
-			<long>2.372673</long>
+			<latitude>48.860321</latitude>
+			<longitude>2.372673</longitude>
 		</element>
 		<element id="2" type="cinema">
 			<adresse>Bd Richard Lenoir 75011 Paris, France</adresse>
 			<nom>POPINCOURT</nom>
-			<lat>48.860321</lat>
-			<long>2.372673</long>
+			<latitude>48.860321</latitude>
+			<longitude>2.372673</longitude>
 		</element>
 		<element id="3" type="cinema">
 			<adresse>Bd de Ménilmontant 75011 Paris, France</adresse>
 			<nom>PERE LACHAISE</nom>
-			<lat>48.862064</lat>
-			<long>2.387661</long>
+			<latitude>48.862064</latitude>
+			<longitude>2.387661</longitude>
 		</element>
 		<element id="4" type="cinema">
-			<adresse>Bd de Belleville 75011 Paris, France</adresse>
-			<nom>BELLEVILLE</nom>
-			<lat>48.869495</lat>
-			<long>2.379707</long>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>Bd Richard Lenoir 75011 Paris, France</adresse>
-			<nom>BASTILLE</nom>
-			<lat>48.860321</lat>
-			<long>2.372673</long>
-		</element>
-		<element id="6" type="cinema">
 			<adresse>Bd de Charonne 75011 Paris, France</adresse>
 			<nom>CHARONNE</nom>
-			<lat>48.854843</lat>
-			<long>2.395497</long>
+			<latitude>48.854843</latitude>
+			<longitude>2.395497</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>Bd de Belleville 75011 Paris, France</adresse>
+			<nom>BELLEVILLE</nom>
+			<latitude>48.869495</latitude>
+			<longitude>2.379707</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>Bd Richard Lenoir 75011 Paris, France</adresse>
+			<nom>BASTILLE</nom>
+			<latitude>48.860321</latitude>
+			<longitude>2.372673</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75012">
 		<element id="1" type="cinema">
-			<adresse>Place Lachambeaudie 75012 Paris, France</adresse>
-			<nom>BERCY</nom>
-			<lat>48.836254</lat>
-			<long>2.387412</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>Place d'Aligre 75012 Paris, France</adresse>
-			<nom>Beauvau</nom>
-			<lat>48.84927</lat>
-			<long>2.377525</long>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>36/38 rue de Neuilly 75012 Paris, France</adresse>
-			<nom>SAINT ELOI</nom>
-			<lat>48.846168</lat>
-			<long>2.38793</long>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>Bd Picpus 75012 Paris, France</adresse>
-			<nom>COURS DE VINCENNES</nom>
-			<lat>48.839699</lat>
-			<long>2.40026</long>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>91 Bd Poniatowski 75012 Paris, France</adresse>
-			<nom>PORTE DOREE</nom>
-			<lat>48.83395</lat>
-			<long>2.40374</long>
-		</element>
-		<element id="6" type="cinema">
 			<adresse>Av. Ledru Rollin 75012 Paris, France</adresse>
 			<nom>LEDRU ROLLIN</nom>
-			<lat>48.848144</lat>
-			<long>2.371697</long>
+			<latitude>48.848144</latitude>
+			<longitude>2.371697</longitude>
 		</element>
-		<element id="7" type="cinema">
-			<adresse>Rue de Reuilly 75012 Paris, France</adresse>
-			<nom>DAUMESNIL</nom>
-			<lat>48.844673</lat>
-			<long>2.389714</long>
+		<element id="2" type="cinema">
+			<adresse>Place Lachambeaudie 75012 Paris, France</adresse>
+			<nom>BERCY</nom>
+			<latitude>48.836254</latitude>
+			<longitude>2.387412</longitude>
 		</element>
-		<element id="8" type="cinema">
+		<element id="3" type="cinema">
+			<adresse>Bd Picpus 75012 Paris, France</adresse>
+			<nom>COURS DE VINCENNES</nom>
+			<latitude>48.839699</latitude>
+			<longitude>2.40026</longitude>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>91 Bd Poniatowski 75012 Paris, France</adresse>
+			<nom>PORTE DOREE</nom>
+			<latitude>48.83395</latitude>
+			<longitude>2.40374</longitude>
+		</element>
+		<element id="5" type="cinema">
 			<adresse>Place d'Aligre 75012 Paris, France</adresse>
 			<nom>BEAUVAU</nom>
-			<lat>48.84927</lat>
-			<long>2.377525</long>
+			<latitude>48.84927</latitude>
+			<longitude>2.377525</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>Place d'Aligre 75012 Paris, France</adresse>
+			<nom>Beauvau</nom>
+			<latitude>48.84927</latitude>
+			<longitude>2.377525</longitude>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>36/38 rue de Neuilly 75012 Paris, France</adresse>
+			<nom>SAINT ELOI</nom>
+			<latitude>48.846168</latitude>
+			<longitude>2.38793</longitude>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>Rue de Reuilly 75012 Paris, France</adresse>
+			<nom>DAUMESNIL</nom>
+			<latitude>48.844673</latitude>
+			<longitude>2.389714</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75013">
 		<element id="1" type="cinema">
-			<adresse>place de Rungis 75013 Paris, France</adresse>
-			<nom>BOBILLOT</nom>
-			<lat>48.822304</lat>
-			<long>2.346452</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>64 Bd Vincent Auriol 75013 Paris, France</adresse>
-			<nom>VINCENT AURIOL</nom>
-			<lat>48.834549</lat>
-			<long>2.36646</long>
-		</element>
-		<element id="3" type="cinema">
 			<adresse>Place Jeanne d'Arc 75013 Paris, France</adresse>
 			<nom>JEANNE D'ARC</nom>
-			<lat>48.829582</lat>
-			<long>2.367818</long>
+			<latitude>48.829582</latitude>
+			<longitude>2.367818</longitude>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>Bd de l'Hôpital 75013 Paris, France</adresse>
+			<nom>SALPETRIERE</nom>
+			<latitude>48.833721</latitude>
+			<longitude>2.357179</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>Rue de la Glacière 75013 Paris, France</adresse>
+			<nom>ALESIA</nom>
+			<latitude>48.831753</latitude>
+			<longitude>2.344348</longitude>
 		</element>
 		<element id="4" type="cinema">
 			<adresse>Av. d'Italie 75013 Paris, France</adresse>
 			<nom>MAISON BLANCHE</nom>
-			<lat>48.825085</lat>
-			<long>2.357587</long>
+			<latitude>48.825085</latitude>
+			<longitude>2.357587</longitude>
 		</element>
 		<element id="5" type="cinema">
-			<adresse>Rue Jean Anouilh 75013 Paris, France</adresse>
-			<nom>PARIS RIVE GAUCHE</nom>
-			<lat>48.831783</lat>
-			<long>2.377777</long>
-		</element>
-		<element id="6" type="cinema">
 			<adresse>Bd Auguste Blanqui 75013 Paris, France</adresse>
 			<nom>AUGUSTE BLANQUI</nom>
-			<lat>48.829708</lat>
-			<long>2.348003</long>
+			<latitude>48.829708</latitude>
+			<longitude>2.348003</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>64 Bd Vincent Auriol 75013 Paris, France</adresse>
+			<nom>VINCENT AURIOL</nom>
+			<latitude>48.834549</latitude>
+			<longitude>2.36646</longitude>
 		</element>
 		<element id="7" type="cinema">
-			<adresse>Rue de la Glacière 75013 Paris, France</adresse>
-			<nom>ALESIA</nom>
-			<lat>48.831753</lat>
-			<long>2.344348</long>
+			<adresse>place de Rungis 75013 Paris, France</adresse>
+			<nom>BOBILLOT</nom>
+			<latitude>48.822304</latitude>
+			<longitude>2.346452</longitude>
 		</element>
 		<element id="8" type="cinema">
-			<adresse>Bd de l'Hôpital 75013 Paris, France</adresse>
-			<nom>SALPETRIERE</nom>
-			<lat>48.833721</lat>
-			<long>2.357179</long>
+			<adresse>Rue Jean Anouilh 75013 Paris, France</adresse>
+			<nom>PARIS RIVE GAUCHE</nom>
+			<latitude>48.831783</latitude>
+			<longitude>2.377777</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75014">
 		<element id="1" type="cinema">
-			<adresse>Avenue Georges Lafenestre 75014 Paris, France</adresse>
-			<nom>PORTE DE VANVES</nom>
-			<lat>48.82478</lat>
-			<long>2.310537</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>av. Villemain 75014 Paris, France</adresse>
-			<nom>VILLEMAIN</nom>
-			<lat>48.831863</lat>
-			<long>2.316691</long>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>71 du Boulevard Brune 75014 Paris, France</adresse>
-			<nom>BRUNE</nom>
-			<lat>48.826359</lat>
-			<long>2.31172</long>
-		</element>
-		<element id="4" type="cinema">
 			<adresse>boulevard Edgar Quinet 75014 Paris, France</adresse>
 			<nom>EDGAR QUINET</nom>
-			<lat>48.841908</lat>
-			<long>2.322674</long>
+			<latitude>48.841908</latitude>
+			<longitude>2.322674</longitude>
 		</element>
-		<element id="5" type="cinema">
-			<adresse>Bd Edgar Quinet 75014 Paris, France</adresse>
-			<nom>EDGAR QUINET</nom>
-			<lat>48.841908</lat>
-			<long>2.322674</long>
+		<element id="2" type="cinema">
+			<adresse>71 du Boulevard Brune 75014 Paris, France</adresse>
+			<nom>BRUNE</nom>
+			<latitude>48.826359</latitude>
+			<longitude>2.31172</longitude>
 		</element>
-		<element id="6" type="cinema">
+		<element id="3" type="cinema">
 			<adresse>Place Jacques Demy 75014 Paris, France</adresse>
 			<nom>MOUTON DUVERNET</nom>
-			<lat>48.831882</lat>
-			<long>2.327286</long>
+			<latitude>48.831882</latitude>
+			<longitude>2.327286</longitude>
 		</element>
-		<element id="7" type="cinema">
+		<element id="4" type="cinema">
 			<adresse>Place Constantin Brancusi 75014 Paris, France</adresse>
 			<nom>BRANCUSI</nom>
-			<lat>48.83699</lat>
-			<long>2.320652</long>
+			<latitude>48.83699</latitude>
+			<longitude>2.320652</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>av. Villemain 75014 Paris, France</adresse>
+			<nom>VILLEMAIN</nom>
+			<latitude>48.831863</latitude>
+			<longitude>2.316691</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>Bd Edgar Quinet 75014 Paris, France</adresse>
+			<nom>EDGAR QUINET</nom>
+			<latitude>48.841908</latitude>
+			<longitude>2.322674</longitude>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>Avenue Georges Lafenestre 75014 Paris, France</adresse>
+			<nom>PORTE DE VANVES</nom>
+			<latitude>48.82478</latitude>
+			<longitude>2.310537</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75015">
 		<element id="1" type="cinema">
-			<adresse>Place Jacques Marette 75015 Paris, France</adresse>
-			<nom>GEORGES BRASSENS</nom>
-			<lat>48.832939</lat>
-			<long>2.300754</long>
-		</element>
-		<element id="2" type="cinema">
 			<adresse>Rue Barque 75015 Paris, France</adresse>
 			<nom>CERVANTES</nom>
-			<lat>48.838577</lat>
-			<long>2.307954</long>
+			<latitude>48.838577</latitude>
+			<longitude>2.307954</longitude>
 		</element>
-		<element id="3" type="cinema">
-			<adresse>Bd Lefebvre 75015 Paris, France</adresse>
-			<nom>LEFEBVRE</nom>
-			<lat>48.830219</lat>
-			<long>2.294734</long>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>Bd de Grenelle 75015 Paris, France</adresse>
-			<nom>GRENELLE</nom>
-			<lat>48.849007</lat>
-			<long>2.297894</long>
-		</element>
-		<element id="5" type="cinema">
+		<element id="2" type="cinema">
 			<adresse>Rue de la convention 75015 Paris, France</adresse>
 			<nom>CONVENTION</nom>
-			<lat>48.84034</lat>
-			<long>2.289562</long>
+			<latitude>48.84034</latitude>
+			<longitude>2.289562</longitude>
 		</element>
-		<element id="6" type="cinema">
+		<element id="3" type="cinema">
+			<adresse>Bd de Grenelle 75015 Paris, France</adresse>
+			<nom>GRENELLE</nom>
+			<latitude>48.849007</latitude>
+			<longitude>2.297894</longitude>
+		</element>
+		<element id="4" type="cinema">
 			<adresse>rue Saint Charles 75015 Paris, France</adresse>
 			<nom>SAINT CHARLES</nom>
-			<lat>48.844807</lat>
-			<long>2.283913</long>
+			<latitude>48.844807</latitude>
+			<longitude>2.283913</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>Bd Lefebvre 75015 Paris, France</adresse>
+			<nom>LEFEBVRE</nom>
+			<latitude>48.830219</latitude>
+			<longitude>2.294734</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>Place Jacques Marette 75015 Paris, France</adresse>
+			<nom>GEORGES BRASSENS</nom>
+			<latitude>48.832939</latitude>
+			<longitude>2.300754</longitude>
 		</element>
 		<element id="7" type="cinema">
-			<adresse>Rue Lecourbe 75015 Paris, France</adresse>
-			<nom>LECOURBE</nom>
-			<lat>48.84174</lat>
-			<long>2.299723</long>
-		</element>
-		<element id="8" type="cinema">
 			<adresse>place Jacques Marette 75015 Paris, France</adresse>
 			<nom>BRASSENS</nom>
-			<lat>48.832939</lat>
-			<long>2.300754</long>
+			<latitude>48.832939</latitude>
+			<longitude>2.300754</longitude>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>Rue Lecourbe 75015 Paris, France</adresse>
+			<nom>LECOURBE</nom>
+			<latitude>48.84174</latitude>
+			<longitude>2.299723</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75016">
 		<element id="1" type="cinema">
-			<adresse>Av. de Versailles 75016 Paris, France</adresse>
-			<nom>POINT DU JOUR</nom>
-			<lat>48.842896</lat>
-			<long>2.269147</long>
+			<adresse>Bd de l'Amiral Bruix 75016 Paris, France</adresse>
+			<nom>AMIRAL BRUIX</nom>
+			<latitude>48.873657</latitude>
+			<longitude>2.277084</longitude>
 		</element>
 		<element id="2" type="cinema">
 			<adresse>rue Mesnil 75016 Paris, France</adresse>
 			<nom>Saint Didier</nom>
-			<lat>48.867481</lat>
-			<long>2.28389</long>
+			<latitude>48.867481</latitude>
+			<longitude>2.28389</longitude>
 		</element>
 		<element id="3" type="cinema">
 			<adresse>rue saint didier 75016 Paris, France</adresse>
 			<nom>Saint Didier</nom>
-			<lat>48.866558</lat>
-			<long>2.285194</long>
+			<latitude>48.866558</latitude>
+			<longitude>2.285194</longitude>
 		</element>
 		<element id="4" type="cinema">
-			<adresse>porte de Molitor 75016 Paris, France</adresse>
-			<nom>PORTE MOLITOR</nom>
-			<lat>48.845253</lat>
-			<long>2.26139</long>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>Place Jean Lorrain 75016 Paris, France</adresse>
-			<nom>AUTEUIL</nom>
-			<lat>48.848042</lat>
-			<long>2.264235</long>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>1, Rue Bois le Vent 75016 Paris, France</adresse>
-			<nom>Passy</nom>
-			<lat>48.85759</lat>
-			<long>2.27728</long>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>Av. du Président Wilson 75016 Paris, France</adresse>
-			<nom>PRESIDENT WILSON</nom>
-			<lat>48.864792</lat>
-			<long>2.29573</long>
-		</element>
-		<element id="8" type="cinema">
 			<adresse>Rue Gros 75016 Paris, France</adresse>
 			<nom>GROS LA FONTAINE</nom>
-			<lat>48.851238</lat>
-			<long>2.275908</long>
+			<latitude>48.851238</latitude>
+			<longitude>2.275908</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>Av. de Versailles 75016 Paris, France</adresse>
+			<nom>POINT DU JOUR</nom>
+			<latitude>48.842896</latitude>
+			<longitude>2.269147</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>Av. du Président Wilson 75016 Paris, France</adresse>
+			<nom>PRESIDENT WILSON</nom>
+			<latitude>48.864792</latitude>
+			<longitude>2.29573</longitude>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>porte de Molitor 75016 Paris, France</adresse>
+			<nom>PORTE MOLITOR</nom>
+			<latitude>48.845253</latitude>
+			<longitude>2.26139</longitude>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>1, Rue Bois le Vent 75016 Paris, France</adresse>
+			<nom>Passy</nom>
+			<latitude>48.85759</latitude>
+			<longitude>2.27728</longitude>
 		</element>
 		<element id="9" type="cinema">
-			<adresse>Bd de l'Amiral Bruix 75016 Paris, France</adresse>
-			<nom>AMIRAL BRUIX</nom>
-			<lat>48.873657</lat>
-			<long>2.277084</long>
+			<adresse>Place Jean Lorrain 75016 Paris, France</adresse>
+			<nom>AUTEUIL</nom>
+			<latitude>48.848042</latitude>
+			<longitude>2.264235</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75017">
 		<element id="1" type="cinema">
-			<adresse>Rue Navier 75017 Paris, France</adresse>
-			<nom>NAVIER</nom>
-			<lat>48.895794</lat>
-			<long>2.325054</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>place des Ternes 75017 Paris, France</adresse>
-			<nom>TERNES</nom>
-			<lat>48.878384</lat>
-			<long>2.297886</long>
-		</element>
-		<element id="3" type="cinema">
 			<adresse>8bis, Rue Lebon 75017 Paris, France</adresse>
 			<nom>Ternes</nom>
-			<lat>48.88081</lat>
-			<long>2.29225</long>
+			<latitude>48.88081</latitude>
+			<longitude>2.29225</longitude>
 		</element>
-		<element id="4" type="cinema">
-			<adresse>96bis, Rue Lemercier 75017 Paris, France</adresse>
-			<nom>Batignolles</nom>
-			<lat>48.88916</lat>
-			<long>2.31921</long>
+		<element id="2" type="cinema">
+			<adresse>Rue Navier 75017 Paris, France</adresse>
+			<nom>NAVIER</nom>
+			<latitude>48.895794</latitude>
+			<longitude>2.325054</longitude>
 		</element>
-		<element id="5" type="cinema">
+		<element id="3" type="cinema">
 			<adresse>Bd de Reims 75017 Paris, France</adresse>
 			<nom>BERTHIER</nom>
-			<lat>48.88971</lat>
-			<long>2.29816</long>
+			<latitude>48.88971</latitude>
+			<longitude>2.29816</longitude>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>place des Ternes 75017 Paris, France</adresse>
+			<nom>TERNES</nom>
+			<latitude>48.878384</latitude>
+			<longitude>2.297886</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>96bis, Rue Lemercier 75017 Paris, France</adresse>
+			<nom>Batignolles</nom>
+			<latitude>48.88916</latitude>
+			<longitude>2.31921</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75018">
 		<element id="1" type="cinema">
-			<adresse>stade Bertrand Dauvin 75018 Paris, France</adresse>
-			<nom>PORTE DE CLIGNANCOURT</nom>
-			<lat>48.89994</lat>
-			<long>2.360344</long>
-		</element>
-		<element id="2" type="cinema">
 			<adresse>Bd de la Chapelle 75018 Paris, France</adresse>
 			<nom>BARBES</nom>
-			<lat>48.884376</lat>
-			<long>2.357139</long>
+			<latitude>48.884376</latitude>
+			<longitude>2.357139</longitude>
 		</element>
-		<element id="3" type="cinema">
+		<element id="2" type="cinema">
 			<adresse>Rue Jean Henri Fabre 75018 Paris, France</adresse>
 			<nom>JEAN-HENRI FABRE</nom>
-			<lat>48.901196</lat>
-			<long>2.339584</long>
+			<latitude>48.901196</latitude>
+			<longitude>2.339584</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>stade Bertrand Dauvin 75018 Paris, France</adresse>
+			<nom>PORTE DE CLIGNANCOURT</nom>
+			<latitude>48.89994</latitude>
+			<longitude>2.360344</longitude>
 		</element>
 		<element id="4" type="cinema">
 			<adresse>Bd Ornano 75018 Paris, France</adresse>
 			<nom>ORNANO</nom>
-			<lat>48.894806</lat>
-			<long>2.346985</long>
+			<latitude>48.894806</latitude>
+			<longitude>2.346985</longitude>
 		</element>
 		<element id="5" type="cinema">
-			<adresse>10, Rue de l'Olive 75018 Paris, France</adresse>
-			<nom>La Chapelle</nom>
-			<lat>48.890949</lat>
-			<long>2.36125</long>
-		</element>
-		<element id="6" type="cinema">
 			<adresse>rue Montcalm 75018 Paris, France</adresse>
 			<nom>ORDENER</nom>
-			<lat>48.893135</lat>
-			<long>2.337854</long>
+			<latitude>48.893135</latitude>
+			<longitude>2.337854</longitude>
 		</element>
-		<element id="7" type="cinema">
+		<element id="6" type="cinema">
 			<adresse>Bd Ney 75018 Paris, France</adresse>
 			<nom>NEY</nom>
-			<lat>48.898109</lat>
-			<long>2.346444</long>
+			<latitude>48.898109</latitude>
+			<longitude>2.346444</longitude>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>10, Rue de l'Olive 75018 Paris, France</adresse>
+			<nom>La Chapelle</nom>
+			<latitude>48.890949</latitude>
+			<longitude>2.36125</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75019">
 		<element id="1" type="cinema">
-			<adresse>41  BD de la Villette 75019 Paris, France</adresse>
-			<nom>VILLETTE</nom>
-			<lat>48.874821</lat>
-			<long>2.37364</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>Place de Joinville 75019 Paris, France</adresse>
-			<nom>JOINVILLE</nom>
-			<lat>48.88953</lat>
-			<long>2.380587</long>
-		</element>
-		<element id="3" type="cinema">
 			<adresse>Avenue Jean Jaurès 75019 Paris, France</adresse>
 			<nom>JEAN JAURES</nom>
-			<lat>48.885334</lat>
-			<long>2.380161</long>
+			<latitude>48.885334</latitude>
+			<longitude>2.380161</longitude>
 		</element>
-		<element id="4" type="cinema">
+		<element id="2" type="cinema">
 			<adresse>Av. de la porte brunet entre Bd Sérurier et Bd d'Algérie 75019 Paris, France</adresse>
 			<nom>PORTE BRUNET</nom>
-			<lat>48.883602</lat>
-			<long>2.39669</long>
+			<latitude>48.883602</latitude>
+			<longitude>2.39669</longitude>
 		</element>
-		<element id="5" type="cinema">
-			<adresse>Place de fêtes 75019 Paris, France</adresse>
-			<nom>PLACE DES FETES</nom>
-			<lat>48.876877</lat>
-			<long>2.394077</long>
-		</element>
-		<element id="6" type="cinema">
+		<element id="3" type="cinema">
 			<adresse>Rue de Crimée 75019 Paris, France</adresse>
 			<nom>CRIMEE CURIAL</nom>
-			<lat>48.890575</lat>
-			<long>2.376821</long>
+			<latitude>48.890575</latitude>
+			<longitude>2.376821</longitude>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>Place de fêtes 75019 Paris, France</adresse>
+			<nom>PLACE DES FETES</nom>
+			<latitude>48.876877</latitude>
+			<longitude>2.394077</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>41  BD de la Villette 75019 Paris, France</adresse>
+			<nom>VILLETTE</nom>
+			<latitude>48.874821</latitude>
+			<longitude>2.37364</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>Place de Joinville 75019 Paris, France</adresse>
+			<nom>JOINVILLE</nom>
+			<latitude>48.88953</latitude>
+			<longitude>2.380587</longitude>
 		</element>
 	</arrondissement>
 	<arrondissement num="75020">
 		<element id="1" type="cinema">
-			<adresse>Place de la Réunion 75020 Paris, France</adresse>
-			<nom>REUNION</nom>
-			<lat>48.855915</lat>
-			<long>2.401336</long>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>Bd mortier 75020 Paris, France</adresse>
-			<nom>MORTIER</nom>
-			<lat>48.871048</lat>
-			<long>2.408707</long>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>place Edith Piaf 75020 Paris, France</adresse>
-			<nom>BELGRAND</nom>
-			<lat>48.864788</lat>
-			<long>2.40475</long>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>Avenue du Professeur André Lemierre 75020 Paris, France</adresse>
-			<nom>Porte de Montreuil</nom>
-			<lat>48.85669</lat>
-			<long>2.414918</long>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>rue de Belleville 75020 Paris, France</adresse>
-			<nom>TELEGRAPHE</nom>
-			<lat>48.873676</lat>
-			<long>2.3846</long>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>Rue des Pyrénées 75020 Paris, France</adresse>
-			<nom>PYRENEES</nom>
-			<lat>48.856949</lat>
-			<long>2.404425</long>
-		</element>
-		<element id="7" type="cinema">
 			<adresse>Bd  Davout 75020 Paris, France</adresse>
 			<nom>DAVOUT</nom>
-			<lat>48.856007</lat>
-			<long>2.410118</long>
+			<latitude>48.856007</latitude>
+			<longitude>2.410118</longitude>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>Avenue du Professeur André Lemierre 75020 Paris, France</adresse>
+			<nom>Porte de Montreuil</nom>
+			<latitude>48.85669</latitude>
+			<longitude>2.414918</longitude>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>rue de Belleville 75020 Paris, France</adresse>
+			<nom>TELEGRAPHE</nom>
+			<latitude>48.873676</latitude>
+			<longitude>2.3846</longitude>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>Bd mortier 75020 Paris, France</adresse>
+			<nom>MORTIER</nom>
+			<latitude>48.871048</latitude>
+			<longitude>2.408707</longitude>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>Rue des Pyrénées 75020 Paris, France</adresse>
+			<nom>PYRENEES</nom>
+			<latitude>48.856949</latitude>
+			<longitude>2.404425</longitude>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>place Edith Piaf 75020 Paris, France</adresse>
+			<nom>BELGRAND</nom>
+			<latitude>48.864788</latitude>
+			<longitude>2.40475</longitude>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>Place de la Réunion 75020 Paris, France</adresse>
+			<nom>REUNION</nom>
+			<latitude>48.855915</latitude>
+			<longitude>2.401336</longitude>
 		</element>
 	</arrondissement>
 </root>

@@ -118,9 +118,9 @@ def writeInFile(dic, outfilename):
 					# f.write("""\t\t\t<coordonnees>\n""")
 					for coord in infos["coordonnees"]:
 						if float(coord) < 10:
-							f.write("""\t\t\t<long>{}</long>\n""".format(coord))
+							f.write("""\t\t\t<longitude>{}</longitude>\n""".format(coord))
 						else:
-							f.write("""\t\t\t<lat>{}</lat>\n""".format(coord))
+							f.write("""\t\t\t<latitude>{}</latitude>\n""".format(coord))
 					# f.write("""\t\t\t</coordonnees>\n""")
 					f.write("""\t\t</element>\n""")
 				else:
