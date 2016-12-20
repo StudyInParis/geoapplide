@@ -1,7 +1,6 @@
 #! coding:utf-8
 import sys
 import math
-import re
 from pprint import pprint
 fic = open("../donnees_xml/Bibliotheque.xml","r")
 out = open("../donnees_xml/Bibliotheque_modele.xml","w")
