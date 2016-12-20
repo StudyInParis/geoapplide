@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<arrondissement num="75001">
+		<element id="1" type="cinema">
+			<adresse>FORUM DES HALLES</adresse>
+			<nom>UGC CINE CITE LES HALLES 1</nom>
+			<coordonnees>
+				<lat>48.859785</lat>
+				<long>2.346716</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>1 RUE DE L'ORIENT-EXPRESS</adresse>
+			<nom>FORUM ORIENT EXPRESS 1</nom>
+			<coordonnees>
+				<lat>48.861661</lat>
+				<long>2.347857</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75002">
+		<element id="1" type="cinema">
+			<adresse>32 RUE LOUIS LEGRAND</adresse>
+			<nom>GAUMONT OPERA PREMIER 1</nom>
+			<coordonnees>
+				<lat>48.870632</lat>
+				<long>2.334338</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>1 A 5 BOULEVARD POISSONNIERE</adresse>
+			<nom>GRAND REX</nom>
+			<coordonnees>
+				<lat>48.870623</lat>
+				<long>2.347254</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>14 RUE VILLE NEUVE 31 BOULEVARD BONNE NLL</adresse>
+			<nom>BEVERLEY</nom>
+			<coordonnees>
+				<lat>48.8701164</lat>
+				<long>2.3486831</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75003">
+		<element id="1" type="cinema">
+			<adresse>50 RUE RAMBUTEAU</adresse>
+			<nom>MK2 BEAUBOURG 1</nom>
+			<coordonnees>
+				<lat>48.861555</lat>
+				<long>2.352217</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75004">
+		<element id="1" type="cinema">
+			<adresse>20 RUE DU TEMPLE</adresse>
+			<nom>LATINA 1</nom>
+			<coordonnees>
+				<lat>48.858689</lat>
+				<long>2.353591</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75005">
+		<element id="1" type="cinema">
+			<adresse>100 RUE MOUFFETARD</adresse>
+			<nom>EPEE DE BOIS 1</nom>
+			<coordonnees>
+				<lat>48.841535</lat>
+				<long>2.34958</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>5 RUE DES ECOLES</adresse>
+			<nom>LE GRAND ACTION 1</nom>
+			<coordonnees>
+				<lat>48.847537</lat>
+				<long>2.352122</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>7 PLACE ST MICHEL</adresse>
+			<nom>ESPACE SAINT MICHEL 1</nom>
+			<coordonnees>
+				<lat>48.853093</lat>
+				<long>2.344228</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>10 RUE DES URSULINES</adresse>
+			<nom>STUDIO DES URSULINES</nom>
+			<coordonnees>
+				<lat>48.842733</lat>
+				<long>2.342044</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>21 RUE CLEF 34 RUE DAUBENTON</adresse>
+			<nom>LA CLEF 1</nom>
+			<coordonnees>
+				<lat>48.841154</lat>
+				<long>2.353269</long>
+			</coordonnees>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>42 RUE GALANDE</adresse>
+			<nom>STUDIO GALANDE</nom>
+			<coordonnees>
+				<lat>48.851619</lat>
+				<long>2.347076</long>
+			</coordonnees>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>9 RUE CHAMPOLLION</adresse>
+			<nom>QUARTIER LATIN 1</nom>
+			<coordonnees>
+				<lat>48.849504</lat>
+				<long>2.342788</long>
+			</coordonnees>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>23 RUE DES ECOLES</adresse>
+			<nom>LE DESPERADO 1</nom>
+			<coordonnees>
+				<lat>48.848384</lat>
+				<long>2.348973</long>
+			</coordonnees>
+		</element>
+		<element id="9" type="cinema">
+			<adresse>13 RUE VICTOR COUSIN</adresse>
+			<nom>LE CINEMA DU PANTHEON</nom>
+			<coordonnees>
+				<lat>48.847502</lat>
+				<long>2.342301</long>
+			</coordonnees>
+		</element>
+		<element id="10" type="cinema">
+			<adresse>20 RUE CUJAS</adresse>
+			<nom>ACCATONE</nom>
+			<coordonnees>
+				<lat>48.84815</lat>
+				<long>2.341975</long>
+			</coordonnees>
+		</element>
+		<element id="11" type="cinema">
+			<adresse>7 RUE CHAMPOLLION</adresse>
+			<nom>REFLET MEDICIS 1</nom>
+			<coordonnees>
+				<lat>48.849591</lat>
+				<long>2.342836</long>
+			</coordonnees>
+		</element>
+		<element id="12" type="cinema">
+			<adresse>51 RUE DES ECOLES</adresse>
+			<nom>LE CHAMPO SALLE 1</nom>
+			<coordonnees>
+				<lat>48.849983</lat>
+				<long>2.343211</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75006">
+		<element id="1" type="cinema">
+			<adresse>4 RUE CHRISTINE</adresse>
+			<nom>STUDIO CHRISTINE 1</nom>
+			<coordonnees>
+				<lat>48.854455</lat>
+				<long>2.340132</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>3O RUE ST ANDRE DES ARTS</adresse>
+			<nom>SAINT ANDRE DES ARTS 1</nom>
+			<coordonnees>
+				<lat>48.853442</lat>
+				<long>2.340503</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>113 BOULEVARD ST GERMAIN</adresse>
+			<nom>MK2 ODEON 2</nom>
+			<coordonnees>
+				<lat>48.852437</lat>
+				<long>2.338266</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>83 BOULEVARDD DU MONTPARNASSE</adresse>
+			<nom>UGC MONTPARNASSE 1</nom>
+			<coordonnees>
+				<lat>48.84351</lat>
+				<long>2.325646</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>103 BOULEVARD DU MONTPARNASSE</adresse>
+			<nom>UGC ROTONDE 1</nom>
+			<coordonnees>
+				<lat>48.842318</lat>
+				<long>2.328975</long>
+			</coordonnees>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>6 RUE DE L ECOLE DE MEDECINE</adresse>
+			<nom>NOUVEL ODEON</nom>
+			<coordonnees>
+				<lat>48.850764</lat>
+				<long>2.341747</long>
+			</coordonnees>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>76 RUE DE RENNES</adresse>
+			<nom>L'ARLEQUIN PANORAMA</nom>
+			<coordonnees>
+				<lat>48.851278</lat>
+				<long>2.330648</long>
+			</coordonnees>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>7 RUE HAUTEFEUILLE</adresse>
+			<nom>MK2 HAUTEFEUILLE 1</nom>
+			<coordonnees>
+				<lat>48.852188</lat>
+				<long>2.342788</long>
+			</coordonnees>
+		</element>
+		<element id="9" type="cinema">
+			<adresse>53 RUE NOTRE DAME DES CHAMPS</adresse>
+			<nom>LUCERNAIRE FORUM GRANDE SAL</nom>
+			<coordonnees>
+				<lat>48.844244</lat>
+				<long>2.330407</long>
+			</coordonnees>
+		</element>
+		<element id="10" type="cinema">
+			<adresse>22 RUE GUILLAUME APOLLINAIRE</adresse>
+			<nom>ST GERMAIN DES PRES</nom>
+			<coordonnees>
+				<lat>48.85467</lat>
+				<long>2.333052</long>
+			</coordonnees>
+		</element>
+		<element id="11" type="cinema">
+			<adresse>124 BOULEVARD ST GERMAIN</adresse>
+			<nom>UGC ODEON 2</nom>
+			<coordonnees>
+				<lat>48.852353</lat>
+				<long>2.339834</long>
+			</coordonnees>
+		</element>
+		<element id="12" type="cinema">
+			<adresse>99 BOULEVARD ST GERMAIN</adresse>
+			<nom>UGC DANTON 1</nom>
+			<coordonnees>
+				<lat>48.852138</lat>
+				<long>2.338995</long>
+			</coordonnees>
+		</element>
+		<element id="13" type="cinema">
+			<adresse>73 BOULEVARD DU MONTPARNASSE</adresse>
+			<nom>BRETAGNE 1</nom>
+			<coordonnees>
+				<lat>48.843752</lat>
+				<long>2.324925</long>
+			</coordonnees>
+		</element>
+		<element id="14" type="cinema">
+			<adresse>11 RUE JULES CHAPLAIN</adresse>
+			<nom>MK2 PARNASSE 1</nom>
+			<coordonnees>
+				<lat>48.842813</lat>
+				<long>2.330525</long>
+			</coordonnees>
+		</element>
+		<element id="15" type="cinema">
+			<adresse>67 69 RUE MONSIEUR LE PRINCE</adresse>
+			<nom>LUXEMBOURG 1</nom>
+			<coordonnees>
+				<lat>48.84824</lat>
+				<long>2.340797</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75007">
+		<element id="1" type="cinema">
+			<adresse>57 BIS RUE DE BABYLONE</adresse>
+			<nom>LA PAGODE 1</nom>
+			<coordonnees>
+				<lat>48.851726</lat>
+				<long>2.316361</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75008">
+		<element id="1" type="cinema">
+			<adresse>50 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>GAUMONT CHAMPS ELYSEES AMBASSADE 7</nom>
+			<coordonnees>
+				<lat>48.870374</lat>
+				<long>2.306888</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>44 RUE PASQUIER</adresse>
+			<nom>SAINT LAZARE PASQUIER 1</nom>
+			<coordonnees>
+				<lat>48.874832</lat>
+				<long>2.323941</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>1 RUE BALZAC</adresse>
+			<nom>BALZAC 1</nom>
+			<coordonnees>
+				<lat>48.872431</lat>
+				<long>2.299525</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>133 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>PUBLICIS CINEMA 2</nom>
+			<coordonnees>
+				<lat>48.872794</lat>
+				<long>2.296984</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>14 RUE LINCOLN</adresse>
+			<nom>ELYSEES LINCOLN 1</nom>
+			<coordonnees>
+				<lat>48.870512</lat>
+				<long>2.303157</long>
+			</coordonnees>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>146 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>GEORGE V 4</nom>
+			<coordonnees>
+				<lat>48.873073</lat>
+				<long>2.298394</long>
+			</coordonnees>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>116 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>UGC NORMANDIE 2</nom>
+			<coordonnees>
+				<lat>48.872265</lat>
+				<long>2.300938</long>
+			</coordonnees>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>27/33 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>GAUMONT CHAMPS ELYSEES MARIGNAN 3</nom>
+			<coordonnees>
+				<lat>48.869654</lat>
+				<long>2.306873</long>
+			</coordonnees>
+		</element>
+		<element id="9" type="cinema">
+			<adresse>GRAND PALAIS CHAMPS ELYSEES</adresse>
+			<nom>MK2 GRAND PALAIS</nom>
+			<coordonnees>
+				<lat>48.870843</lat>
+				<long>2.304317</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75009">
+		<element id="1" type="cinema">
+			<adresse>2/4 BOULEVARD DES CAPUCINES</adresse>
+			<nom>GAUMONT OPERA CAPUCINES 2</nom>
+			<coordonnees>
+				<lat>48.871044</lat>
+				<long>2.33361</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>101 RUE ST LAZARE</adresse>
+			<nom>CAUMARTIN 4 (EX CINEVOG 4 )</nom>
+			<coordonnees>
+				<lat>48.87561</lat>
+				<long>2.32791</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>24 BOULEVARD POISSONNIERE</adresse>
+			<nom>MAX LINDER</nom>
+			<coordonnees>
+				<lat>48.871363</lat>
+				<long>2.344886</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>32 BOULEVARDD DES ITALIENS</adresse>
+			<nom>UGC OPERA 1</nom>
+			<coordonnees>
+				<lat>48.871332</lat>
+				<long>2.335302</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>38 BOULEVARD DES ITALIENS</adresse>
+			<nom>GAUMONT OPERA FRANCAIS 8</nom>
+			<coordonnees>
+				<lat>48.871048</lat>
+				<long>2.334386</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75010">
+		<element id="1" type="cinema">
+			<adresse>170 BOULEVARD DE MAGENTA</adresse>
+			<nom>LE LOUXOR SALLE 1 YOUSSEF CHAHINE</nom>
+			<coordonnees>
+				<lat>48.883487</lat>
+				<long>2.349853</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>39 BOULEVARD DE STRASBOURG</adresse>
+			<nom>LE BRADY 1</nom>
+			<coordonnees>
+				<lat>48.871771</lat>
+				<long>2.355398</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>17 BOULEVARD DE STRASBOURG</adresse>
+			<nom>L'ARCHIPEL 1</nom>
+			<coordonnees>
+				<lat>48.870455</lat>
+				<long>2.35466</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75011">
+		<element id="1" type="cinema">
+			<adresse>3 BOULEVARD RICHARD LENOIR 4/6 BOULEVARD BEAUMARCHAIS</adresse>
+			<nom>MK2 BASTILLE 1</nom>
+			<coordonnees>
+				<lat>48.854674</lat>
+				<long>2.369381</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>4 BOULEVARD RICHARD LENOIR</adresse>
+			<nom>MAJESTIC BASTILLE 1</nom>
+			<coordonnees>
+				<lat>48.85399</lat>
+				<long>2.369949</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>5 RUE DU FAUBOURG ST ANTOINE</adresse>
+			<nom>LA BASTILLE 1</nom>
+			<coordonnees>
+				<lat>48.853157</lat>
+				<long>2.370719</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75012">
+		<element id="1" type="cinema">
+			<adresse>12 RUE DE LYON</adresse>
+			<nom>UGC LYON BASTILLE 3</nom>
+			<coordonnees>
+				<lat>48.847502</lat>
+				<long>2.371855</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>2 COUR SAINT-EMILION</adresse>
+			<nom>UGC CINE CITE BERCY 10</nom>
+			<coordonnees>
+				<lat>48.833007</lat>
+				<long>2.38666</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>133 BOULEVARD DIDEROT</adresse>
+			<nom>MK2 NATION 1</nom>
+			<coordonnees>
+				<lat>48.848213</lat>
+				<long>2.39311</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75013">
+		<element id="1" type="cinema">
+			<adresse>11 BOULEVARD PORT ROYAL</adresse>
+			<nom>ESCURIAL 1</nom>
+			<coordonnees>
+				<lat>48.836817</lat>
+				<long>2.349632</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>66 BIS AVENUE DES GOBELINS</adresse>
+			<nom>UGC GOBELINS 3</nom>
+			<coordonnees>
+				<lat>48.832888</lat>
+				<long>2.354241</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>128 A 162 AVENUE DE FRANCE</adresse>
+			<nom>MK2 BIBLIOTHEQUE A</nom>
+			<coordonnees>
+				<lat>48.833718</lat>
+				<long>2.373922</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>58 AVENUE DES GOBELINS</adresse>
+			<nom>GAUMONT GOBELINS 1</nom>
+			<coordonnees>
+				<lat>48.833574</lat>
+				<long>2.353775</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75014">
+		<element id="1" type="cinema">
+			<adresse>70 AVENUE DU GENERAL LECLERC</adresse>
+			<nom>MISTRAL 2</nom>
+			<coordonnees>
+				<lat>48.829473</lat>
+				<long>2.328009</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>73 AVENUE DU GENERAL LECLERC</adresse>
+			<nom>GAUMONT ALESIA 1</nom>
+			<coordonnees>
+				<lat>48.828166</lat>
+				<long>2.327463</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>98 BOULEVARD DU MONTPARNASSE</adresse>
+			<nom>PARNASSIEN 1</nom>
+			<coordonnees>
+				<lat>48.842443</lat>
+				<long>2.327625</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>24 PLACE DENFERT ROCHEREAU</adresse>
+			<nom>CHAPLIN DENFERT</nom>
+			<coordonnees>
+				<lat>48.833879</lat>
+				<long>2.330976</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>18 RUE D'ODESSA</adresse>
+			<nom>MONTPARNOS 1</nom>
+			<coordonnees>
+				<lat>48.841914</lat>
+				<long>2.324596</long>
+			</coordonnees>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>7 ET 9 RUE FRANCIS DE PRESSENSE</adresse>
+			<nom>ENTREPOT 1</nom>
+			<coordonnees>
+				<lat>48.83393</lat>
+				<long>2.31652</long>
+			</coordonnees>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>3 RUE D'ODESSA</adresse>
+			<nom>GAUMONT PARNASSE 1</nom>
+			<coordonnees>
+				<lat>48.843074</lat>
+				<long>2.324424</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75015">
+		<element id="1" type="cinema">
+			<adresse>6 RUE PECLET</adresse>
+			<nom>CHAPLIN SAINT LAMBERT 1</nom>
+			<coordonnees>
+				<lat>48.843204</lat>
+				<long>2.298558</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>27 A 31 RUE ALAIN CHARTIER</adresse>
+			<nom>GAUMONT CONVENTION 2</nom>
+			<coordonnees>
+				<lat>48.838033</lat>
+				<long>2.295827</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>8/16 RUE DU COLONEL PIERRE AVIA</adresse>
+			<nom>GAUMONT AQUABOULEVARD 1</nom>
+			<coordonnees>
+				<lat>48.83039</lat>
+				<long>2.276254</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75016">
+		<element id="1" type="cinema">
+			<adresse>18 - 20 RUE DE PASSY</adresse>
+			<nom>MAJESTIC PASSY 1</nom>
+			<coordonnees>
+				<lat>48.858204</lat>
+				<long>2.282104</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75017">
+		<element id="1" type="cinema">
+			<adresse>7 AVENUE DE CLICHY</adresse>
+			<nom>LE CINEMA DES CINEASTES 1</nom>
+			<coordonnees>
+				<lat>48.884303</lat>
+				<long>2.326888</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>14 RUE TROYON</adresse>
+			<nom>CLUB DE L ETOILE</nom>
+			<coordonnees>
+				<lat>48.876113</lat>
+				<long>2.295345</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>PALAIS CONGRES PLACE PORTE MAILLOT</adresse>
+			<nom>UGC MAILLOT 3</nom>
+			<coordonnees>
+				<lat>48.879964</lat>
+				<long>2.283381</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>5/7 AV MAC MAHON</adresse>
+			<nom>MAC MAHON</nom>
+			<coordonnees>
+				<lat>48.875539</lat>
+				<long>2.294478</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75018">
+		<element id="1" type="cinema">
+			<adresse>132 -140 BOULEVARD DE CLICHY</adresse>
+			<nom>PATHE WEPLER 8</nom>
+			<coordonnees>
+				<lat>48.883938</lat>
+				<long>2.328034</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>10 RUE THOLOZE</adresse>
+			<nom>STUDIO 28</nom>
+			<coordonnees>
+				<lat>48.886142</lat>
+				<long>2.335342</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75019">
+		<element id="1" type="cinema">
+			<adresse>166 BOULEVARD MACDONALD</adresse>
+			<nom>UGC CINE CITE PARIS 19 (1)</nom>
+			<coordonnees>
+				<lat>48.898991</lat>
+				<long>2.376757</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>26 AVENUE CORENTIN CARIOU</adresse>
+			<nom>LA GEODE</nom>
+			<coordonnees>
+				<lat>48.896314</lat>
+				<long>2.384409</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>14 QUAI DE LA SEINE</adresse>
+			<nom>MK2 QUAI DE SEINE 1</nom>
+			<coordonnees>
+				<lat>48.885073</lat>
+				<long>2.371493</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>5/19 QUAI DE LA LOIRE</adresse>
+			<nom>MK2 QUAI DE LOIRE 1</nom>
+			<coordonnees>
+				<lat>48.885067</lat>
+				<long>2.374123</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>211 AVENUE JEAN JAURES</adresse>
+			<nom>BORIS VIAN</nom>
+			<coordonnees>
+				<lat>48.888947</lat>
+				<long>2.392436</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+	<arrondissement num="75020">
+		<element id="1" type="cinema">
+			<adresse>PLACE DU MAQUIS DU VERCORS</adresse>
+			<nom>ETOILE LILAS 1</nom>
+			<coordonnees>
+				<lat>48.877995</lat>
+				<long>2.409433</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>6 RUE BELGRAND</adresse>
+			<nom>MK2 GAMBETTA 1</nom>
+			<coordonnees>
+				<lat>48.864763</lat>
+				<long>2.399555</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+</root>

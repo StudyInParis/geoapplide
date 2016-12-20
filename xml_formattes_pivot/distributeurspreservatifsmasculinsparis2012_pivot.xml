@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<arrondissement num="None">
+		<element id="1" type="cinema">
+			<adresse>10-12 passage de la Goutte d'Or</adresse>
+			<nom>Centre sportif Goutte d'Or</nom>
+			<coordonnees>
+				<lat>48.88504</lat>
+				<long>2.353856</long>
+			</coordonnees>
+		</element>
+		<element id="2" type="cinema">
+			<adresse>81 Bd Masséna</adresse>
+			<nom>Centre sportif Georges Carpentier</nom>
+			<coordonnees>
+				<lat>48.820839</lat>
+				<long>2.368247</long>
+			</coordonnees>
+		</element>
+		<element id="3" type="cinema">
+			<adresse>3 Av Maurice D'Ocagne</adresse>
+			<nom>Centre sportif Jules Noël</nom>
+			<coordonnees>
+				<lat>48.824547</lat>
+				<long>2.314142</long>
+			</coordonnees>
+		</element>
+		<element id="4" type="cinema">
+			<adresse>101 Quai Branly</adresse>
+			<nom>Kiosque jeunes Champ de Mars</nom>
+			<coordonnees>
+				<lat>48.855739</lat>
+				<long>2.290049</long>
+			</coordonnees>
+		</element>
+		<element id="5" type="cinema">
+			<adresse>181/183 rue de Vercingétorix</adresse>
+			<nom>Centre d'animation Vercingétorix</nom>
+			<coordonnees>
+				<lat>48.831449</lat>
+				<long>2.30941</long>
+			</coordonnees>
+		</element>
+		<element id="6" type="cinema">
+			<adresse>2 rue Jappy</adresse>
+			<nom>Gymnase Japy</nom>
+			<coordonnees>
+				<lat>48.855874</lat>
+				<long>2.38245</long>
+			</coordonnees>
+		</element>
+		<element id="7" type="cinema">
+			<adresse>17 rue Boy-Zelenski</adresse>
+			<nom>Centre sportif Grange aux belles</nom>
+			<coordonnees>
+				<lat>48.877434</lat>
+				<long>2.368388</long>
+			</coordonnees>
+		</element>
+		<element id="8" type="cinema">
+			<adresse>43 rue de l'Orillon</adresse>
+			<nom>Antenne jeunes Orillon</nom>
+			<coordonnees>
+				<lat>48.870547</lat>
+				<long>2.377314</long>
+			</coordonnees>
+		</element>
+		<element id="9" type="cinema">
+			<adresse>26 rue Buffault</adresse>
+			<nom>Gymnase Buffault</nom>
+			<coordonnees>
+				<lat>48.87601</lat>
+				<long>2.342244</long>
+			</coordonnees>
+		</element>
+		<element id="10" type="cinema">
+			<adresse>7-15 Av Paul Appell</adresse>
+			<nom>Centre sportif Elisabeth</nom>
+			<coordonnees>
+				<lat>48.821057</lat>
+				<long>2.329049</long>
+			</coordonnees>
+		</element>
+		<element id="11" type="cinema">
+			<adresse>2/4 rue des Lilas</adresse>
+			<nom>Centre d'animation Place des Fêtes</nom>
+			<coordonnees>
+				<lat>48.877942</lat>
+				<long>2.395611</long>
+			</coordonnees>
+		</element>
+		<element id="12" type="cinema">
+			<adresse>6 rue de la Goutte d'Or</adresse>
+			<nom>Espace jeunes Goutte D'Or</nom>
+			<coordonnees>
+				<lat>48.885028</lat>
+				<long>2.354614</long>
+			</coordonnees>
+		</element>
+		<element id="13" type="cinema">
+			<adresse>2 rue Jean Cocteau</adresse>
+			<nom>Centre sportif Poissonniers</nom>
+			<coordonnees>
+				<lat>48.89968</lat>
+				<long>2.352224</long>
+			</coordonnees>
+		</element>
+		<element id="14" type="cinema">
+			<adresse>68 Bd Poniatowsky</adresse>
+			<nom>Centre sportif Léo Lagrange</nom>
+			<coordonnees>
+				<lat>48.832161</lat>
+				<long>2.399323</long>
+			</coordonnees>
+		</element>
+		<element id="15" type="cinema">
+			<adresse>Place de la Porte de Pantin</adresse>
+			<nom>Centre sportif Jules Ladoumègue</nom>
+			<coordonnees>
+				<lat>48.889698</lat>
+				<long>2.395738</long>
+			</coordonnees>
+		</element>
+		<element id="16" type="cinema">
+			<adresse>5-7 rue Neuve St Pierre</adresse>
+			<nom>TEP Neuve St Pierre</nom>
+			<coordonnees>
+				<lat>48.853665</lat>
+				<long>2.363512</long>
+			</coordonnees>
+		</element>
+		<element id="17" type="cinema">
+			<adresse>32 rue du Javelot Tour Anvers</adresse>
+			<nom>Antenne jeunes Olympiades</nom>
+			<coordonnees>
+				<lat>48.823105</lat>
+				<long>2.36651</long>
+			</coordonnees>
+		</element>
+		<element id="18" type="cinema">
+			<adresse>56 Bd de l'Amiral Bruix</adresse>
+			<nom>Stade Jean Pierre Wimille</nom>
+			<coordonnees>
+				<lat>48.873512</lat>
+				<long>2.276701</long>
+			</coordonnees>
+		</element>
+		<element id="19" type="cinema">
+			<adresse>18 Av de la Porte de Brancion</adresse>
+			<nom>Centre sportif Rigoulot</nom>
+			<coordonnees>
+				<lat>48.826626</lat>
+				<long>2.300413</long>
+			</coordonnees>
+		</element>
+		<element id="20" type="cinema">
+			<adresse>6 Place Bernard Halphen</adresse>
+			<nom>Gymnase Patriarches</nom>
+			<coordonnees>
+				<lat>48.840319</lat>
+				<long>2.350767</long>
+			</coordonnees>
+		</element>
+		<element id="21" type="cinema">
+			<adresse>116 Quai de Jemmapes</adresse>
+			<nom>Centre d'animation Jemmapes</nom>
+			<coordonnees>
+				<lat>48.87484</lat>
+				<long>2.363792</long>
+			</coordonnees>
+		</element>
+		<element id="22" type="cinema">
+			<adresse>87 Av J.Jaurès</adresse>
+			<nom>Gymnase Jean Jaurès</nom>
+			<coordonnees>
+				<lat>48.885151</lat>
+				<long>2.379099</long>
+			</coordonnees>
+		</element>
+		<element id="23" type="cinema">
+			<adresse>15 rue de la Nouvelle Calédonie</adresse>
+			<nom>Centre spotif Paul Valéry</nom>
+			<coordonnees>
+				<lat>48.840117</lat>
+				<long>2.412036</long>
+			</coordonnees>
+		</element>
+		<element id="24" type="cinema">
+			<adresse>1 rue Fleury Centre Musical</adresse>
+			<nom>Kiosque jeunes Goutte D'Or</nom>
+			<coordonnees>
+				<lat>48.884298</lat>
+				<long>2.354045</long>
+			</coordonnees>
+		</element>
+		<element id="25" type="cinema">
+			<adresse>5 rue du docteur Bourneville</adresse>
+			<nom>Centre sportif Bourneville</nom>
+			<coordonnees>
+				<lat>48.819946</lat>
+				<long>2.355579</long>
+			</coordonnees>
+		</element>
+		<element id="26" type="cinema">
+			<adresse>49 ter Av de Flandre</adresse>
+			<nom>Antenne jeunes Flandre</nom>
+			<coordonnees>
+				<lat>48.887097</lat>
+				<long>2.372115</long>
+			</coordonnees>
+		</element>
+		<element id="27" type="cinema">
+			<adresse>11 rue de la Montagne d'Aulas</adresse>
+			<nom>Gymnase Cévennes</nom>
+			<coordonnees>
+				<lat>48.840339</lat>
+				<long>2.279119</long>
+			</coordonnees>
+		</element>
+		<element id="28" type="cinema">
+			<adresse>28 rue André Bréchet</adresse>
+			<nom>Centre sportif Max Rousié</nom>
+			<coordonnees>
+				<lat>48.898947</lat>
+				<long>2.324894</long>
+			</coordonnees>
+		</element>
+		<element id="29" type="cinema">
+			<adresse>54 Bd Ney</adresse>
+			<nom>Espace jeunes Charles Hermitte</nom>
+			<coordonnees>
+				<lat>48.898661</lat>
+				<long>2.364089</long>
+			</coordonnees>
+		</element>
+		<element id="30" type="cinema">
+			<adresse>34 rue des docteurs Déjérine</adresse>
+			<nom>Centre sportif Déjérine</nom>
+			<coordonnees>
+				<lat>48.856657</lat>
+				<long>2.411711</long>
+			</coordonnees>
+		</element>
+		<element id="31" type="cinema">
+			<adresse>1 rue Pauline Kergomard</adresse>
+			<nom>Espace jeunes St Blaise</nom>
+			<coordonnees>
+				<lat>48.854917</lat>
+				<long>2.407541</long>
+			</coordonnees>
+		</element>
+	</arrondissement>
+</root>
