@@ -115,13 +115,13 @@ def writeInFile(dic, outfilename):
 					f.write("""\t\t<element id="{id}" type="{type}">\n""".format(id=i,type="cinema"))
 					f.write("""\t\t\t<adresse>{}</adresse>\n""".format(infos["adresse"]))
 					f.write("""\t\t\t<nom>{}</nom>\n""".format(infos["nom"]))
-					f.write("""\t\t\t<coordonnees>\n""")
+					# f.write("""\t\t\t<coordonnees>\n""")
 					for coord in infos["coordonnees"]:
 						if float(coord) < 10:
-							f.write("""\t\t\t\t<long>{}</long>\n""".format(coord))
+							f.write("""\t\t\t<long>{}</long>\n""".format(coord))
 						else:
-							f.write("""\t\t\t\t<lat>{}</lat>\n""".format(coord))
-					f.write("""\t\t\t</coordonnees>\n""")
+							f.write("""\t\t\t<lat>{}</lat>\n""".format(coord))
+					# f.write("""\t\t\t</coordonnees>\n""")
 					f.write("""\t\t</element>\n""")
 				else:
 					print("node number", elemnum, "is uncomplete. removed from final file.")
