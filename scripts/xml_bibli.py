@@ -44,7 +44,6 @@ for cle in dico2:
 						out.write("\t\t\t<longitude>"+str(g.lng)+"</longitude>\n")	
 						out.write("\t\t\t<latitude>"+str(g.lat)+"</latitude>\n")
 						out.write("\t\t\t<adresse>"+adresse+"</adresse>\n")
-						out.write("\t\t\t<adresse>"+bals+", "+balises.lower()+"</adresse>\n")
 			if"Designation" in balise:
 				name = balise.split("<")[1].split(">")[1]
 				out.write("\t\t\t<nom>"+name.lower()+"</nom>\n")
