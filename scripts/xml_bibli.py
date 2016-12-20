@@ -1,6 +1,8 @@
+#!\C:\Users\marcel\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.5
 #! coding:utf-8
 import sys
 import math
+import geocoder
 from pprint import pprint
 fic = open("../donnees_xml/Bibliotheque.xml","r")
 out = open("../donnees_xml/Bibliotheque_modele.xml","w")
@@ -37,6 +39,11 @@ for cle in dico2:
 					if "num" in bal:
 						balises = balise.split("<")[1].split(">")[1]
 						bals = bal.split("<")[1].split(">")[1]
+						adresse = bals+", "+balises.lower()
+						g=geocoder.google(adresse)
+						out.write("\t\t\t<longitude>"+str(g.lng)+"</longitude>\n")	
+						out.write("\t\t\t<latitude>"+str(g.lat)+"</latitude>\n")
+						out.write("\t\t\t<adresse>"+adresse+"</adresse>\n")
 						out.write("\t\t\t<adresse>"+bals+", "+balises.lower()+"</adresse>\n")
 			if"Designation" in balise:
 				name = balise.split("<")[1].split(">")[1]
