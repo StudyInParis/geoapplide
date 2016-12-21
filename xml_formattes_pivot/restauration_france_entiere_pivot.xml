@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<arrondissement num="75005">
+		<element id="1" type="crous">
+			<adresse>10, rue Jean Calvin 75005 Paris</adresse>
+			<nom>RU Châtelet</nom>
+			<longitude>2.3484535</longitude>
+			<latitude>48.8416178</latitude>
+		</element>
+		<element id="2" type="crous">
+			<adresse>2 place Jussieu 75005 Paris</adresse>
+			<nom>Cafétéria Atrium</nom>
+			<longitude>2.355044</longitude>
+			<latitude>48.846248</latitude>
+		</element>
+		<element id="3" type="crous">
+			<adresse>39 avenue Georges Bernanos 75005 Paris</adresse>
+			<nom>RU Bullier</nom>
+			<longitude>2.3373625</longitude>
+			<latitude>48.8401746</latitude>
+		</element>
+		<element id="4" type="crous">
+			<adresse>31 rue Geoffroy Saint Hilaire 75005 Paris</adresse>
+			<nom>RU Censier</nom>
+			<longitude>2.356092</longitude>
+			<latitude>48.84115</latitude>
+		</element>
+		<element id="5" type="crous">
+			<adresse>12 place du Panthéon 75005 Paris</adresse>
+			<nom>Cafétéria Lacretelle</nom>
+			<longitude>2.3448603</longitude>
+			<latitude>48.8468057</latitude>
+		</element>
+		<element id="6" type="crous">
+			<adresse>8 bis rue Cuvier 75005 Paris</adresse>
+			<nom>RU Cuvier</nom>
+			<longitude>2.358005</longitude>
+			<latitude>48.845514</latitude>
+		</element>
+		<element id="7" type="crous">
+			<adresse>17 rue de Santeuil 75005 Paris</adresse>
+			<nom>Cafétéria Santeuil</nom>
+			<longitude>2.354121</longitude>
+			<latitude>48.840868</latitude>
+		</element>
+		<element id="8" type="crous">
+			<adresse>12 place du Panthéon 75005 Paris</adresse>
+			<nom>Cafétéria Panthéon</nom>
+			<longitude>2.344959</longitude>
+			<latitude>48.847053</latitude>
+		</element>
+		<element id="9" type="crous">
+			<adresse>11 rue Pierre et Marie Curie 75005 Paris</adresse>
+			<nom>Cafétéria Poincaré (Henri)</nom>
+			<longitude>2.343178</longitude>
+			<latitude>48.845048</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75006">
+		<element id="1" type="crous">
+			<adresse>45 rue des Saints-Pères 75006 Paris</adresse>
+			<nom>Cafétéria Saints-Pères</nom>
+			<longitude>2.330711</longitude>
+			<latitude>48.85544</latitude>
+		</element>
+		<element id="2" type="crous">
+			<adresse>92 rue d'Assas 75006 Paris</adresse>
+			<nom>Cafétéria Assas</nom>
+			<longitude>2.333887</longitude>
+			<latitude>48.843805</latitude>
+		</element>
+		<element id="3" type="crous">
+			<adresse>5-5 rue Mazet  75006 Paris</adresse>
+			<nom>RU Mazet</nom>
+			<longitude>2.339122</longitude>
+			<latitude>48.854014</latitude>
+		</element>
+		<element id="4" type="crous">
+			<adresse>21 rue d'Assas 75006 Paris</adresse>
+			<nom>Cafétéria Institut Catholique de Paris</nom>
+			<longitude>2.329423</longitude>
+			<latitude>48.848465</latitude>
+		</element>
+		<element id="5" type="crous">
+			<adresse>4 avenue de l'Observatoire 75006 Paris</adresse>
+			<nom>Cafétéria Pharmacie</nom>
+			<longitude>2.336376</longitude>
+			<latitude>48.843706</latitude>
+		</element>
+		<element id="6" type="crous">
+			<adresse>27 rue Saint Guillaume et 56 rue Saint- Pères 75006 Paris</adresse>
+			<nom>Cafétéria Sciences Po</nom>
+			<longitude>2.328286</longitude>
+			<latitude>48.854466</latitude>
+		</element>
+		<element id="7" type="crous">
+			<adresse>3 rue Mabillon  75006 Paris</adresse>
+			<nom>RU Mabillon</nom>
+			<longitude>2.335217</longitude>
+			<latitude>48.852207</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75010">
+		<element id="1" type="crous">
+			<adresse>10 avenue de Verdun 75010 Paris</adresse>
+			<nom>Cafétéria Villemin</nom>
+			<longitude>2.361524</longitude>
+			<latitude>48.876373</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75012">
+		<element id="1" type="crous">
+			<adresse>45 boulevard Diderot 75012 Paris</adresse>
+			<nom>RU Citeaux</nom>
+			<longitude>2.379677</longitude>
+			<latitude>48.846827</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75013">
+		<element id="1" type="crous">
+			<adresse>65 rue des Grands Moulins 75013 Paris</adresse>
+			<nom>Cafétéria INALCO</nom>
+			<longitude>2.3757955</longitude>
+			<latitude>48.8274221</latitude>
+		</element>
+		<element id="2" type="crous">
+			<adresse>14 voie Piétonne FG/13 75013 Paris</adresse>
+			<nom>Cafétéria Grands Moulins</nom>
+			<longitude>2.339154</longitude>
+			<latitude>48.838227</latitude>
+		</element>
+		<element id="3" type="crous">
+			<adresse>8 place Paul Ricoeur</adresse>
+			<nom>Cafétéria Olympe de Gouges</nom>
+			<longitude>2.38282400000003</longitude>
+			<latitude>48.8267406</latitude>
+		</element>
+		<element id="4" type="crous">
+			<adresse>17 rue Saint Hippolyte 75013 Paris</adresse>
+			<nom>Cafétéria Cassin (René)</nom>
+			<longitude>2.346396</longitude>
+			<latitude>48.836433</latitude>
+		</element>
+		<element id="5" type="crous">
+			<adresse>105 boulevard de l'Hôpital 75013 Paris</adresse>
+			<nom>Cafétéria Pitié</nom>
+			<longitude>2.359571</longitude>
+			<latitude>48.837266</latitude>
+		</element>
+		<element id="6" type="crous">
+			<adresse>90 rue de Tolbiac 75013 Paris</adresse>
+			<nom>Cafétéria Pierre Mendès France</nom>
+			<longitude>2.364571</longitude>
+			<latitude>48.827012</latitude>
+		</element>
+		<element id="7" type="crous">
+			<adresse>17 rue de Tolbiac 75013 Paris </adresse>
+			<nom>RU Tolbiac</nom>
+			<longitude>2.374184</longitude>
+			<latitude>48.829498</latitude>
+		</element>
+		<element id="8" type="crous">
+			<adresse>3 esplanade Pierre Vidal-Nacquet 75013 Paris</adresse>
+			<nom>RU Halle aux farines</nom>
+			<longitude>2.3555556</longitude>
+			<latitude>48.8322222</latitude>
+		</element>
+		<element id="9" type="crous">
+			<adresse>Immeuble Montréal  59 rue nationale 75013 Paris</adresse>
+			<nom>Cafétéria Javelot</nom>
+			<longitude>2.31863</longitude>
+			<latitude>48.873296</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75014">
+		<element id="1" type="crous">
+			<adresse>24 rue du faubourg Saint Jacques 75014 Paris</adresse>
+			<nom>Cafétéria Cochin</nom>
+			<longitude>2.338886</longitude>
+			<latitude>48.838142</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75015">
+		<element id="1" type="crous">
+			<adresse>156 rue de Vaugirard 75015 Paris</adresse>
+			<nom>Cafétéria Necker</nom>
+			<longitude>2.313995</longitude>
+			<latitude>48.843621</latitude>
+		</element>
+		<element id="2" type="crous">
+			<adresse>391 rue de Vaugirard 75015 Paris</adresse>
+			<nom>Cafétéria Vaugirard</nom>
+			<longitude>2.291422</longitude>
+			<latitude>48.8356</latitude>
+		</element>
+		<element id="3" type="crous">
+			<adresse>43-47 rue des Bergers 75015 Paris</adresse>
+			<nom>Cafétéria Saint Charles</nom>
+			<longitude>2.280618</longitude>
+			<latitude>48.842471</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75016">
+		<element id="1" type="crous">
+			<adresse>2 boulevard Lannes 75016 Paris</adresse>
+			<nom>RU Dauphine</nom>
+			<longitude>2.273805</longitude>
+			<latitude>48.869105</latitude>
+		</element>
+		<element id="2" type="crous">
+			<adresse>71 avenue Edouard Vaillant 92100 Boulogne</adresse>
+			<nom>RU Boulogne</nom>
+			<longitude>2.248138</longitude>
+			<latitude>48.835317</latitude>
+		</element>
+		<element id="3" type="crous">
+			<adresse>143 avenue de Versailles 75016 Paris</adresse>
+			<nom>RU IUT Descartes</nom>
+			<longitude>2.26784</longitude>
+			<latitude>48.842379</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75017">
+		<element id="1" type="crous">
+			<adresse>108 boulevard Malesherbes 75017 Paris</adresse>
+			<nom>Cafétéria Malesherbes</nom>
+			<longitude>2.309532</longitude>
+			<latitude>48.883852</latitude>
+		</element>
+	</arrondissement>
+	<arrondissement num="75018">
+		<element id="1" type="crous">
+			<adresse>2 avenue de la Porte de Clignancourt 75018 Paris</adresse>
+			<nom>RU Rabelais</nom>
+			<longitude>2.344294</longitude>
+			<latitude>48.89813</latitude>
+		</element>
+		<element id="2" type="crous">
+			<adresse>2 rue Francis de Croisset 75018 Paris</adresse>
+			<nom>Cafétéria Clignancourt</nom>
+			<longitude>2.347469</longitude>
+			<latitude>48.899794</latitude>
+		</element>
+		<element id="3" type="crous">
+			<adresse>16 rue Henri Huchard 75018 Paris</adresse>
+			<nom>RU Bichat</nom>
+			<longitude>2.334357</longitude>
+			<latitude>48.899279</latitude>
+		</element>
+	</arrondissement>
+</root>

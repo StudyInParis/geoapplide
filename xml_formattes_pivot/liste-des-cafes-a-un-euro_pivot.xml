@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <root>
 	<arrondissement num="75001">
-		<element id="1" type="cinema">
-			<adresse>9 rue des petits champs</adresse>
-			<nom>Café Pistache</nom>
-			<latitude>48.866259</latitude>
-			<longitude>2.338739</longitude>
-		</element>
-		<element id="2" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>2 place Martin Nadaud</adresse>
 			<nom>Café Martin</nom>
 			<latitude>48.865134</latitude>
 			<longitude>2.395055</longitude>
 		</element>
-		<element id="3" type="cinema">
-			<adresse>83 avenue de Wagram</adresse>
-			<nom>Peperoni</nom>
-			<latitude>48.880239</latitude>
-			<longitude>2.299493</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>42 rue coquillère</adresse>
-			<nom>Le bistrot de Maëlle et Augustin</nom>
-			<latitude>48.864543</latitude>
-			<longitude>2.340997</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>2 bis quai de la mégisserie</adresse>
-			<nom>Le Reynou</nom>
-			<latitude>48.857533</latitude>
-			<longitude>2.346477</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>202 rue Saint Honoré</adresse>
-			<nom>Ragueneau</nom>
-			<latitude>48.862655</latitude>
-			<longitude>2.337607</longitude>
-		</element>
-		<element id="7" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>14 rue Turbigo, Paris</adresse>
 			<nom>Etienne</nom>
 			<latitude>48.863675</latitude>
 			<longitude>2.348701</longitude>
 		</element>
-		<element id="8" type="cinema">
+		<element id="3" type="cafe">
+			<adresse>83 avenue de Wagram</adresse>
+			<nom>Peperoni</nom>
+			<latitude>48.880239</latitude>
+			<longitude>2.299493</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>9 rue des petits champs</adresse>
+			<nom>Café Pistache</nom>
+			<latitude>48.866259</latitude>
+			<longitude>2.338739</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>2 bis quai de la mégisserie</adresse>
+			<nom>Le Reynou</nom>
+			<latitude>48.857533</latitude>
+			<longitude>2.346477</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>42 rue coquillère</adresse>
+			<nom>Le bistrot de Maëlle et Augustin</nom>
+			<latitude>48.864543</latitude>
+			<longitude>2.340997</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>202 rue Saint Honoré</adresse>
+			<nom>Ragueneau</nom>
+			<latitude>48.862655</latitude>
+			<longitude>2.337607</longitude>
+		</element>
+		<element id="8" type="cafe">
 			<adresse>202 rue Saint-Honoré</adresse>
 			<nom>Le Ragueneau</nom>
 			<latitude>48.862655</latitude>
@@ -51,105 +51,105 @@
 		</element>
 	</arrondissement>
 	<arrondissement num="75002">
-		<element id="1" type="cinema">
-			<adresse>95 rue Montmartre</adresse>
-			<nom>Le Café frappé</nom>
-			<latitude>48.867948</latitude>
-			<longitude>2.343582</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>142 Rue Saint-Denis 75002 Paris</adresse>
-			<nom>La Cordonnerie</nom>
-			<latitude>48.86525</latitude>
-			<longitude>2.350507</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>16 rue des Petits Champs</adresse>
-			<nom>Chez Rutabaga</nom>
-			<latitude>48.866737</latitude>
-			<longitude>2.33716</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>23 rue saint augustin</adresse>
-			<nom>Le Petit Choiseul</nom>
-			<latitude>48.868838</latitude>
-			<longitude>2.33605</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>1 Passage du Grand Cerf</adresse>
-			<nom>Le Pas Sage</nom>
-			<latitude>48.864655</latitude>
-			<longitude>2.350089</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>place de l'opera</adresse>
-			<nom>L'Entracte</nom>
-			<latitude>48.870287</latitude>
-			<longitude>2.332491</longitude>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>1 rue Louis le Grand</adresse>
-			<nom>Le Cap Bourbon</nom>
-			<latitude>48.868109</latitude>
-			<longitude>2.331785</longitude>
-		</element>
-		<element id="8" type="cinema">
-			<adresse>18 rue Favart</adresse>
-			<nom>Le Biz</nom>
-			<latitude>48.871396</latitude>
-			<longitude>2.338321</longitude>
-		</element>
-		<element id="9" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>52 rue Notre-Dame des Victoires</adresse>
 			<nom>Dédé la frite</nom>
 			<latitude>48.869771</latitude>
 			<longitude>2.342501</longitude>
 		</element>
-		<element id="10" type="cinema">
-			<adresse>58 rue de Montorgueil</adresse>
-			<nom>Drole d'endroit pour une rencontre</nom>
-			<latitude>48.864957</latitude>
-			<longitude>2.346938</longitude>
-		</element>
-		<element id="11" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>30 rue des Petits-Champs</adresse>
 			<nom>Brûlerie San José</nom>
 			<latitude>48.866993</latitude>
 			<longitude>2.336006</longitude>
 		</element>
-		<element id="12" type="cinema">
+		<element id="3" type="cafe">
+			<adresse>1 rue Louis le Grand</adresse>
+			<nom>Le Cap Bourbon</nom>
+			<latitude>48.868109</latitude>
+			<longitude>2.331785</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>1 Passage du Grand Cerf</adresse>
+			<nom>Le Pas Sage</nom>
+			<latitude>48.864655</latitude>
+			<longitude>2.350089</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>23 rue saint augustin</adresse>
+			<nom>Le Petit Choiseul</nom>
+			<latitude>48.868838</latitude>
+			<longitude>2.33605</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>95 rue Montmartre</adresse>
+			<nom>Le Café frappé</nom>
+			<latitude>48.867948</latitude>
+			<longitude>2.343582</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>142 Rue Saint-Denis 75002 Paris</adresse>
+			<nom>La Cordonnerie</nom>
+			<latitude>48.86525</latitude>
+			<longitude>2.350507</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>18 rue Favart</adresse>
+			<nom>Le Biz</nom>
+			<latitude>48.871396</latitude>
+			<longitude>2.338321</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>place de l'opera</adresse>
+			<nom>L'Entracte</nom>
+			<latitude>48.870287</latitude>
+			<longitude>2.332491</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>58 rue de Montorgueil</adresse>
+			<nom>Drole d'endroit pour une rencontre</nom>
+			<latitude>48.864957</latitude>
+			<longitude>2.346938</longitude>
+		</element>
+		<element id="11" type="cafe">
 			<adresse>129 boulevard sebastopol</adresse>
 			<nom>Au cerceau d'or</nom>
 			<latitude>48.86805</latitude>
 			<longitude>2.353313</longitude>
 		</element>
+		<element id="12" type="cafe">
+			<adresse>16 rue des Petits Champs</adresse>
+			<nom>Chez Rutabaga</nom>
+			<latitude>48.866737</latitude>
+			<longitude>2.33716</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75003">
-		<element id="1" type="cinema">
-			<adresse>39 rue Notre Dame de Nazareth</adresse>
-			<nom>NoMa</nom>
-			<latitude>48.867465</latitude>
-			<longitude>2.357791</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>82 rue des archives</adresse>
-			<nom>Face Bar</nom>
-			<latitude>48.863038</latitude>
-			<longitude>2.3604</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>Place de la République</adresse>
-			<nom>Le café Monde et Médias</nom>
-			<latitude>48.867092</latitude>
-			<longitude>2.363288</longitude>
-		</element>
-		<element id="4" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>15 rue du Parc Royal</adresse>
 			<nom>Le Sévigné</nom>
 			<latitude>48.858709</latitude>
 			<longitude>2.362701</longitude>
 		</element>
-		<element id="5" type="cinema">
+		<element id="2" type="cafe">
+			<adresse>39 rue Notre Dame de Nazareth</adresse>
+			<nom>NoMa</nom>
+			<latitude>48.867465</latitude>
+			<longitude>2.357791</longitude>
+		</element>
+		<element id="3" type="cafe">
+			<adresse>82 rue des archives</adresse>
+			<nom>Face Bar</nom>
+			<latitude>48.863038</latitude>
+			<longitude>2.3604</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>Place de la République</adresse>
+			<nom>Le café Monde et Médias</nom>
+			<latitude>48.867092</latitude>
+			<longitude>2.363288</longitude>
+		</element>
+		<element id="5" type="cafe">
 			<adresse>78 rue vieille du temple</adresse>
 			<nom>La Perle</nom>
 			<latitude>48.859772</latitude>
@@ -157,715 +157,715 @@
 		</element>
 	</arrondissement>
 	<arrondissement num="75004">
-		<element id="1" type="cinema">
-			<adresse>6 Bd henri IV</adresse>
-			<nom>Le Sully</nom>
-			<latitude>48.847552</latitude>
-			<longitude>2.364719</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>10 rue Saint Martin</adresse>
-			<nom>Le Café Livres</nom>
-			<latitude>48.857728</latitude>
-			<longitude>2.349641</longitude>
-		</element>
-		<element id="3" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>125 Rue Saint-Antoine</adresse>
 			<nom>l'Eléphant du nil</nom>
 			<latitude>48.855161</latitude>
 			<longitude>2.360218</longitude>
 		</element>
-		<element id="4" type="cinema">
-			<adresse>1 rue Pecquay</adresse>
-			<nom>Le Felteu</nom>
-			<latitude>48.859645</latitude>
-			<longitude>2.355598</longitude>
+		<element id="2" type="cafe">
+			<adresse>10 rue Saint Martin</adresse>
+			<nom>Le Café Livres</nom>
+			<latitude>48.857728</latitude>
+			<longitude>2.349641</longitude>
 		</element>
-		<element id="5" type="cinema">
-			<adresse>11/13 boulevard Beaumarchais</adresse>
-			<nom>Chez Oscar</nom>
-			<latitude>48.854685</latitude>
-			<longitude>2.368487</longitude>
+		<element id="3" type="cafe">
+			<adresse>6 Bd henri IV</adresse>
+			<nom>Le Sully</nom>
+			<latitude>48.847552</latitude>
+			<longitude>2.364719</longitude>
 		</element>
-		<element id="6" type="cinema">
+		<element id="4" type="cafe">
 			<adresse>16 rue de Rivoli</adresse>
 			<nom>Rivolux</nom>
 			<latitude>48.855711</latitude>
 			<longitude>2.359491</longitude>
 		</element>
+		<element id="5" type="cafe">
+			<adresse>11/13 boulevard Beaumarchais</adresse>
+			<nom>Chez Oscar</nom>
+			<latitude>48.854685</latitude>
+			<longitude>2.368487</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>1 rue Pecquay</adresse>
+			<nom>Le Felteu</nom>
+			<latitude>48.859645</latitude>
+			<longitude>2.355598</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75005">
-		<element id="1" type="cinema">
-			<adresse>13 Rue du Pot de Fer</adresse>
-			<nom>La Montagne Sans Geneviève</nom>
-			<latitude>48.842833</latitude>
-			<longitude>2.348314</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>11 Quai de la Tournelle</adresse>
-			<nom>Café rallye tournelles</nom>
-			<latitude>48.849821</latitude>
-			<longitude>2.355337</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>111 rue mouffetard</adresse>
-			<nom>La Brûlerie des Ternes</nom>
-			<latitude>48.840624</latitude>
-			<longitude>2.349766</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>22 rue Linné</adresse>
-			<nom>L'Inévitable</nom>
-			<latitude>48.845458</latitude>
-			<longitude>2.354796</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>104 rue Mouffetard</adresse>
-			<nom>Le Tournebride</nom>
-			<latitude>48.841089</latitude>
-			<longitude>2.349565</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>10 rue d"Ulm</adresse>
-			<nom>Waikiki</nom>
-			<latitude>48.844854</latitude>
-			<longitude>2.345413</longitude>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>1 rue Thouin</adresse>
-			<nom>Le Descartes</nom>
-			<latitude>48.845047</latitude>
-			<longitude>2.349583</longitude>
-		</element>
-		<element id="8" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>5 rue Claude Bernard</adresse>
 			<nom>Café Lea</nom>
 			<latitude>48.838633</latitude>
 			<longitude>2.349916</longitude>
 		</element>
-		<element id="9" type="cinema">
-			<adresse>11 boulevard Saint-Germain</adresse>
-			<nom>Cardinal Saint-Germain</nom>
-			<latitude>48.849293</latitude>
-			<longitude>2.354486</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>place maubert</adresse>
-			<nom>le ronsard</nom>
-			<latitude>48.850311</latitude>
-			<longitude>2.34885</longitude>
-		</element>
-		<element id="11" type="cinema">
-			<adresse>35 rue Claude Bernard</adresse>
-			<nom>Le Café d'avant</nom>
-			<latitude>48.839687</latitude>
-			<longitude>2.347254</longitude>
-		</element>
-		<element id="12" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>7 rue Epée de Bois</adresse>
 			<nom>Invitez vous chez nous</nom>
 			<latitude>48.841526</latitude>
 			<longitude>2.351012</longitude>
 		</element>
+		<element id="3" type="cafe">
+			<adresse>111 rue mouffetard</adresse>
+			<nom>La Brûlerie des Ternes</nom>
+			<latitude>48.840624</latitude>
+			<longitude>2.349766</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>1 rue Thouin</adresse>
+			<nom>Le Descartes</nom>
+			<latitude>48.845047</latitude>
+			<longitude>2.349583</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>35 rue Claude Bernard</adresse>
+			<nom>Le Café d'avant</nom>
+			<latitude>48.839687</latitude>
+			<longitude>2.347254</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>10 rue d"Ulm</adresse>
+			<nom>Waikiki</nom>
+			<latitude>48.844854</latitude>
+			<longitude>2.345413</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>22 rue Linné</adresse>
+			<nom>L'Inévitable</nom>
+			<latitude>48.845458</latitude>
+			<longitude>2.354796</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>place maubert</adresse>
+			<nom>le ronsard</nom>
+			<latitude>48.850311</latitude>
+			<longitude>2.34885</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>11 Quai de la Tournelle</adresse>
+			<nom>Café rallye tournelles</nom>
+			<latitude>48.849821</latitude>
+			<longitude>2.355337</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>13 Rue du Pot de Fer</adresse>
+			<nom>La Montagne Sans Geneviève</nom>
+			<latitude>48.842833</latitude>
+			<longitude>2.348314</longitude>
+		</element>
+		<element id="11" type="cafe">
+			<adresse>11 boulevard Saint-Germain</adresse>
+			<nom>Cardinal Saint-Germain</nom>
+			<latitude>48.849293</latitude>
+			<longitude>2.354486</longitude>
+		</element>
+		<element id="12" type="cafe">
+			<adresse>104 rue Mouffetard</adresse>
+			<nom>Le Tournebride</nom>
+			<latitude>48.841089</latitude>
+			<longitude>2.349565</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75006">
-		<element id="1" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>16 rue DE MEZIERES</adresse>
 			<nom>L'antre d'eux</nom>
 			<latitude>48.850316</latitude>
 			<longitude>2.330101</longitude>
 		</element>
-		<element id="2" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>3 carrefour de l'Odéon</adresse>
 			<nom>L'avant comptoir</nom>
 			<latitude>48.852053</latitude>
 			<longitude>2.338779</longitude>
 		</element>
-		<element id="3" type="cinema">
-			<adresse>6/8 rue Stanislas</adresse>
-			<nom>Les Vendangeurs</nom>
-			<latitude>48.844057</latitude>
-			<longitude>2.328402</longitude>
-		</element>
-		<element id="4" type="cinema">
+		<element id="3" type="cafe">
 			<adresse>53 rue Notre-Dame des Champs</adresse>
 			<nom>Le Lucernaire</nom>
 			<latitude>48.844244</latitude>
 			<longitude>2.330407</longitude>
 		</element>
+		<element id="4" type="cafe">
+			<adresse>6/8 rue Stanislas</adresse>
+			<nom>Les Vendangeurs</nom>
+			<latitude>48.844057</latitude>
+			<longitude>2.328402</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75007">
-		<element id="1" type="cinema">
-			<adresse>88 rue Saint-Dominique</adresse>
-			<nom>Le Malar</nom>
-			<latitude>48.859559</latitude>
-			<longitude>2.30643</longitude>
-		</element>
-		<element id="2" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>2 rue Robert Esnault Pelterie</adresse>
 			<nom>Café dans l'aerogare Air France Invalides</nom>
 			<latitude>48.862599</latitude>
 			<longitude>2.315086</longitude>
 		</element>
-		<element id="3" type="cinema">
-			<adresse>36 rue de Varenne</adresse>
-			<nom>Café Varenne</nom>
-			<latitude>48.85413</latitude>
-			<longitude>2.323539</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>31 rue Saint-Dominique</adresse>
-			<nom>Le Square</nom>
-			<latitude>48.859031</latitude>
-			<longitude>2.320315</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>188 rue de Grenelle</adresse>
-			<nom>Cafe de grenelle</nom>
-			<latitude>48.857658</latitude>
-			<longitude>2.305613</longitude>
-		</element>
-		<element id="6" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>46 avenue Bosquet</adresse>
 			<nom>Le Bosquet</nom>
 			<latitude>48.856003</latitude>
 			<longitude>2.30457</longitude>
 		</element>
+		<element id="3" type="cafe">
+			<adresse>36 rue de Varenne</adresse>
+			<nom>Café Varenne</nom>
+			<latitude>48.85413</latitude>
+			<longitude>2.323539</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>188 rue de Grenelle</adresse>
+			<nom>Cafe de grenelle</nom>
+			<latitude>48.857658</latitude>
+			<longitude>2.305613</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>88 rue Saint-Dominique</adresse>
+			<nom>Le Malar</nom>
+			<latitude>48.859559</latitude>
+			<longitude>2.30643</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>31 rue Saint-Dominique</adresse>
+			<nom>Le Square</nom>
+			<latitude>48.859031</latitude>
+			<longitude>2.320315</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75008">
-		<element id="1" type="cinema">
-			<adresse>9 rue de Miromesnil</adresse>
-			<nom>Café beauveau</nom>
-			<latitude>48.871799</latitude>
-			<longitude>2.315985</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>28 rue de Ponthieu</adresse>
-			<nom>L'Angle</nom>
-			<latitude>48.871002</latitude>
-			<longitude>2.30879</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>27 rue de Penthièvre</adresse>
-			<nom>O'Breizh</nom>
-			<latitude>48.872677</latitude>
-			<longitude>2.315276</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>61 rue de Ponthieu</adresse>
-			<nom>Les Arcades</nom>
-			<latitude>48.872202</latitude>
-			<longitude>2.304624</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>63 rue de Ponthieu</adresse>
-			<nom>Le Fronton</nom>
-			<latitude>48.87226</latitude>
-			<longitude>2.304441</longitude>
-		</element>
-		<element id="6" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>146, boulevard Haussmann</adresse>
 			<nom>Le Relais Haussmann</nom>
 			<latitude>48.875322</latitude>
 			<longitude>2.312329</longitude>
 		</element>
-		<element id="7" type="cinema">
+		<element id="2" type="cafe">
+			<adresse>61 rue de Ponthieu</adresse>
+			<nom>Les Arcades</nom>
+			<latitude>48.872202</latitude>
+			<longitude>2.304624</longitude>
+		</element>
+		<element id="3" type="cafe">
+			<adresse>63 rue de Ponthieu</adresse>
+			<nom>Le Fronton</nom>
+			<latitude>48.87226</latitude>
+			<longitude>2.304441</longitude>
+		</element>
+		<element id="4" type="cafe">
 			<adresse>rue de Lisbonne</adresse>
 			<nom>Café de la Mairie (du VIII)</nom>
 			<latitude>48.877635</latitude>
 			<longitude>2.312777</longitude>
 		</element>
+		<element id="5" type="cafe">
+			<adresse>9 rue de Miromesnil</adresse>
+			<nom>Café beauveau</nom>
+			<latitude>48.871799</latitude>
+			<longitude>2.315985</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>28 rue de Ponthieu</adresse>
+			<nom>L'Angle</nom>
+			<latitude>48.871002</latitude>
+			<longitude>2.30879</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>27 rue de Penthièvre</adresse>
+			<nom>O'Breizh</nom>
+			<latitude>48.872677</latitude>
+			<longitude>2.315276</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75009">
-		<element id="1" type="cinema">
-			<adresse>73 rue de la Victoire</adresse>
-			<nom>Le relais de la victoire</nom>
-			<latitude>48.875207</latitude>
-			<longitude>2.332944</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>10 rue Rossini</adresse>
-			<nom>La Brocante</nom>
-			<latitude>48.873175</latitude>
-			<longitude>2.339193</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>14 rue Rougemont</adresse>
-			<nom>Le Dellac</nom>
-			<latitude>48.872103</latitude>
-			<longitude>2.346161</longitude>
-		</element>
-		<element id="4" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>46 rue Victoire</adresse>
 			<nom>Café Zen</nom>
 			<latitude>48.875232</latitude>
 			<longitude>2.336036</longitude>
 		</element>
-		<element id="5" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>51 Rue Victoire</adresse>
 			<nom>Le chantereine</nom>
 			<latitude>48.875155</latitude>
 			<longitude>2.335536</longitude>
 		</element>
-		<element id="6" type="cinema">
+		<element id="3" type="cafe">
+			<adresse>10 rue Rossini</adresse>
+			<nom>La Brocante</nom>
+			<latitude>48.873175</latitude>
+			<longitude>2.339193</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>14 rue Rougemont</adresse>
+			<nom>Le Dellac</nom>
+			<latitude>48.872103</latitude>
+			<longitude>2.346161</longitude>
+		</element>
+		<element id="5" type="cafe">
 			<adresse>1 rue de Montholon</adresse>
 			<nom>L'anjou</nom>
 			<latitude>48.876577</latitude>
 			<longitude>2.348414</longitude>
 		</element>
-		<element id="7" type="cinema">
+		<element id="6" type="cafe">
 			<adresse>12 rue Blanche</adresse>
 			<nom>Le Brigadier</nom>
 			<latitude>48.877599</latitude>
 			<longitude>2.332111</longitude>
 		</element>
+		<element id="7" type="cafe">
+			<adresse>73 rue de la Victoire</adresse>
+			<nom>Le relais de la victoire</nom>
+			<latitude>48.875207</latitude>
+			<longitude>2.332944</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75010">
-		<element id="1" type="cinema">
-			<adresse>49 rue bichat</adresse>
-			<nom>American Kitchen</nom>
-			<latitude>48.872746</latitude>
-			<longitude>2.366392</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>55 bis quai de valmy</adresse>
-			<nom>La Marine</nom>
-			<latitude>48.870598</latitude>
-			<longitude>2.365413</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>55bis quai de Valmy</adresse>
-			<nom>Epicerie Musicale</nom>
-			<latitude>48.870598</latitude>
-			<longitude>2.365413</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>36 rue Beaurepaire</adresse>
-			<nom>Chez Prune</nom>
-			<latitude>48.871576</latitude>
-			<longitude>2.364499</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>5, rue d'Alsace</adresse>
-			<nom>Extérieur Quai</nom>
-			<latitude>48.876737</latitude>
-			<longitude>2.357601</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>61 rue du château d'eau</adresse>
-			<nom>Brasserie le Morvan</nom>
-			<latitude>48.872498</latitude>
-			<longitude>2.355136</longitude>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>67 rue du Château d'eau</adresse>
-			<nom>le chateau d'eau</nom>
-			<latitude>48.872722</latitude>
-			<longitude>2.354594</longitude>
-		</element>
-		<element id="8" type="cinema">
-			<adresse>13 rue du Faubourg Saint Denis</adresse>
-			<nom>Le sully</nom>
-			<latitude>48.870294</latitude>
-			<longitude>2.352821</longitude>
-		</element>
-		<element id="9" type="cinema">
-			<adresse>16 avenue Richerand</adresse>
-			<nom>Café Clochette</nom>
-			<latitude>48.872402</latitude>
-			<longitude>2.366532</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>136 rue du Faubourg poissonnière</adresse>
-			<nom>La cantine de Zoé</nom>
-			<latitude>48.880669</latitude>
-			<longitude>2.349964</longitude>
-		</element>
-		<element id="11" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>44 rue Vinaigriers</adresse>
 			<nom>Chez Fafa</nom>
 			<latitude>48.873227</latitude>
 			<longitude>2.360787</longitude>
 		</element>
+		<element id="2" type="cafe">
+			<adresse>67 rue du Château d'eau</adresse>
+			<nom>le chateau d'eau</nom>
+			<latitude>48.872722</latitude>
+			<longitude>2.354594</longitude>
+		</element>
+		<element id="3" type="cafe">
+			<adresse>136 rue du Faubourg poissonnière</adresse>
+			<nom>La cantine de Zoé</nom>
+			<latitude>48.880669</latitude>
+			<longitude>2.349964</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>13 rue du Faubourg Saint Denis</adresse>
+			<nom>Le sully</nom>
+			<latitude>48.870294</latitude>
+			<longitude>2.352821</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>49 rue bichat</adresse>
+			<nom>American Kitchen</nom>
+			<latitude>48.872746</latitude>
+			<longitude>2.366392</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>55bis quai de Valmy</adresse>
+			<nom>Epicerie Musicale</nom>
+			<latitude>48.870598</latitude>
+			<longitude>2.365413</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>36 rue Beaurepaire</adresse>
+			<nom>Chez Prune</nom>
+			<latitude>48.871576</latitude>
+			<longitude>2.364499</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>5, rue d'Alsace</adresse>
+			<nom>Extérieur Quai</nom>
+			<latitude>48.876737</latitude>
+			<longitude>2.357601</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>16 avenue Richerand</adresse>
+			<nom>Café Clochette</nom>
+			<latitude>48.872402</latitude>
+			<longitude>2.366532</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>55 bis quai de valmy</adresse>
+			<nom>La Marine</nom>
+			<latitude>48.870598</latitude>
+			<longitude>2.365413</longitude>
+		</element>
+		<element id="11" type="cafe">
+			<adresse>61 rue du château d'eau</adresse>
+			<nom>Brasserie le Morvan</nom>
+			<latitude>48.872498</latitude>
+			<longitude>2.355136</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75011">
-		<element id="1" type="cinema">
-			<adresse>90 avenue Parmentier</adresse>
-			<nom>Le Plein soleil</nom>
-			<latitude>48.865707</latitude>
-			<longitude>2.374382</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>41 rue de Charonne</adresse>
-			<nom>Pause Café</nom>
-			<latitude>48.853381</latitude>
-			<longitude>2.376706</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>93, rue de la Roquette</adresse>
-			<nom>L'horizon</nom>
-			<latitude>48.857312</latitude>
-			<longitude>2.379055</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>Rue de la Fontaine au Roi</adresse>
-			<nom>La Caravane</nom>
-			<latitude>48.868584</latitude>
-			<longitude>2.373007</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>40 Boulevard Beaumarchais</adresse>
-			<nom>La cantoche de Paname</nom>
-			<latitude>48.856584</latitude>
-			<longitude>2.368574</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>35 rue de l'orillon</adresse>
-			<nom>l'orillon bar</nom>
-			<latitude>48.870247</latitude>
-			<longitude>2.376306</longitude>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>3 rue Faidherbe</adresse>
-			<nom>En attendant l'or</nom>
-			<latitude>48.850836</latitude>
-			<longitude>2.384069</longitude>
-		</element>
-		<element id="8" type="cinema">
-			<adresse>60 rue saint-sabin</adresse>
-			<nom>Le Poulailler</nom>
-			<latitude>48.859115</latitude>
-			<longitude>2.368871</longitude>
-		</element>
-		<element id="9" type="cinema">
-			<adresse>307 fg saint Antoine</adresse>
-			<nom>Extra old café</nom>
-			<latitude>48.848873</latitude>
-			<longitude>2.392859</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>14 rue Jean Macé</adresse>
-			<nom>Le Pure café</nom>
-			<latitude>48.853253</latitude>
-			<longitude>2.383415</longitude>
-		</element>
-		<element id="11" type="cinema">
-			<adresse>104 rue amelot</adresse>
-			<nom>Le Centenaire</nom>
-			<latitude>48.862575</latitude>
-			<longitude>2.367427</longitude>
-		</element>
-		<element id="12" type="cinema">
-			<adresse>18 rue de Crussol</adresse>
-			<nom>Panem</nom>
-			<latitude>48.864269</latitude>
-			<longitude>2.36858</longitude>
-		</element>
-		<element id="13" type="cinema">
-			<adresse>184 bd Voltaire</adresse>
-			<nom>L'ingénu</nom>
-			<latitude>48.854584</latitude>
-			<longitude>2.385193</longitude>
-		</element>
-		<element id="14" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>99 rue Jean-Pierre Timbaud</adresse>
 			<nom>L'Assassin</nom>
 			<latitude>48.868741</latitude>
 			<longitude>2.379969</longitude>
 		</element>
+		<element id="2" type="cafe">
+			<adresse>41 rue de Charonne</adresse>
+			<nom>Pause Café</nom>
+			<latitude>48.853381</latitude>
+			<longitude>2.376706</longitude>
+		</element>
+		<element id="3" type="cafe">
+			<adresse>Rue de la Fontaine au Roi</adresse>
+			<nom>La Caravane</nom>
+			<latitude>48.868584</latitude>
+			<longitude>2.373007</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>184 bd Voltaire</adresse>
+			<nom>L'ingénu</nom>
+			<latitude>48.854584</latitude>
+			<longitude>2.385193</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>307 fg saint Antoine</adresse>
+			<nom>Extra old café</nom>
+			<latitude>48.848873</latitude>
+			<longitude>2.392859</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>35 rue de l'orillon</adresse>
+			<nom>l'orillon bar</nom>
+			<latitude>48.870247</latitude>
+			<longitude>2.376306</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>40 Boulevard Beaumarchais</adresse>
+			<nom>La cantoche de Paname</nom>
+			<latitude>48.856584</latitude>
+			<longitude>2.368574</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>90 avenue Parmentier</adresse>
+			<nom>Le Plein soleil</nom>
+			<latitude>48.865707</latitude>
+			<longitude>2.374382</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>93, rue de la Roquette</adresse>
+			<nom>L'horizon</nom>
+			<latitude>48.857312</latitude>
+			<longitude>2.379055</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>104 rue amelot</adresse>
+			<nom>Le Centenaire</nom>
+			<latitude>48.862575</latitude>
+			<longitude>2.367427</longitude>
+		</element>
+		<element id="11" type="cafe">
+			<adresse>3 rue Faidherbe</adresse>
+			<nom>En attendant l'or</nom>
+			<latitude>48.850836</latitude>
+			<longitude>2.384069</longitude>
+		</element>
+		<element id="12" type="cafe">
+			<adresse>60 rue saint-sabin</adresse>
+			<nom>Le Poulailler</nom>
+			<latitude>48.859115</latitude>
+			<longitude>2.368871</longitude>
+		</element>
+		<element id="13" type="cafe">
+			<adresse>14 rue Jean Macé</adresse>
+			<nom>Le Pure café</nom>
+			<latitude>48.853253</latitude>
+			<longitude>2.383415</longitude>
+		</element>
+		<element id="14" type="cafe">
+			<adresse>18 rue de Crussol</adresse>
+			<nom>Panem</nom>
+			<latitude>48.864269</latitude>
+			<longitude>2.36858</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75012">
-		<element id="1" type="cinema">
-			<adresse>202 rue du faubourg st antoine</adresse>
-			<nom>Café Pierre</nom>
-			<latitude>48.849861</latitude>
-			<longitude>2.385342</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>28 bis boulevard Diderot</adresse>
-			<nom>Le Killy Jen</nom>
-			<latitude>48.84591</latitude>
-			<longitude>2.375543</longitude>
-		</element>
-		<element id="3" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>196 rue du faubourg saint-antoine</adresse>
 			<nom>La Liberté</nom>
 			<latitude>48.850055</latitude>
 			<longitude>2.383908</longitude>
 		</element>
-		<element id="4" type="cinema">
-			<adresse>21 Bis Boulevard Diderot</adresse>
-			<nom>L'européen</nom>
-			<latitude>48.845898</latitude>
-			<longitude>2.372766</longitude>
+		<element id="2" type="cafe">
+			<adresse>28 bis boulevard Diderot</adresse>
+			<nom>Le Killy Jen</nom>
+			<latitude>48.84591</latitude>
+			<longitude>2.375543</longitude>
 		</element>
-		<element id="5" type="cinema">
-			<adresse>34 bis rue de Wattignies</adresse>
-			<nom>Au pays de Vannes</nom>
-			<latitude>48.835878</latitude>
-			<longitude>2.395723</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>126, rue du Faubourg Saint Antoine</adresse>
-			<nom>Le Chat bossu</nom>
-			<latitude>48.850696</latitude>
-			<longitude>2.378417</longitude>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>21 ter boulevard Diderot</adresse>
-			<nom>Aux cadrans</nom>
-			<latitude>48.845652</latitude>
-			<longitude>2.371817</longitude>
-		</element>
-		<element id="8" type="cinema">
-			<adresse>75, avenue Ledru-Rollin</adresse>
-			<nom>Assaporare Dix sur Dix</nom>
-			<latitude>48.850092</latitude>
-			<longitude>2.37463</longitude>
-		</element>
-		<element id="9" type="cinema">
-			<adresse>157 rue Bercy 75012 Paris</adresse>
-			<nom>L'entrepôt</nom>
-			<latitude>48.842146</latitude>
-			<longitude>2.375986</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>54, avenue Daumesnil</adresse>
-			<nom>L'empreinte</nom>
-			<latitude>48.845337</latitude>
-			<longitude>2.379024</longitude>
-		</element>
-		<element id="11" type="cinema">
-			<adresse>33 Cour Saint Emilion</adresse>
-			<nom>Chai 33</nom>
-			<latitude>48.832844</latitude>
-			<longitude>2.386792</longitude>
-		</element>
-		<element id="12" type="cinema">
-			<adresse>95 rue claude decaen</adresse>
-			<nom>zic zinc</nom>
-			<latitude>48.838769</latitude>
-			<longitude>2.39609</longitude>
-		</element>
-		<element id="13" type="cinema">
+		<element id="3" type="cafe">
 			<adresse>58 rue du Fbg Saint-Antoine</adresse>
 			<nom>Bistrot Saint-Antoine</nom>
 			<latitude>48.85192</latitude>
 			<longitude>2.373229</longitude>
 		</element>
+		<element id="4" type="cafe">
+			<adresse>21 Bis Boulevard Diderot</adresse>
+			<nom>L'européen</nom>
+			<latitude>48.845898</latitude>
+			<longitude>2.372766</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>157 rue Bercy 75012 Paris</adresse>
+			<nom>L'entrepôt</nom>
+			<latitude>48.842146</latitude>
+			<longitude>2.375986</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>95 rue claude decaen</adresse>
+			<nom>zic zinc</nom>
+			<latitude>48.838769</latitude>
+			<longitude>2.39609</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>126, rue du Faubourg Saint Antoine</adresse>
+			<nom>Le Chat bossu</nom>
+			<latitude>48.850696</latitude>
+			<longitude>2.378417</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>75, avenue Ledru-Rollin</adresse>
+			<nom>Assaporare Dix sur Dix</nom>
+			<latitude>48.850092</latitude>
+			<longitude>2.37463</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>34 bis rue de Wattignies</adresse>
+			<nom>Au pays de Vannes</nom>
+			<latitude>48.835878</latitude>
+			<longitude>2.395723</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>21 ter boulevard Diderot</adresse>
+			<nom>Aux cadrans</nom>
+			<latitude>48.845652</latitude>
+			<longitude>2.371817</longitude>
+		</element>
+		<element id="11" type="cafe">
+			<adresse>54, avenue Daumesnil</adresse>
+			<nom>L'empreinte</nom>
+			<latitude>48.845337</latitude>
+			<longitude>2.379024</longitude>
+		</element>
+		<element id="12" type="cafe">
+			<adresse>202 rue du faubourg st antoine</adresse>
+			<nom>Café Pierre</nom>
+			<latitude>48.849861</latitude>
+			<longitude>2.385342</longitude>
+		</element>
+		<element id="13" type="cafe">
+			<adresse>33 Cour Saint Emilion</adresse>
+			<nom>Chai 33</nom>
+			<latitude>48.832844</latitude>
+			<longitude>2.386792</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75013">
-		<element id="1" type="cinema">
-			<adresse>69 rue Broca</adresse>
-			<nom>Le Couvent</nom>
-			<latitude>48.836919</latitude>
-			<longitude>2.347003</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>7 rue Clisson</adresse>
-			<nom>Tamm Bara</nom>
-			<latitude>48.832964</latitude>
-			<longitude>2.369266</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>77 rue Dunois</adresse>
-			<nom>Le Dunois</nom>
-			<latitude>48.833305</latitude>
-			<longitude>2.36586</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>48 rue du Dessous des Berges</adresse>
-			<nom>Le Caminito</nom>
-			<latitude>48.826608</latitude>
-			<longitude>2.374571</longitude>
-		</element>
-		<element id="5" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>26 rue du Docteur Magnan</adresse>
 			<nom>L'âge d'or</nom>
 			<latitude>48.826494</latitude>
 			<longitude>2.359987</longitude>
 		</element>
-		<element id="6" type="cinema">
+		<element id="2" type="cafe">
+			<adresse>77 rue Dunois</adresse>
+			<nom>Le Dunois</nom>
+			<latitude>48.833305</latitude>
+			<longitude>2.36586</longitude>
+		</element>
+		<element id="3" type="cafe">
+			<adresse>7 rue Clisson</adresse>
+			<nom>Tamm Bara</nom>
+			<latitude>48.832964</latitude>
+			<longitude>2.369266</longitude>
+		</element>
+		<element id="4" type="cafe">
 			<adresse>34 avenue Pierre Mendès-France</adresse>
 			<nom>Le Kleemend's</nom>
 			<latitude>48.838521</latitude>
 			<longitude>2.370478</longitude>
 		</element>
+		<element id="5" type="cafe">
+			<adresse>48 rue du Dessous des Berges</adresse>
+			<nom>Le Caminito</nom>
+			<latitude>48.826608</latitude>
+			<longitude>2.374571</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>69 rue Broca</adresse>
+			<nom>Le Couvent</nom>
+			<latitude>48.836919</latitude>
+			<longitude>2.347003</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75014">
-		<element id="1" type="cinema">
-			<adresse>3 rue Gaîté</adresse>
-			<nom>Le Plomb du cantal</nom>
-			<latitude>48.840771</latitude>
-			<longitude>2.324589</longitude>
-		</element>
-		<element id="2" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>59 Boulevard Saint-Jacques</adresse>
 			<nom>L'Écir</nom>
 			<latitude>48.832825</latitude>
 			<longitude>2.336116</longitude>
 		</element>
-		<element id="3" type="cinema">
-			<adresse>58 boulvevard Saint Jacques</adresse>
-			<nom>Denfert café</nom>
-			<latitude>48.834157</latitude>
-			<longitude>2.33381</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>3 rue de la Gaité</adresse>
-			<nom>La Brasserie Gaité</nom>
+		<element id="2" type="cafe">
+			<adresse>3 rue Gaîté</adresse>
+			<nom>Le Plomb du cantal</nom>
 			<latitude>48.840771</latitude>
 			<longitude>2.324589</longitude>
 		</element>
-		<element id="5" type="cinema">
-			<adresse>52 rue des plantes</adresse>
-			<nom>maison du vin</nom>
-			<latitude>48.828704</latitude>
-			<longitude>2.322074</longitude>
-		</element>
-		<element id="6" type="cinema">
+		<element id="3" type="cafe">
 			<adresse>21 rue Boulard</adresse>
 			<nom>Au Vin Des Rues</nom>
 			<latitude>48.833863</latitude>
 			<longitude>2.329046</longitude>
 		</element>
-		<element id="7" type="cinema">
+		<element id="4" type="cafe">
+			<adresse>58 boulvevard Saint Jacques</adresse>
+			<nom>Denfert café</nom>
+			<latitude>48.834157</latitude>
+			<longitude>2.33381</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>3 rue de la Gaité</adresse>
+			<nom>La Brasserie Gaité</nom>
+			<latitude>48.840771</latitude>
+			<longitude>2.324589</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>52 rue des plantes</adresse>
+			<nom>maison du vin</nom>
+			<latitude>48.828704</latitude>
+			<longitude>2.322074</longitude>
+		</element>
+		<element id="7" type="cafe">
 			<adresse>58 rue Daguerre</adresse>
 			<nom>le Zango</nom>
 			<latitude>48.834972</latitude>
 			<longitude>2.327007</longitude>
 		</element>
-		<element id="8" type="cinema">
-			<adresse>12 avenue Jean Moulin</adresse>
-			<nom>Caprice café</nom>
-			<latitude>48.827428</latitude>
-			<longitude>2.325652</longitude>
-		</element>
-		<element id="9" type="cinema">
+		<element id="8" type="cafe">
 			<adresse>55 rue de la tombe Issoire</adresse>
 			<nom>Le petit club</nom>
 			<latitude>48.830151</latitude>
 			<longitude>2.334213</longitude>
 		</element>
+		<element id="9" type="cafe">
+			<adresse>12 avenue Jean Moulin</adresse>
+			<nom>Caprice café</nom>
+			<latitude>48.827428</latitude>
+			<longitude>2.325652</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75015">
-		<element id="1" type="cinema">
-			<adresse>60 rue des bergers</adresse>
-			<nom>Le bal du pirate</nom>
-			<latitude>48.842128</latitude>
-			<longitude>2.280374</longitude>
-		</element>
-		<element id="2" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>48 avenue de la Motte Picquet</adresse>
 			<nom>Le Piquet</nom>
 			<latitude>48.851</latitude>
 			<longitude>2.300378</longitude>
 		</element>
-		<element id="3" type="cinema">
-			<adresse>95 avenue Emile Zola</adresse>
-			<nom>Le Germinal</nom>
-			<latitude>48.846814</latitude>
-			<longitude>2.289311</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>10 boulevard Victor</adresse>
-			<nom>Café Victor</nom>
-			<latitude>48.835843</latitude>
-			<longitude>2.278501</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>172 rue de vaugirard</adresse>
-			<nom>le 1 cinq</nom>
-			<latitude>48.842462</latitude>
-			<longitude>2.310919</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>354 bis rue Vaugirard</adresse>
-			<nom>Le Comptoir</nom>
-			<latitude>48.8357</latitude>
-			<longitude>2.292961</longitude>
-		</element>
-		<element id="7" type="cinema">
-			<adresse>9 Place du General Beuret</adresse>
-			<nom>Le General Beuret</nom>
-			<latitude>48.84167</latitude>
-			<longitude>2.303053</longitude>
-		</element>
-		<element id="8" type="cinema">
-			<adresse>344Vrue Vaugirard</adresse>
-			<nom>Coffee Chope</nom>
-			<latitude>48.839472</latitude>
-			<longitude>2.30286</longitude>
-		</element>
-		<element id="9" type="cinema">
-			<adresse>61 avenue de la Motte Picquet</adresse>
-			<nom>Le Zinc</nom>
-			<latitude>48.849497</latitude>
-			<longitude>2.298855</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>380 rue de vaugirard</adresse>
-			<nom>le lutece</nom>
-			<latitude>48.833146</latitude>
-			<longitude>2.288834</longitude>
-		</element>
-		<element id="11" type="cinema">
-			<adresse>21 rue Copreaux</adresse>
-			<nom>Le drapeau de la fidelité</nom>
-			<latitude>48.841494</latitude>
-			<longitude>2.307117</longitude>
-		</element>
-		<element id="12" type="cinema">
-			<adresse>14 rue d'alleray</adresse>
-			<nom>bistrot les timbrés</nom>
-			<latitude>48.838137</latitude>
-			<longitude>2.301166</longitude>
-		</element>
-		<element id="13" type="cinema">
-			<adresse>198 rue de la Convention</adresse>
-			<nom>Café Dupont</nom>
-			<latitude>48.837212</latitude>
-			<longitude>2.296046</longitude>
-		</element>
-		<element id="14" type="cinema">
-			<adresse>80 Rue Saint-Charles</adresse>
-			<nom>Le Pareloup</nom>
-			<latitude>48.847344</latitude>
-			<longitude>2.286078</longitude>
-		</element>
-		<element id="15" type="cinema">
-			<adresse>65 boulevard Pasteur</adresse>
-			<nom>les montparnos</nom>
-			<latitude>48.841007</latitude>
-			<longitude>2.31466</longitude>
-		</element>
-		<element id="16" type="cinema">
-			<adresse>106 rue Lecourbe</adresse>
-			<nom>Les Artisans</nom>
-			<latitude>48.842868</latitude>
-			<longitude>2.303173</longitude>
-		</element>
-		<element id="17" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>358 rue de Vaugirard</adresse>
 			<nom>Le Parc Vaugirard</nom>
 			<latitude>48.835451</latitude>
 			<longitude>2.292515</longitude>
 		</element>
-		<element id="18" type="cinema">
+		<element id="3" type="cafe">
+			<adresse>14 rue d'alleray</adresse>
+			<nom>bistrot les timbrés</nom>
+			<latitude>48.838137</latitude>
+			<longitude>2.301166</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>172 rue de vaugirard</adresse>
+			<nom>le 1 cinq</nom>
+			<latitude>48.842462</latitude>
+			<longitude>2.310919</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>9 Place du General Beuret</adresse>
+			<nom>Le General Beuret</nom>
+			<latitude>48.84167</latitude>
+			<longitude>2.303053</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>21 rue Copreaux</adresse>
+			<nom>Le drapeau de la fidelité</nom>
+			<latitude>48.841494</latitude>
+			<longitude>2.307117</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>80 Rue Saint-Charles</adresse>
+			<nom>Le Pareloup</nom>
+			<latitude>48.847344</latitude>
+			<longitude>2.286078</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>106 rue Lecourbe</adresse>
+			<nom>Les Artisans</nom>
+			<latitude>48.842868</latitude>
+			<longitude>2.303173</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>65 boulevard Pasteur</adresse>
+			<nom>les montparnos</nom>
+			<latitude>48.841007</latitude>
+			<longitude>2.31466</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>95 avenue Emile Zola</adresse>
+			<nom>Le Germinal</nom>
+			<latitude>48.846814</latitude>
+			<longitude>2.289311</longitude>
+		</element>
+		<element id="11" type="cafe">
 			<adresse>36 rue du hameau</adresse>
 			<nom>La Bauloise</nom>
 			<latitude>48.834051</latitude>
 			<longitude>2.287345</longitude>
 		</element>
-		<element id="19" type="cinema">
+		<element id="12" type="cafe">
+			<adresse>61 avenue de la Motte Picquet</adresse>
+			<nom>Le Zinc</nom>
+			<latitude>48.849497</latitude>
+			<longitude>2.298855</longitude>
+		</element>
+		<element id="13" type="cafe">
 			<adresse>125 rue Blomet</adresse>
 			<nom>Le café des amis</nom>
 			<latitude>48.839743</latitude>
 			<longitude>2.296898</longitude>
 		</element>
+		<element id="14" type="cafe">
+			<adresse>198 rue de la Convention</adresse>
+			<nom>Café Dupont</nom>
+			<latitude>48.837212</latitude>
+			<longitude>2.296046</longitude>
+		</element>
+		<element id="15" type="cafe">
+			<adresse>354 bis rue Vaugirard</adresse>
+			<nom>Le Comptoir</nom>
+			<latitude>48.8357</latitude>
+			<longitude>2.292961</longitude>
+		</element>
+		<element id="16" type="cafe">
+			<adresse>344Vrue Vaugirard</adresse>
+			<nom>Coffee Chope</nom>
+			<latitude>48.839472</latitude>
+			<longitude>2.30286</longitude>
+		</element>
+		<element id="17" type="cafe">
+			<adresse>10 boulevard Victor</adresse>
+			<nom>Café Victor</nom>
+			<latitude>48.835843</latitude>
+			<longitude>2.278501</longitude>
+		</element>
+		<element id="18" type="cafe">
+			<adresse>60 rue des bergers</adresse>
+			<nom>Le bal du pirate</nom>
+			<latitude>48.842128</latitude>
+			<longitude>2.280374</longitude>
+		</element>
+		<element id="19" type="cafe">
+			<adresse>380 rue de vaugirard</adresse>
+			<nom>le lutece</nom>
+			<latitude>48.833146</latitude>
+			<longitude>2.288834</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75016">
-		<element id="1" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>17 rue Jean de la Fontaine</adresse>
 			<nom>Café antoine</nom>
 			<latitude>48.851662</latitude>
@@ -873,245 +873,245 @@
 		</element>
 	</arrondissement>
 	<arrondissement num="75017">
-		<element id="1" type="cinema">
-			<adresse>174 avenue de Clichy</adresse>
-			<nom>Pari's Café</nom>
-			<latitude>48.892366</latitude>
-			<longitude>2.317359</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>22 rue des Dames</adresse>
-			<nom>Les caves populaires</nom>
-			<latitude>48.884753</latitude>
-			<longitude>2.324648</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>2 rue Lemercier</adresse>
-			<nom>Le BB (Bouchon des Batignolles)</nom>
-			<latitude>48.885367</latitude>
-			<longitude>2.325325</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>Place de Clichy</adresse>
-			<nom>Bagels & Coffee Corner</nom>
-			<latitude>48.883648</latitude>
-			<longitude>2.327066</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>101 rue des dames</adresse>
-			<nom>Trois pièces cuisine</nom>
-			<latitude>48.882939</latitude>
-			<longitude>2.31809</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>22 rue des Dames</adresse>
-			<nom>Caves populaires</nom>
-			<latitude>48.884753</latitude>
-			<longitude>2.324648</longitude>
-		</element>
-		<element id="7" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>21 avenue Brochant</adresse>
 			<nom>Le Bloc</nom>
 			<latitude>48.889101</latitude>
 			<longitude>2.318001</longitude>
 		</element>
-		<element id="8" type="cinema">
-			<adresse>182 rue de Courcelles</adresse>
-			<nom>Le Village</nom>
-			<latitude>48.88435</latitude>
-			<longitude>2.297978</longitude>
-		</element>
-		<element id="9" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>47 rue de Batignolles</adresse>
 			<nom>Petits Freres des Pauvres</nom>
 			<latitude>48.885662</latitude>
 			<longitude>2.319591</longitude>
 		</element>
+		<element id="3" type="cafe">
+			<adresse>101 rue des dames</adresse>
+			<nom>Trois pièces cuisine</nom>
+			<latitude>48.882939</latitude>
+			<longitude>2.31809</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>22 rue des Dames</adresse>
+			<nom>Caves populaires</nom>
+			<latitude>48.884753</latitude>
+			<longitude>2.324648</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>Place de Clichy</adresse>
+			<nom>Bagels & Coffee Corner</nom>
+			<latitude>48.883648</latitude>
+			<longitude>2.327066</longitude>
+		</element>
+		<element id="6" type="cafe">
+			<adresse>174 avenue de Clichy</adresse>
+			<nom>Pari's Café</nom>
+			<latitude>48.892366</latitude>
+			<longitude>2.317359</longitude>
+		</element>
+		<element id="7" type="cafe">
+			<adresse>2 rue Lemercier</adresse>
+			<nom>Le BB (Bouchon des Batignolles)</nom>
+			<latitude>48.885367</latitude>
+			<longitude>2.325325</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>22 rue des Dames</adresse>
+			<nom>Les caves populaires</nom>
+			<latitude>48.884753</latitude>
+			<longitude>2.324648</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>182 rue de Courcelles</adresse>
+			<nom>Le Village</nom>
+			<latitude>48.88435</latitude>
+			<longitude>2.297978</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75018">
-		<element id="1" type="cinema">
-			<adresse>8 rue L'Olive</adresse>
-			<nom>L'Olive</nom>
-			<latitude>48.890605</latitude>
-			<longitude>2.361349</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>23 rue des abbesses</adresse>
-			<nom>Le Saint Jean</nom>
-			<latitude>48.884646</latitude>
-			<longitude>2.337734</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>104 rue caulaincourt</adresse>
-			<nom>Le pari's café</nom>
-			<latitude>48.889565</latitude>
-			<longitude>2.339735</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>49 rue des Cloys</adresse>
-			<nom>Au bon coin</nom>
-			<latitude>48.893017</latitude>
-			<longitude>2.337776</longitude>
-		</element>
-		<element id="5" type="cinema">
-			<adresse>216, rue Marcadet</adresse>
-			<nom>Le Brio</nom>
-			<latitude>48.891864</latitude>
-			<longitude>2.333628</longitude>
-		</element>
-		<element id="6" type="cinema">
-			<adresse>12 rue Armand Carrel</adresse>
-			<nom>Le Chaumontois</nom>
-			<latitude>48.88268</latitude>
-			<longitude>2.38042</longitude>
-		</element>
-		<element id="7" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>11 rue Feutrier</adresse>
 			<nom>Le Müller</nom>
 			<latitude>48.886536</latitude>
 			<longitude>2.346525</longitude>
 		</element>
-		<element id="8" type="cinema">
-			<adresse>86 bis rue Riquet</adresse>
-			<nom>Populettes</nom>
-			<latitude>48.890043</latitude>
-			<longitude>2.362241</longitude>
-		</element>
-		<element id="9" type="cinema">
-			<adresse>72 rue lamarck</adresse>
-			<nom>Le refuge</nom>
-			<latitude>48.889982</latitude>
-			<longitude>2.338933</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>19-23 rue Léon</adresse>
-			<nom>Institut des Cultures d'Islam</nom>
-			<latitude>48.888023</latitude>
-			<longitude>2.353467</longitude>
-		</element>
-		<element id="11" type="cinema">
-			<adresse>52 rue Liebniz</adresse>
-			<nom>La Bricole</nom>
-			<latitude>48.896305</latitude>
-			<longitude>2.332898</longitude>
-		</element>
-		<element id="12" type="cinema">
-			<adresse>112 Rue Championnet</adresse>
-			<nom>La Renaissance</nom>
-			<latitude>48.895825</latitude>
-			<longitude>2.339712</longitude>
-		</element>
-		<element id="13" type="cinema">
-			<adresse>16 rue Ganneron</adresse>
-			<nom>Brasiloja</nom>
-			<latitude>48.886431</latitude>
-			<longitude>2.327429</longitude>
-		</element>
-		<element id="14" type="cinema">
-			<adresse>1 rue Paul albert</adresse>
-			<nom>Botak cafe</nom>
-			<latitude>48.886504</latitude>
-			<longitude>2.34498</longitude>
-		</element>
-		<element id="15" type="cinema">
-			<adresse>3, rue Baudelique</adresse>
-			<nom>Le Supercoin</nom>
-			<latitude>48.892244</latitude>
-			<longitude>2.346973</longitude>
-		</element>
-		<element id="16" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>19 rue Pajol</adresse>
 			<nom>Canopy Café associatif</nom>
 			<latitude>48.886044</latitude>
 			<longitude>2.360781</longitude>
 		</element>
-		<element id="17" type="cinema">
+		<element id="3" type="cafe">
+			<adresse>49 rue des Cloys</adresse>
+			<nom>Au bon coin</nom>
+			<latitude>48.893017</latitude>
+			<longitude>2.337776</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>216, rue Marcadet</adresse>
+			<nom>Le Brio</nom>
+			<latitude>48.891864</latitude>
+			<longitude>2.333628</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>12 rue Armand Carrel</adresse>
+			<nom>Le Chaumontois</nom>
+			<latitude>48.88268</latitude>
+			<longitude>2.38042</longitude>
+		</element>
+		<element id="6" type="cafe">
 			<adresse>53 rue du ruisseau</adresse>
 			<nom>O q de poule</nom>
 			<latitude>48.893517</latitude>
 			<longitude>2.340271</longitude>
 		</element>
+		<element id="7" type="cafe">
+			<adresse>3, rue Baudelique</adresse>
+			<nom>Le Supercoin</nom>
+			<latitude>48.892244</latitude>
+			<longitude>2.346973</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>112 Rue Championnet</adresse>
+			<nom>La Renaissance</nom>
+			<latitude>48.895825</latitude>
+			<longitude>2.339712</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>8 rue L'Olive</adresse>
+			<nom>L'Olive</nom>
+			<latitude>48.890605</latitude>
+			<longitude>2.361349</longitude>
+		</element>
+		<element id="10" type="cafe">
+			<adresse>19-23 rue Léon</adresse>
+			<nom>Institut des Cultures d'Islam</nom>
+			<latitude>48.888023</latitude>
+			<longitude>2.353467</longitude>
+		</element>
+		<element id="11" type="cafe">
+			<adresse>72 rue lamarck</adresse>
+			<nom>Le refuge</nom>
+			<latitude>48.889982</latitude>
+			<longitude>2.338933</longitude>
+		</element>
+		<element id="12" type="cafe">
+			<adresse>1 rue Paul albert</adresse>
+			<nom>Botak cafe</nom>
+			<latitude>48.886504</latitude>
+			<longitude>2.34498</longitude>
+		</element>
+		<element id="13" type="cafe">
+			<adresse>23 rue des abbesses</adresse>
+			<nom>Le Saint Jean</nom>
+			<latitude>48.884646</latitude>
+			<longitude>2.337734</longitude>
+		</element>
+		<element id="14" type="cafe">
+			<adresse>16 rue Ganneron</adresse>
+			<nom>Brasiloja</nom>
+			<latitude>48.886431</latitude>
+			<longitude>2.327429</longitude>
+		</element>
+		<element id="15" type="cafe">
+			<adresse>86 bis rue Riquet</adresse>
+			<nom>Populettes</nom>
+			<latitude>48.890043</latitude>
+			<longitude>2.362241</longitude>
+		</element>
+		<element id="16" type="cafe">
+			<adresse>104 rue caulaincourt</adresse>
+			<nom>Le pari's café</nom>
+			<latitude>48.889565</latitude>
+			<longitude>2.339735</longitude>
+		</element>
+		<element id="17" type="cafe">
+			<adresse>52 rue Liebniz</adresse>
+			<nom>La Bricole</nom>
+			<latitude>48.896305</latitude>
+			<longitude>2.332898</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75019">
-		<element id="1" type="cinema">
-			<adresse>6 rue Mélingue</adresse>
-			<nom>Chez Miamophile</nom>
-			<latitude>48.874879</latitude>
-			<longitude>2.386064</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>1 rue du Plateau</adresse>
-			<nom>Le bar Fleuri</nom>
-			<latitude>48.877903</latitude>
-			<longitude>2.385365</longitude>
-		</element>
-		<element id="3" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>71 quai de Seine</adresse>
 			<nom>Le Bellerive</nom>
 			<latitude>48.888165</latitude>
 			<longitude>2.377387</longitude>
 		</element>
+		<element id="2" type="cafe">
+			<adresse>1 rue du Plateau</adresse>
+			<nom>Le bar Fleuri</nom>
+			<latitude>48.877903</latitude>
+			<longitude>2.385365</longitude>
+		</element>
+		<element id="3" type="cafe">
+			<adresse>6 rue Mélingue</adresse>
+			<nom>Chez Miamophile</nom>
+			<latitude>48.874879</latitude>
+			<longitude>2.386064</longitude>
+		</element>
 	</arrondissement>
 	<arrondissement num="75020">
-		<element id="1" type="cinema">
-			<adresse>229 avenue Gambetta</adresse>
-			<nom>La Recoleta au Manoir</nom>
-			<latitude>48.874697</latitude>
-			<longitude>2.405421</longitude>
-		</element>
-		<element id="2" type="cinema">
-			<adresse>116 Rue de Ménilmontant</adresse>
-			<nom>Le Zazabar</nom>
-			<latitude>48.869848</latitude>
-			<longitude>2.394247</longitude>
-		</element>
-		<element id="3" type="cinema">
-			<adresse>3 rue de Lagny</adresse>
-			<nom>Melting Pot</nom>
-			<latitude>48.848887</latitude>
-			<longitude>2.399972</longitude>
-		</element>
-		<element id="4" type="cinema">
-			<adresse>1 rue d'Avron</adresse>
-			<nom>l'Usine</nom>
-			<latitude>48.851463</latitude>
-			<longitude>2.398691</longitude>
-		</element>
-		<element id="5" type="cinema">
+		<element id="1" type="cafe">
 			<adresse>1 Rue des Envierges</adresse>
 			<nom>O'Paris</nom>
 			<latitude>48.871595</latitude>
 			<longitude>2.385858</longitude>
 		</element>
-		<element id="6" type="cinema">
-			<adresse>148 Boulevard de Charonne</adresse>
-			<nom>Le Saint René</nom>
-			<latitude>48.856496</latitude>
-			<longitude>2.394874</longitude>
-		</element>
-		<element id="7" type="cinema">
+		<element id="2" type="cafe">
 			<adresse>13 Rue Jean-Baptiste Dumay</adresse>
 			<nom>La Cagnotte</nom>
 			<latitude>48.874605</latitude>
 			<longitude>2.387738</longitude>
 		</element>
-		<element id="8" type="cinema">
+		<element id="3" type="cafe">
+			<adresse>1 rue d'Avron</adresse>
+			<nom>l'Usine</nom>
+			<latitude>48.851463</latitude>
+			<longitude>2.398691</longitude>
+		</element>
+		<element id="4" type="cafe">
+			<adresse>148 Boulevard de Charonne</adresse>
+			<nom>Le Saint René</nom>
+			<latitude>48.856496</latitude>
+			<longitude>2.394874</longitude>
+		</element>
+		<element id="5" type="cafe">
+			<adresse>108 rue de Ménilmontant</adresse>
+			<nom>Chez Luna</nom>
+			<latitude>48.869519</latitude>
+			<longitude>2.39339</longitude>
+		</element>
+		<element id="6" type="cafe">
 			<adresse>47 rue Belgrand</adresse>
 			<nom>Au panini de la place</nom>
 			<latitude>48.864628</latitude>
 			<longitude>2.408038</longitude>
 		</element>
-		<element id="9" type="cinema">
+		<element id="7" type="cafe">
+			<adresse>229 avenue Gambetta</adresse>
+			<nom>La Recoleta au Manoir</nom>
+			<latitude>48.874697</latitude>
+			<longitude>2.405421</longitude>
+		</element>
+		<element id="8" type="cafe">
+			<adresse>116 Rue de Ménilmontant</adresse>
+			<nom>Le Zazabar</nom>
+			<latitude>48.869848</latitude>
+			<longitude>2.394247</longitude>
+		</element>
+		<element id="9" type="cafe">
+			<adresse>3 rue de Lagny</adresse>
+			<nom>Melting Pot</nom>
+			<latitude>48.848887</latitude>
+			<longitude>2.399972</longitude>
+		</element>
+		<element id="10" type="cafe">
 			<adresse>46 rue de Buzenval</adresse>
 			<nom>Les Pères Populaires</nom>
 			<latitude>48.851325</latitude>
 			<longitude>2.40171</longitude>
-		</element>
-		<element id="10" type="cinema">
-			<adresse>108 rue de Ménilmontant</adresse>
-			<nom>Chez Luna</nom>
-			<latitude>48.869519</latitude>
-			<longitude>2.39339</longitude>
 		</element>
 	</arrondissement>
 </root>
