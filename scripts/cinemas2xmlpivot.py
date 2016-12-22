@@ -4,6 +4,24 @@
 import xml.etree.ElementTree as ET
 from pprint import pprint
 
+def getInfosCrous(infilename):
+	dic={}
+	tree = ET.parse(infilename)
+	root = tree.getroot()
+	for child in root:
+		# dic={}
+		if 'Paris' in child.attrib["zone"] and child.attrib["zone"].split()[1] != "Denis":
+			id=child.attrib["id"]
+			nom=child.attrib["title"]
+			lon=child.attrib["lon"]
+			lat=child.attrib["lat"]
+			arrondissement="750"+child.attrib["zone"].split()[1]
+			dic[arrondissement]=dic.get(arrondissement,{})
+			for grandchild in list(child):
+				if grandchild.tag == "contact":
+					adresse=grandchild.text.split("p>")[1].split("</")[0]
+					dic[arrondissement][id]={"nom":nom, "adresse":adresse,"coordonnees":[lon, lat]}
+	return dic
 
 def getInfos(infilename, arrond="arrondissement", nom="nom", adresse="adresse", coordinates="coordonnees"):
 	dic={}
@@ -39,24 +57,24 @@ def getArrondFromAdress(adresse):
 def writeInFile(dic, typeLieu, outfilename):
 	with open(outfilename, 'w') as f:
 		f.write("""<?xml version="1.0" encoding="utf-8" standalone="no"?>\n<root>\n""")
+		i=0
 		for arrondissement in sorted(list(dic.keys())):
 			f.write("""\t<arrondissement num="{}">\n""".format(arrondissement))
-			i=0
 			for elemnum in dic[arrondissement]:
+				i +=1
 				# print(elemnum)
 				infos=dic[arrondissement][elemnum]
 				if len(infos) == 3:
-					i+=1
 					f.write("""\t\t<element id="{id}" type="{type}">\n""".format(id=i,type=typeLieu))
-					f.write("""\t\t\t<adresse>{}</adresse>\n""".format(infos["adresse"]))
-					f.write("""\t\t\t<nom>{}</nom>\n""".format(infos["nom"]))
-					# f.write("""\t\t\t<coordonnees>\n""")
 					for coord in infos["coordonnees"]:
 						if float(coord) < 10:
 							f.write("""\t\t\t<longitude>{}</longitude>\n""".format(coord))
 						else:
 							f.write("""\t\t\t<latitude>{}</latitude>\n""".format(coord))
 					# f.write("""\t\t\t</coordonnees>\n""")
+					f.write("""\t\t\t<adresse>{}</adresse>\n""".format(infos["adresse"]))
+					f.write("""\t\t\t<nom>{}</nom>\n""".format(infos["nom"]))
+					# f.write("""\t\t\t<coordonnees>\n""")
 					f.write("""\t\t</element>\n""")
 				else:
 					print("node number", elemnum, "is uncomplete. removed from final file.")
@@ -81,6 +99,11 @@ if __name__ == '__main__':
 	writeInFile(dic,"cafe", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
 
 	fic="distributeurspreservatifsmasculinsparis2012.xml"
-	dic=getInfos("../donnees_xml/"+fic, arrond="from_'adresse_complete'", nom="site", adresse="adresse", coordinates="xy")
+	dic=getInfos("../donnees_xml/"+fic, arrond="arrond", nom="site", adresse="adresse", coordinates="xy")
 	print(fic)
 	writeInFile(dic,"preservatifs", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+
+	fic="restauration_france_entiere.xml"
+	dic=getInfosCrous("../donnees_xml/"+fic)
+	print(fic)
+	writeInFile(dic,"crous", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
