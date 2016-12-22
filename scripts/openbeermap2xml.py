@@ -1,7 +1,10 @@
 import re
+import osmapi
+import pprint
 
 csv_file = open('../donnees_brutes/OpenBeerMap_IDF.csv','r')
-xml_output = open('../donnees_XML/OpenBeerMap.xml','w')
+# xml_output = open('../donnees_xml/OpenBeerMap.xml','w')
+xml_pivot = open('../xml_formattes_pivot/openbeermap_pivot.xml','w')
 
 def line_mod(line):
 	"""
