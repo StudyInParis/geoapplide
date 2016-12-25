@@ -67,6 +67,7 @@ Modules utilisés pour la réalisation des scripts :
 - [dicttoxml](https://github.com/quandyfactory/dicttoxml) (génère un fichier xml à partir d'un dictionnaire python)
 - json (gestion des fichiers json et conversion en dictionnaire python)
 - lxml
+- [geopy](https://github.com/geopy/geopy)
 
 ### Problèmes rencontrés lors de la création des scripts
 #### OpenBeerMap
@@ -91,13 +92,17 @@ Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'
 - quartiers.xml
 - cafes.xml
 - marches.xml
- 
+
 Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise <item>
 chaque liste du json d'origine. il y avait plusieurs balises <item>, dans différents noeuds...
   -> Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.
 Récurrente sur tous les fichiers json d'origine
-  
+
   Tous les XML ont à ce jour été validés par une DTD.
+#### Récupération des adresses  partir des OSM_ID d'OpenBeerMap
+Dans le fichier OpenBeerMap, on a les OSM_ID pour chaque bar, à partir de ces IDs, on utilise le module osmapi qui permet théoriquement d'obtenir la latitude, la longitude et l'adresse ocmplète (arrondissement, numéro et nom de la rue, ville, etc). Problème, l'adresse complète n'est récupérable que dans 34 (ou 38) cas sur les 119 entrées que compte le fichier. On utilise donc osmapi pour retrouver latitude et longitude puis un autre module (geopy) pour obtenir, à partir des coordonnées une adresse complète.
+Ces étapes sont dans le script : openbeermap_pivot.py.
+
 ## Création d'un fichier XML pivot
 On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.
 D'abord on formate avec python tous les xml pour qu'ils ressemblent au modèle de xml que l'on veut, puis on les met en commun pour obtenir un seul xml.

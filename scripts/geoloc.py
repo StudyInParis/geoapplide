@@ -1,11 +1,11 @@
 #! usr/bin/python3
 #! coding: utf-8
 
-import osmapi 
+import osmapi
 #pip install module python pour acces api open street map
 
 api = osmapi.OsmApi()
-print(api.NodeGet(1140477414)) #un des elements de openbeermap
+print(api.NodeGet(1140477414)) # un des elements de openbeermap
 #resultats :
 # {'changeset': 17681527,
 #  'id': 1140477414,
@@ -25,5 +25,3 @@ print(api.NodeGet(1140477414)) #un des elements de openbeermap
 #  'user': 'Emmanuel Delahaye',
 #  'version': 4,
 #  'visible': True}
-
-

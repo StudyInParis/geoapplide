@@ -2,33 +2,52 @@
 #! coding: utf-8
 
 from lxml import etree
-import osmapi #pip install module python pour acces api open street map
+import osmapi # pip install module python pour acces api open street map
+from geopy.geocoders import Nominatim
+from pprint import pprint
 
-def recuperation_infos(liste_nom, liste_osm):
+def recuperation_infos(liste_noms, liste_osm):
     """ recupere infos sur bars openbeermap, latitude et longitude à partir de coordonnees OSM avec OsmApi
 
     entree = liste des noms des elements et liste des coordonnees correspondantes
-    sortie = dictionnaire de correspondance noms et latitude/longitude
+    sortie = dictionnaire de correspondance {noms:[latitude, longitude, adresse]}
     """
     cpt = 0
     dico = {}
     for element in liste_osm:
         try:
+            print(liste_noms[cpt])
             api = osmapi.OsmApi()
             coord = api.NodeGet(element) #un des elements de openbeermap
             lat = coord["lat"]
             lon = coord["lon"]
-            dico[liste_nom[cpt]] = [lat, lon]
+            address = GetAddress(lat, lon)
+            # on récupère l'arrondissement puisque c'est notre base de tri, il est donné en avant-dernièr position dans le résultat de geopy
+            arrondissement = address.split(', ')[-2]
+            # petit nettoyage au milieu pour que ça soit jouli
+            adr = ", ".join(address.split(', ')[1:-4])
+            # ensuite on rassemble les bars/pubs par arrondissement dans le dictionnaire
+            if arrondissement in dico.keys():
+                dico[arrondissement].append([liste_noms[cpt], lat, lon, adr])
+            else:
+                dico[arrondissement] = []
             cpt+=1
-        except KeyError:
-            print("Erreur (postcode) non renseigné", liste_nom[cpt])
-            dico[liste_nom[cpt]] = []
-            next
         except TypeError:
-            print("NonType node Error pour ", liste_nom[cpt])
-            dico[liste_nom[cpt]] = []
+            # dans certains cas, NodeGet renvoie un objet NonType donc inutilisable
+            print("Erreur NonType node pour", liste_noms[cpt])
+            dico[liste_noms[cpt]] = []
             next
     return dico
+
+def GetAddress(latitude, longitude):
+    """ récupère une adresse à partir de coordonnées
+    entrée : une latitude, une longitude
+    sortie : une string contenant l'adresse complète
+    """
+    geolocator = Nominatim()
+    coordinates = str(latitude) + ', ' + str(longitude)
+    location = geolocator.reverse(coordinates)
+    return location.address
 
 def impression_xml_pivot(dico):
     """impression d'un dictionnaire dans un fichier xml
@@ -36,49 +55,30 @@ def impression_xml_pivot(dico):
     sortie = void
     """
     output = open("../xml_formattes_pivot/openbeermap_pivot.xml", 'w')
-    output.write('<?xml version="1.0" encoding="utf-8" standalone="no"?>\n<!DOCTYPE root SYSTEM "xml_pivot.dtd">\n<root>\n')
-    cpt=0
-    for element in dico:
-        output.write('\t<elem id="'+str(cpt)+'" type="bar">\n')
-        output.write('\t\t<long>'+str(dico[element][1])+'</long>\n')
-        output.write('\t\t<lat>'+str(dico[element][0])+'</lat>\n')
-        output.write('\t\t<name>'+element+'</name>\n')
-        output.write('\t</elem>\n')
-        cpt+=1
+    output.write('<?xml version="1.0" encoding="utf-8" standalone="no"?>\n<root>\n')
+    for element in sorted(dico):
+        if element.startswith("750"):
+            output.write('\t<arrondissement num ="'+element+'">\n')
+            cpt=0
+            for item in dico[element]:
+                output.write('\t\t<elem id="'+str(cpt)+'" type="bar">\n')
+                output.write('\t\t\t<latitude>'+str(item[1])+'</latitude>\n')
+                output.write('\t\t\t<longitude>'+str(item[2])+'</longitude>\n')
+                output.write('\t\t\t<adresse>'+str(item[3])+'</adresse>\n')
+                output.write('\t\t\t<nom>'+item[0]+'</nom>\n')
+                output.write('\t\t</elem>\n')
+                cpt+=1
+            output.write('\t</arrondissement>\n')
     output.write('</root>')
-    # <elem id="75010_1" type="bar">
-    # 			<long> 4,6541468 </long>
-    # 			<lat> 45,456786 </lat>
-    # 			<adresse> 15, rue du foot</adresse>
-    # 			<name>A la balle de match</name>
-    # 		</elem>
 
 if __name__ == "__main__":
-    # parser le fichier xml en entrée
+    print("parser le fichier xml en entrée")
     tree = etree.parse('../donnees_xml/OpenBeerMap.xml')
     root = tree.getroot()
-    osm_list = {}
-    # récupérer l'ensemble des osm_id avec le name du bar correspondant
-    liste_nom = root.xpath("//name/text()")
+    print("récupérer l'ensemble des osm_id avec le name du bar correspondant dans 2 listes")
+    liste_noms = root.xpath("//name/text()")
     liste_osm = root.xpath("//osm_id/text()")
-    noms_lat_lon = recuperation_infos(liste_nom, liste_osm)
-    for item in noms_lat_lon:
-        print(item, noms_lat_lon[item])
-    impression_xml_pivot(noms_lat_lon)
-
-# api = osmapi.OsmApi()
-# print(api.NodeGet(1140477414)) #un des elements de openbeermap
-
-
-
-# format de sortie attendu
-# <root>
-# 	<arrondissement num ="10" loyer_m_carre ="20.34">
-# 		<elem id="75010_1" type="bar">
-# 			<long> 4,6541468 </long>
-# 			<lat> 45,456786 </lat>
-# 			<adresse> 15, rue du foot</adresse>
-# 			<name>A la balle de match</name>
-# 		</elem>
-# 	</arrondissement>
-# </root>
+    print('création du dictionnaire qui contient nom, latitude, longitude et adresse pour chaque bar')
+    dic_infos = recuperation_infos(liste_noms, liste_osm)
+    print("Impression du fichier de sortie")
+    impression_xml_pivot(dic_infos)
