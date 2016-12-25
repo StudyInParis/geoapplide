@@ -1,12 +1,17 @@
 Pistes pour plungins site final :
 
-Idée : faire des graphes simples à partir de données XML 
+Idée : faire des graphes simples à partir de données XML
 
 Solution 1 : StackOverflow (http://stackoverflow.com/questions/27114048/creating-charts-using-xsl-xml)
 -> Vizualize : A jQuery plugin that converts markup to canvas bar or pie charts.
   https://github.com/kellyk/visualize
-  
+
 -> D'autres pistes là : http://plugins.jquery.com/?s=chart
 
 Solution 2 : (moins joli) JMSL (à approfondir, peu d'infos dessus)
 -> http://docs.roguewave.com/imsl/java/5.0.1/chartpg/xml_xslt.html
+
+-> openlayer pour visualiation carte
+
+-> visualisation d'un point sur une carte à partir de latitude et longitude
+http://techslides.com/convert-latitude-and-longitude-to-a-street-address
