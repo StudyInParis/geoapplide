@@ -61,12 +61,12 @@ def impression_xml_pivot(dico):
             output.write('\t<arrondissement num ="'+element+'">\n')
             cpt=0
             for item in dico[element]:
-                output.write('\t\t<elem id="'+str(cpt)+'" type="bar">\n')
+                output.write('\t\t<element id="'+str(cpt)+'" type="bar">\n')
                 output.write('\t\t\t<latitude>'+str(item[1])+'</latitude>\n')
                 output.write('\t\t\t<longitude>'+str(item[2])+'</longitude>\n')
                 output.write('\t\t\t<adresse>'+str(item[3])+'</adresse>\n')
                 output.write('\t\t\t<nom>'+item[0]+'</nom>\n')
-                output.write('\t\t</elem>\n')
+                output.write('\t\t</element>\n')
                 cpt+=1
             output.write('\t</arrondissement>\n')
     output.write('</root>')
