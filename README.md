@@ -1,4 +1,4 @@
-# geoapplide
+# GEOAPPLIDE
 
 *guide de l'endroit optimal à Paris par parties localisées indexées et destiné aux étudiants*
 
