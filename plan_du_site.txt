@@ -1,0 +1,40 @@
+PLAN DU SITE :
+
+Index :
+	paragraphe qui résume le projet
+	liens vers (dans carrés/images) : => 2 lignes, 3 carrés p/ligne
+		récupération des données
+		nettoyage
+		analyse et modélisation xml
+		+ accès rapide à (utiliser ancres vers tableau récapitulatif) :
+			les sites où on a chopé les data
+			données
+			scripts
+	En bas :
+		noms/adresses mail/contacts
+		lien vers projet github
+
+Pages complémentaires :
+	détails du projet (3 pages ?) :
+		récupération des données
+			taille initiale
+			taille finale
+			% de perte
+		nettoyage
+			scripts utilisés (liens vers scripts)
+			problèmes rencontrés
+		analyse et modélisation XML
+			XML pivot : choix de la modélisation
+			Graphiques
+			lien vers tableau récapitulatif
+	Tableau récap :
+		données :
+			liens de récupération
+			données brutes
+			données nettoyées au format XML + grammaires
+			XML pivot + grammaire
+		scripts + synopsis
+
+
+
+
