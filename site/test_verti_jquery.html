@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test Verti jQuery</title>
+  <script src="./js/jquery.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="html5up-verti/assets/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body class="left-sidebar">
+		<div id="page-wrapper">
+
+  			<!-- Header -->
+  				<div id="header-wrapper">
+  					<header id="header" class="container">
+
+  						<!-- Logo -->
+  							<div id="logo">
+  								<h1><a href="index.html">Projet</a></h1>
+  								<span>M2 TAL</span>
+  							</div>
+                <!-- Logo end -->
+
+  						<!-- Nav -->
+  							<nav id="nav">
+  								<ul>
+  									<li><a href="index.html">Accueil</a></li>
+  									<li>
+  										<a href="#">Graphes</a>
+  										<ul>
+  											<li><a href="#">Graphe 1</a></li>
+  											<li><a href="#">Graphe 2</a></li>
+  											<li>
+  												<a href="#">Graphe 3</a>
+  												<ul>
+  													<li><a href="#">Graphe 4</a></li>
+  													<li><a href="#">Graphe 5</a></li>
+  													<li><a href="#">Graphe 6</a></li>
+  													<li><a href="#">Graphe 7</a></li>
+  												</ul>
+  											</li>
+  											<li><a href="#">Graphe 8</a></li>
+  										</ul>
+  									</li>
+  									<li class="current"><a href="left-sidebar.html">Données</a></li>
+  									<li><a href="right-sidebar.html">Scripts</a></li>
+  									<li><a href="no-sidebar.html">Liens</a></li>
+  								</ul>
+  							</nav>
+
+  					</header>
+  				</div>
+          <!-- Header end -->
+
+
+          <!-- Main -->
+    				<div id="main-wrapper">
+    					<div class="container">
+    						<div class="row 200%">
+                  <div class="4u 12u$(medium)">
+    								<div id="sidebar">
+                      <section>
+                        <h3>Sélectionnez un arrondissement</h3>
+                        <ul class="style2">
+                          <li><a href="#75001">75001</a></li>
+                          <li><a href="#75002">75002</a></li>
+                          <li><a href="#75003">75003</a></li>
+                          <li><a href="#75004">75004</a></li>
+                          <li><a href="#75005">75005</a></li>
+                          <li><a href="#75006">75006</a></li>
+                          <li><a href="#75007">75007</a></li>
+                          <li><a href="#75008">75008</a></li>
+                          <li><a href="#75009">75009</a></li>
+                          <li><a href="#75010">75010</a></li>
+                          <li><a href="#75011">75011</a></li>
+                          <li><a href="#75012">75012</a></li>
+                          <li><a href="#75013">75013</a></li>
+                          <li><a href="#75014">75014</a></li>
+                          <li><a href="#75015">75015</a></li>
+                          <li><a href="#75016">75016</a></li>
+                          <li><a href="#75017">75017</a></li>
+                          <li><a href="#75018">75018</a></li>
+                          <li><a href="#75019">75019</a></li>
+                          <li><a href="#75020">75020</a></li>
+                        </ul>
+                      </section>
+                    </div>
+                    <!-- Sidebar end -->
+                  </div>
+
+    							<div class="8u 12u$(medium) important(medium)">
+    								<div id="content">
+
+    									<!-- Content -->
+    										<article>
+
+    											<h2 id="titre">Test</h2>
+
+    											<div id="visu1"></div>
+
+    										</article>
+                        <!-- Content end -->
+
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div> <!-- Main end -->
+          </div>
+        </div>
+      </div>
+
+<textarea id="source" style="width:650px;height:450px;" >
+</textarea>
+
+
+
+
+<script>
+$("#titre").append(", de jquery !");
+$("#source").hide();
+
+$.ajax({
+  url: "https://raw.githubusercontent.com/StudyInParis/geoapplide/master/xml_formattes_pivot/xml_pivot.xml",
+  cache: true
+})
+  .done(function( html ) {
+    $("#source").val( html ) ;
+  });
+
+    var xml=$("#source").val(),
+    xmlDoc = $.parseXML( xml ),
+    $xml = $( xmlDoc );
+
+// crée un tableau avec tous les types
+var types = new Object() ;
+$(xml).find('arrondissement').each(function(){
+	var arro = $(this).attr("num") ;
+	$(this).find('element').each( function(){
+		var type = $(this).attr("type") ;
+    types[type] = type;
+	});
+});
+console.log(types);
+
+// créé un tableau avec tous les arrondissements
+var arrs = new Array();
+var i =0;
+$(xml).find('arrondissement').each(function(){
+  var arro = $(this).attr("num") ;
+  arrs[i] = arro;
+  i++;
+  });
+console.log(arrs);
+
+// création des boites arrondissements
+$.each( arrs, function( key, value ) {
+  $("#visu1").append('<div id="'+value+'" style="border:1px solid #808080; clear:both"><h2>'+value+'</h2></div>');
+  var temp = value ;
+  $.each(types, function(key, value) {
+    $("#"+temp).append('<h3 class="arro" id="titre-'+temp + value+'" style="clear:both">'+value+'</h3>');
+    $("#"+temp).append('<div class="content-arro" id="'+ temp + value+'""></div>');
+  });
+});
+
+
+$(xml).find('arrondissement').each(function(){
+	var arro = $(this).attr("num") ;
+	$(this).find('element').each( function(){
+		var id = $(this).attr('id') ;
+		var nom = $(this).find('nom').text() ;
+		var adr = $(this).find("adresse").text() ;
+		var type = $(this).attr("type") ;
+    $("#"+arro+type).append('<div class="element '+type+'" id="'+id+'" style="margin:5px; border:1px dashed #cacaca; width:200px; float:left; padding:5px">'+nom+'<div class="adresse" id="'+id+'-adresse">'+adr+'</div></div>')
+    // rajouter height:75px; pour hauteur égalisée mais mauvais affichage des adresses
+	});
+});
+
+$( "div.element" )
+  .mouseover(function() {
+    $( this ).css("background-color","#FEC606");
+    $( "#"+$(this).attr("id")+"-adresse" ).show();
+  })
+  .mouseout(function() {
+    $( this ).css("background-color","#FFF");
+    $( "#"+$(this).attr("id")+"-adresse" ).hide();
+    $(".cinema").css("background-color","#D4DBC8") ;
+    $(".marche").css("background-color","#BD8D46") ;
+    $(".cafe").css("background-color","#B0CC99") ;
+    $(".bibli").css("background-color","#C4D7ED") ;
+    $(".preservatifs").css("background-color","#9E8479") ;
+    $(".bar").css("background-color","#EACFB8") ;
+    $(".crous").css("background-color","#FFD940") ;
+  });
+
+$(".adresse").hide();
+
+$(".cinema").css("background-color","#E6E2AF") ;
+$(".marche").css("background-color","#BD8D46") ;
+$(".cafe").css("background-color","#B0CC99") ;
+$(".bibli").css("background-color","#C4D7ED") ;
+$(".preservatifs").css("background-color","#9E8479") ;
+$(".bar").css("background-color","#EACFB8") ;
+$(".crous").css("background-color","#FFD940") ;
+
+
+</script>
+
+</body>
+</html>

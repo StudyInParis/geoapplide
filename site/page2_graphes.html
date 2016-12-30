@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page 2 Verti Graphes</title>
+  <script src="./js/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://raw.githubusercontent.com/kellyk/visualize/master/visualize.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="html5up-verti/assets/css/main2.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body class="left-sidebar">
+		<div id="page-wrapper">
+
+  			<!-- Header -->
+  				<div id="header-wrapper">
+  					<header id="header" class="container">
+
+  						<!-- Logo -->
+  							<div id="logo">
+  								<h1><a href="index.html">Verti</a></h1>
+  								<span>by HTML5 UP</span>
+  							</div>
+                <!-- Logo end -->
+
+
+  					</header>
+  				</div>
+          <!-- Header end -->
+
+
+          <!-- Main -->
+    				<div id="main-wrapper">
+    					<div class="container">
+    						<div class="row 200%">
+                  <div class="4u 12u$(medium)">
+                    <div id="sidebar">
+                      <section>
+                        <h3>Sélectionnez un arrondissement</h3>
+                        <ul class="style2">
+                          <li><a href="#75001">75001</a></li>
+                          <li><a href="#75002">75002</a></li>
+                          <li><a href="#75003">75003</a></li>
+                          <li><a href="#75004">75004</a></li>
+                          <li><a href="#75005">75005</a></li>
+                          <li><a href="#75006">75006</a></li>
+                          <li><a href="#75007">75007</a></li>
+                          <li><a href="#75008">75008</a></li>
+                          <li><a href="#75009">75009</a></li>
+                          <li><a href="#75010">75010</a></li>
+                          <li><a href="#75011">75011</a></li>
+                          <li><a href="#75012">75012</a></li>
+                          <li><a href="#75013">75013</a></li>
+                          <li><a href="#75014">75014</a></li>
+                          <li><a href="#75015">75015</a></li>
+                          <li><a href="#75016">75016</a></li>
+                          <li><a href="#75017">75017</a></li>
+                          <li><a href="#75018">75018</a></li>
+                          <li><a href="#75019">75019</a></li>
+                          <li><a href="#75020">75020</a></li>
+                        </ul>
+                      </section>
+                    </div>
+                    <!-- Sidebar end -->
+                  </div>
+
+    							<div class="8u 12u$(medium) important(medium)">
+    								<div id="content">
+
+    									<!-- Content -->
+    										<article>
+
+    											<h2 id="titre">Test</h2>
+
+                          <div id="graph1" style="width:100%; height:400px;"></div>
+                          <div id="liste"></div>
+
+    										</article>
+                        <!-- Content end -->
+
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div> <!-- Main end -->
+          </div>
+        </div>
+      </div>
+
+<textarea id="source" style="width:650px;height:450px;" >
+</textarea>
+
+
+
+
+<script>
+$("#titre").append(", de jquery !");
+$("#source").hide();
+
+$.ajax({
+  url: "https://raw.githubusercontent.com/StudyInParis/geoapplide/master/xml_formattes_pivot/xml_pivot.xml",
+  cache: true
+})
+  .done(function( html ) {
+    $("#source").val( html ) ;
+  });
+
+    var xml=$("#source").val(),
+    xmlDoc = $.parseXML( xml ),
+    $xml = $( xmlDoc );
+
+// crée un tableau avec tous les types
+var types = new Object() ;
+$(xml).find('arrondissement').each(function(){
+	var arro = $(this).attr("num") ;
+	$(this).find('element').each( function(){
+		var type = $(this).attr("type") ;
+    types[type] = type;
+	});
+});
+console.log(types);
+
+// créé un tableau avec tous les arrondissements
+var arrs = new Array();
+var i =0;
+$(xml).find('arrondissement').each(function(){
+  var arro = $(this).attr("num") ;
+  arrs[i] = arro;
+  i++;;
+  });
+console.log(arrs);
+
+// création d'un tableau avec nombre d'éléments par arrondissement
+var cafes = new Object();
+var marches = new Object();
+var tab_cafes = new Array();
+var tab_marches = new Array();
+var tab_cines = new Array();
+var tab_crouss = new Array();
+var tab_preservatifs = new Array();
+var tab_biblis = new Array();
+var tab_bars = new Array();
+var i = 1;
+$(xml).find('arrondissement').each(function(){
+	var arro = $(this).attr("num") ;
+  cafes[arro] = 0;
+  marches[arro] = 0;
+  tab_cafes[i] = 0;
+  tab_marches[i] = 0;
+  tab_bars[i] = 0;
+  tab_preservatifs[i] = 0;
+  tab_cines[i] = 0;
+  tab_biblis[i] = 0;
+  tab_crouss[i] = 0;
+  $("#liste").append('<h2 id="'+arro+'">'+arro+'</h2>')
+  $("#liste").append('<ul id="'+i+'" class="bar"></ul>')
+	$(this).find('element').each( function(){
+		var id = $(this).attr('id') ;
+		var nom = $(this).find('nom').text() ;
+		var adr = $(this).find("adresse").text() ;
+		var type = $(this).attr("type") ;
+    if(type == "cafe") {
+      cafes[arro]++;
+      tab_cafes[i]++;
+    };
+    if(type == "marche") {
+      marches[arro]++;
+      tab_marches[i]++;
+    };
+    if(type == "cinema") {
+      tab_cines[i]++;
+    };
+    if(type == "bibli") {
+      tab_biblis[i]++;
+    };
+    if(type == "preservatifs") {
+      tab_preservatifs[i]++;
+    };
+    if(type == "bar") {
+      tab_bars[i]++;
+    };
+    if(type == "crous") {
+      tab_crouss[i]++;
+    };
+	});
+  $("#"+i).append('<li class="visualize" data-value="'+tab_cafes[i]+'" data-color="#FFAAAA">cafes : '+tab_cafes[i]+'</li>')
+  $("#"+i).append('<li class="visualize" data-value="'+tab_marches[i]+'" data-color="#D46A6A">marches : '+tab_marches[i]+'</li>')
+  $("#"+i).append('<li class="visualize" data-value="'+tab_cines[i]+'" data-color="#AA3939">cinémas : '+tab_cines[i]+'</li>')
+  $("#"+i).append('<li class="visualize" data-value="'+tab_crouss[i]+'" data-color="#801515">crous : '+tab_crouss[i]+'</li>')
+  $("#"+i).append('<li class="visualize" data-value="'+tab_preservatifs[i]+'" data-color="#550000">preservatifs : '+tab_preservatifs[i]+'</li>')
+  $("#"+i).append('<li class="visualize" data-value="'+tab_bars[i]+'" data-color="#AA6C39">bars : '+tab_bars[i]+'</li>')
+  $("#"+i).append('<li class="visualize" data-value="'+tab_biblis[i]+'" data-color="#882D61">bibliothèques : '+tab_biblis[i]+'</li>')
+  i++;
+});
+
+
+
+console.log(tab_cafes);
+
+$('.bar').visualize({
+     width: 300,
+     height: 300,
+     type: 'bar',
+     legend: true
+ });
+
+</script>
+
+</body>
+</html>
