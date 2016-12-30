@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Test Verti jQuery</title>
-  <script src="./js/jquery.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-  <link rel="stylesheet" href="html5up-verti/assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
 <body class="left-sidebar">
@@ -18,37 +18,37 @@
 
   						<!-- Logo -->
   							<div id="logo">
-  								<h1><a href="index.html">Projet</a></h1>
-  								<span>M2 TAL</span>
+                  <h1><a href="index.html">geoapplide</a></h1>
+  								<span>projet</span>
   							</div>
                 <!-- Logo end -->
 
-  						<!-- Nav -->
-  							<nav id="nav">
-  								<ul>
-  									<li><a href="index.html">Accueil</a></li>
-  									<li>
-  										<a href="#">Graphes</a>
-  										<ul>
-  											<li><a href="#">Graphe 1</a></li>
-  											<li><a href="#">Graphe 2</a></li>
-  											<li>
-  												<a href="#">Graphe 3</a>
-  												<ul>
-  													<li><a href="#">Graphe 4</a></li>
-  													<li><a href="#">Graphe 5</a></li>
-  													<li><a href="#">Graphe 6</a></li>
-  													<li><a href="#">Graphe 7</a></li>
-  												</ul>
-  											</li>
-  											<li><a href="#">Graphe 8</a></li>
-  										</ul>
-  									</li>
-  									<li class="current"><a href="left-sidebar.html">Données</a></li>
-  									<li><a href="right-sidebar.html">Scripts</a></li>
-  									<li><a href="no-sidebar.html">Liens</a></li>
-  								</ul>
-  							</nav>
+                <!-- Nav -->
+    							<nav id="nav">
+    								<ul>
+    									<li class="current"><a href="index.html">Bienvenue !</a></li>
+    									<li>
+    										<a href="#">Dropdown</a>
+    										<ul>
+    											<li><a href="#">Lorem ipsum dolor</a></li>
+    											<li><a href="#">Magna phasellus</a></li>
+    											<li>
+    												<a href="#">Phasellus consequat</a>
+    												<ul>
+    													<li><a href="#">Lorem ipsum dolor</a></li>
+    													<li><a href="#">Phasellus consequat</a></li>
+    													<li><a href="#">Magna phasellus</a></li>
+    													<li><a href="#">Etiam dolore nisl</a></li>
+    												</ul>
+    											</li>
+    											<li><a href="#">Veroeros feugiat</a></li>
+    										</ul>
+    									</li>
+    									<li><a href="donnees.html">Données</a></li>
+    									<li><a href="page2_graphes.html">Graphes</a></li>
+    									<li><a href="page3_visu.html">Visualisation</a></li>
+    								</ul>
+    							</nav>
 
   					</header>
   				</div>
@@ -56,7 +56,7 @@
 
 
           <!-- Main -->
-    				<div id="main-wrapper">
+    			<div id="main-wrapper">
     					<div class="container">
     						<div class="row 200%">
                   <div class="4u 12u$(medium)">
@@ -89,6 +89,7 @@
                     </div>
                     <!-- Sidebar end -->
                   </div>
+                  <!-- 4u 12u$(medium) end -->
 
     							<div class="8u 12u$(medium) important(medium)">
     								<div id="content">
@@ -101,16 +102,19 @@
     											<div id="visu1"></div>
 
     										</article>
-                        <!-- Content end -->
 
     								</div>
+                    <!-- Content end -->
     							</div>
-    						</div>
-    					</div>
-    				</div> <!-- Main end -->
-          </div>
-        </div>
-      </div>
+                  <!-- 8u 12u$(medium) important medium end -->
+
+    			</div>
+          <!-- row 200% end -->
+    		</div>
+        <!-- container end -->
+    	</div> <!-- main-wrapper end -->
+    </div>
+    <!-- page-wrapper end -->
 
 <textarea id="source" style="width:650px;height:450px;" >
 </textarea>
@@ -157,10 +161,10 @@ console.log(arrs);
 
 // création des boites arrondissements
 $.each( arrs, function( key, value ) {
-  $("#visu1").append('<div id="'+value+'" style="border:1px solid #808080; clear:both"><h2>'+value+'</h2></div>');
+  $("#visu1").append('<div id="'+value+'" style="border-top:1px solid #808080; clear:both"><h3>'+value+'</h3></div>');
   var temp = value ;
   $.each(types, function(key, value) {
-    $("#"+temp).append('<h3 class="arro" id="titre-'+temp + value+'" style="clear:both">'+value+'</h3>');
+    $("#"+temp).append('<h4 class="arro" id="titre-'+temp + value+'" style="clear:both">'+value+'</h4>');
     $("#"+temp).append('<div class="content-arro" id="'+ temp + value+'""></div>');
   });
 });
@@ -173,7 +177,7 @@ $(xml).find('arrondissement').each(function(){
 		var nom = $(this).find('nom').text() ;
 		var adr = $(this).find("adresse").text() ;
 		var type = $(this).attr("type") ;
-    $("#"+arro+type).append('<div class="element '+type+'" id="'+id+'" style="margin:5px; border:1px dashed #cacaca; width:200px; float:left; padding:5px">'+nom+'<div class="adresse" id="'+id+'-adresse">'+adr+'</div></div>')
+    $("#"+arro+type).append('<div class="element '+type+'" id="'+id+'" style="margin:5px; border:1px dashed #cacaca; width:200px; float:left; height:80px; padding:5px">'+nom+'<div class="adresse" id="'+id+'-adresse" style="font-style:italic;">'+adr+'</div></div>')
     // rajouter height:75px; pour hauteur égalisée mais mauvais affichage des adresses
 	});
 });
@@ -181,10 +185,11 @@ $(xml).find('arrondissement').each(function(){
 $( "div.element" )
   .mouseover(function() {
     $( this ).css("background-color","#FEC606");
-    $( "#"+$(this).attr("id")+"-adresse" ).show();
+    $( this ).css("height","100%");
+    $( "#"+$(this).attr("id")+"-adresse" ).slideToggle('fast');
   })
   .mouseout(function() {
-    $( this ).css("background-color","#FFF");
+    // $( this ).css("background-color","#FFF");
     $( "#"+$(this).attr("id")+"-adresse" ).hide();
     $(".cinema").css("background-color","#D4DBC8") ;
     $(".marche").css("background-color","#BD8D46") ;
@@ -193,11 +198,12 @@ $( "div.element" )
     $(".preservatifs").css("background-color","#9E8479") ;
     $(".bar").css("background-color","#EACFB8") ;
     $(".crous").css("background-color","#FFD940") ;
+    $( this ).css("height","80px");
   });
 
 $(".adresse").hide();
 
-$(".cinema").css("background-color","#E6E2AF") ;
+$(".cinema").css("background-color","#D4DBC8") ;
 $(".marche").css("background-color","#BD8D46") ;
 $(".cafe").css("background-color","#B0CC99") ;
 $(".bibli").css("background-color","#C4D7ED") ;
