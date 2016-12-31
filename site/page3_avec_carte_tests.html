@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Visu avec carte</title>
+  <script src="assets/js/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="assets/css/main_test_gmaps.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <link rel="stylesheet" href="http://code.leafletjs.com/leaflet-0.3.1/leaflet.css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://code.leafletjs.com/leaflet-0.3.1/leaflet.ie.css" />
+  <![endif]-->
+  <script src="http://code.leafletjs.com/leaflet-0.3.1/leaflet.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="assets/gmaps/gmaps.js"></script>
+  <script type="text/javascript" src="assets/js/getinfos.js"></script>
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css" />
+  <!--<link rel="stylesheet" type="text/css" href="assets/gmaps/examples.css" />-->
+  <script type="text/javascript">
+    var map;
+    $(document).ready(function(){
+      map = new GMaps({
+        el: '#map',
+        lat: 48.866667,
+        lng: 2.333333,
+        zoomControl : true,
+        zoomControlOpt: {
+            style : 'SMALL',
+            position: 'TOP_LEFT'
+        },
+        panControl : false,
+        streetViewControl : false,
+        mapTypeControl: false,
+        overviewMapControl: false
+      });
+      map.addMarker({
+        lat: 48.861661,
+        lng: 2.347857,
+        title: 'Marker with InfoWindow',
+        infoWindow: {
+          content: '<p>HTML Content</p>'
+        }
+      });
+    });
+  </script>
+</head>
+<body class="left-sidebar">
+		<div id="page-wrapper">
+
+  			<!-- Header -->
+  				<div id="header-wrapper">
+  					<header id="header" class="container">
+
+  						<!-- Logo -->
+  							<div id="logo">
+                  <h1><a href="index.html">geoapplide</a></h1>
+  								<span>projet</span>
+  							</div>
+                <!-- Logo end -->
+
+                <!-- Nav -->
+    							<nav id="nav">
+    								<ul>
+    									<li class="current"><a href="index.html">Bienvenue !</a></li>
+    									<li>
+    										<a href="#">Dropdown</a>
+    										<ul>
+    											<li><a href="#">Lorem ipsum dolor</a></li>
+    											<li><a href="#">Magna phasellus</a></li>
+    											<li>
+    												<a href="#">Phasellus consequat</a>
+    												<ul>
+    													<li><a href="#">Lorem ipsum dolor</a></li>
+    													<li><a href="#">Phasellus consequat</a></li>
+    													<li><a href="#">Magna phasellus</a></li>
+    													<li><a href="#">Etiam dolore nisl</a></li>
+    												</ul>
+    											</li>
+    											<li><a href="#">Veroeros feugiat</a></li>
+    										</ul>
+    									</li>
+    									<li><a href="donnees.html">Données</a></li>
+    									<li><a href="page2_graphes.html">Graphes</a></li>
+    									<li><a href="page3_visu.html">Visualisation</a></li>
+    								</ul>
+    							</nav>
+
+  					</header>
+  				</div>
+          <!-- Header end -->
+
+
+          <!-- Main -->
+    			<div id="main-wrapper">
+    					<div class="container">
+    						<div class="row 200%">
+                  <div class="4u 12u$(medium)">
+    								<div id="sidebar">
+                      <section>
+                        <h3>Sélectionnez un arrondissement</h3>
+                        <ul class="style2">
+                          <li><a href="#75001">75001</a></li>
+                          <li><a href="#75002">75002</a></li>
+                          <li><a href="#75003">75003</a></li>
+                          <li><a href="#75004">75004</a></li>
+                          <li><a href="#75005">75005</a></li>
+                          <li><a href="#75006">75006</a></li>
+                          <li><a href="#75007">75007</a></li>
+                          <li><a href="#75008">75008</a></li>
+                          <li><a href="#75009">75009</a></li>
+                          <li><a href="#75010">75010</a></li>
+                          <li><a href="#75011">75011</a></li>
+                          <li><a href="#75012">75012</a></li>
+                          <li><a href="#75013">75013</a></li>
+                          <li><a href="#75014">75014</a></li>
+                          <li><a href="#75015">75015</a></li>
+                          <li><a href="#75016">75016</a></li>
+                          <li><a href="#75017">75017</a></li>
+                          <li><a href="#75018">75018</a></li>
+                          <li><a href="#75019">75019</a></li>
+                          <li><a href="#75020">75020</a></li>
+                        </ul>
+                      </section>
+                    </div>
+                    <!-- Sidebar end -->
+                  </div>
+                  <!-- 4u 12u$(medium) end -->
+
+    							<div class="8u 12u$(medium) important(medium)">
+    								<div id="content">
+
+    									<!-- Content -->
+    										<article>
+
+    											<h2 id="titre">Test</h2>
+
+    											<div id="visu1"></div>
+
+                          <div id="map"></div>
+
+    										</article>
+
+    								</div>
+                    <!-- Content end -->
+    							</div>
+                  <!-- 8u 12u$(medium) important medium end -->
+
+    			</div>
+          <!-- row 200% end -->
+    		</div>
+        <!-- container end -->
+    	</div> <!-- main-wrapper end -->
+    </div>
+    <!-- page-wrapper end -->
+
+<!-- <textarea id="source" style="width:650px;height:450px;" >
+</textarea> -->
+
+</body>
+</html>
