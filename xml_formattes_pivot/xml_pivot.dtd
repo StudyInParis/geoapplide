@@ -1,6 +1,7 @@
 <!ELEMENT root (arrondissement+)>
 <!ELEMENT arrondissement (element+)>
 <!ATTLIST arrondissement
+          loyer CDATA #REQUIRED
           num CDATA #REQUIRED>
 <!ELEMENT element (latitude | longitude | adresse | nom)+>
 <!ATTLIST element
