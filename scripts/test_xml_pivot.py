@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # coding: utf-8
 import glob,re
+from loyers import create_dic
 from pprint import pprint
 def open_and_dic(fichier,dic):
 	fic = open(fichier,'r')
@@ -22,8 +23,9 @@ def out_xml(dico):
 	fic = open("../xml_formattes_pivot/xml_pivot.xml",'w')
 	fic.write("<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<root>\n")
 	compteur = 0
+	dic2 = create_dic("../donnees_brutes/encadrement_loyers_paris.csv")
 	for cle in sorted(dico):
-		fic.write("\t<arrondissement num=\""+cle+"\">\n")
+		fic.write("\t<arrondissement num=\""+cle+"\" loyer=\""+str(dic2[cle])+"\">\n")
 		for ligne in dico[cle]:
 			if "<elem" in ligne:
 				compteur +=1
@@ -35,7 +37,13 @@ def out_xml(dico):
 	fic.write("</root>")
 if __name__=='__main__':
 	dic = {}
-	for fic in glob.glob("../xml_formattes_pivot/*.xml"):
-		dic = open_and_dic(fic,dic)
+	dic = open_and_dic("../xml_formattes_pivot\cinemas-a-paris_pivot.xml",dic)
+	dic.update(open_and_dic("../xml_formattes_pivot\Bibliotheque_modele.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot\distributeurspreservatifsmasculinsparis2012_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot\liste_des_marches_de_quartier_a_paris_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot\liste-des-cafes-a-un-euro_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot\openbeermap_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot\\restauration_france_entiere_pivot.xml",dic))
+	
 	#pprint(dic)
 	out_xml(dic)
