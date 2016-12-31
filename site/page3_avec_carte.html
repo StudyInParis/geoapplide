@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Test Verti jQuery</title>
+  <title>Visu avec carte</title>
   <script src="assets/js/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="assets/css/main.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <link rel="stylesheet" href="http://code.leafletjs.com/leaflet-0.3.1/leaflet.css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://code.leafletjs.com/leaflet-0.3.1/leaflet.ie.css" />
+  <![endif]-->
+  <script src="http://code.leafletjs.com/leaflet-0.3.1/leaflet.js"></script>
 </head>
 <body class="left-sidebar">
 		<div id="page-wrapper">
@@ -176,8 +181,11 @@ $(xml).find('arrondissement').each(function(){
 		var id = $(this).attr('id') ;
 		var nom = $(this).find('nom').text() ;
 		var adr = $(this).find("adresse").text() ;
+		var lat = $(this).find("latitude").text() ;
+		var lon = $(this).find("longitude").text() ;
 		var type = $(this).attr("type") ;
-    $("#"+arro+type).append('<div class="element '+type+'" id="'+id+'" style="margin:5px; border:1px dashed #cacaca; width:200px; float:left; height:80px; padding:5px">'+nom+'<div class="adresse" id="'+id+'-adresse" style="font-style:italic;">'+adr+'</div></div>')
+    $("#"+arro+type).append('<div class="element '+type+'" id="'+id+'" style="margin:5px; border:1px dashed #cacaca; width:200px; float:left; height:80px; padding:5px">'+nom+'<div class="adresse" id="'+id+'-adresse" style="font-style:italic;">'+adr+'</div><div class="map" id="'+id+'-map"><div class="lat">'+lat+'</div><div class="lon">'+lon+'</div></div></div>')
+
 	});
 });
 
@@ -198,9 +206,20 @@ $( "div.element" )
     $(".bar").css("background-color","#EACFB8") ;
     $(".crous").css("background-color","#FFD940") ;
     $( this ).css("height","80px");
-  });
+  })
+  // .click(function() {
+  //   $( this ).css("height","300px");
+  //   $( this ).css("width","300px");
+  //   $( "#"+$(this).attr("id")+"-map" ).slideToggle('fast', 'swing', function() {
+  //       $( this ).css("height","80px");
+  //       $( this ).css("width","200px");
+  //     });
+  //   });
+
+// <iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon='+$( "#"+$(this).find("lon")+"-map" )+'&lat='+$( "#"+$(this).find("lat")+"-map" )+'&zoom=17&width=400&height=350&mark=true&nav=true&pan=true&zb=inout&style=default&icon=down"></iframe>
 
 $(".adresse").hide();
+$(".map").hide();
 
 $(".cinema").css("background-color","#D4DBC8") ;
 $(".marche").css("background-color","#BD8D46") ;
