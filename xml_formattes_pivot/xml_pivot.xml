@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE root SYSTEM "xml_pivot.dtd">
 <root>
-	<arrondissement num="75001">
+	<arrondissement num="75001" loyer="27">
 		<element id="1" type="cinema">
 			<latitude>48.859785</latitude>
 			<longitude>2.346716</longitude>
@@ -85,38 +86,38 @@
 			<adresse>83 avenue de Wagram</adresse>
 			<nom>Peperoni</nom>
 		</element>
-		<elem id="15" type="bar">
+		<element id="15" type="bar">
 			<latitude>48.8579257</latitude>
 			<longitude>2.3463544</longitude>
 			<adresse>Avenue Victoria, St-Germain-l'Auxerrois, 1er</adresse>
 			<nom>Les Arènes</nom>
-		</elem>
-		<elem id="16" type="bar">
+		</element>
+		<element id="16" type="bar">
 			<latitude>48.8616362</latitude>
 			<longitude>2.3492126</longitude>
 			<adresse>Rue Saint-Denis, Les Halles, 1er</adresse>
 			<nom>Pop In</nom>
-		</elem>
-		<elem id="17" type="bar">
+		</element>
+		<element id="17" type="bar">
 			<latitude>48.861037</latitude>
 			<longitude>2.3488844</longitude>
 			<adresse>Rue Saint-Denis, Les Halles, 1er</adresse>
 			<nom>Hall's Beer Tavern</nom>
-		</elem>
-		<elem id="18" type="bar">
+		</element>
+		<element id="18" type="bar">
 			<latitude>48.8582957</latitude>
 			<longitude>2.3474796</longitude>
 			<adresse>4, Rue Saint-Denis, St-Germain-l'Auxerrois, 1er</adresse>
 			<nom>Le Mayflower</nom>
-		</elem>
-		<elem id="19" type="bar">
+		</element>
+		<element id="19" type="bar">
 			<latitude>48.8592361</latitude>
 			<longitude>2.3476099</longitude>
 			<adresse>Rue Saint-Denis, Quartier des Halles, Les Halles, 1er</adresse>
 			<nom>Au Trappiste</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75002">
+	<arrondissement num="75002" loyer="26">
 		<element id="20" type="cinema">
 			<latitude>48.870623</latitude>
 			<longitude>2.347254</longitude>
@@ -219,32 +220,32 @@
 			<adresse>95 rue Montmartre</adresse>
 			<nom>Le Café frappé</nom>
 		</element>
-		<elem id="37" type="bar">
+		<element id="37" type="bar">
 			<latitude>48.8693141</latitude>
 			<longitude>2.3323713</longitude>
 			<adresse>4, Rue Daunou, Gaillon, 2e</adresse>
 			<nom>MKP Opéra</nom>
-		</elem>
-		<elem id="38" type="bar">
+		</element>
+		<element id="38" type="bar">
 			<latitude>48.8643869</latitude>
 			<longitude>2.3503038</longitude>
 			<adresse>Rue Tiquetonne, Sentier, Bonne-Nouvelle, 2e</adresse>
 			<nom>Le Havane</nom>
-		</elem>
-		<elem id="39" type="bar">
+		</element>
+		<element id="39" type="bar">
 			<latitude>48.8678347</latitude>
 			<longitude>2.3438681</longitude>
 			<adresse>Rue Montmartre, Mail, 2e</adresse>
 			<nom>Taverne de la Butte</nom>
-		</elem>
-		<elem id="40" type="bar">
+		</element>
+		<element id="40" type="bar">
 			<latitude>48.8704075</latitude>
 			<longitude>2.3483529</longitude>
 			<adresse>Rue Notre-Dame de Recouvrance, Sentier, Bonne-Nouvelle, 2e</adresse>
 			<nom>Le Petit Châtelet</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75003">
+	<arrondissement num="75003" loyer="25">
 		<element id="41" type="cinema">
 			<latitude>48.861555</latitude>
 			<longitude>2.352217</longitude>
@@ -294,7 +295,7 @@
 			<nom>La Perle</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75004">
+	<arrondissement num="75004" loyer="25">
 		<element id="49" type="cinema">
 			<latitude>48.858689</latitude>
 			<longitude>2.353591</longitude>
@@ -373,32 +374,32 @@
 			<adresse>10 rue Saint Martin</adresse>
 			<nom>Le Café Livres</nom>
 		</element>
-		<elem id="62" type="bar">
+		<element id="62" type="bar">
 			<latitude>48.8556943</latitude>
 			<longitude>2.3595261</longitude>
 			<adresse>Rue de Rivoli, St-Gervais, 4e</adresse>
 			<nom>Le Comptoir</nom>
-		</elem>
-		<elem id="63" type="bar">
+		</element>
+		<element id="63" type="bar">
 			<latitude>48.8595197</latitude>
 			<longitude>2.3519694</longitude>
 			<adresse>Place Igor Stravinsky, Beaubourg, St-Merri, 4e</adresse>
 			<nom>Le Pantalon</nom>
-		</elem>
-		<elem id="64" type="bar">
+		</element>
+		<element id="64" type="bar">
 			<latitude>48.8538804</latitude>
 			<longitude>2.3682665</longitude>
 			<adresse>Rue de la Bastille, Arsenal, 4e</adresse>
 			<nom>The Frog &amp; Princess</nom>
-		</elem>
-		<elem id="65" type="bar">
+		</element>
+		<element id="65" type="bar">
 			<latitude>48.8573507</latitude>
 			<longitude>2.3496668</longitude>
 			<adresse>Rue de la Coutellerie, Beaubourg, St-Merri, 4e</adresse>
 			<nom>La Venus Noire</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75005">
+	<arrondissement num="75005" loyer="24">
 		<element id="66" type="cinema">
 			<latitude>48.848384</latitude>
 			<longitude>2.348973</longitude>
@@ -573,114 +574,114 @@
 			<adresse>111 rue mouffetard</adresse>
 			<nom>La Brûlerie des Ternes</nom>
 		</element>
-		<elem id="95" type="bar">
+		<element id="95" type="bar">
 			<latitude>48.8449764</latitude>
 			<longitude>2.3549028</longitude>
 			<adresse>Rue Guy de la Brosse, St-Victor, 5e</adresse>
 			<nom>Chez Michel</nom>
-		</elem>
-		<elem id="96" type="bar">
+		</element>
+		<element id="96" type="bar">
 			<latitude>48.8490395</latitude>
 			<longitude>2.348557</longitude>
 			<adresse>Rue de la Montagne Sainte-Geneviève, Sorbonne, 5e</adresse>
 			<nom>Dupont Versailles</nom>
-		</elem>
-		<elem id="97" type="bar">
+		</element>
+		<element id="97" type="bar">
 			<latitude>48.8525447</latitude>
 			<longitude>2.3466628</longitude>
 			<adresse>Rue du Petit Pont, Sorbonne, 5e</adresse>
 			<nom>L'Alibi</nom>
-		</elem>
-		<elem id="98" type="bar">
+		</element>
+		<element id="98" type="bar">
 			<latitude>48.850854</latitude>
 			<longitude>2.3477158</longitude>
 			<adresse>Rue des Anglais, Sorbonne, 5e</adresse>
 			<nom>L'Europe</nom>
-		</elem>
-		<elem id="99" type="bar">
+		</element>
+		<element id="99" type="bar">
 			<latitude>48.8457908</latitude>
 			<longitude>2.3539346</longitude>
 			<adresse>Rue des Boulangers, St-Victor, 5e</adresse>
 			<nom>Le Bistrot des Artistes</nom>
-		</elem>
-		<elem id="100" type="bar">
+		</element>
+		<element id="100" type="bar">
 			<latitude>48.845275</latitude>
 			<longitude>2.3491659</longitude>
 			<adresse>45, Rue Descartes, 5e Arrondissement, 5e</adresse>
 			<nom>Finnegan's Wake</nom>
-		</elem>
-		<elem id="101" type="bar">
+		</element>
+		<element id="101" type="bar">
 			<latitude>48.853075</latitude>
 			<longitude>2.3455319</longitude>
 			<adresse>20, Rue de la Huchette, Ilot Saint-Severin, Sorbonne, 5e</adresse>
 			<nom>Mc Brides</nom>
-		</elem>
-		<elem id="102" type="bar">
+		</element>
+		<element id="102" type="bar">
 			<latitude>48.8423393</latitude>
 			<longitude>2.3498473</longitude>
 			<adresse>Rue Mouffetard, 5e Arrondissement, 5e</adresse>
 			<nom>The Frog &amp; Rosbif</nom>
-		</elem>
-		<elem id="103" type="bar">
+		</element>
+		<element id="103" type="bar">
 			<latitude>48.8474266</latitude>
 			<longitude>2.3471508</longitude>
 			<adresse>18, Rue Laplace, Sorbonne, 5e</adresse>
 			<nom>Le Vieux Chêne</nom>
-		</elem>
-		<elem id="104" type="bar">
+		</element>
+		<element id="104" type="bar">
 			<latitude>48.8424716</latitude>
 			<longitude>2.3498216</longitude>
 			<adresse>Rue Mouffetard, 5e Arrondissement, 5e</adresse>
 			<nom>Le Sully</nom>
-		</elem>
-		<elem id="105" type="bar">
+		</element>
+		<element id="105" type="bar">
 			<latitude>48.8442543</latitude>
 			<longitude>2.3498652</longitude>
 			<adresse>51, Rue Lacépède, 5e Arrondissement, 5e</adresse>
 			<nom>Margen's Pub</nom>
-		</elem>
-		<elem id="106" type="bar">
+		</element>
+		<element id="106" type="bar">
 			<latitude>48.8430061</latitude>
 			<longitude>2.3486843</longitude>
 			<adresse>16, Rue du Pot de Fer, Val-de-Grâce, 5e</adresse>
 			<nom>Le Calbar</nom>
-		</elem>
-		<elem id="107" type="bar">
+		</element>
+		<element id="107" type="bar">
 			<latitude>48.8456039</latitude>
 			<longitude>2.3547969</longitude>
 			<adresse>Place Jussieu, St-Victor, 5e</adresse>
 			<nom>Black Mad Crawler</nom>
-		</elem>
-		<elem id="108" type="bar">
+		</element>
+		<element id="108" type="bar">
 			<latitude>48.8457052</latitude>
 			<longitude>2.3419808</longitude>
 			<adresse>Rue Royer-Collard, Val-de-Grâce, 5e</adresse>
 			<nom>Le Festin Nu</nom>
-		</elem>
-		<elem id="109" type="bar">
+		</element>
+		<element id="109" type="bar">
 			<latitude>48.8462166</latitude>
 			<longitude>2.342933</longitude>
 			<adresse>Rue Malebranche, 5e Arrondissement, 5e</adresse>
 			<nom>L'Iris</nom>
-		</elem>
-		<elem id="110" type="bar">
+		</element>
+		<element id="110" type="bar">
 			<latitude>48.848301</latitude>
 			<longitude>2.3417712</longitude>
 			<adresse>Rue Cujas, Sorbonne, 5e</adresse>
 			<nom>Le Troll</nom>
-		</elem>
-		<elem id="111" type="bar">
+		</element>
+		<element id="111" type="bar">
 			<latitude>48.8451034</latitude>
 			<longitude>2.3492463</longitude>
 			<adresse>49, Rue Descartes, 5e Arrondissement, 5e</adresse>
 			<nom>Le Rota</nom>
-		</elem>
-		<elem id="112" type="bar">
+		</element>
+		<element id="112" type="bar">
 			<latitude>48.8433232</latitude>
 			<longitude>2.3528098</longitude>
 			<adresse>Rue de la Clef, Jardin des Plantes, 5e</adresse>
 			<nom>Lounge Paradise</nom>
-		</elem>
+		</element>
 		<element id="113" type="crous">
 			<longitude>2.354121</longitude>
 			<latitude>48.840868</latitude>
@@ -736,7 +737,7 @@
 			<nom>Cafétéria Panthéon</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75006">
+	<arrondissement num="75006" loyer="27">
 		<element id="122" type="cinema">
 			<latitude>48.85467</latitude>
 			<longitude>2.333052</longitude>
@@ -869,18 +870,18 @@
 			<adresse>53 rue Notre-Dame des Champs</adresse>
 			<nom>Le Lucernaire</nom>
 		</element>
-		<elem id="144" type="bar">
+		<element id="144" type="bar">
 			<latitude>48.8522792</latitude>
 			<longitude>2.3345573</longitude>
 			<adresse>Rue Princesse, Odéon, 6e</adresse>
 			<nom>Le Bouillon St Stef</nom>
-		</elem>
-		<elem id="145" type="bar">
+		</element>
+		<element id="145" type="bar">
 			<latitude>48.8536005</latitude>
 			<longitude>2.3428569</longitude>
 			<adresse>Rue de l'Hirondelle, Monnaie, 6e</adresse>
 			<nom>The Frog at Bercy Village</nom>
-		</elem>
+		</element>
 		<element id="146" type="crous">
 			<longitude>2.333887</longitude>
 			<latitude>48.843805</latitude>
@@ -924,7 +925,7 @@
 			<nom>Cafétéria Institut Catholique de Paris</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75007">
+	<arrondissement num="75007" loyer="28">
 		<element id="153" type="cinema">
 			<latitude>48.851726</latitude>
 			<longitude>2.316361</longitude>
@@ -974,7 +975,7 @@
 			<nom>Café Varenne</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75008">
+	<arrondissement num="75008" loyer="26">
 		<element id="161" type="cinema">
 			<latitude>48.869654</latitude>
 			<longitude>2.306873</longitude>
@@ -1107,14 +1108,14 @@
 			<adresse>9 rue de Miromesnil</adresse>
 			<nom>Café beauveau</nom>
 		</element>
-		<elem id="183" type="bar">
+		<element id="183" type="bar">
 			<latitude>48.8778514</latitude>
 			<longitude>2.3157284</longitude>
 			<adresse>Rue de Lisbonne, Europe, 8e</adresse>
 			<nom>La Caravane</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75009">
+	<arrondissement num="75009" loyer="24">
 		<element id="184" type="cinema">
 			<latitude>48.871044</latitude>
 			<longitude>2.33361</longitude>
@@ -1211,20 +1212,20 @@
 			<adresse>14 rue Rougemont</adresse>
 			<nom>Le Dellac</nom>
 		</element>
-		<elem id="200" type="bar">
+		<element id="200" type="bar">
 			<latitude>48.870988</latitude>
 			<longitude>2.3449749</longitude>
 			<adresse>Boulevard Poissonnière, Sentier, 9e Arrondissement</adresse>
 			<nom>James Hetfeeld's Pub</nom>
-		</elem>
-		<elem id="201" type="bar">
+		</element>
+		<element id="201" type="bar">
 			<latitude>48.8713994</latitude>
 			<longitude>2.3446987</longitude>
 			<adresse>Boulevard Poissonnière, Sentier, 9e Arrondissement</adresse>
 			<nom>The Wall</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75010">
+	<arrondissement num="75010" loyer="23">
 		<element id="202" type="cinema">
 			<latitude>48.870455</latitude>
 			<longitude>2.35466</longitude>
@@ -1345,54 +1346,54 @@
 			<adresse>61 rue du château d'eau</adresse>
 			<nom>Brasserie le Morvan</nom>
 		</element>
-		<elem id="222" type="bar">
+		<element id="222" type="bar">
 			<latitude>48.8713202</latitude>
 			<longitude>2.365856</longitude>
 			<adresse>Quai de Jemmapes, Porte-St-Martin, 10e</adresse>
 			<nom>Le chinois</nom>
-		</elem>
-		<elem id="223" type="bar">
+		</element>
+		<element id="223" type="bar">
 			<latitude>48.8703084</latitude>
 			<longitude>2.3528255</longitude>
 			<adresse>Rue du Faubourg Saint-Denis, Porte-St-Denis, 10e</adresse>
 			<nom>Le Dumas</nom>
-		</elem>
-		<elem id="224" type="bar">
+		</element>
+		<element id="224" type="bar">
 			<latitude>48.8782984</latitude>
 			<longitude>2.3583405</longitude>
 			<adresse>1, Rue des Deux Gares, St-Vincent-de-Paul, 10e</adresse>
 			<nom>Café Leffe</nom>
-		</elem>
-		<elem id="225" type="bar">
+		</element>
+		<element id="225" type="bar">
 			<latitude>48.8727411</latitude>
 			<longitude>2.3545133</longitude>
 			<adresse>Rue du Château d'Eau, Porte-St-Denis, 10e</adresse>
 			<nom>Le Rivolux</nom>
-		</elem>
-		<elem id="226" type="bar">
+		</element>
+		<element id="226" type="bar">
 			<latitude>48.8711993</latitude>
 			<longitude>2.3697018</longitude>
 			<adresse>13, Rue Jacques Louvel-Tessier, Hôpital-St-Louis, 10e</adresse>
 			<nom>Le Château d'Eau</nom>
-		</elem>
-		<elem id="227" type="bar">
+		</element>
+		<element id="227" type="bar">
 			<latitude>48.8746926</latitude>
 			<longitude>2.3541936</longitude>
 			<adresse>12, Rue de Paradis, Porte-St-Denis, 10e</adresse>
 			<nom>Le Triangle</nom>
-		</elem>
-		<elem id="228" type="bar">
+		</element>
+		<element id="228" type="bar">
 			<latitude>48.8707201</latitude>
 			<longitude>2.3498182</longitude>
 			<adresse>Rue d'Hauteville, Porte-St-Denis, 10e</adresse>
 			<nom>Wos Bar</nom>
-		</elem>
-		<elem id="229" type="bar">
+		</element>
+		<element id="229" type="bar">
 			<latitude>48.8815009</latitude>
 			<longitude>2.3685984</longitude>
 			<adresse>200, Quai de Valmy, Hôpital-St-Louis, 10e</adresse>
 			<nom>Lêche vin</nom>
-		</elem>
+		</element>
 		<element id="230" type="crous">
 			<longitude>2.361524</longitude>
 			<latitude>48.876373</latitude>
@@ -1400,7 +1401,7 @@
 			<nom>Cafétéria Villemin</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75011">
+	<arrondissement num="75011" loyer="22">
 		<element id="231" type="cinema">
 			<latitude>48.854674</latitude>
 			<longitude>2.369381</longitude>
@@ -1551,68 +1552,68 @@
 			<adresse>60 rue saint-sabin</adresse>
 			<nom>Le Poulailler</nom>
 		</element>
-		<elem id="256" type="bar">
+		<element id="256" type="bar">
 			<latitude>48.8648511</latitude>
 			<longitude>2.3817815</longitude>
 			<adresse>6, Avenue Jean Aicard, St-Ambroise, 11e</adresse>
 			<nom>Le Dernier Bar Avant la Fin du Monde</nom>
-		</elem>
-		<elem id="257" type="bar">
+		</element>
+		<element id="257" type="bar">
 			<latitude>48.8614116</latitude>
 			<longitude>2.3675537</longitude>
 			<adresse>105, Rue Amelot, St-Ambroise, 11e</adresse>
 			<nom>L'antidote</nom>
-		</elem>
-		<elem id="258" type="bar">
+		</element>
+		<element id="258" type="bar">
 			<latitude>48.8527486</latitude>
 			<longitude>2.3889981</longitude>
 			<adresse>Rue Alexandre Dumas, Ste-Marguerite, 11e</adresse>
 			<nom>Thirsty Mad Cat</nom>
-		</elem>
-		<elem id="259" type="bar">
+		</element>
+		<element id="259" type="bar">
 			<latitude>48.8553007</latitude>
 			<longitude>2.3755708</longitude>
 			<adresse>34, Rue Keller, Roquette, 11e</adresse>
 			<nom>L'Acapulco</nom>
-		</elem>
-		<elem id="260" type="bar">
+		</element>
+		<element id="260" type="bar">
 			<latitude>48.8666898</latitude>
 			<longitude>2.369421</longitude>
 			<adresse>Boulevard Richard Lenoir, Folie-Méricourt, 11e</adresse>
 			<nom>Lush</nom>
-		</elem>
-		<elem id="261" type="bar">
+		</element>
+		<element id="261" type="bar">
 			<latitude>48.8584243</latitude>
 			<longitude>2.3685727</longitude>
 			<adresse>Rue Amelot, St-Ambroise, 11e</adresse>
 			<nom>Epsilon</nom>
-		</elem>
-		<elem id="262" type="bar">
+		</element>
+		<element id="262" type="bar">
 			<latitude>48.8687538</latitude>
 			<longitude>2.379949</longitude>
 			<adresse>Rue Jean-Pierre Timbaud, Folie-Méricourt, 11e</adresse>
 			<nom>Au Bar Le Surène</nom>
-		</elem>
-		<elem id="263" type="bar">
+		</element>
+		<element id="263" type="bar">
 			<latitude>48.8683391</latitude>
 			<longitude>2.3714311</longitude>
 			<adresse>Rue de la Fontaine au Roi, Folie-Méricourt, 11e</adresse>
 			<nom>Patrick's Le Ballon Vert</nom>
-		</elem>
-		<elem id="264" type="bar">
+		</element>
+		<element id="264" type="bar">
 			<latitude>48.8503838</latitude>
 			<longitude>2.3895178</longitude>
 			<adresse>Rue de Montreuil, Ste-Marguerite, 11e</adresse>
 			<nom>Le Petit Clement</nom>
-		</elem>
-		<elem id="265" type="bar">
+		</element>
+		<element id="265" type="bar">
 			<latitude>48.854971</latitude>
 			<longitude>2.370733</longitude>
 			<adresse>13, Rue Daval, Roquette, 11e</adresse>
 			<nom>Le bouillon belge</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75012">
+	<arrondissement num="75012" loyer="22">
 		<element id="266" type="cinema">
 			<latitude>48.848213</latitude>
 			<longitude>2.39311</longitude>
@@ -1775,54 +1776,54 @@
 			<adresse>58 rue du Fbg Saint-Antoine</adresse>
 			<nom>Bistrot Saint-Antoine</nom>
 		</element>
-		<elem id="293" type="bar">
+		<element id="293" type="bar">
 			<latitude>48.8467474</latitude>
 			<longitude>2.3783883</longitude>
 			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
 			<nom>O'Brien's</nom>
-		</elem>
-		<elem id="294" type="bar">
+		</element>
+		<element id="294" type="bar">
 			<latitude>48.8486443</latitude>
 			<longitude>2.3753679</longitude>
 			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
 			<nom>Dr. Feelgood</nom>
-		</elem>
-		<elem id="295" type="bar">
+		</element>
+		<element id="295" type="bar">
 			<latitude>48.8468648</latitude>
 			<longitude>2.3840074</longitude>
 			<adresse>88, Boulevard Diderot, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
 			<nom>Chouff'bar</nom>
-		</elem>
-		<elem id="296" type="bar">
+		</element>
+		<element id="296" type="bar">
 			<latitude>48.8494366</latitude>
 			<longitude>2.3743781</longitude>
 			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
 			<nom>L'Escargot</nom>
-		</elem>
-		<elem id="297" type="bar">
+		</element>
+		<element id="297" type="bar">
 			<latitude>48.8492104</latitude>
 			<longitude>2.389517</longitude>
 			<adresse>Rue Claude Tillier, 12e Arrondissement (urbain), Picpus, 12e</adresse>
 			<nom>Le bar à mine</nom>
-		</elem>
-		<elem id="298" type="bar">
+		</element>
+		<element id="298" type="bar">
 			<latitude>48.847497</latitude>
 			<longitude>2.3970587</longitude>
 			<adresse>Place de la Nation, 12e Arrondissement (urbain), Picpus, 12e</adresse>
 			<nom>Le Bureau</nom>
-		</elem>
-		<elem id="299" type="bar">
+		</element>
+		<element id="299" type="bar">
 			<latitude>48.8502082</latitude>
 			<longitude>2.3780865</longitude>
 			<adresse>Rue de Cotte, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
 			<nom>Les pères populaires</nom>
-		</elem>
-		<elem id="300" type="bar">
+		</element>
+		<element id="300" type="bar">
 			<latitude>48.8330467</latitude>
 			<longitude>2.3860133</longitude>
 			<adresse>Passage Saint-Vivant, 12e Arrondissement (urbain), Bercy, 12e</adresse>
 			<nom>La Fût Gueuze</nom>
-		</elem>
+		</element>
 		<element id="301" type="crous">
 			<longitude>2.379677</longitude>
 			<latitude>48.846827</latitude>
@@ -1830,7 +1831,7 @@
 			<nom>RU Citeaux</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75013">
+	<arrondissement num="75013" loyer="22">
 		<element id="302" type="cinema">
 			<latitude>48.836817</latitude>
 			<longitude>2.349632</longitude>
@@ -1957,30 +1958,30 @@
 			<adresse>34 avenue Pierre Mendès-France</adresse>
 			<nom>Le Kleemend's</nom>
 		</element>
-		<elem id="323" type="bar">
+		<element id="323" type="bar">
 			<latitude>48.8304045</latitude>
 			<longitude>2.3475111</longitude>
 			<adresse>Rue Edmond Gondinet, Croulebarbe, 13e</adresse>
 			<nom>Chez Anna</nom>
-		</elem>
-		<elem id="324" type="bar">
+		</element>
+		<element id="324" type="bar">
 			<latitude>48.8276841</latitude>
 			<longitude>2.3501384</longitude>
 			<adresse>Rue de la Butte aux Cailles, Butte aux Cailles, Maison-Blanche, 13e</adresse>
 			<nom>O'Sullivans Rebel Red</nom>
-		</elem>
-		<elem id="325" type="bar">
+		</element>
+		<element id="325" type="bar">
 			<latitude>48.8308857</latitude>
 			<longitude>2.3767781</longitude>
 			<adresse>114, Avenue de France, Gare, 13e</adresse>
 			<nom>Mad Maker</nom>
-		</elem>
-		<elem id="326" type="bar">
+		</element>
+		<element id="326" type="bar">
 			<latitude>48.8363055</latitude>
 			<longitude>2.358319</longitude>
 			<adresse>24, Rue Duméril, Salpêtrière, 13e</adresse>
 			<nom>Mama Kin</nom>
-		</elem>
+		</element>
 		<element id="327" type="crous">
 			<longitude>2.359571</longitude>
 			<latitude>48.837266</latitude>
@@ -2036,7 +2037,7 @@
 			<nom>RU Tolbiac</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75014">
+	<arrondissement num="75014" loyer="23">
 		<element id="336" type="cinema">
 			<latitude>48.842443</latitude>
 			<longitude>2.327625</longitude>
@@ -2199,36 +2200,36 @@
 			<adresse>58 boulvevard Saint Jacques</adresse>
 			<nom>Denfert café</nom>
 		</element>
-		<elem id="363" type="bar">
+		<element id="363" type="bar">
 			<latitude>48.8366253</latitude>
 			<longitude>2.3205726</longitude>
 			<adresse>33, Rue de l'Ouest, Plaisance, 14e</adresse>
 			<nom>Osmoz Café</nom>
-		</elem>
-		<elem id="364" type="bar">
+		</element>
+		<element id="364" type="bar">
 			<latitude>48.8341125</latitude>
 			<longitude>2.3181604</longitude>
 			<adresse>Rue Raymond Losserand, Plaisance, 14e</adresse>
 			<nom>Au Métro</nom>
-		</elem>
-		<elem id="365" type="bar">
+		</element>
+		<element id="365" type="bar">
 			<latitude>48.8428397</latitude>
 			<longitude>2.3260648</longitude>
 			<adresse>42, Rue du Montparnasse, Montparnasse, 14e</adresse>
 			<nom>The Cork and Cavan</nom>
-		</elem>
-		<elem id="366" type="bar">
+		</element>
+		<element id="366" type="bar">
 			<latitude>48.8281219</latitude>
 			<longitude>2.3158457</longitude>
 			<adresse>Rue Didot, Plaisance, 14e</adresse>
 			<nom>Le Falstaff</nom>
-		</elem>
-		<elem id="367" type="bar">
+		</element>
+		<element id="367" type="bar">
 			<latitude>48.8392433</latitude>
 			<longitude>2.3391037</longitude>
 			<adresse>88 Bis, Boulevard de Port-Royal, Val-de-Grâce, 5e</adresse>
 			<nom>The Local</nom>
-		</elem>
+		</element>
 		<element id="368" type="crous">
 			<longitude>2.338886</longitude>
 			<latitude>48.838142</latitude>
@@ -2236,7 +2237,7 @@
 			<nom>Cafétéria Cochin</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75015">
+	<arrondissement num="75015" loyer="24">
 		<element id="369" type="cinema">
 			<latitude>48.83039</latitude>
 			<longitude>2.276254</longitude>
@@ -2441,36 +2442,36 @@
 			<adresse>198 rue de la Convention</adresse>
 			<nom>Café Dupont</nom>
 		</element>
-		<elem id="403" type="bar">
+		<element id="403" type="bar">
 			<latitude>48.8503692</latitude>
 			<longitude>2.2930824</longitude>
 			<adresse>Boulevard de Grenelle, Grenelle, 15e</adresse>
 			<nom>Galway Irish Pub</nom>
-		</elem>
-		<elem id="404" type="bar">
+		</element>
+		<element id="404" type="bar">
 			<latitude>48.8357125</latitude>
 			<longitude>2.2929761</longitude>
 			<adresse>354, Rue de Vaugirard, St-Lambert, 15e</adresse>
 			<nom>Au train de vie</nom>
-		</elem>
-		<elem id="405" type="bar">
+		</element>
+		<element id="405" type="bar">
 			<latitude>48.8350897</latitude>
 			<longitude>2.3042236</longitude>
 			<adresse>Rue de Vouillé, St-Lambert, 15e</adresse>
 			<nom>Le Comptoir</nom>
-		</elem>
-		<elem id="406" type="bar">
+		</element>
+		<element id="406" type="bar">
 			<latitude>48.84384</latitude>
 			<longitude>2.2958801</longitude>
 			<adresse>88, Rue de la Croix Nivert, Grenelle, 15e</adresse>
 			<nom>Les Fontaines</nom>
-		</elem>
-		<elem id="407" type="bar">
+		</element>
+		<element id="407" type="bar">
 			<latitude>48.8419073</latitude>
 			<longitude>2.300498</longitude>
 			<adresse>135, Rue Lecourbe, St-Lambert, 15e</adresse>
 			<nom>Celtic Corner</nom>
-		</elem>
+		</element>
 		<element id="408" type="crous">
 			<longitude>2.291422</longitude>
 			<latitude>48.8356</latitude>
@@ -2490,7 +2491,7 @@
 			<nom>Cafétéria Necker</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75016">
+	<arrondissement num="75016" loyer="25">
 		<element id="411" type="cinema">
 			<latitude>48.858204</latitude>
 			<longitude>2.282104</longitude>
@@ -2588,7 +2589,7 @@
 			<nom>RU Boulogne</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75017">
+	<arrondissement num="75017" loyer="24">
 		<element id="427" type="cinema">
 			<latitude>48.875539</latitude>
 			<longitude>2.294478</longitude>
@@ -2709,12 +2710,12 @@
 			<adresse>21 avenue Brochant</adresse>
 			<nom>Le Bloc</nom>
 		</element>
-		<elem id="447" type="bar">
+		<element id="447" type="bar">
 			<latitude>48.8851266</latitude>
 			<longitude>2.3251655</longitude>
 			<adresse>Rue des Dames, Batignolles, 17e</adresse>
 			<nom>Paradis 13</nom>
-		</elem>
+		</element>
 		<element id="448" type="crous">
 			<longitude>2.309532</longitude>
 			<latitude>48.883852</latitude>
@@ -2722,7 +2723,7 @@
 			<nom>Cafétéria Malesherbes</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75018">
+	<arrondissement num="75018" loyer="22">
 		<element id="449" type="cinema">
 			<latitude>48.883938</latitude>
 			<longitude>2.328034</longitude>
@@ -2921,12 +2922,12 @@
 			<adresse>86 bis rue Riquet</adresse>
 			<nom>Populettes</nom>
 		</element>
-		<elem id="482" type="bar">
+		<element id="482" type="bar">
 			<latitude>48.8904696</latitude>
 			<longitude>2.3392991</longitude>
 			<adresse>10, Rue de la Fontaine du But, Grandes-Carrières, 18e</adresse>
 			<nom>Fauve Paris L'abreuvoir</nom>
-		</elem>
+		</element>
 		<element id="483" type="crous">
 			<longitude>2.347469</longitude>
 			<latitude>48.899794</latitude>
@@ -2946,7 +2947,7 @@
 			<nom>RU Bichat</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num="75019">
+	<arrondissement num="75019" loyer="21">
 		<element id="486" type="cinema">
 			<latitude>48.888947</latitude>
 			<longitude>2.392436</longitude>
@@ -3079,14 +3080,14 @@
 			<adresse>6 rue Mélingue</adresse>
 			<nom>Chez Miamophile</nom>
 		</element>
-		<elem id="508" type="bar">
+		<element id="508" type="bar">
 			<latitude>48.8895378</latitude>
 			<longitude>2.3833861</longitude>
 			<adresse>Rue de l'Ourcq, La Villette, 19e</adresse>
 			<nom>The Frog &amp; British Library</nom>
-		</elem>
+		</element>
 	</arrondissement>
-	<arrondissement num="75020">
+	<arrondissement num="75020" loyer="21">
 		<element id="509" type="cinema">
 			<latitude>48.864763</latitude>
 			<longitude>2.399555</longitude>
@@ -3237,17 +3238,17 @@
 			<adresse>1 rue d'Avron</adresse>
 			<nom>l'Usine</nom>
 		</element>
-		<elem id="534" type="bar">
+		<element id="534" type="bar">
 			<latitude>48.8510126</latitude>
 			<longitude>2.4018663</longitude>
 			<adresse>Rue des Grands Champs, Saint-Blaise, Charonne, 20e</adresse>
 			<nom>Irish Corner</nom>
-		</elem>
-		<elem id="535" type="bar">
+		</element>
+		<element id="535" type="bar">
 			<latitude>48.8520344</latitude>
 			<longitude>2.3993968</longitude>
 			<adresse>Rue des Haies, Saint-Blaise, Charonne, 20e</adresse>
 			<nom>Académie de la Bière</nom>
-		</elem>
+		</element>
 	</arrondissement>
 </root>
