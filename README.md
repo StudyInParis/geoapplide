@@ -20,6 +20,7 @@ Déterminer le meilleur quartier étudiant en fonction de :
 - les bibliothèques
 - les établissements universitaires
 - les CROUS (restoU)
+- les loyers par quartier par m²
 
 Nous avons travaillé sur l'opendata. Nos données ont été récupérées principalement sur les sites [Paris OpenData](https://opendata.paris.fr/page/home/) et [Data.gouv](http://www.data.gouv.fr/fr/). Nos données sont donc uniquement opensource, réutilisables à volonté !
 
@@ -51,6 +52,8 @@ Description détaillée des données :
   - informations fournies dans le fichier :id, code postale, adresse, parcelle, surface, propriétaire, occupant, type, tutelle pédagogique, statut (public/privé), pres (?).
 - [CROUS (France entière)](https://www.data.gouv.fr/fr/datasets/ensemble-des-lieux-de-restauration-des-crous-france-entiere-1/)
   - informations fournies dans le fichier : id, lat, long, nom, type (resto/cafeteria), contact (adresse complète).
+- [LOYERS DE PARIS] (https://www.data.gouv.fr/fr/datasets/encadrement-des-loyers-a-paris/)
+  - informations fournies dans le fichier: zoneGL,quartier, n-pieces, prix moyen au m², prix mini, prix max
 
 ## Transformation de toutes les données en XML
 Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos données en XML, ce sont les suivants, présents dans le dossier /scripts :
@@ -106,7 +109,9 @@ Ces étapes sont dans le script : openbeermap_pivot.py.
 ## Création d'un fichier XML pivot
 On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.
 D'abord on formate avec python tous les xml pour qu'ils ressemblent au modèle de xml que l'on veut, puis on les met en commun pour obtenir un seul xml.
+### Ajout des loyers
+  On passe par un fichier csv pour récupérer les loyers par quartier, malheureusement les quartiers était identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. Ensuite, on établit la moyenne de loyer par arrondissement, par quartier, par taille d'appartement et par date de construction, pour obtenir un arrondi au mètre carré. Il est informé comme attribut de la balise <arrondissement> dans le xml pivot. 
 
-## Fichier de stats
+### Fichier de stats
 On a aussi créé un tableau excel (si on a le temps on fera un script qui le crée de A à Z mais ce n'est pas le plus urgent à ce jour) qui regroupe toutes les statistiques sur chaque arrondissement. Sa conception a été facilitée par la structure de données d'origine de python(dictionnaires) qui a permis d'extraire les chiffres intuitivement -> on trouve les moyennes de chaque type de lieu par arrondissement et en total, le max et le min de chacun, et deux matrices, une de covariance et une autre de corrélation qui nous sera utile à l'heure de formuler nos hypothèses.
 ## Réalisation d'un site pour le rendu final
