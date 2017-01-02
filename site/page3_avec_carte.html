@@ -49,7 +49,7 @@
     											<li><a href="#">Veroeros feugiat</a></li>
     										</ul>
     									</li>
-    									<li><a href="donnees.html">Données</a></li>
+    									<li><a href="page1_donnees.html">Données</a></li>
     									<li><a href="page2_graphes.html">Graphes</a></li>
     									<li><a href="page3_visu.html">Visualisation</a></li>
     								</ul>
@@ -193,7 +193,7 @@ $( "div.element" )
   .mouseover(function() {
     $( this ).css("background-color","#FEC606");
     $( this ).css("height","100%");
-    $( "#"+$(this).attr("id")+"-adresse" ).slideToggle('fast');
+    $( "#"+$(this).attr("id")+"-adresse" ).show('fast');
   })
   .mouseout(function() {
     // $( this ).css("background-color","#FFF");
@@ -206,15 +206,18 @@ $( "div.element" )
     $(".bar").css("background-color","#EACFB8") ;
     $(".crous").css("background-color","#FFD940") ;
     $( this ).css("height","80px");
-  })
-  // .click(function() {
-  //   $( this ).css("height","300px");
-  //   $( this ).css("width","300px");
-  //   $( "#"+$(this).attr("id")+"-map" ).slideToggle('fast', 'swing', function() {
-  //       $( this ).css("height","80px");
-  //       $( this ).css("width","200px");
-  //     });
-  //   });
+  });
+
+// initialisation carte osm
+// function InitialiserCarte() {
+// var map = L.map('map').setView([45.7531152, 4.827906], 17);
+// // create the tile layer with correct attribution
+// var tuileUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+// var attrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+// L.TileLayer(tuileUrl, {minZoom: 8, maxZoom: 18, attribution: attrib}).addTo(map);
+// };
+
+
 
 // <iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon='+$( "#"+$(this).find("lon")+"-map" )+'&lat='+$( "#"+$(this).find("lat")+"-map" )+'&zoom=17&width=400&height=350&mark=true&nav=true&pan=true&zb=inout&style=default&icon=down"></iframe>
 

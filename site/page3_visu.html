@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Test Verti jQuery</title>
+  <title>Visualisation data</title>
   <script src="assets/js/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -44,7 +44,7 @@
     											<li><a href="#">Veroeros feugiat</a></li>
     										</ul>
     									</li>
-    									<li><a href="donnees.html">Données</a></li>
+    									<li><a href="page1_donnees.html">Données</a></li>
     									<li><a href="page2_graphes.html">Graphes</a></li>
     									<li><a href="page3_visu.html">Visualisation</a></li>
     								</ul>
@@ -185,7 +185,7 @@ $( "div.element" )
   .mouseover(function() {
     $( this ).css("background-color","#FEC606");
     $( this ).css("height","100%");
-    $( "#"+$(this).attr("id")+"-adresse" ).slideToggle('fast');
+    $( "#"+$(this).attr("id")+"-adresse" ).show('fast');
   })
   .mouseout(function() {
     // $( this ).css("background-color","#FFF");
