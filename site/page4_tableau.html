@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tableau récapitulatif</title>
+  <script src="assets/js/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="assets/css/main_test_gmaps.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]
+  <link rel="stylesheet" href="http://code.leafletjs.com/leaflet-0.3.1/leaflet.css" />
+  [if lte IE 8]>
+      <link rel="stylesheet" href="http://code.leafletjs.com/leaflet-0.3.1/leaflet.ie.css" />
+  <![endif]
+  <script src="http://code.leafletjs.com/leaflet-0.3.1/leaflet.js"></script>-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <!--<link rel="stylesheet" type="text/css" href="assets/gmaps/examples.css" />-->
+<!-- <script type="text/javascript" src="assets/js/map.js"></script> -->
+</head>
+<body class="left-sidebar">
+		<div id="page-wrapper">
+
+  			<!-- Header -->
+  				<div id="header-wrapper">
+  					<header id="header" class="container">
+
+  						<!-- Logo -->
+  							<div id="logo">
+                  <h1><a href="index.html">geoapplide</a></h1>
+  								<span>projet</span>
+  							</div>
+                <!-- Logo end -->
+
+                <!-- Nav -->
+    							<nav id="nav">
+    								<ul>
+    									<li><a href="index.html">Bienvenue !</a></li>
+    									<!-- <li>
+    										<a href="#">Dropdown</a>
+    										<ul>
+    											<li><a href="#">Lorem ipsum dolor</a></li>
+    											<li><a href="#">Magna phasellus</a></li>
+    											<li>
+    												<a href="#">Phasellus consequat</a>
+    												<ul>
+    													<li><a href="#">Lorem ipsum dolor</a></li>
+    													<li><a href="#">Phasellus consequat</a></li>
+    													<li><a href="#">Magna phasellus</a></li>
+    													<li><a href="#">Etiam dolore nisl</a></li>
+    												</ul>
+    											</li>
+    											<li><a href="#">Veroeros feugiat</a></li>
+    										</ul>
+    									</li> -->
+    									<li><a href="page1_donnees.html">Données</a></li>
+    									<li><a href="page2_graphes.html">Graphes</a></li>
+    									<li><a href="page3_avec_carte_tests.html">Carte</a></li>
+    									<li class="current"><a href="page4_tableau.html">Tableau</a></li>
+    								</ul>
+    							</nav>
+
+  					</header>
+  				</div>
+          <!-- Header end -->
+
+
+          <!-- Main -->
+          <div id="main-wrapper">
+  					<div class="container">
+  						<div id="content">
+
+    									<!-- Content -->
+    										<article>
+
+    											<h2 id="titre">Tableau récapitulatif des données</h2>
+                          <p>Ce tableau présente les informations sur les fichiers récupérés pour notre projet.</p>
+                          <table style="border-bottom-style: 1px solid black; padding:5px;">
+                            <tr style="background-color:#A7A37E;">
+                              <td><strong>Fichier</strong></td>
+                              <td><strong>Source</strong></td>
+                              <td><strong>Format(s)</strong></td>
+                              <td><strong>Informations</strong></td>
+                            </tr>
+                            <tr style="background-color:#FFFAFA;">
+                              <td>Distributeurs de préservatifs</td>
+                              <td>opendata.paris.fr</td>
+                              <td>json et geojson</td>
+                              <td>id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), latitude/longitude, adresse complète, arrondissement, horaires normales</td>
+                            </tr>
+                            <tr style="background-color:#EEEEC6;">
+                              <td>cafés à 1€</td>
+                              <td>opendata.paris.fr</td>
+                              <td>json et geojson</td>
+                              <td>id, arrondissement, adresse, prix, géolocalisation, nom du café, prix en terrasse, date, prix au comptoir</td>
+                            </tr>
+                            <tr style="background-color:#FFFAFA;">
+                              <td>cinémas</td>
+                              <td>opendata.paris.fr</td>
+                              <td>json et geojson</td>
+                              <td>id, nombre d'écrans, nombre de fauteuils, ndegauto, arrondissement, art et essai (NON/A), adresse, nom de l'établissement, coordonnées (lat, long)</td>
+                            </tr>
+                            <tr style="background-color:#EEEEC6;">
+                              <td>marchés de quartiers</td>
+                              <td>opendata.paris.fr</td>
+                              <td>json et geojson</td>
+                              <td>id, marché, jour (horaires), arrondissement, adresse complète, localisation (détail adresse), société gestionnaire</td>
+                            </tr>
+                            <tr style="background-color:#FFFAFA;">
+                              <td>bières, openbeermap</td>
+                              <td>data.gouv.fr/fr</td>
+                              <td>csv, séparateur = ","</td>
+                              <td>nom de l'établissement, gml id, osm id, brewer (Oui/Non), bières (noms de bières), type (bar/pub)</td>
+                            </tr>
+                            <tr style="background-color:#EEEEC6;">
+                              <td>bibliothèques</td>
+                              <td>data.gouv.fr/fr</td>
+                              <td>csv, séparateur = ","</td>
+                              <td>id, numéro INSEE, ville, région, type de voie, voie, CPBIBLIO, nom de la voie, numéro de voie, département, population légale, libellé 1 (type de biliothèque, bibliothèque, médiathèque, communale, municipale), libellé 2 (nom de la bibliothèque)</td>
+                            </tr>
+                            <tr style="background-color:#FFFAFA;">
+                              <td>quartiers administratifs</td>
+                              <td>opendata.paris.fr</td>
+                              <td>json et geojson</td>
+                              <td>id, et coordonnées des points du polygone qui définit le quartier (geom/type/coordinates/item/item/lat - long), numéro INSEE, nom du quartier, arrondissement</td>
+                            </tr>
+                            <tr style="background-color:#EEEEC6;">
+                              <td>établissements universitaires</td>
+                              <td>data.gouv.fr/fr</td>
+                              <td>json</td>
+                              <td>id, code postale, adresse, parcelle, surface, propriétaire, occupant, type, tutelle pédagogique, statut (public/privé), pres (?)</td>
+                            </tr>
+                            <tr style="background-color:#FFFAFA;">
+                              <td>CROUS (France entière)</td>
+                              <td>data.gouv.fr/fr</td>
+                              <td></td>
+                              <td>id, lat, long, nom, type (resto/cafeteria), contact (adresse complète)</td>
+                            </tr>
+                            <tr style="background-color:#EEEEC6;">
+                              <td>LOYERS DE PARIS</td>
+                              <td>data.gouv.fr/fr</td>
+                              <td></td>
+                              <td>zoneGL,quartier, n-pieces, prix moyen au m², prix mini, prix max</td>
+                            </tr>
+                          </table>
+
+    										</article>
+
+                      </div>
+          					</div>
+          				</div>
+    <!-- page-wrapper end -->
+
+</body>
+</html>

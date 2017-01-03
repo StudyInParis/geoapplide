@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Visu avec carte</title>
+  <title>Visuel carte</title>
   <script src="assets/js/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -43,7 +43,7 @@
           if (key == "features"){
             $.each( val, function(value){
               // value = index de l'element dans la liste
-              // console.log(val[value]); 
+              // console.log(val[value]);
               var color;
               $.each( val[value], function( key2, val2 ) {
                 // console.log(key2);
@@ -77,7 +77,7 @@
                 if (key2 == "geometry"){
                   $.each( val2, function( key3, val3 ) {
                     if (key3 == "coordinates"){
-                      
+
                       // alert("ok");
                       // console.log([val3][0]);
                       // console.log(color);
@@ -144,7 +144,7 @@
               });
             }
             });
-        
+
     });
   </script>
 </head>
@@ -165,8 +165,8 @@
                 <!-- Nav -->
     							<nav id="nav">
     								<ul>
-    									<li class="current"><a href="index.html">Bienvenue !</a></li>
-    									<li>
+    									<li><a href="index.html">Bienvenue !</a></li>
+    									<!-- <li>
     										<a href="#">Dropdown</a>
     										<ul>
     											<li><a href="#">Lorem ipsum dolor</a></li>
@@ -182,10 +182,11 @@
     											</li>
     											<li><a href="#">Veroeros feugiat</a></li>
     										</ul>
-    									</li>
-    									<li><a href="donnees.html">Données</a></li>
+    									</li> -->
+    									<li><a href="page1_donnees.html">Données</a></li>
     									<li><a href="page2_graphes.html">Graphes</a></li>
-    									<li><a href="page3_avec_carte_tests.html">Visualisation</a></li>
+    									<li class="current"><a href="page3_avec_carte_tests.html">Carte</a></li>
+    									<li><a href="page4_tableau.html">Tableau</a></li>
     								</ul>
     							</nav>
 
@@ -198,36 +199,6 @@
     			<div id="main-wrapper">
     					<div class="container">
     						<div class="row 200%">
-                  <div class="4u 12u$(medium)">
-    								<div id="sidebar">
-                      <section>
-                        <h3>Sélectionnez un arrondissement</h3>
-                        <ul class="style2">
-                          <li><a href="#75001">75001</a></li>
-                          <li><a href="#75002">75002</a></li>
-                          <li><a href="#75003">75003</a></li>
-                          <li><a href="#75004">75004</a></li>
-                          <li><a href="#75005">75005</a></li>
-                          <li><a href="#75006">75006</a></li>
-                          <li><a href="#75007">75007</a></li>
-                          <li><a href="#75008">75008</a></li>
-                          <li><a href="#75009">75009</a></li>
-                          <li><a href="#75010">75010</a></li>
-                          <li><a href="#75011">75011</a></li>
-                          <li><a href="#75012">75012</a></li>
-                          <li><a href="#75013">75013</a></li>
-                          <li><a href="#75014">75014</a></li>
-                          <li><a href="#75015">75015</a></li>
-                          <li><a href="#75016">75016</a></li>
-                          <li><a href="#75017">75017</a></li>
-                          <li><a href="#75018">75018</a></li>
-                          <li><a href="#75019">75019</a></li>
-                          <li><a href="#75020">75020</a></li>
-                        </ul>
-                      </section>
-                    </div>
-                    <!-- Sidebar end -->
-                  </div>
                   <!-- 4u 12u$(medium) end -->
 
     							<div class="8u 12u$(medium) important(medium)">
@@ -236,8 +207,8 @@
     									<!-- Content -->
     										<article>
 
-    											<h2 id="titre">Test</h2>
-
+    											<h2 id="titre">Carte de visualisation des lieux</h2>
+                          <p>Cette carte représente tous les lieux donnés dans les fichiers récupérés, chaque couleur correspond à un type de lieux, en sélectionnant un lieu, vous verrez l'adresse et le type de lieu (marché, cinéma, distributeurs de préservatifs, café, bar ou bibliothèque).</p>
 
                           <div id="map"></div>
 
@@ -256,18 +227,5 @@
     </div>
     <!-- page-wrapper end -->
 
-<!-- <textarea id="source" style="width:650px;height:450px;" >
-</textarea> -->
-
-<!--<script>
-//myXML= document.all("https://raw.githubusercontent.com/StudyInParis/geoapplide/master/xml_formattes_pivot/xml_pivot.xml").XMLDocument;
-myXML= document.all("../../xml_formattes_pivot/xml_pivot.xml").XMLDocument;
-alert(myXML);
-
-// function myFunction(xml) {
-//     var xmlDoc = xml.responseXML;
-//     alert(xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue);
-// }
-</script>-->
 </body>
 </html>
