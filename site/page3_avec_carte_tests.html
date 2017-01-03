@@ -36,32 +36,91 @@
         mapTypeControl: false,
         overviewMapControl: false
       });
-      $.ajax({
-        type: 'GET',
-        url: 'https://raw.githubusercontent.com/StudyInParis/geoapplide/master/donnees_brutes/arrondissements.geojson',
-        dataType: 'geojson',
-        success: function(geojson) {
-          console.log($(geojson).getElementById("coordinates"));
-        }
-      })
+      jQuery.getJSON('https://raw.githubusercontent.com/StudyInParis/geoapplide/master/donnees_brutes/arrondissements.geojson', function(data) {
+          // alert("ok");
+          var items = [];
+          $.each( data, function( key, val ) {
+          if (key == "features"){
+            $.each( val, function(value){
+              // value = index de l'element dans la liste
+              // console.log(val[value]); 
+              $.each( val[value], function( key2, val2 ) {
+                var color;
+                console.log(key2);
+                if (key2 == "loyer"){
+                  console.log(val2);
+                  if (val2=="21"){
+                    color="#ff1a1b";
+                  }
+                  if (val2=="22"){
+                    color="#ff0002";
+                  }
+                  if (val2=="23"){
+                    color="#e60001";
+                  }
+                  if (val2=="24"){
+                    color="#cd0001";
+                  }
+                  if (val2=="25"){
+                    color="#b30001";
+                  }
+                  if (val2=="26"){
+                    color="#9a0001";
+                  }
+                  if (val2=="27"){
+                    color="#800001";
+                  }
+                  if (val2=="28"){
+                    color="#670001";
+                  }
+                }
+                if (key2 == "geometry"){
+                  $.each( val2, function( key3, val3 ) {
+                    if (key3 == "coordinates"){
+                      
+                      // alert("ok");
+                      // console.log([val3][0]);
+                      map.drawPolygon({
+                      paths: val3,
+                      useGeoJSON: true,
+                      strokeColor: color,
+                      strokeOpacity: 0.6,
+                      strokeWeight: 6
+                    });
+                    }
+                  })
+                }
+              })
+            })
+          }
+        });
+      });
+      // path = [[[2.351518483670821, 48.8644258050741], [2.350949105218923, 48.86340592861751], [2.346676032763327, 48.864430925901665], [2.346675453051013, 48.86443106483368], [2.345101655171463, 48.864809197959836], [2.341271025930368, 48.86572767724484], [2.34126849090564, 48.86572828653819], [2.341204510696185, 48.865743681005995], [2.341178272058699, 48.86574963323163], [2.341083555178273, 48.86577201721946], [2.337371969067098, 48.86664907439458], [2.335869691238243, 48.86699647535598], [2.335869054057415, 48.86699662650754], [2.333675321300195, 48.867516125009374], [2.33172601351949, 48.867954816599685], [2.331725629348361, 48.86795490259037], [2.330656733960091, 48.86819218066118], [2.330306795320876, 48.86835619167468], [2.329965588686572, 48.86851416917429], [2.328007329038849, 48.86991742140715], [2.32984034160984, 48.87023196300484], [2.332082346211126, 48.87061659840104], [2.334150445666464, 48.870970071095634], [2.337008699424837, 48.87145858186232], [2.337096350892028, 48.87147459083911], [2.339735558883667, 48.87192782312048], [2.339898092256945, 48.87195573212607], [2.34004423190851, 48.87198082642372], [2.343068934219441, 48.87148887381476], [2.347880282483183, 48.87070414850945], [2.350960685471093, 48.870049489007904], [2.3526310157278463, 48.86969449880021], [2.354260580416611, 48.869330050725615], [2.352975454399392, 48.867032060091404], [2.352530424441132, 48.86623248929979], [2.351974400952567, 48.86523967487127], [2.351518483670821, 48.8644258050741]]];
+      // map.drawPolygon({
+      //   paths: path,
+      //   useGeoJSON: true,
+      //   strokeColor: '#131540',
+      //   strokeOpacity: 0.6,
+      //   strokeWeight: 6
+      // });
       $.ajax({
             type: 'GET',
             url: 'https://raw.githubusercontent.com/StudyInParis/geoapplide/master/xml_formattes_pivot/xml_pivot.xml',
             dataType: 'xml',
             success: function(xml) {
-              //var compteur=1;
+              var compteur=1;
               $(xml).find('element').each(function() {
-                //console.log(compteur);
+                // console.log(compteur);
                 //alert(String(compteur));
-                map.addMarker({
-                lat: $(this).find('latitude').text(),
-                lng: $(this).find('longitude').text(),
-                title: 'Marker with InfoWindow',
-                infoWindow: {
-                  content: '<p>'+$(this).find('nom').text()+'</br>'+$(this).find('adresse').text()+'</br>'+$(this).attr("type")+'</p>'
-        }
-      });
-      //compteur+=1;
+      //           map.addMarker({
+      //           lat: $(this).find('latitude').text(),
+      //           lng: $(this).find('longitude').text(),
+      //           title: 'Marker with InfoWindow',
+      //           infoWindow: {
+      //             content: '<p>'+$(this).find('nom').text()+'</br>'+$(this).find('adresse').text()+'</br>'+$(this).attr("type")+'</p>'
+      //   }
+      // });
+      compteur+=1;
               });
             }
             });
