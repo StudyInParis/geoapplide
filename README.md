@@ -27,32 +27,42 @@ Nous avons travaillé sur l'opendata. Nos données ont été récupérées princ
 ## Données
 Description détaillée des données :
 - [Distributeurs de préservatifs](https://opendata.paris.fr/explore/dataset/distributeurspreservatifsmasculinsparis2012/export/) :
+  - source : opendata.paris.fr
   - format json et geojson
   - informations fournies dans le fichier : id, année d'installation, horaires pendant les vacances d'été, adresse, site, horaires pendant les vacances d'hiver, accès (intérieur/extérieur), latitude/longitude, adresse complète, arrondissement, horaires normales.
 - [cafés à 1€](https://opendata.paris.fr/explore/dataset/liste-des-cafes-a-un-euro/export/)
+  - source : opendata.paris.fr
   - format json et geojson
   - informations fournies dans le fichier : id, arrondissement, adresse, prix, géolocalisation, nom du café, prix en terrasse, date, prix au comptoir.
 - [cinémas](https://opendata.paris.fr/explore/dataset/cinemas-a-paris/api/)
+  - source : opendata.paris.fr
   - format json et geojson
   - informations fournies dans le fichier : id, nombre d'écrans, nombre de fauteuils, ndegauto, arrondissement, art et essai (NON/A), adresse, nom de l'établissement, coordonnées (lat, long).
 - [marchés de quartiers](https://opendata.paris.fr/explore/dataset/liste_des_marches_de_quartier_a_paris/api/)
+  - source : opendata.paris.fr
   - format json et geojson
   - informations fournies dans le fichier : id, marché, jour (horaires), arrondissement, adresse complète, localisation (détail adresse), société gestionnaire.
 - bières,  [openbeermap](https://www.data.gouv.fr/fr/datasets/bars-pubs-et-brasseries-artisanales-dopen-beer-map-ile-de-france-mai-2015/)
+  - source : data.gouv.fr/fr
   - informations fournies dans le fichier : nom de l'établissement, gml id, osm id, brewer (Oui/Non), bières (noms de bières), type (bar/pub).
   - format csv, séparateur = ","
 - [bibliothèques](https://www.data.gouv.fr/fr/datasets/adresses-des-bibliotheques-publiques/)
+  - source : data.gouv.fr/fr
   - format csv, séparateur = ","
   - informations fournies dans le fichier :id, numéro INSEE, ville, région, type de voie, voie, CPBIBLIO, nom de la voie, numéro de voie, département, population légale, libellé 1 (type de biliothèque, bibliothèque, médiathèque, communale, municipale), libellé 2 (nom de la bibliothèque).
 - [quartiers administratifs](https://opendata.paris.fr/explore/dataset/quartier_paris/)
+  - source : opendata.paris.fr
   - format json et geojson
   - informations fournies dans le fichier : id, et coordonnées des points du polygone qui définit le quartier (geom/type/coordinates/item/item/lat - long), numéro INSEE, nom du quartier, arrondissement.
 - [établissements universitaires](https://www.data.gouv.fr/fr/datasets/annuaire-immobilier-de-l-enseignement-superieur-prs/)
+  - source : data.gouv.fr/fr
   - format json
   - informations fournies dans le fichier :id, code postale, adresse, parcelle, surface, propriétaire, occupant, type, tutelle pédagogique, statut (public/privé), pres (?).
 - [CROUS (France entière)](https://www.data.gouv.fr/fr/datasets/ensemble-des-lieux-de-restauration-des-crous-france-entiere-1/)
+  - source : data.gouv.fr/fr
   - informations fournies dans le fichier : id, lat, long, nom, type (resto/cafeteria), contact (adresse complète).
 - [LOYERS DE PARIS] (https://www.data.gouv.fr/fr/datasets/encadrement-des-loyers-a-paris/)
+  - source : data.gouv.fr/fr
   - informations fournies dans le fichier: zoneGL,quartier, n-pieces, prix moyen au m², prix mini, prix max
 
 ## Transformation de toutes les données en XML
@@ -86,7 +96,7 @@ Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui e
 
 On obtient le fichier openbeermap.xml.
 #### Scripts json2xml
-Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contnant toutes les données du fichier.
+Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
 
 Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
 - facs.xml
@@ -111,7 +121,7 @@ On réalise ensuite un fichier XML pour croiser toutes les données et les mettr
 D'abord on formate avec python tous les xml pour qu'ils ressemblent au modèle de xml que l'on veut, puis on les met en commun pour obtenir un seul xml.
 
 ### Ajout des loyers
-  On passe par un fichier csv pour récupérer les loyers par quartier, malheureusement les quartiers étant identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. Ensuite, on établit la moyenne de loyer par arrondissement, par quartier, par taille d'appartement et par date de construction, pour obtenir un arrondi au mètre carré. Il est informé comme attribut de la balise 'arrondissement' dans le xml pivot. 
+  On passe par un fichier csv pour récupérer les loyers par quartier, malheureusement les quartiers étant identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. Ensuite, on établit la moyenne de loyer par arrondissement, par quartier, par taille d'appartement et par date de construction, pour obtenir un arrondi au mètre carré. Il est informé comme attribut de la balise 'arrondissement' dans le xml pivot.
 
 ### Fichier de stats
 On a aussi créé un tableau excel (si on a le temps on fera un script qui le crée de A à Z mais ce n'est pas le plus urgent à ce jour) qui regroupe toutes les statistiques sur chaque arrondissement. Sa conception a été facilitée par la structure de données d'origine de python(dictionnaires) qui a permis d'extraire les chiffres intuitivement -> on trouve les moyennes de chaque type de lieu par arrondissement et en total, le max et le min de chacun, et deux matrices, une de covariance et une autre de corrélation qui nous sera utile à l'heure de formuler nos hypothèses.

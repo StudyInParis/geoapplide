@@ -47,7 +47,7 @@
     									</li>
     									<li><a href="donnees.html">Données</a></li>
     									<li><a href="page2_graphes.html">Graphes</a></li>
-    									<li><a href="page3_visu.html">Visualisation</a></li>
+    									<li><a href="page3_avec_carte_tests.html">Visualisation</a></li>
     								</ul>
     							</nav>
 
@@ -122,7 +122,6 @@
 <script>
 $("#titre").append(" des lieux par arrondissement :");
 $("#source").hide();
-
 $.ajax({
   url: "https://raw.githubusercontent.com/StudyInParis/geoapplide/master/xml_formattes_pivot/xml_pivot.xml",
   cache: true
@@ -130,11 +129,9 @@ $.ajax({
   .done(function( html ) {
     $("#source").val( html ) ;
   });
-
     var xml=$("#source").val(),
     xmlDoc = $.parseXML( xml ),
     $xml = $( xmlDoc );
-
 // crée un tableau avec tous les types
 var types = new Object() ;
 $(xml).find('arrondissement').each(function(){
@@ -145,7 +142,6 @@ $(xml).find('arrondissement').each(function(){
 	});
 });
 console.log(types);
-
 // créé un tableau avec tous les arrondissements
 var arrs = new Array();
 var i =0;
@@ -155,7 +151,6 @@ $(xml).find('arrondissement').each(function(){
   i++;;
   });
 console.log(arrs);
-
 // création d'un tableau avec nombre d'éléments par arrondissement
 var cafes = new Object();
 var marches = new Object();
@@ -218,18 +213,13 @@ $(xml).find('arrondissement').each(function(){
   $("#"+i).append('<li class="visualize" data-value="'+tab_biblis[i]+'" data-color="#882D61">bibliothèques : '+tab_biblis[i]+'</li>')
   i++;
 });
-
-
-
 console.log(tab_cafes);
-
 $('.bar').visualize({
      width: 300,
      height: 300,
      type: 'bar',
      legend: true
  });
-
 </script>
 
 </body>

@@ -9,7 +9,6 @@
 		<title>geoapplide - données</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<script src="assets/js/jquery.min.js"></script>
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -34,17 +33,15 @@
 										<li>
 											<a href="page1_donnees.html">Données</a>
 											<ul>
-												<li><a href="page1_donnees.html#datagouv">DataGouv</a></li>
-												<li><a href="page1_donnees.html#parisdata">Paris Opendata</a></li>
-												<li><a href="page1_donnees.html#data2xml">CSV vers XML</a></li>
-												<li><a href="page1_donnees.html#xmlpivot">Fichier XMl pivot</a></li>
-												<li><a href="page1_donnees.html#stats">Statistiques python</a></li>
-												<li><a href="page1_donnees.html#javascript">Javascript</a></li>
+												<li><a href="#">Lorem ipsum dolor</a></li>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Phasellus consequat</a></li>
+												<li><a href="#">Veroeros feugiat</a></li>
 											</ul>
 										</li>
 										<li><a href="page2_graphes.html">Graphes</a></li>
-										<li><a href="page3_visu.html">Visualisation</a></li>
-										<li><a href="page3_avec_carte_tests.html">Carte</a></li>
+										<li><a href="page3_avec_carte_tests.html">Visualisation</a></li>
+										<li><a href="page4_carte.html">Carte</a></li>
 									</ul>
 								</nav>
 
@@ -75,7 +72,7 @@
 											<ul class="style2">
 												<li><a href="#datagouv">DataGouv</a></li>
 												<li><a href="#parisdata">Paris Opendata</a></li>
-												<li><a href="#data2xml">Passage du CSV au XML</a></li>
+												<li><a href="#csv2xml">Passage du CSV au XML</a></li>
 												<li><a href="#xmlpivot">Fichier XML pivot</a></li>
 												<li><a href="#stats">Statistiques python</a></li>
 												<li><a href="#javascript">Javascript</a></li>
@@ -96,81 +93,45 @@
 												<p>Une partie de nos données viennent du site <a href="http://www.data.gouv.fr/fr/">data.gouv</a> qui est un site gourvernemenal qui propose les données mises en ligne par le gouvernement. Nous y avons par exmpele récupéré les données sur les loyers ou les bibliothèques.</p>
 												<p>Beaucoup de données y sont présentes au format CSV ou JSON, peu de choses sont récupérables en XML, nous avons du les transformé, c'est expliqué <a href="#data2xml">un peu plus loin</a>.</p>
 												<img src="images/datagouv.png" alt="logo paris opendata" height="100px"/>
-
 											<h3 id="parisdata">Paris OpenData</h3>
 												<p>La plus grosse partie de nos sources vient du site <a href="https://opendata.paris.fr">opendata</a> de la ville de Paris. De même, la plupart des données y sont présentes au format CSV, donc ils ont été transformés aussi.</p>
 												<img src="images/parisdata.png" alt="logo paris opendata" width="300px"/>
-
 											<h3 id="data2xml">Transformation en fichiers XML</h3>
-
 											<h4>CSV</h4>
 												<p>Le fichier OpenBeerMap est construit de la façon suivante :
+
 												<ul><li>OpenBeerMap_IDF.1126088147,1126088147,(1:Akerbeltz_ambrée),Non,L'Express,pub</li></ul>
+
 												Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :
+
 												<ul><li>OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub</li></ul>
+
 												Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contenant toutes les informations pour les imprimer dans le fichier de sortie.</p>
+
 												<p>On obtient le fichier <a href="../donnees_xml/OpenBeerMap.xml">openbeermap.xml</a>.</p>
-
-												<textarea id="openbeermap" style="width:90%;height:150px;"></textarea>
-
-												<p>Dans le fichier OpenBeerMap, on a les OSM_ID pour chaque bar, à partir de ces IDs, on utilise le module osmapi qui permet théoriquement d'obtenir la latitude, la longitude et l'adresse ocmplète (arrondissement, numéro et nom de la rue, ville, etc). Problème, l'adresse complète n'est récupérable que dans 34 (ou 38) cas sur les 119 entrées que compte le fichier. On utilise donc osmapi pour retrouver latitude et longitude puis un autre module (geopy) pour obtenir, à partir des coordonnées une adresse complète.</p>
-												<p>Ces étapes sont dans le script : <a href="../scripts/openbeermap2xml_pivot.py">openbeermap_pivot.py</a>.</p>
-
+												<textarea id="openbeermap" style="width:650px;height:200;"></textarea>
 											<h4>JSON</h4>
-												<p>Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.</p>
+												<p>Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
 
-												<p>Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
-													<table style="line-height: 2.0em;font-size: 15px;color: #55595c;">
-														<tr style="border-bottom:solid 1px;">
-															<td>liste des facs</td>
-															<td><a href="../donnees_xml/fac.xml">fac.xml</a></td>
-														</tr>
-														<tr style="border-bottom:solid 1px;">
-															<td>liste des cinémas</td>
-															<td><a href="../donnees_xml/cinemas-a-paris.xml">cinemas-a-paris.xml</a></td>
-														</tr>
-														<tr style="border-bottom:solid 1px;">
-															<td>liste des distributeurs de préservatifs masculins</td>
-															<td><a href="../donnees_xml/distributeurspreservatifsmasculinsparis2012.xml">preservatifs.xml</a></td>
-														</tr>
-														<tr style="border-bottom:solid 1px;">
-															<td>liste des quartiers</td>
-															<td><a href="../donnees_xml/quartier_paris.xml">quartiers_paris.xml</a></td>
-														</tr>
-														<tr style="border-bottom:solid 1px;">
-															<td>liste des cafés à 1€</td>
-															<td><a href="../donnees_xml/liste-des-cafes-a-un-euro.xml">cafes-a-un-euro.xml</a></td>
-														</tr>
-														<tr style="border-bottom:solid 1px;">
-															<td>liste des marchés de quartier</td>
-															<td><a href="../donnees_xml/iste_des_marches_de_quartier_a_paris.xml">marches_de_quartier_a_paris.xml</a></td>
-														</tr>
-													</table>
-												<!--<ul style="padding-left: 30px;">
-													<li><a href="../donnees_xml/fac.xml">fac.xml</a></li>
-													<li><a href="../donnees_xml/cinemas-a-paris.xml">cinemas-a-paris.xml</a></li>
-													<li><a href="../donnees_xml/distributeurspreservatifsmasculinsparis2012.xml">distributeurspreservatifsmasculinsparis2012.xml</a></li>
-													<li><a href="../donnees_xml/quartier_paris.xml">quartiers_paris.xml</a></li>
-													<li><a href="../donnees_xml/liste-des-cafes-a-un-euro.xml">cafes-a-un-euro.xml</a></li>
-													<li><a href="../donnees_xml/iste_des_marches_de_quartier_a_paris.xml">marches_de_quartier_a_paris.xml</a></li>
-												</ul-->
+												Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
+												- facs.xml
+												- cinemas.xml
+												- preservatifs.xml
+												- quartiers.xml
+												- cafes.xml
+												- marches.xml
 
-												Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise &lt;item&gt;
-												chaque liste du json d'origine. Il y avait plusieurs balises &lt;item&gt;, dans différents noeuds ... Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur., nous avons</p>
-													<p></p>
-
+												Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise <item>
+												chaque liste du json d'origine. il y avait plusieurs balises <item>, dans différents noeuds...
+												  -> Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur., nous avons</p>
 											<h3 id="xmlpivot">Réalisation d'un fichier pivot en XML</h3>
-												<p>On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.</p>
-												<p>D'abord on formate avec python tous les xml pour qu'ils ressemblent au modèle de xml que l'on veut, puis on les met en commun pour obtenir un seul xml.</p>
 												<p></p>
-
+												<p></p>
 											<h3 id="stats">Calculs de statistiques sur les données</h3>
-												<p>On a aussi créé un tableau excel qui regroupe toutes les statistiques sur chaque arrondissement. Sa conception a été facilitée par la structure de données d'origine de python(dictionnaires) qui a permis d'extraire les chiffres intuitivement -> on trouve les moyennes de chaque type de lieu par arrondissement et en total, le max et le min de chacun, et deux matrices, une de covariance et une autre de corrélation qui nous sera utile à l'heure de formuler nos hypothèses.</p>
 												<p></p>
-
+												<p></p>
 											<h3 id="javascript">Utilisation de javascript pour la réalisation du site</h3>
-												<p>Nous avons utilisé javascript pour réaliser notre site. Différentes librairies jquery nous ont permis l'affichag des pages du site.</p>
-												<p>Nous avons notamment pris l'api google pour afficher la carte.</p>
+												<p></p>
 												<p></p>
 										</article>
 
@@ -245,7 +206,6 @@
 
 <!-- Scripts -->
 <script>
-$("#titre").append(" !");
 $.ajax({
   url: "https://raw.githubusercontent.com/StudyInParis/geoapplide/master/donnees_xml/OpenBeerMap.xml",
   cache: true
