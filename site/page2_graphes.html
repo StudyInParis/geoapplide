@@ -133,6 +133,7 @@ $.ajax({
     var xml=$("#source").val(),
     xmlDoc = $.parseXML( xml ),
     $xml = $( xmlDoc );
+
 // crée un tableau avec tous les types
 var types = new Object() ;
 $(xml).find('arrondissement').each(function(){
@@ -142,7 +143,7 @@ $(xml).find('arrondissement').each(function(){
     types[type] = type;
 	});
 });
-console.log(types);
+
 // créé un tableau avec tous les arrondissements
 var arrs = new Array();
 var i =0;
@@ -151,10 +152,8 @@ $(xml).find('arrondissement').each(function(){
   arrs[i] = arro;
   i++;;
   });
-console.log(arrs);
+
 // création d'un tableau avec nombre d'éléments par arrondissement
-var cafes = new Object();
-var marches = new Object();
 var tab_cafes = new Array();
 var tab_marches = new Array();
 var tab_cines = new Array();
@@ -163,10 +162,9 @@ var tab_preservatifs = new Array();
 var tab_biblis = new Array();
 var tab_bars = new Array();
 var i = 1;
+
 $(xml).find('arrondissement').each(function(){
 	var arro = $(this).attr("num") ;
-  cafes[arro] = 0;
-  marches[arro] = 0;
   tab_cafes[i] = 0;
   tab_marches[i] = 0;
   tab_bars[i] = 0;
@@ -182,11 +180,9 @@ $(xml).find('arrondissement').each(function(){
 		var adr = $(this).find("adresse").text() ;
 		var type = $(this).attr("type") ;
     if(type == "cafe") {
-      cafes[arro]++;
       tab_cafes[i]++;
     };
     if(type == "marche") {
-      marches[arro]++;
       tab_marches[i]++;
     };
     if(type == "cinema") {
@@ -214,7 +210,7 @@ $(xml).find('arrondissement').each(function(){
   $("#"+i).append('<li class="visualize" data-value="'+tab_biblis[i]+'" data-color="#882D61">bibliothèques : '+tab_biblis[i]+'</li>')
   i++;
 });
-console.log(tab_cafes);
+
 $('.bar').visualize({
      width: 300,
      height: 300,
