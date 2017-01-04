@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE root SYSTEM "xml_pivot.dtd">
+<?xml-stylesheet href="../site/tableau1.xsl" type="text/xsl"?>
+<!-- <!DOCTYPE root SYSTEM "xml_pivot.dtd"> -->
 <root>
 	<arrondissement num="75001" loyer="27">
 		<element id="1" type="cinema">

@@ -91,12 +91,13 @@
 											<h2 id="titre">Les données</h2>
 
 											<h3 id="datagouv">DataGouv</h3>
+												<img src="images/datagouv.png" alt="logo paris opendata" height="100px" style="float:right;"/>
 												<p>Une partie de nos données viennent du site <a href="http://www.data.gouv.fr/fr/">data.gouv</a> qui est un site gourvernemenal qui propose les données mises en ligne par le gouvernement. Nous y avons par exmpele récupéré les données sur les loyers ou les bibliothèques.</p>
 												<p>Beaucoup de données y sont présentes au format CSV ou JSON, peu de choses sont récupérables en XML, nous avons du les transformé, c'est expliqué <a href="#data2xml">un peu plus loin</a>.</p>
-												<img src="images/datagouv.png" alt="logo paris opendata" height="100px"/>
+												<img src="images/parisdata.png" alt="logo paris opendata" width="300px" style="float:right;"/>
 											<h3 id="parisdata">Paris OpenData</h3>
 												<p>La plus grosse partie de nos sources vient du site <a href="https://opendata.paris.fr">opendata</a> de la ville de Paris. De même, la plupart des données y sont présentes au format CSV, donc ils ont été transformés aussi.</p>
-												<img src="images/parisdata.png" alt="logo paris opendata" width="300px"/>
+
 											<h3 id="data2xml">Transformation en fichiers XML</h3>
 											<h4>CSV</h4>
 												<p>Le fichier OpenBeerMap est construit de la façon suivante :
@@ -125,9 +126,16 @@
 												Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise <item>
 												chaque liste du json d'origine. il y avait plusieurs balises <item>, dans différents noeuds...
 												  -> Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.</p>
+
+											<h4 id="openbeermap">OpenBeerMap</h4>
+												<p>Dans le fichier OpenBeerMap, on a les OSM_ID pour chaque bar, à partir de ces IDs, on utilise le module osmapi qui permet théoriquement d'obtenir la latitude, la longitude et l'adresse ocmplète (arrondissement, numéro et nom de la rue, ville, etc). Problème, l'adresse complète n'est récupérable que dans 34 (ou 38) cas sur les 119 entrées que compte le fichier. On utilise donc osmapi pour retrouver latitude et longitude puis un autre module (geopy) pour obtenir, à partir des coordonnées une adresse complète.</p>
+												<p>Ces étapes sont dans le script : openbeermap_pivot.py.</p>
 											<h3 id="xmlpivot">Réalisation d'un fichier pivot en XML</h3>
-												<p></p>
-												<p></p>
+												<p>On réalise ensuite un fichier XML pour croiser toutes les données et les mettre en correspondance. De plus, certaines de nos données concernent la France entière, nous travaillons sur Paris, il faut donc limiter les données à celles que nous allons utiliser.</p>
+												<p>D'abord on formate avec python tous les xml pour qu'ils ressemblent au modèle de xml que l'on veut, puis on les met en commun pour obtenir un seul xml.</p>
+											<h4 id="loyers">Loyers</h4>
+												<p>Nous avons travaillé avec ce fichier.</p>
+												<p>On passe par un fichier csv pour récupérer les loyers par quartier, malheureusement les quartiers étant identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. Ensuite, on établit la moyenne de loyer par arrondissement, par quartier, par taille d'appartement et par date de construction, pour obtenir un arrondi au mètre carré. Il est informé comme attribut de la balise 'arrondissement' dans le xml pivot.</p>
 											<h3 id="stats">Calculs de statistiques sur les données</h3>
 												<p></p>
 												<p></p>
