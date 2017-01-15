@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  </head>
+<body>
+  <textarea id="source"></textarea>
+</body>
+<script>
+$.ajax({
+  url: "../donnees_xml/OpenBeerMap.xml",
+  cache: true
+})
+  .done(function( html ) {
+		alert("coucou");
+    $("#source").val( html ) ;
+  });
+
+</script>
