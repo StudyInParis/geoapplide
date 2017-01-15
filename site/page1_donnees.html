@@ -31,7 +31,7 @@
 								<nav id="nav">
 									<ul>
 										<li><a href="index.html">Bienvenue !</a></li>
-										<li class="current"><a href="page1_donnees.html">Données</a></li>
+										<li class="current"><a href="page1_donnees.html">Données et scripts</a></li>
 										<li><a href="page2_graphes.html">Graphes</a></li>
 										<li><a href="page3_carte.html">Carte</a></li>
 										<li><a href="page4_tableau.html">Tableau</a></li>
@@ -49,24 +49,15 @@
 							<div class="4u 12u$(medium)">
 								<div id="sidebar">
 
-									<!-- Sidebar -->
-										<!-- <section>
-											<h3>Subheading</h3>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam.</p>
-											<footer>
-												<a href="#" class="button icon fa-info-circle">Find out more</a>
-											</footer>
-										</section> -->
-
 										<section>
 											<h3>Sources</h3>
 											<ul class="style2">
 												<li><a href="#datagouv">DataGouv</a></li>
 												<li><a href="#parisdata">Paris Opendata</a></li>
+												<li><a href="#scripts">Scripts Python</a></li>
+												<li><a href="#data2xml">Transformation en fichiers XML</a></li>
 												<li><a href="#csv2xml">Passage du CSV au XML</a></li>
+												<li><a href="#json2xml">Passage du JSON au XML</a></li>
 												<li><a href="#xmlpivot">Fichier XML pivot</a></li>
 												<li><a href="#stats">Statistiques python</a></li>
 												<li><a href="#javascript">Javascript</a></li>
@@ -90,8 +81,9 @@
 											<h3 id="parisdata">Paris OpenData</h3>
 												<p>La plus grosse partie de nos sources vient du site <a href="https://opendata.paris.fr">opendata</a> de la ville de Paris. De même, la plupart des données y sont présentes au format CSV, donc elles ont été transformées aussi.</p>
 												<img src="images/parisdata.png" alt="logo paris opendata" width="300px"/>
+												<h2 id="scripts">Transofrmations des données avec Python</h2>
 											<h3 id="data2xml">Transformation en fichiers XML</h3>
-											<h4>CSV</h4>
+											<h4 id="csv2xml">CSV</h4>
 												<p>Le fichier OpenBeerMap est construit de la façon suivante :
 
 												<ul><li>OpenBeerMap_IDF.1126088147,1126088147,(1:Akerbeltz_ambrée),Non,L'Express,pub</li></ul>
@@ -103,8 +95,7 @@
 												Donc on ne peut pas spliter(séparer les éléments) sur la virgule directement. On extrait donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contenant toutes les informations pour les imprimer dans le fichier de sortie.</p>
 
 												<p>On obtient le fichier <a href="../donnees_xml/OpenBeerMap.xml">openbeermap.xml</a>.</p>
-												<textarea id="openbeermap" style="width:100%;height:200;"></textarea>
-											<h4>JSON</h4>
+											<h4 id="json2xml">JSON</h4>
 												<p>Les fichiers json ont été très simples (dans un premier temps..) à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
 
 												Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :

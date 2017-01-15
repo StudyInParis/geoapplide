@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Graphes</title>
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/visualize.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/visualize.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <!--[if lte IE 8]><script src="../js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="assets/css/main.css" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
 </head>
 <body class="left-sidebar">
 		<div id="page-wrapper">
@@ -28,7 +28,7 @@
     							<nav id="nav">
     								<ul>
     									<li><a href="index.html">Bienvenue !</a></li>
-    									<li><a href="page1_donnees.html">Données</a></li>
+    									<li><a href="page1_donnees.html">Données et scripts</a></li>
     									<li class="current"><a href="page2_graphes.html">Graphes</a></li>
     									<li><a href="page3_carte.html">Carte</a></li>
     									<li><a href="page4_tableau.html">Tableau</a></li>
@@ -70,6 +70,7 @@
                           <li><a href="#75018">75018</a></li>
                           <li><a href="#75019">75019</a></li>
                           <li><a href="#75020">75020</a></li>
+                          <li><a href="#lieux">Graphiques par types de lieux</a></li>
                         </ul>
                       </section>
                     </div>
@@ -84,7 +85,34 @@
 
     											<h2 id="titre">Graphes</h2>
 
-                          <div id="liste"></div>
+                          <div id="liste" onload="test()"></div>
+
+                          <h2 id="lieux">Graphiques par lieux</h2>
+                          <p>Les graphiques ci-dessous sont issus du fichier .xls disponible <a href="../../XML/stats_pivot_full.ods">ici</a>.</p>
+
+                          <h3>Cinémas par arrondissement</h3>
+                          <img src="images/graphiques_odt/cinemas.jpg"></img>
+
+                          <h3>Cafés par arrondissement</h3>
+                          <img src="images/graphiques_odt/cafes.jpg"></img>
+
+                          <h3>Crous par arrondissement</h3>
+                          <img src="images/graphiques_odt/crous.jpg"></img>
+
+                          <h3>Bibliothèques par arrondissement</h3>
+                          <img src="images/graphiques_odt/bibli.jpg"></img>
+
+                          <h3>Disctributeurs de préservatifs par arrondissement</h3>
+                          <img src="images/graphiques_odt/preservatifs.jpg"></img>
+
+                          <h3>Marchés par arrondissement</h3>
+                          <img src="images/graphiques_odt/marches.jpg"></img>
+
+                          <h3>Bars par arrondissement</h3>
+                          <img src="images/graphiques_odt/bars.jpg"></img>
+
+                          <h3>Total des éléments par arrondissement</h3>
+                          <img src="images/graphiques_odt/total.jpg"></img>
 
     										</article>
                         <!-- Content end -->
@@ -105,6 +133,13 @@
 
 <script>
 $("#titre").append(" des lieux par arrondissement :");
+
+function test() {
+  setInterval(function() {
+    document.getElementById('liste').contentWindow.reload();
+  }, 1000);
+}
+
 $("#source").hide();
 $.ajax({
   url: "https://raw.githubusercontent.com/StudyInParis/geoapplide/master/xml_formattes_pivot/xml_pivot.xml",
@@ -201,6 +236,70 @@ $('.bar').visualize({
      legend: true
  });
 </script>
+
+      <!-- Footer -->
+        <div id="footer-wrapper">
+          <footer id="footer" class="container">
+            <div class="row">
+              <div class="3u 6u(medium) 12u$(small)">
+
+                <!-- Links -->
+                  <section class="widget links">
+                    <h3>Chloé Monnin</h3>
+                    <ul class="style2">
+                      <li><a href="mailto:chloe.g.tuillier@gmail.com">contact mail</a></li>
+                    </ul>
+                  </section>
+
+              </div>
+              <div class="3u 6u$(medium) 12u$(small)">
+
+                <!-- Links -->
+                  <section class="widget links">
+                    <h3>Mathilde Poulain</h3>
+                    <ul class="style2">
+                      <li><a href="mailto:mathilde.poulain@ouvaton.org">contact mail</a></li>
+                    </ul>
+                  </section>
+
+              </div>
+              <div class="3u 6u(medium) 12u$(small)">
+
+                <!-- Links -->
+                  <section class="widget links">
+                    <h3>Léon-Paul Schaub</h3>
+                    <ul class="style2">
+                      <li><a href="mailto:lp.schaub@gmail.com">contact mail</a></li>
+                    </ul>
+                  </section>
+
+              </div>
+              <div class="3u 6u$(medium) 12u$(small)">
+
+                <!-- Contact -->
+                  <section class="widget contact last">
+                    <h3>Notre projet sur Github</h3>
+                    <ul>
+                      <li><a href="https://github.com/StudyInParis/geoapplide"><img src="../images/GitHub-Mark-Light-32px.png" alt="lien geoapplide github"></a></li>
+                    </ul>
+                  </section>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="12u">
+                <div id="copyright">
+                  <ul class="menu">
+                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+      </div>
+
 
 </body>
 </html>
