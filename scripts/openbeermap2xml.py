@@ -2,9 +2,6 @@ import re
 import osmapi
 import pprint
 
-csv_file = open('../donnees_brutes/OpenBeerMap_IDF.csv','r')
-# xml_output = open('../donnees_xml/OpenBeerMap.xml','w')
-xml_pivot = open('../xml_formattes_pivot/openbeermap_pivot.xml','w')
 
 def line_mod(line):
 	"""
@@ -38,7 +35,12 @@ def beer_mod(beer):
 	beer = re.sub('\)','', beer)
 	return beer
 
-if __name__ == '__main__':
+def fromcsv2xml(csv_file, xml_output):
+	"""
+	fonction principale qui extraie les données du fichier csv et ensuite imprime au format xml les informations dans  un fichier de sortie
+	entree : nom du fichier csv d'entrée, nom du fichier xml de sortie
+	sortie : void
+	"""
 	cpt_line = 1
 	balises = {}
 	final_tab = {}
@@ -94,3 +96,8 @@ if __name__ == '__main__':
 				xml_output.write("\t<"+item+">"+final_tab[element][item]+"</"+item+">\n")
 		xml_output.write('</item>\n')
 	xml_output.write('</document>')
+
+if __name__ == '__main__':
+	infile = open('../donnees_brutes/OpenBeerMap_IDF.csv','r')
+	outfile = open('../donnees_xml/OpenBeerMap.xml','w')
+	fromcsv2xml(infile, outfile)
