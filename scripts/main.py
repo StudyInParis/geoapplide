@@ -44,6 +44,7 @@ if __name__ == '__main__':
 	liste_osm = root.xpath("//osm_id/text()")
 	dic_infos = recuperation_infos(liste_noms, liste_osm)
 	impression_xml_pivot(dic_infos)
+	# renvoie une erreur dans le parse du ficheir openbeermap
 
 	# deuxième étape, utilisation des fichiers au format pivot pour la création du  fichier pivot final
 	dic = {}
