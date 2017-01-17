@@ -13,6 +13,14 @@ if __name__ == '__main__':
 
 	print("Création des fichiers xml à partir des fichiers json")
 	liste=["annuaire_immobilier_de_l_enseignement_superieur","liste-des-cafes-a-un-euro","quartier_paris", "liste_des_marches_de_quartier_a_paris","cinemas-a-paris", "distributeurspreservatifsmasculinsparis2012"]
+# Traceback (most recent call last):
+#   File "main.py", line 20, in <module>
+#     main(infile, outfile)
+#   File "/home/mathilde/Dropbox/coursS1/geoapplide/scripts/json2xml2.py", line 40, in main
+#     output.write(xml_file)
+# TypeError: write() argument must be str, not bytes
+# => dicttoxml renvoie des bytes au lieu d'une string
+
 	# for fichier in liste:
 	# 	infile="../donnees_brutes/"+fichier+".json"
 	# 	outfile="../donnees_xml/"+fichier+".xml"
