@@ -19,8 +19,8 @@ def open_and_dic(fichier,dic):
 					dic[arr] = []
 				dic[arr] += [ligne]
 	return dic
-def out_xml(dico):
-	fic = open("../xml_formattes_pivot/xml_pivot.xml",'w')
+def out_xml(dico, outpath):
+	fic = open(outpath,'w')
 	fic.write("<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<root>\n")
 	compteur = 0
 	dic2 = create_dic("../donnees_brutes/encadrement_loyers_paris.csv")
@@ -37,13 +37,13 @@ def out_xml(dico):
 	fic.write("</root>")
 if __name__=='__main__':
 	dic = {}
-	dic = open_and_dic("../xml_formattes_pivot\cinemas-a-paris_pivot.xml",dic)
-	dic.update(open_and_dic("../xml_formattes_pivot\Bibliotheque_modele.xml",dic))
-	dic.update(open_and_dic("../xml_formattes_pivot\distributeurspreservatifsmasculinsparis2012_pivot.xml",dic))
-	dic.update(open_and_dic("../xml_formattes_pivot\liste_des_marches_de_quartier_a_paris_pivot.xml",dic))
-	dic.update(open_and_dic("../xml_formattes_pivot\liste-des-cafes-a-un-euro_pivot.xml",dic))
-	dic.update(open_and_dic("../xml_formattes_pivot\openbeermap_pivot.xml",dic))
-	dic.update(open_and_dic("../xml_formattes_pivot\\restauration_france_entiere_pivot.xml",dic))
+	dic = open_and_dic("../xml_formattes_pivot/cinemas-a-paris_pivot.xml",dic)
+	dic.update(open_and_dic("../xml_formattes_pivot/Bibliotheque_modele.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot/distributeurspreservatifsmasculinsparis2012_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot/liste_des_marches_de_quartier_a_paris_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot/liste-des-cafes-a-un-euro_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot/openbeermap_pivot.xml",dic))
+	dic.update(open_and_dic("../xml_formattes_pivot/restauration_france_entiere_pivot.xml",dic))
 	
 	#pprint(dic)
 	out_xml(dic)

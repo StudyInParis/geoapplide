@@ -33,4 +33,4 @@ def prepare(string):
 
 if __name__ == '__main__':
 	print(sys.argv)
-	conversion(sys.argv[1], sys.argv[2])
+	conversion("../donnees_brutes/"+sys.argv[1], sys.argv[2])
