@@ -32,61 +32,61 @@
 	</arrondissement>
 	<arrondissement num="75004">
 		<element id="5" type="marche">
-			<latitude>48.855053</latitude>
-			<longitude>2.347416</longitude>
-			<adresse>Place Louis Lépine 75004 Paris, France</adresse>
-			<nom>OISEAUX CITE</nom>
-		</element>
-		<element id="6" type="marche">
 			<latitude>48.856209</latitude>
 			<longitude>2.355425</longitude>
 			<adresse>Place Baudoyer 75004 Paris, France</adresse>
 			<nom>BAUDOYER</nom>
 		</element>
-		<element id="7" type="marche">
+		<element id="6" type="marche">
 			<latitude>48.855053</latitude>
 			<longitude>2.347416</longitude>
 			<adresse>Place Louis Lépine 75004 Paris, France</adresse>
 			<nom>CITE</nom>
 		</element>
+		<element id="7" type="marche">
+			<latitude>48.855053</latitude>
+			<longitude>2.347416</longitude>
+			<adresse>Place Louis Lépine 75004 Paris, France</adresse>
+			<nom>OISEAUX CITE</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75005">
 		<element id="8" type="marche">
-			<latitude>48.849846</latitude>
-			<longitude>2.34847</longitude>
-			<adresse>Place Maubert 75005 Paris, France</adresse>
-			<nom>MAUBERT</nom>
-		</element>
-		<element id="9" type="marche">
 			<latitude>48.843224</latitude>
 			<longitude>2.35144</longitude>
 			<adresse>Place Monge 75005 Paris, France</adresse>
 			<nom>MONGE</nom>
 		</element>
-		<element id="10" type="marche">
+		<element id="9" type="marche">
 			<latitude>48.837147</latitude>
 			<longitude>2.348437</longitude>
 			<adresse>Bd Port Royal 75005 Paris, France</adresse>
 			<nom>PORT ROYAL</nom>
 		</element>
+		<element id="10" type="marche">
+			<latitude>48.849846</latitude>
+			<longitude>2.34847</longitude>
+			<adresse>Place Maubert 75005 Paris, France</adresse>
+			<nom>MAUBERT</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75006">
 		<element id="11" type="marche">
-			<latitude>48.842701</latitude>
-			<longitude>2.32947</longitude>
-			<adresse>Bd Raspail 75006 Paris, France</adresse>
-			<nom>RASPAIL</nom>
-		</element>
-		<element id="12" type="marche">
 			<latitude>48.851711</latitude>
 			<longitude>2.33646</longitude>
 			<adresse>4/8, Rue Lobineau 75006 Paris, France</adresse>
 			<nom>Saint Germain</nom>
 		</element>
-		<element id="13" type="marche">
+		<element id="12" type="marche">
 			<latitude>48.842701</latitude>
 			<longitude>2.32947</longitude>
 			<adresse>Boulevard Raspail 75006 Paris, France</adresse>
+			<nom>RASPAIL</nom>
+		</element>
+		<element id="13" type="marche">
+			<latitude>48.842701</latitude>
+			<longitude>2.32947</longitude>
+			<adresse>Bd Raspail 75006 Paris, France</adresse>
 			<nom>RASPAIL</nom>
 		</element>
 	</arrondissement>
@@ -100,34 +100,34 @@
 	</arrondissement>
 	<arrondissement num="75008">
 		<element id="15" type="marche">
-			<latitude>48.877171</latitude>
-			<longitude>2.31489</longitude>
-			<adresse>1, Rue Corvetto 75008 Paris, France</adresse>
-			<nom>Treilhard</nom>
-		</element>
-		<element id="16" type="marche">
-			<latitude>48.8708</latitude>
-			<longitude>2.325134</longitude>
-			<adresse>Place de la Madeleine 75008 Paris, France</adresse>
-			<nom>AGUESSEAU</nom>
-		</element>
-		<element id="17" type="marche">
-			<latitude>48.86948</latitude>
-			<longitude>2.31503</longitude>
-			<adresse>Avenue de Marigny 75008 Paris, France</adresse>
-			<nom>CARRE MARIGNY</nom>
-		</element>
-		<element id="18" type="marche">
 			<latitude>48.882229</latitude>
 			<longitude>2.321756</longitude>
 			<adresse>Boulevard des Batignolles 75008 Paris, France</adresse>
 			<nom>BATIGNOLES</nom>
 		</element>
-		<element id="19" type="marche">
+		<element id="16" type="marche">
 			<latitude>48.8708</latitude>
 			<longitude>2.325134</longitude>
 			<adresse>Place de la Madeleine 75008 Paris, France</adresse>
 			<nom>MADELEINE</nom>
+		</element>
+		<element id="17" type="marche">
+			<latitude>48.8708</latitude>
+			<longitude>2.325134</longitude>
+			<adresse>Place de la Madeleine 75008 Paris, France</adresse>
+			<nom>AGUESSEAU</nom>
+		</element>
+		<element id="18" type="marche">
+			<latitude>48.877171</latitude>
+			<longitude>2.31489</longitude>
+			<adresse>1, Rue Corvetto 75008 Paris, France</adresse>
+			<nom>Treilhard</nom>
+		</element>
+		<element id="19" type="marche">
+			<latitude>48.86948</latitude>
+			<longitude>2.31503</longitude>
+			<adresse>Avenue de Marigny 75008 Paris, France</adresse>
+			<nom>CARRE MARIGNY</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num="75009">
@@ -140,16 +140,16 @@
 	</arrondissement>
 	<arrondissement num="75010">
 		<element id="21" type="marche">
-			<latitude>48.900951</latitude>
-			<longitude>2.39055</longitude>
-			<adresse>85 bis, Bd magenta 75010 Paris, France</adresse>
-			<nom>Saint Quentin</nom>
-		</element>
-		<element id="22" type="marche">
 			<latitude>48.870998</latitude>
 			<longitude>2.35856</longitude>
 			<adresse>31/33, Rue du Château d'Eau 75010 Paris, France</adresse>
 			<nom>Saint Martin</nom>
+		</element>
+		<element id="22" type="marche">
+			<latitude>48.900951</latitude>
+			<longitude>2.39055</longitude>
+			<adresse>85 bis, Bd magenta 75010 Paris, France</adresse>
+			<nom>Saint Quentin</nom>
 		</element>
 		<element id="23" type="marche">
 			<latitude>48.871651</latitude>
@@ -160,28 +160,28 @@
 	</arrondissement>
 	<arrondissement num="75011">
 		<element id="24" type="marche">
-			<latitude>48.862064</latitude>
-			<longitude>2.387661</longitude>
-			<adresse>Bd de Ménilmontant 75011 Paris, France</adresse>
-			<nom>PERE LACHAISE</nom>
+			<latitude>48.860321</latitude>
+			<longitude>2.372673</longitude>
+			<adresse>Bd Richard Lenoir 75011 Paris, France</adresse>
+			<nom>POPINCOURT</nom>
 		</element>
 		<element id="25" type="marche">
-			<latitude>48.854843</latitude>
-			<longitude>2.395497</longitude>
-			<adresse>Bd de Charonne 75011 Paris, France</adresse>
-			<nom>CHARONNE</nom>
-		</element>
-		<element id="26" type="marche">
 			<latitude>48.869495</latitude>
 			<longitude>2.379707</longitude>
 			<adresse>Bd de Belleville 75011 Paris, France</adresse>
 			<nom>BELLEVILLE</nom>
 		</element>
+		<element id="26" type="marche">
+			<latitude>48.862064</latitude>
+			<longitude>2.387661</longitude>
+			<adresse>Bd de Ménilmontant 75011 Paris, France</adresse>
+			<nom>PERE LACHAISE</nom>
+		</element>
 		<element id="27" type="marche">
 			<latitude>48.860321</latitude>
 			<longitude>2.372673</longitude>
 			<adresse>Bd Richard Lenoir 75011 Paris, France</adresse>
-			<nom>POPINCOURT</nom>
+			<nom>BASTILLE</nom>
 		</element>
 		<element id="28" type="marche">
 			<latitude>48.860321</latitude>
@@ -190,10 +190,10 @@
 			<nom>BASTILLE</nom>
 		</element>
 		<element id="29" type="marche">
-			<latitude>48.860321</latitude>
-			<longitude>2.372673</longitude>
-			<adresse>Bd Richard Lenoir 75011 Paris, France</adresse>
-			<nom>BASTILLE</nom>
+			<latitude>48.854843</latitude>
+			<longitude>2.395497</longitude>
+			<adresse>Bd de Charonne 75011 Paris, France</adresse>
+			<nom>CHARONNE</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num="75012">
@@ -210,34 +210,34 @@
 			<nom>BEAUVAU</nom>
 		</element>
 		<element id="32" type="marche">
-			<latitude>48.844673</latitude>
-			<longitude>2.389714</longitude>
-			<adresse>Rue de Reuilly 75012 Paris, France</adresse>
-			<nom>DAUMESNIL</nom>
+			<latitude>48.84927</latitude>
+			<longitude>2.377525</longitude>
+			<adresse>Place d'Aligre 75012 Paris, France</adresse>
+			<nom>Beauvau</nom>
 		</element>
 		<element id="33" type="marche">
-			<latitude>48.846168</latitude>
-			<longitude>2.38793</longitude>
-			<adresse>36/38 rue de Neuilly 75012 Paris, France</adresse>
-			<nom>SAINT ELOI</nom>
-		</element>
-		<element id="34" type="marche">
-			<latitude>48.839699</latitude>
-			<longitude>2.40026</longitude>
-			<adresse>Bd Picpus 75012 Paris, France</adresse>
-			<nom>COURS DE VINCENNES</nom>
-		</element>
-		<element id="35" type="marche">
 			<latitude>48.836254</latitude>
 			<longitude>2.387412</longitude>
 			<adresse>Place Lachambeaudie 75012 Paris, France</adresse>
 			<nom>BERCY</nom>
 		</element>
+		<element id="34" type="marche">
+			<latitude>48.846168</latitude>
+			<longitude>2.38793</longitude>
+			<adresse>36/38 rue de Neuilly 75012 Paris, France</adresse>
+			<nom>SAINT ELOI</nom>
+		</element>
+		<element id="35" type="marche">
+			<latitude>48.839699</latitude>
+			<longitude>2.40026</longitude>
+			<adresse>Bd Picpus 75012 Paris, France</adresse>
+			<nom>COURS DE VINCENNES</nom>
+		</element>
 		<element id="36" type="marche">
-			<latitude>48.84927</latitude>
-			<longitude>2.377525</longitude>
-			<adresse>Place d'Aligre 75012 Paris, France</adresse>
-			<nom>Beauvau</nom>
+			<latitude>48.844673</latitude>
+			<longitude>2.389714</longitude>
+			<adresse>Rue de Reuilly 75012 Paris, France</adresse>
+			<nom>DAUMESNIL</nom>
 		</element>
 		<element id="37" type="marche">
 			<latitude>48.83395</latitude>
@@ -248,104 +248,104 @@
 	</arrondissement>
 	<arrondissement num="75013">
 		<element id="38" type="marche">
-			<latitude>48.829582</latitude>
-			<longitude>2.367818</longitude>
-			<adresse>Place Jeanne d'Arc 75013 Paris, France</adresse>
-			<nom>JEANNE D'ARC</nom>
-		</element>
-		<element id="39" type="marche">
-			<latitude>48.825085</latitude>
-			<longitude>2.357587</longitude>
-			<adresse>Av. d'Italie 75013 Paris, France</adresse>
-			<nom>MAISON BLANCHE</nom>
-		</element>
-		<element id="40" type="marche">
-			<latitude>48.833721</latitude>
-			<longitude>2.357179</longitude>
-			<adresse>Bd de l'Hôpital 75013 Paris, France</adresse>
-			<nom>SALPETRIERE</nom>
-		</element>
-		<element id="41" type="marche">
-			<latitude>48.834549</latitude>
-			<longitude>2.36646</longitude>
-			<adresse>64 Bd Vincent Auriol 75013 Paris, France</adresse>
-			<nom>VINCENT AURIOL</nom>
-		</element>
-		<element id="42" type="marche">
-			<latitude>48.829708</latitude>
-			<longitude>2.348003</longitude>
-			<adresse>Bd Auguste Blanqui 75013 Paris, France</adresse>
-			<nom>AUGUSTE BLANQUI</nom>
-		</element>
-		<element id="43" type="marche">
 			<latitude>48.822304</latitude>
 			<longitude>2.346452</longitude>
 			<adresse>place de Rungis 75013 Paris, France</adresse>
 			<nom>BOBILLOT</nom>
 		</element>
-		<element id="44" type="marche">
+		<element id="39" type="marche">
+			<latitude>48.829582</latitude>
+			<longitude>2.367818</longitude>
+			<adresse>Place Jeanne d'Arc 75013 Paris, France</adresse>
+			<nom>JEANNE D'ARC</nom>
+		</element>
+		<element id="40" type="marche">
+			<latitude>48.825085</latitude>
+			<longitude>2.357587</longitude>
+			<adresse>Av. d'Italie 75013 Paris, France</adresse>
+			<nom>MAISON BLANCHE</nom>
+		</element>
+		<element id="41" type="marche">
 			<latitude>48.831753</latitude>
 			<longitude>2.344348</longitude>
 			<adresse>Rue de la Glacière 75013 Paris, France</adresse>
 			<nom>ALESIA</nom>
 		</element>
-		<element id="45" type="marche">
+		<element id="42" type="marche">
 			<latitude>48.831783</latitude>
 			<longitude>2.377777</longitude>
 			<adresse>Rue Jean Anouilh 75013 Paris, France</adresse>
 			<nom>PARIS RIVE GAUCHE</nom>
 		</element>
+		<element id="43" type="marche">
+			<latitude>48.834549</latitude>
+			<longitude>2.36646</longitude>
+			<adresse>64 Bd Vincent Auriol 75013 Paris, France</adresse>
+			<nom>VINCENT AURIOL</nom>
+		</element>
+		<element id="44" type="marche">
+			<latitude>48.833721</latitude>
+			<longitude>2.357179</longitude>
+			<adresse>Bd de l'Hôpital 75013 Paris, France</adresse>
+			<nom>SALPETRIERE</nom>
+		</element>
+		<element id="45" type="marche">
+			<latitude>48.829708</latitude>
+			<longitude>2.348003</longitude>
+			<adresse>Bd Auguste Blanqui 75013 Paris, France</adresse>
+			<nom>AUGUSTE BLANQUI</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75014">
 		<element id="46" type="marche">
-			<latitude>48.83699</latitude>
-			<longitude>2.320652</longitude>
-			<adresse>Place Constantin Brancusi 75014 Paris, France</adresse>
-			<nom>BRANCUSI</nom>
-		</element>
-		<element id="47" type="marche">
-			<latitude>48.831882</latitude>
-			<longitude>2.327286</longitude>
-			<adresse>Place Jacques Demy 75014 Paris, France</adresse>
-			<nom>MOUTON DUVERNET</nom>
-		</element>
-		<element id="48" type="marche">
-			<latitude>48.841908</latitude>
-			<longitude>2.322674</longitude>
-			<adresse>boulevard Edgar Quinet 75014 Paris, France</adresse>
-			<nom>EDGAR QUINET</nom>
-		</element>
-		<element id="49" type="marche">
-			<latitude>48.826359</latitude>
-			<longitude>2.31172</longitude>
-			<adresse>71 du Boulevard Brune 75014 Paris, France</adresse>
-			<nom>BRUNE</nom>
-		</element>
-		<element id="50" type="marche">
-			<latitude>48.82478</latitude>
-			<longitude>2.310537</longitude>
-			<adresse>Avenue Georges Lafenestre 75014 Paris, France</adresse>
-			<nom>PORTE DE VANVES</nom>
-		</element>
-		<element id="51" type="marche">
 			<latitude>48.841908</latitude>
 			<longitude>2.322674</longitude>
 			<adresse>Bd Edgar Quinet 75014 Paris, France</adresse>
 			<nom>EDGAR QUINET</nom>
 		</element>
-		<element id="52" type="marche">
+		<element id="47" type="marche">
+			<latitude>48.82478</latitude>
+			<longitude>2.310537</longitude>
+			<adresse>Avenue Georges Lafenestre 75014 Paris, France</adresse>
+			<nom>PORTE DE VANVES</nom>
+		</element>
+		<element id="48" type="marche">
+			<latitude>48.831882</latitude>
+			<longitude>2.327286</longitude>
+			<adresse>Place Jacques Demy 75014 Paris, France</adresse>
+			<nom>MOUTON DUVERNET</nom>
+		</element>
+		<element id="49" type="marche">
+			<latitude>48.83699</latitude>
+			<longitude>2.320652</longitude>
+			<adresse>Place Constantin Brancusi 75014 Paris, France</adresse>
+			<nom>BRANCUSI</nom>
+		</element>
+		<element id="50" type="marche">
 			<latitude>48.831863</latitude>
 			<longitude>2.316691</longitude>
 			<adresse>av. Villemain 75014 Paris, France</adresse>
 			<nom>VILLEMAIN</nom>
 		</element>
+		<element id="51" type="marche">
+			<latitude>48.826359</latitude>
+			<longitude>2.31172</longitude>
+			<adresse>71 du Boulevard Brune 75014 Paris, France</adresse>
+			<nom>BRUNE</nom>
+		</element>
+		<element id="52" type="marche">
+			<latitude>48.841908</latitude>
+			<longitude>2.322674</longitude>
+			<adresse>boulevard Edgar Quinet 75014 Paris, France</adresse>
+			<nom>EDGAR QUINET</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75015">
 		<element id="53" type="marche">
-			<latitude>48.84034</latitude>
-			<longitude>2.289562</longitude>
-			<adresse>Rue de la convention 75015 Paris, France</adresse>
-			<nom>CONVENTION</nom>
+			<latitude>48.84174</latitude>
+			<longitude>2.299723</longitude>
+			<adresse>Rue Lecourbe 75015 Paris, France</adresse>
+			<nom>LECOURBE</nom>
 		</element>
 		<element id="54" type="marche">
 			<latitude>48.832939</latitude>
@@ -354,16 +354,16 @@
 			<nom>GEORGES BRASSENS</nom>
 		</element>
 		<element id="55" type="marche">
-			<latitude>48.84174</latitude>
-			<longitude>2.299723</longitude>
-			<adresse>Rue Lecourbe 75015 Paris, France</adresse>
-			<nom>LECOURBE</nom>
+			<latitude>48.838577</latitude>
+			<longitude>2.307954</longitude>
+			<adresse>Rue Barque 75015 Paris, France</adresse>
+			<nom>CERVANTES</nom>
 		</element>
 		<element id="56" type="marche">
-			<latitude>48.832939</latitude>
-			<longitude>2.300754</longitude>
-			<adresse>place Jacques Marette 75015 Paris, France</adresse>
-			<nom>BRASSENS</nom>
+			<latitude>48.830219</latitude>
+			<longitude>2.294734</longitude>
+			<adresse>Bd Lefebvre 75015 Paris, France</adresse>
+			<nom>LEFEBVRE</nom>
 		</element>
 		<element id="57" type="marche">
 			<latitude>48.844807</latitude>
@@ -372,92 +372,92 @@
 			<nom>SAINT CHARLES</nom>
 		</element>
 		<element id="58" type="marche">
+			<latitude>48.832939</latitude>
+			<longitude>2.300754</longitude>
+			<adresse>place Jacques Marette 75015 Paris, France</adresse>
+			<nom>BRASSENS</nom>
+		</element>
+		<element id="59" type="marche">
+			<latitude>48.84034</latitude>
+			<longitude>2.289562</longitude>
+			<adresse>Rue de la convention 75015 Paris, France</adresse>
+			<nom>CONVENTION</nom>
+		</element>
+		<element id="60" type="marche">
 			<latitude>48.849007</latitude>
 			<longitude>2.297894</longitude>
 			<adresse>Bd de Grenelle 75015 Paris, France</adresse>
 			<nom>GRENELLE</nom>
 		</element>
-		<element id="59" type="marche">
-			<latitude>48.838577</latitude>
-			<longitude>2.307954</longitude>
-			<adresse>Rue Barque 75015 Paris, France</adresse>
-			<nom>CERVANTES</nom>
-		</element>
-		<element id="60" type="marche">
-			<latitude>48.830219</latitude>
-			<longitude>2.294734</longitude>
-			<adresse>Bd Lefebvre 75015 Paris, France</adresse>
-			<nom>LEFEBVRE</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num="75016">
 		<element id="61" type="marche">
-			<latitude>48.851238</latitude>
-			<longitude>2.275908</longitude>
-			<adresse>Rue Gros 75016 Paris, France</adresse>
-			<nom>GROS LA FONTAINE</nom>
-		</element>
-		<element id="62" type="marche">
-			<latitude>48.867481</latitude>
-			<longitude>2.28389</longitude>
-			<adresse>rue Mesnil 75016 Paris, France</adresse>
-			<nom>Saint Didier</nom>
-		</element>
-		<element id="63" type="marche">
-			<latitude>48.873657</latitude>
-			<longitude>2.277084</longitude>
-			<adresse>Bd de l'Amiral Bruix 75016 Paris, France</adresse>
-			<nom>AMIRAL BRUIX</nom>
-		</element>
-		<element id="64" type="marche">
-			<latitude>48.848042</latitude>
-			<longitude>2.264235</longitude>
-			<adresse>Place Jean Lorrain 75016 Paris, France</adresse>
-			<nom>AUTEUIL</nom>
-		</element>
-		<element id="65" type="marche">
-			<latitude>48.866558</latitude>
-			<longitude>2.285194</longitude>
-			<adresse>rue saint didier 75016 Paris, France</adresse>
-			<nom>Saint Didier</nom>
-		</element>
-		<element id="66" type="marche">
-			<latitude>48.842896</latitude>
-			<longitude>2.269147</longitude>
-			<adresse>Av. de Versailles 75016 Paris, France</adresse>
-			<nom>POINT DU JOUR</nom>
-		</element>
-		<element id="67" type="marche">
-			<latitude>48.85759</latitude>
-			<longitude>2.27728</longitude>
-			<adresse>1, Rue Bois le Vent 75016 Paris, France</adresse>
-			<nom>Passy</nom>
-		</element>
-		<element id="68" type="marche">
-			<latitude>48.845253</latitude>
-			<longitude>2.26139</longitude>
-			<adresse>porte de Molitor 75016 Paris, France</adresse>
-			<nom>PORTE MOLITOR</nom>
-		</element>
-		<element id="69" type="marche">
 			<latitude>48.864792</latitude>
 			<longitude>2.29573</longitude>
 			<adresse>Av. du Président Wilson 75016 Paris, France</adresse>
 			<nom>PRESIDENT WILSON</nom>
 		</element>
+		<element id="62" type="marche">
+			<latitude>48.85759</latitude>
+			<longitude>2.27728</longitude>
+			<adresse>1, Rue Bois le Vent 75016 Paris, France</adresse>
+			<nom>Passy</nom>
+		</element>
+		<element id="63" type="marche">
+			<latitude>48.845253</latitude>
+			<longitude>2.26139</longitude>
+			<adresse>porte de Molitor 75016 Paris, France</adresse>
+			<nom>PORTE MOLITOR</nom>
+		</element>
+		<element id="64" type="marche">
+			<latitude>48.873657</latitude>
+			<longitude>2.277084</longitude>
+			<adresse>Bd de l'Amiral Bruix 75016 Paris, France</adresse>
+			<nom>AMIRAL BRUIX</nom>
+		</element>
+		<element id="65" type="marche">
+			<latitude>48.867481</latitude>
+			<longitude>2.28389</longitude>
+			<adresse>rue Mesnil 75016 Paris, France</adresse>
+			<nom>Saint Didier</nom>
+		</element>
+		<element id="66" type="marche">
+			<latitude>48.866558</latitude>
+			<longitude>2.285194</longitude>
+			<adresse>rue saint didier 75016 Paris, France</adresse>
+			<nom>Saint Didier</nom>
+		</element>
+		<element id="67" type="marche">
+			<latitude>48.851238</latitude>
+			<longitude>2.275908</longitude>
+			<adresse>Rue Gros 75016 Paris, France</adresse>
+			<nom>GROS LA FONTAINE</nom>
+		</element>
+		<element id="68" type="marche">
+			<latitude>48.848042</latitude>
+			<longitude>2.264235</longitude>
+			<adresse>Place Jean Lorrain 75016 Paris, France</adresse>
+			<nom>AUTEUIL</nom>
+		</element>
+		<element id="69" type="marche">
+			<latitude>48.842896</latitude>
+			<longitude>2.269147</longitude>
+			<adresse>Av. de Versailles 75016 Paris, France</adresse>
+			<nom>POINT DU JOUR</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75017">
 		<element id="70" type="marche">
-			<latitude>48.88081</latitude>
-			<longitude>2.29225</longitude>
-			<adresse>8bis, Rue Lebon 75017 Paris, France</adresse>
-			<nom>Ternes</nom>
-		</element>
-		<element id="71" type="marche">
 			<latitude>48.88971</latitude>
 			<longitude>2.29816</longitude>
 			<adresse>Bd de Reims 75017 Paris, France</adresse>
 			<nom>BERTHIER</nom>
+		</element>
+		<element id="71" type="marche">
+			<latitude>48.88081</latitude>
+			<longitude>2.29225</longitude>
+			<adresse>8bis, Rue Lebon 75017 Paris, France</adresse>
+			<nom>Ternes</nom>
 		</element>
 		<element id="72" type="marche">
 			<latitude>48.895794</latitude>
@@ -480,28 +480,28 @@
 	</arrondissement>
 	<arrondissement num="75018">
 		<element id="75" type="marche">
-			<latitude>48.89994</latitude>
-			<longitude>2.360344</longitude>
-			<adresse>stade Bertrand Dauvin 75018 Paris, France</adresse>
-			<nom>PORTE DE CLIGNANCOURT</nom>
-		</element>
-		<element id="76" type="marche">
 			<latitude>48.890949</latitude>
 			<longitude>2.36125</longitude>
 			<adresse>10, Rue de l'Olive 75018 Paris, France</adresse>
 			<nom>La Chapelle</nom>
 		</element>
+		<element id="76" type="marche">
+			<latitude>48.884376</latitude>
+			<longitude>2.357139</longitude>
+			<adresse>Bd de la Chapelle 75018 Paris, France</adresse>
+			<nom>BARBES</nom>
+		</element>
 		<element id="77" type="marche">
+			<latitude>48.894806</latitude>
+			<longitude>2.346985</longitude>
+			<adresse>Bd Ornano 75018 Paris, France</adresse>
+			<nom>ORNANO</nom>
+		</element>
+		<element id="78" type="marche">
 			<latitude>48.898109</latitude>
 			<longitude>2.346444</longitude>
 			<adresse>Bd Ney 75018 Paris, France</adresse>
 			<nom>NEY</nom>
-		</element>
-		<element id="78" type="marche">
-			<latitude>48.901196</latitude>
-			<longitude>2.339584</longitude>
-			<adresse>Rue Jean Henri Fabre 75018 Paris, France</adresse>
-			<nom>JEAN-HENRI FABRE</nom>
 		</element>
 		<element id="79" type="marche">
 			<latitude>48.893135</latitude>
@@ -510,54 +510,54 @@
 			<nom>ORDENER</nom>
 		</element>
 		<element id="80" type="marche">
-			<latitude>48.884376</latitude>
-			<longitude>2.357139</longitude>
-			<adresse>Bd de la Chapelle 75018 Paris, France</adresse>
-			<nom>BARBES</nom>
+			<latitude>48.89994</latitude>
+			<longitude>2.360344</longitude>
+			<adresse>stade Bertrand Dauvin 75018 Paris, France</adresse>
+			<nom>PORTE DE CLIGNANCOURT</nom>
 		</element>
 		<element id="81" type="marche">
-			<latitude>48.894806</latitude>
-			<longitude>2.346985</longitude>
-			<adresse>Bd Ornano 75018 Paris, France</adresse>
-			<nom>ORNANO</nom>
+			<latitude>48.901196</latitude>
+			<longitude>2.339584</longitude>
+			<adresse>Rue Jean Henri Fabre 75018 Paris, France</adresse>
+			<nom>JEAN-HENRI FABRE</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num="75019">
 		<element id="82" type="marche">
-			<latitude>48.890575</latitude>
-			<longitude>2.376821</longitude>
-			<adresse>Rue de Crimée 75019 Paris, France</adresse>
-			<nom>CRIMEE CURIAL</nom>
-		</element>
-		<element id="83" type="marche">
-			<latitude>48.88953</latitude>
-			<longitude>2.380587</longitude>
-			<adresse>Place de Joinville 75019 Paris, France</adresse>
-			<nom>JOINVILLE</nom>
-		</element>
-		<element id="84" type="marche">
-			<latitude>48.883602</latitude>
-			<longitude>2.39669</longitude>
-			<adresse>Av. de la porte brunet entre Bd Sérurier et Bd d'Algérie 75019 Paris, France</adresse>
-			<nom>PORTE BRUNET</nom>
-		</element>
-		<element id="85" type="marche">
-			<latitude>48.885334</latitude>
-			<longitude>2.380161</longitude>
-			<adresse>Avenue Jean Jaurès 75019 Paris, France</adresse>
-			<nom>JEAN JAURES</nom>
-		</element>
-		<element id="86" type="marche">
 			<latitude>48.874821</latitude>
 			<longitude>2.37364</longitude>
 			<adresse>41  BD de la Villette 75019 Paris, France</adresse>
 			<nom>VILLETTE</nom>
 		</element>
-		<element id="87" type="marche">
+		<element id="83" type="marche">
+			<latitude>48.883602</latitude>
+			<longitude>2.39669</longitude>
+			<adresse>Av. de la porte brunet entre Bd Sérurier et Bd d'Algérie 75019 Paris, France</adresse>
+			<nom>PORTE BRUNET</nom>
+		</element>
+		<element id="84" type="marche">
 			<latitude>48.876877</latitude>
 			<longitude>2.394077</longitude>
 			<adresse>Place de fêtes 75019 Paris, France</adresse>
 			<nom>PLACE DES FETES</nom>
+		</element>
+		<element id="85" type="marche">
+			<latitude>48.88953</latitude>
+			<longitude>2.380587</longitude>
+			<adresse>Place de Joinville 75019 Paris, France</adresse>
+			<nom>JOINVILLE</nom>
+		</element>
+		<element id="86" type="marche">
+			<latitude>48.890575</latitude>
+			<longitude>2.376821</longitude>
+			<adresse>Rue de Crimée 75019 Paris, France</adresse>
+			<nom>CRIMEE CURIAL</nom>
+		</element>
+		<element id="87" type="marche">
+			<latitude>48.885334</latitude>
+			<longitude>2.380161</longitude>
+			<adresse>Avenue Jean Jaurès 75019 Paris, France</adresse>
+			<nom>JEAN JAURES</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num="75020">
@@ -568,40 +568,40 @@
 			<nom>DAVOUT</nom>
 		</element>
 		<element id="89" type="marche">
-			<latitude>48.856949</latitude>
-			<longitude>2.404425</longitude>
-			<adresse>Rue des Pyrénées 75020 Paris, France</adresse>
-			<nom>PYRENEES</nom>
-		</element>
-		<element id="90" type="marche">
-			<latitude>48.855915</latitude>
-			<longitude>2.401336</longitude>
-			<adresse>Place de la Réunion 75020 Paris, France</adresse>
-			<nom>REUNION</nom>
-		</element>
-		<element id="91" type="marche">
 			<latitude>48.864788</latitude>
 			<longitude>2.40475</longitude>
 			<adresse>place Edith Piaf 75020 Paris, France</adresse>
 			<nom>BELGRAND</nom>
 		</element>
+		<element id="90" type="marche">
+			<latitude>48.856949</latitude>
+			<longitude>2.404425</longitude>
+			<adresse>Rue des Pyrénées 75020 Paris, France</adresse>
+			<nom>PYRENEES</nom>
+		</element>
+		<element id="91" type="marche">
+			<latitude>48.855915</latitude>
+			<longitude>2.401336</longitude>
+			<adresse>Place de la Réunion 75020 Paris, France</adresse>
+			<nom>REUNION</nom>
+		</element>
 		<element id="92" type="marche">
+			<latitude>48.85669</latitude>
+			<longitude>2.414918</longitude>
+			<adresse>Avenue du Professeur André Lemierre 75020 Paris, France</adresse>
+			<nom>Porte de Montreuil</nom>
+		</element>
+		<element id="93" type="marche">
 			<latitude>48.871048</latitude>
 			<longitude>2.408707</longitude>
 			<adresse>Bd mortier 75020 Paris, France</adresse>
 			<nom>MORTIER</nom>
 		</element>
-		<element id="93" type="marche">
+		<element id="94" type="marche">
 			<latitude>48.873676</latitude>
 			<longitude>2.3846</longitude>
 			<adresse>rue de Belleville 75020 Paris, France</adresse>
 			<nom>TELEGRAPHE</nom>
-		</element>
-		<element id="94" type="marche">
-			<latitude>48.85669</latitude>
-			<longitude>2.414918</longitude>
-			<adresse>Avenue du Professeur André Lemierre 75020 Paris, France</adresse>
-			<nom>Porte de Montreuil</nom>
 		</element>
 	</arrondissement>
 </root>

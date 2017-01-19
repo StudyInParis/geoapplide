@@ -141,7 +141,7 @@ if __name__ == '__main__':
 
 	# deuxième étape, utilisation des fichiers au format pivot pour la création du  fichier pivot final
 	# TODO : faire une boucle recursive sur les fichiers du dossier "../xml_formattes_pivot/" et sortir le xml_pivot dans un autre dossier pour eviter doublons si le script est relancé.
-	print("Création du fichier pivot général à partir des fichier formatés")
+	print("Création du fichier pivot général à partir des fichiers formatés")
 	dic = {}
 	dic = creation_xml_pivot.open_and_dic("../xml_formattes_pivot/cinemas-a-paris_pivot.xml",dic)
 	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/Bibliotheque_pivot.xml",dic))

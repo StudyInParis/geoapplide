@@ -84,8 +84,9 @@
     										<article>
 
     											<h2 id="titre">Graphes</h2>
+                          <p>Si les graphiques ne s'affichent pas, rechargez la page.</p>
 
-                          <div id="liste" onload="test()"></div>
+                          <div id="liste" onload="reload()"></div>
 
                           <h2 id="lieux">Graphiques par lieux</h2>
                           <p>Les graphiques ci-dessous sont issus du fichier .xls disponible <a href="../stats_pivot_full.ods">ici</a>.</p>
@@ -134,10 +135,10 @@
 <script>
 $("#titre").append(" des lieux par arrondissement :");
 
-function test() {
+function reload() {
   setInterval(function() {
     document.getElementById('liste').contentWindow.reload();
-  }, 100);
+  }, 1000);
 }
 
 $("#source").hide();
