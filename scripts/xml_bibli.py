@@ -5,7 +5,7 @@ import math
 import geocoder
 from pprint import pprint
 fic = open("../donnees_xml/Bibliotheque.xml","r")
-out = open("../donnees_xml/Bibliotheque_modele2.xml","w")
+out = open("../xml_formattes_pivot/Bibliotheque_pivot.xml","w")
 out.write(fic.readline())
 out.write("<root>\n")
 dico = {}

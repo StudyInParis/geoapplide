@@ -1,39 +1,38 @@
 <?xml version="1.0" standalone="yes"?>
 <document id="open beer map">
 <item id="1">
-	<type_name>pub</type_name>
-	<gml_id>1126088147</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Akerbeltz_ambrée</beer>
 	</beers>
 	<name>L'Express</name>
-	<brewer>Non</brewer>
+	<gml_id>1126088147</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1126088147</osm_id>
 </item>
 <item id="2">
-	<type_name>pub</type_name>
-	<gml_id>1140477414</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 			<beer>Leffe ruby</beer>
 	</beers>
 	<name>Ty jos</name>
-	<brewer>Non</brewer>
+	<gml_id>1140477414</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1140477414</osm_id>
 </item>
 <item id="3">
-	<type_name>pub</type_name>
-	<gml_id>1224795728</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Patrick’s Ballon Vert</name>
-	<brewer>Non</brewer>
+	<gml_id>1224795728</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1224795728</osm_id>
 </item>
 <item id="4">
-	<type_name>pub</type_name>
-	<gml_id>1305927682</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Desperados</beer>
@@ -44,12 +43,12 @@
 			<beer>...</beer>
 	</beers>
 	<name>Osmoz Café</name>
-	<brewer>Non</brewer>
+	<gml_id>1305927682</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1305927682</osm_id>
 </item>
 <item id="5">
-	<type_name>bar</type_name>
-	<gml_id>1307259134</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Hoegaarden</beer>
@@ -57,22 +56,22 @@
 			<beer>Stella artois</beer>
 	</beers>
 	<name>Bastille bar</name>
-	<brewer>Non</brewer>
+	<gml_id>1307259134</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1307259134</osm_id>
 </item>
 <item id="6">
-	<type_name>pub</type_name>
-	<gml_id>1412584442</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>O'Paris</name>
-	<brewer>Non</brewer>
+	<gml_id>1412584442</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1412584442</osm_id>
 </item>
 <item id="7">
-	<type_name>pub</type_name>
-	<gml_id>1465462980</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Amstel</beer>
@@ -81,22 +80,22 @@
 			<beer>Heineken</beer>
 	</beers>
 	<name>French Beer Factory</name>
-	<brewer>Oui</brewer>
+	<gml_id>1465462980</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1465462980</osm_id>
 </item>
 <item id="8">
-	<type_name>pub</type_name>
-	<gml_id>148631œ3953</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Corcoran's</name>
-	<brewer>Non</brewer>
+	<gml_id>148631œ3953</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1486313953</osm_id>
 </item>
 <item id="9">
-	<type_name>pub</type_name>
-	<gml_id>1486313987</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 			<beer>Chouffe</beer>
@@ -107,43 +106,43 @@
 			<beer>Warsteiner</beer>
 	</beers>
 	<name>James Hetfeeld's Pub</name>
-	<brewer>Non</brewer>
+	<gml_id>1486313987</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1486313987</osm_id>
 </item>
 <item id="10">
-	<type_name>bar</type_name>
-	<gml_id>1509993140</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 	</beers>
 	<name>Le Querey</name>
-	<brewer>Non</brewer>
+	<gml_id>1509993140</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1509993140</osm_id>
 </item>
 <item id="11">
-	<type_name>bar</type_name>
-	<gml_id>1598071236</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>Au Métro</name>
-	<brewer>Non</brewer>
+	<gml_id>1598071236</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1598071236</osm_id>
 </item>
 <item id="12">
-	<type_name>bar</type_name>
-	<gml_id>1670401972</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 	</beers>
 	<name>La patache</name>
-	<brewer>Non</brewer>
+	<gml_id>1670401972</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1670401972</osm_id>
 </item>
 <item id="13">
-	<type_name>bar</type_name>
-	<gml_id>1684658935</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Guinness</beer>
@@ -151,12 +150,12 @@
 			<beer>Tripel karmeliet</beer>
 	</beers>
 	<name>Le Requin Chagrin</name>
-	<brewer>Non</brewer>
+	<gml_id>1684658935</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1684658935</osm_id>
 </item>
 <item id="14">
-	<type_name>bar</type_name>
-	<gml_id>1685494665</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Desperados</beer>
@@ -164,54 +163,54 @@
 			<beer>Heineken</beer>
 	</beers>
 	<name>MKP Opéra</name>
-	<brewer>Non</brewer>
+	<gml_id>1685494665</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1685494665</osm_id>
 </item>
 <item id="15">
-	<type_name>bar</type_name>
-	<gml_id>1692228845</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Le Maryland</name>
-	<brewer>Non</brewer>
+	<gml_id>1692228845</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1692228845</osm_id>
 </item>
 <item id="16">
-	<type_name>bar</type_name>
-	<gml_id>1744841764</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chimay</beer>
 			<beer>Chouffe</beer>
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>Le Chablis</name>
-	<brewer>Non</brewer>
+	<gml_id>1744841764</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1744841764</osm_id>
 </item>
 <item id="17">
-	<type_name>pub</type_name>
-	<gml_id>1778519709</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Les Caves Alliées</name>
-	<brewer>Non</brewer>
+	<gml_id>1778519709</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1778519709</osm_id>
 </item>
 <item id="18">
-	<type_name>bar</type_name>
-	<gml_id>1786108265</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Jenlain</beer>
 	</beers>
 	<name>Le coupole d'argent</name>
-	<brewer>Non</brewer>
+	<gml_id>1786108265</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1786108265</osm_id>
 </item>
 <item id="19">
-	<type_name>pub</type_name>
-	<gml_id>1800349948</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chimay</beer>
 			<beer>Chouffe</beer>
@@ -220,22 +219,22 @@
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>Chez Michel</name>
-	<brewer>Non</brewer>
+	<gml_id>1800349948</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1800349948</osm_id>
 </item>
 <item id="20">
-	<type_name>pub</type_name>
-	<gml_id>1813684597</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 	</beers>
 	<name>Les Arènes</name>
-	<brewer>Non</brewer>
+	<gml_id>1813684597</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1813684597</osm_id>
 </item>
 <item id="21">
-	<type_name>pub</type_name>
-	<gml_id>1824374964</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 			<beer>Grimbergen</beer>
@@ -243,22 +242,22 @@
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>Le Dernier Bar Avant la Fin du Monde</name>
-	<brewer>Non</brewer>
+	<gml_id>1824374964</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1824374964</osm_id>
 </item>
 <item id="22">
-	<type_name>bar</type_name>
-	<gml_id>1830661957</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Deuchars</beer>
 	</beers>
 	<name>La Fine Mousse</name>
-	<brewer>Non</brewer>
+	<gml_id>1830661957</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1830661957</osm_id>
 </item>
 <item id="23">
-	<type_name>bar</type_name>
-	<gml_id>1835765099</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Elephant</beer>
@@ -268,78 +267,78 @@
 			<beer>...</beer>
 	</beers>
 	<name>Dupont Versailles</name>
-	<brewer>Non</brewer>
+	<gml_id>1835765099</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1835765099</osm_id>
 </item>
 <item id="24">
-	<type_name>bar</type_name>
-	<gml_id>1838552620</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Brooklyn lager</beer>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>La lucha libre</name>
-	<brewer>Non</brewer>
+	<gml_id>1838552620</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1838552620</osm_id>
 </item>
 <item id="25">
-	<type_name>bar</type_name>
-	<gml_id>1869060190</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>L'Alibi</name>
-	<brewer>Non</brewer>
+	<gml_id>1869060190</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>1869060190</osm_id>
 </item>
 <item id="26">
-	<type_name>pub</type_name>
-	<gml_id>1905655546</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 			<beer>Stella artois</beer>
 	</beers>
 	<name>Shywawa</name>
-	<brewer>Non</brewer>
+	<gml_id>1905655546</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>1905655546</osm_id>
 </item>
 <item id="27">
-	<type_name>pub</type_name>
-	<gml_id>2011451022</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer> monts</beer>
 	</beers>
 	<name>Café du Lac</name>
-	<brewer>Non</brewer>
+	<gml_id>2011451022</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2011451022</osm_id>
 </item>
 <item id="28">
-	<type_name>bar</type_name>
-	<gml_id>2072607634</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grolsch</beer>
 			<beer>Guinness</beer>
 			<beer>St. stefanus</beer>
 	</beers>
 	<name>Le chinois</name>
-	<brewer>Non</brewer>
+	<gml_id>2072607634</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2072607634</osm_id>
 </item>
 <item id="29">
-	<type_name>pub</type_name>
-	<gml_id>2081656009</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Asahi</beer>
 			<beer>Guinness</beer>
 			<beer>Kilkenny</beer>
 	</beers>
 	<name>The Cork and Cavan</name>
-	<brewer>Non</brewer>
+	<gml_id>2081656009</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2081656009</osm_id>
 </item>
 <item id="30">
-	<type_name>pub</type_name>
-	<gml_id>2086399144</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Blanche de bruxelles</beer>
 			<beer>Carlsberg</beer>
@@ -349,42 +348,42 @@
 			<beer>...</beer>
 	</beers>
 	<name>Le Falstaff</name>
-	<brewer>Non</brewer>
+	<gml_id>2086399144</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2086399144</osm_id>
 </item>
 <item id="31">
-	<type_name>bar</type_name>
-	<gml_id>2149899597</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Yes</beer>
 	</beers>
 	<name>L'Europe</name>
-	<brewer>Non</brewer>
+	<gml_id>2149899597</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2149899597</osm_id>
 </item>
 <item id="32">
-	<type_name>pub</type_name>
-	<gml_id>2293740288</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Blondinette</beer>
 	</beers>
 	<name>Le Bistrot des Artistes</name>
-	<brewer>Non</brewer>
+	<gml_id>2293740288</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2293740288</osm_id>
 </item>
 <item id="33">
-	<type_name>pub</type_name>
-	<gml_id>2298160176</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Finnegan's Wake</name>
-	<brewer>Non</brewer>
+	<gml_id>2298160176</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2298160176</osm_id>
 </item>
 <item id="34">
-	<type_name>pub</type_name>
-	<gml_id>2355778353</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grimbergen</beer>
 			<beer>Guinness</beer>
@@ -392,97 +391,97 @@
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>L'antidote</name>
-	<brewer>Non</brewer>
+	<gml_id>2355778353</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2355778353</osm_id>
 </item>
 <item id="35">
-	<type_name>bar</type_name>
-	<gml_id>2367321705</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 			<beer>Smithwick's</beer>
 	</beers>
 	<name>Pop In</name>
-	<brewer>Non</brewer>
+	<gml_id>2367321705</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2367321705</osm_id>
 </item>
 <item id="36">
-	<type_name>pub</type_name>
-	<gml_id>2394065566</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>Hall's Beer Tavern</name>
-	<brewer>Non</brewer>
+	<gml_id>2394065566</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2394065566</osm_id>
 </item>
 <item id="37">
-	<type_name>pub</type_name>
-	<gml_id>2394065575</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Mc Brides</name>
-	<brewer>Non</brewer>
+	<gml_id>2394065575</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2394065575</osm_id>
 </item>
 <item id="38">
-	<type_name>bar</type_name>
-	<gml_id>2417976078</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Blanche de namur</beer>
 			<beer>Delirium tremens</beer>
 			<beer>Konigsbächer</beer>
 	</beers>
 	<name>Ze Bar</name>
-	<brewer>Non</brewer>
+	<gml_id>2417976078</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2417976078</osm_id>
 </item>
 <item id="39">
-	<type_name>bar</type_name>
-	<gml_id>2445512536</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Stella</beer>
 	</beers>
 	<name>Café de la Jeunesse</name>
-	<brewer>Non</brewer>
+	<gml_id>2445512536</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2445512536</osm_id>
 </item>
 <item id="40">
-	<type_name>bar</type_name>
-	<gml_id>2445512538</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grimbergen</beer>
 	</beers>
 	<name>Le Pavillon</name>
-	<brewer>Non</brewer>
+	<gml_id>2445512538</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2445512538</osm_id>
 </item>
 <item id="41">
-	<type_name>pub</type_name>
-	<gml_id>2496809985</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Heineken</beer>
 	</beers>
 	<name>Chez Anna</name>
-	<brewer>Non</brewer>
+	<gml_id>2496809985</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2496809985</osm_id>
 </item>
 <item id="42">
-	<type_name>pub</type_name>
-	<gml_id>2499743219</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Duvel</beer>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Le Havane</name>
-	<brewer>Non</brewer>
+	<gml_id>2499743219</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2499743219</osm_id>
 </item>
 <item id="43">
-	<type_name>pub</type_name>
-	<gml_id>251001752</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Dark de triomphe</beer>
 			<beer>Ginger twist</beer>
@@ -490,24 +489,24 @@
 			<beer>Maison blanche</beer>
 	</beers>
 	<name>The Frog &amp; Rosbif</name>
-	<brewer>Oui</brewer>
+	<gml_id>251001752</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>251001752</osm_id>
 </item>
 <item id="44">
-	<type_name>pub</type_name>
-	<gml_id>251474115</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Delirium</beer>
 			<beer>Tripel karmeliet</beer>
 	</beers>
 	<name>Le Vieux Chêne</name>
-	<brewer>Non</brewer>
+	<gml_id>251474115</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>251474115</osm_id>
 </item>
 <item id="45">
-	<type_name>pub</type_name>
-	<gml_id>251474117</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Brewdog</beer>
 			<beer>Brewdog punk</beer>
@@ -517,86 +516,86 @@
 			<beer>...</beer>
 	</beers>
 	<name>La Tireuse</name>
-	<brewer>Non</brewer>
+	<gml_id>251474117</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>251474117</osm_id>
 </item>
 <item id="46">
-	<type_name>pub</type_name>
-	<gml_id>252958952</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Frog natural blonde</beer>
 	</beers>
 	<name>Frog XVI</name>
-	<brewer>Oui</brewer>
+	<gml_id>252958952</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>252958952</osm_id>
 </item>
 <item id="47">
-	<type_name>pub</type_name>
-	<gml_id>252961401</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>James Joyce</name>
-	<brewer>Non</brewer>
+	<gml_id>252961401</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>252961401</osm_id>
 </item>
 <item id="48">
-	<type_name>pub</type_name>
-	<gml_id>2549246541</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Galway Irish Pub</name>
-	<brewer>Non</brewer>
+	<gml_id>2549246541</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2549246541</osm_id>
 </item>
 <item id="49">
-	<type_name>pub</type_name>
-	<gml_id>2556489497</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Chouffe</beer>
 			<beer>Delirium tremens</beer>
 	</beers>
 	<name>Au dernier Métro</name>
-	<brewer>Non</brewer>
+	<gml_id>2556489497</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2556489497</osm_id>
 </item>
 <item id="50">
-	<type_name>pub</type_name>
-	<gml_id>2583431160</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Le Maryland</name>
-	<brewer>Non</brewer>
+	<gml_id>2583431160</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2583431160</osm_id>
 </item>
 <item id="51">
-	<type_name>pub</type_name>
-	<gml_id>2626551371</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Guinness</beer>
 			<beer>Wel scotch</beer>
 	</beers>
 	<name>O'Brien's</name>
-	<brewer>Non</brewer>
+	<gml_id>2626551371</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2626551371</osm_id>
 </item>
 <item id="52">
-	<type_name>bar</type_name>
-	<gml_id>2654697181</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>L'Olivier</name>
-	<brewer>Non</brewer>
+	<gml_id>2654697181</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2654697181</osm_id>
 </item>
 <item id="53">
-	<type_name>pub</type_name>
-	<gml_id>2685527894</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 			<beer>Grimbergen</beer>
@@ -604,55 +603,55 @@
 			<beer>Heineken</beer>
 	</beers>
 	<name>O'Sullivans Rebel Red</name>
-	<brewer>Non</brewer>
+	<gml_id>2685527894</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2685527894</osm_id>
 </item>
 <item id="54">
-	<type_name>bar</type_name>
-	<gml_id>2699839267</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>Taverne de la Butte</name>
-	<brewer>Non</brewer>
+	<gml_id>2699839267</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2699839267</osm_id>
 </item>
 <item id="55">
-	<type_name>bar</type_name>
-	<gml_id>2715645721</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Thirsty Mad Cat</name>
-	<brewer>Non</brewer>
+	<gml_id>2715645721</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2715645721</osm_id>
 </item>
 <item id="56">
-	<type_name>bar</type_name>
-	<gml_id>2775842958</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Affligem</beer>
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>Le Dumas</name>
-	<brewer>Non</brewer>
+	<gml_id>2775842958</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2775842958</osm_id>
 </item>
 <item id="57">
-	<type_name>bar</type_name>
-	<gml_id>2778463121</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>Le Sully</name>
-	<brewer>Non</brewer>
+	<gml_id>2778463121</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2778463121</osm_id>
 </item>
 <item id="58">
-	<type_name>pub</type_name>
-	<gml_id>2788471673</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 			<beer>Grimbergen</beer>
@@ -661,12 +660,12 @@
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>Margen's Pub</name>
-	<brewer>Non</brewer>
+	<gml_id>2788471673</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2788471673</osm_id>
 </item>
 <item id="59">
-	<type_name>pub</type_name>
-	<gml_id>2788471698</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe la</beer>
 			<beer>Grimbergen</beer>
@@ -674,78 +673,78 @@
 			<beer>Leffe</beer>
 	</beers>
 	<name>The Wall</name>
-	<brewer>Non</brewer>
+	<gml_id>2788471698</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>2788471698</osm_id>
 </item>
 <item id="60">
-	<type_name>bar</type_name>
-	<gml_id>2853546553</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Sunset</name>
-	<brewer>Non</brewer>
+	<gml_id>2853546553</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2853546553</osm_id>
 </item>
 <item id="61">
-	<type_name>bar</type_name>
-	<gml_id>2855862328</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Heineken</beer>
 			<beer>Pelforth</beer>
 	</beers>
 	<name>L'Acapulco</name>
-	<brewer>Non</brewer>
+	<gml_id>2855862328</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2855862328</osm_id>
 </item>
 <item id="62">
-	<type_name>bar</type_name>
-	<gml_id>2863322351</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chimay</beer>
 			<beer>Heineken</beer>
 			<beer>Pelforth</beer>
 	</beers>
 	<name>Dr. Feelgood</name>
-	<brewer>Non</brewer>
+	<gml_id>2863322351</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2863322351</osm_id>
 </item>
 <item id="63">
-	<type_name>bar</type_name>
-	<gml_id>2874534278</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 	</beers>
 	<name>Le Calbar</name>
-	<brewer>Non</brewer>
+	<gml_id>2874534278</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2874534278</osm_id>
 </item>
 <item id="64">
-	<type_name>bar</type_name>
-	<gml_id>2875881221</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>Chouff'bar</name>
-	<brewer>Non</brewer>
+	<gml_id>2875881221</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2875881221</osm_id>
 </item>
 <item id="65">
-	<type_name>bar</type_name>
-	<gml_id>2876169595</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Heineken</beer>
 			<beer>Kocher</beer>
 			<beer>Pelforth</beer>
 	</beers>
 	<name>Oxalis</name>
-	<brewer>Non</brewer>
+	<gml_id>2876169595</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2876169595</osm_id>
 </item>
 <item id="66">
-	<type_name>pub</type_name>
-	<gml_id>289076795</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grimbergen</beer>
 			<beer>Gueuze</beer>
@@ -753,23 +752,23 @@
 			<beer>Warsteiner</beer>
 	</beers>
 	<name>L'Adresse</name>
-	<brewer>Non</brewer>
+	<gml_id>289076795</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>289076795</osm_id>
 </item>
 <item id="67">
-	<type_name>pub</type_name>
-	<gml_id>289103493</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Hoegaarden</beer>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Café Leffe</name>
-	<brewer>Non</brewer>
+	<gml_id>289103493</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>289103493</osm_id>
 </item>
 <item id="68">
-	<type_name>bar</type_name>
-	<gml_id>2900792405</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Heineken</beer>
@@ -777,23 +776,23 @@
 			<beer>Saint-omer</beer>
 	</beers>
 	<name>Au train de vie</name>
-	<brewer>Non</brewer>
+	<gml_id>2900792405</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2900792405</osm_id>
 </item>
 <item id="69">
-	<type_name>bar</type_name>
-	<gml_id>2974330159</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>Le Comptoir</name>
-	<brewer>Non</brewer>
+	<gml_id>2974330159</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2974330159</osm_id>
 </item>
 <item id="70">
-	<type_name>bar</type_name>
-	<gml_id>2974330160</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Brooklyn lager</beer>
 			<beer>Chouffe</beer>
@@ -804,12 +803,12 @@
 			<beer>...</beer>
 	</beers>
 	<name>Le Comptoir</name>
-	<brewer>Non</brewer>
+	<gml_id>2974330160</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2974330160</osm_id>
 </item>
 <item id="71">
-	<type_name>bar</type_name>
-	<gml_id>2997329281</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Belle blonde</beer>
 			<beer>Brooklyn</beer>
@@ -820,22 +819,22 @@
 			<beer>...</beer>
 	</beers>
 	<name>Le Rivolux</name>
-	<brewer>Non</brewer>
+	<gml_id>2997329281</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>2997329281</osm_id>
 </item>
 <item id="72">
-	<type_name>bar</type_name>
-	<gml_id>3048834230</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>Le Château d'Eau</name>
-	<brewer>Non</brewer>
+	<gml_id>3048834230</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3048834230</osm_id>
 </item>
 <item id="73">
-	<type_name>bar</type_name>
-	<gml_id>3056137111</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>All bretts are off</beer>
 			<beer>Beergeek breakfast</beer>
@@ -844,64 +843,64 @@
 			<beer>...</beer>
 	</beers>
 	<name>Le Triangle</name>
-	<brewer>Oui</brewer>
+	<gml_id>3056137111</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3056137111</osm_id>
 </item>
 <item id="74">
-	<type_name>pub</type_name>
-	<gml_id>3058756075</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Maredsous</beer>
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>Paradis 13</name>
-	<brewer>Non</brewer>
+	<gml_id>3058756075</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>3058756075</osm_id>
 </item>
 <item id="75">
-	<type_name>pub</type_name>
-	<gml_id>305903405</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grolsch</beer>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Lush</name>
-	<brewer>Non</brewer>
+	<gml_id>305903405</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>305903405</osm_id>
 </item>
 <item id="76">
-	<type_name>bar</type_name>
-	<gml_id>3071528797</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Tripel karmeliet</beer>
 	</beers>
 	<name>Black Mad Crawler</name>
-	<brewer>Non</brewer>
+	<gml_id>3071528797</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3071528797</osm_id>
 </item>
 <item id="77">
-	<type_name>pub</type_name>
-	<gml_id>310363590</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 	</beers>
 	<name>Epsilon</name>
-	<brewer>Non</brewer>
+	<gml_id>310363590</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>310363590</osm_id>
 </item>
 <item id="78">
-	<type_name>bar</type_name>
-	<gml_id>3112784820</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Fauve Paris L'abreuvoir</name>
-	<brewer>Non</brewer>
+	<gml_id>3112784820</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3112784820</osm_id>
 </item>
 <item id="79">
-	<type_name>bar</type_name>
-	<gml_id>3161142951</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Delta ipa</beer>
 			<beer>Even more jesus</beer>
@@ -910,12 +909,12 @@
 			<beer>Violent femme</beer>
 	</beers>
 	<name>Le Festin Nu</name>
-	<brewer>Non</brewer>
+	<gml_id>3161142951</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3161142951</osm_id>
 </item>
 <item id="80">
-	<type_name>bar</type_name>
-	<gml_id>3170317826</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chouffe</beer>
 			<beer>Delirium tremens</beer>
@@ -923,12 +922,12 @@
 			<beer>Tripel karmeliet</beer>
 	</beers>
 	<name>Le Pantalon</name>
-	<brewer>Non</brewer>
+	<gml_id>3170317826</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3170317826</osm_id>
 </item>
 <item id="81">
-	<type_name>bar</type_name>
-	<gml_id>3391851182</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Carlsberg elephant</beer>
@@ -938,12 +937,12 @@
 			<beer>Leffe</beer>
 	</beers>
 	<name>Les Fontaines</name>
-	<brewer>Non</brewer>
+	<gml_id>3391851182</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3391851182</osm_id>
 </item>
 <item id="82">
-	<type_name>pub</type_name>
-	<gml_id>3427068557</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Edelweiss</beer>
@@ -951,22 +950,22 @@
 			<beer>Strongbow</beer>
 	</beers>
 	<name>Celtic Corner</name>
-	<brewer>Non</brewer>
+	<gml_id>3427068557</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>3427068557</osm_id>
 </item>
 <item id="83">
-	<type_name>bar</type_name>
-	<gml_id>3427251448</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>L'Iris</name>
-	<brewer>Non</brewer>
+	<gml_id>3427251448</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3427251448</osm_id>
 </item>
 <item id="84">
-	<type_name>pub</type_name>
-	<gml_id>3457458493</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer> blanche</beer>
 			<beer>Carlsberg</beer>
@@ -975,23 +974,23 @@
 			<beer>Kronenbourg</beer>
 	</beers>
 	<name>Wos Bar</name>
-	<brewer>Non</brewer>
+	<gml_id>3457458493</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>3457458493</osm_id>
 </item>
 <item id="85">
-	<type_name>bar</type_name>
-	<gml_id>3501719701</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Vedett</beer>
 			<beer> maredsous</beer>
 	</beers>
 	<name>Au Fût et à Mesure</name>
-	<brewer>Non</brewer>
+	<gml_id>3501719701</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3501719701</osm_id>
 </item>
 <item id="86">
-	<type_name>bar</type_name>
-	<gml_id>3518621993</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Copères</beer>
 			<beer> saint-stéfanus</beer>
@@ -1001,12 +1000,12 @@
 			<beer> grolsh</beer>
 	</beers>
 	<name>Le Bouillon St Stef</name>
-	<brewer>Non</brewer>
+	<gml_id>3518621993</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3518621993</osm_id>
 </item>
 <item id="87">
-	<type_name>pub</type_name>
-	<gml_id>3520483492</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Dark de triomphe</beer>
 			<beer>Ginger twist</beer>
@@ -1014,12 +1013,12 @@
 			<beer>Maison blanche</beer>
 	</beers>
 	<name>The Frog &amp; Princess</name>
-	<brewer>Oui</brewer>
+	<gml_id>3520483492</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>3520483492</osm_id>
 </item>
 <item id="88">
-	<type_name>pub</type_name>
-	<gml_id>3520535766</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Dark de triomphe</beer>
 			<beer>Ginger twist</beer>
@@ -1027,108 +1026,108 @@
 			<beer>Maison blanche</beer>
 	</beers>
 	<name>The Frog Revolution</name>
-	<brewer>Oui</brewer>
+	<gml_id>3520535766</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>3520535766</osm_id>
 </item>
 <item id="89">
-	<type_name>bar</type_name>
-	<gml_id>3558360515</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Hoegaarden</beer>
 			<beer>Leffe</beer>
 			<beer>Stella artois</beer>
 	</beers>
 	<name>Le Berny</name>
-	<brewer>Non</brewer>
+	<gml_id>3558360515</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3558360515</osm_id>
 </item>
 <item id="90">
-	<type_name>bar</type_name>
-	<gml_id>3607886050</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Leffe</beer>
 			<beer>Stella artois</beer>
 	</beers>
 	<name>Au Bar Le Surène</name>
-	<brewer>Non</brewer>
+	<gml_id>3607886050</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>3607886050</osm_id>
 </item>
 <item id="91">
-	<type_name>pub</type_name>
-	<gml_id>418142037</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Carlsberg</beer>
 			<beer>Hoegaarden</beer>
 			<beer>Leffe</beer>
 	</beers>
 	<name>L'Assassin</name>
-	<brewer>Non</brewer>
+	<gml_id>418142037</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>418142037</osm_id>
 </item>
 <item id="92">
-	<type_name>pub</type_name>
-	<gml_id>420117472</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>L'Escargot</name>
-	<brewer>Non</brewer>
+	<gml_id>420117472</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>420117472</osm_id>
 </item>
 <item id="93">
-	<type_name>pub</type_name>
-	<gml_id>428044663</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Le bar à mine</name>
-	<brewer>Non</brewer>
+	<gml_id>428044663</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>428044663</osm_id>
 </item>
 <item id="94">
-	<type_name>bar</type_name>
-	<gml_id>428164786</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Patrick's Le Ballon Vert</name>
-	<brewer>Non</brewer>
+	<gml_id>428164786</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>428164786</osm_id>
 </item>
 <item id="95">
-	<type_name>bar</type_name>
-	<gml_id>442505759</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Jeanlain six</beer>
 	</beers>
 	<name>La Caravane</name>
-	<brewer>Non</brewer>
+	<gml_id>442505759</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>442505759</osm_id>
 </item>
 <item id="96">
-	<type_name>pub</type_name>
-	<gml_id>449554298</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>Brady's Irish Pub</name>
-	<brewer>Non</brewer>
+	<gml_id>449554298</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>449554298</osm_id>
 </item>
 <item id="97">
-	<type_name>pub</type_name>
-	<gml_id>452420245</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Kwak</beer>
 	</beers>
 	<name>Tête à l'envers</name>
-	<brewer>Non</brewer>
+	<gml_id>452420245</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>452420245</osm_id>
 </item>
 <item id="98">
-	<type_name>pub</type_name>
-	<gml_id>457491696</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Hoegaarden</beer>
 			<beer>Hoegaarden rosée </beer>
@@ -1138,12 +1137,12 @@
 			<beer>...</beer>
 	</beers>
 	<name>Le Bureau</name>
-	<brewer>Non</brewer>
+	<gml_id>457491696</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>457491696</osm_id>
 </item>
 <item id="99">
-	<type_name>pub</type_name>
-	<gml_id>486096218</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 			<beer>Hoegaarden</beer>
@@ -1153,12 +1152,12 @@
 			<beer>Stella artois</beer>
 	</beers>
 	<name>Irish Corner</name>
-	<brewer>Non</brewer>
+	<gml_id>486096218</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>486096218</osm_id>
 </item>
 <item id="100">
-	<type_name>bar</type_name>
-	<gml_id>493163514</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Affligem</beer>
 			<beer>Bière de bourges</beer>
@@ -1166,12 +1165,12 @@
 			<beer>Pelforth</beer>
 	</beers>
 	<name>Les pères populaires</name>
-	<brewer>Non</brewer>
+	<gml_id>493163514</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>493163514</osm_id>
 </item>
 <item id="101">
-	<type_name>pub</type_name>
-	<gml_id>508588181</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Barbãr</beer>
 			<beer>Chimay</beer>
@@ -1180,23 +1179,23 @@
 			<beer>Lupulus</beer>
 	</beers>
 	<name>Le Troll</name>
-	<brewer>Non</brewer>
+	<gml_id>508588181</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>508588181</osm_id>
 </item>
 <item id="102">
-	<type_name>pub</type_name>
-	<gml_id>530896463</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Mad Maker</name>
-	<brewer>Non</brewer>
+	<gml_id>530896463</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>530896463</osm_id>
 </item>
 <item id="103">
-	<type_name>pub</type_name>
-	<gml_id>536574152</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Dark de triomphe</beer>
 			<beer>Ginger twist</beer>
@@ -1205,22 +1204,22 @@
 			<beer>Parislytic</beer>
 	</beers>
 	<name>The Frog &amp; British Library</name>
-	<brewer>Oui</brewer>
+	<gml_id>536574152</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>536574152</osm_id>
 </item>
 <item id="104">
-	<type_name>bar</type_name>
-	<gml_id>568459562</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>Mama Kin</name>
-	<brewer>Non</brewer>
+	<gml_id>568459562</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>568459562</osm_id>
 </item>
 <item id="105">
-	<type_name>bar</type_name>
-	<gml_id>594054765</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Barbãr bok</beer>
 			<beer>Faro</beer>
@@ -1228,12 +1227,12 @@
 			<beer>Queue de charrue ambrée</beer>
 	</beers>
 	<name>La Fût Gueuze</name>
-	<brewer>Non</brewer>
+	<gml_id>594054765</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>594054765</osm_id>
 </item>
 <item id="106">
-	<type_name>pub</type_name>
-	<gml_id>609212551</gml_id>
+	<brewer>Oui</brewer>
 	<beers>
 			<beer>Dark de triomphe</beer>
 			<beer>Ginger twist</beer>
@@ -1241,54 +1240,54 @@
 			<beer>Maison blanche</beer>
 	</beers>
 	<name>The Frog at Bercy Village</name>
-	<brewer>Oui</brewer>
+	<gml_id>609212551</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>609212551</osm_id>
 </item>
 <item id="107">
-	<type_name>bar</type_name>
-	<gml_id>617928936</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>La Venus Noire</name>
-	<brewer>Non</brewer>
+	<gml_id>617928936</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>617928936</osm_id>
 </item>
 <item id="108">
-	<type_name>pub</type_name>
-	<gml_id>624613486</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Guinness</beer>
 	</beers>
 	<name>The Green Linnet</name>
-	<brewer>Non</brewer>
+	<gml_id>624613486</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>624613486</osm_id>
 </item>
 <item id="109">
-	<type_name>bar</type_name>
-	<gml_id>640616933</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Pelforth</beer>
 	</beers>
 	<name>Le Petit Clement</name>
-	<brewer>Non</brewer>
+	<gml_id>640616933</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>640616933</osm_id>
 </item>
 <item id="110">
-	<type_name>bar</type_name>
-	<gml_id>667305411</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Amstel</beer>
 			<beer>H-beer</beer>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Le Rota</name>
-	<brewer>Non</brewer>
+	<gml_id>667305411</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>667305411</osm_id>
 </item>
 <item id="111">
-	<type_name>pub</type_name>
-	<gml_id>676116665</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer></beer>
 			<beer>Chimay</beer>
@@ -1300,66 +1299,66 @@
 			<beer>Tripel karmeliet</beer>
 	</beers>
 	<name>Le Mayflower</name>
-	<brewer>Non</brewer>
+	<gml_id>676116665</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>676116665</osm_id>
 </item>
 <item id="112">
-	<type_name>pub</type_name>
-	<gml_id>676860118</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Chimay</beer>
 	</beers>
 	<name>Au Trappiste</name>
-	<brewer>Non</brewer>
+	<gml_id>676860118</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>676860118</osm_id>
 </item>
 <item id="113">
-	<type_name>pub</type_name>
-	<gml_id>676860175</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Le Petit Châtelet</name>
-	<brewer>Non</brewer>
+	<gml_id>676860175</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>676860175</osm_id>
 </item>
 <item id="114">
-	<type_name>bar</type_name>
-	<gml_id>694399350</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Leffe</beer>
 	</beers>
 	<name>Lounge Paradise</name>
-	<brewer>Non</brewer>
+	<gml_id>694399350</gml_id>
+	<type_name>bar</type_name>
 	<osm_id>694399350</osm_id>
 </item>
 <item id="115">
-	<type_name>pub</type_name>
-	<gml_id>703122472</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grimbergen</beer>
 			<beer>Guinness</beer>
 			<beer>Tripel_karmeliet</beer>
 	</beers>
 	<name>The Local</name>
-	<brewer>Non</brewer>
+	<gml_id>703122472</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>703122472</osm_id>
 </item>
 <item id="116">
-	<type_name>pub</type_name>
-	<gml_id>741213238</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Kwak</beer>
 			<beer>Saint-bernadus</beer>
 			<beer>Tripel karmeliet</beer>
 	</beers>
 	<name>Académie de la Bière</name>
-	<brewer>Non</brewer>
+	<gml_id>741213238</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>741213238</osm_id>
 </item>
 <item id="117">
-	<type_name>pub</type_name>
-	<gml_id>745086544</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Barbãr</beer>
 			<beer>Barbãr bok</beer>
@@ -1368,27 +1367,28 @@
 			<beer>Petrus ambrée</beer>
 	</beers>
 	<name>Le bouillon belge</name>
-	<brewer>Non</brewer>
+	<gml_id>745086544</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>745086544</osm_id>
 </item>
 <item id="118">
-	<type_name>pub</type_name>
-	<gml_id>906036878</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Saint-omer</beer>
 	</beers>
 	<name>Lêche vin</name>
-	<brewer>Non</brewer>
+	<gml_id>906036878</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>906036878</osm_id>
 </item>
 <item id="119">
-	<type_name>pub</type_name>
-	<gml_id>921881553</gml_id>
+	<brewer>Non</brewer>
 	<beers>
 			<beer>Grolsch</beer>
 	</beers>
 	<name>Le Point Ephémère</name>
-	<brewer>Non</brewer>
+	<gml_id>921881553</gml_id>
+	<type_name>pub</type_name>
 	<osm_id>921881553</osm_id>
 </item>
 </document>

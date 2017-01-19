@@ -4,6 +4,7 @@
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 import re
+import geocoder
 
 # sudo pip3 install dicttoxml nécessaire avant
 
@@ -97,6 +98,55 @@ if __name__ == '__main__':
 	dic=cinemas2xmlpivot.getInfosCrous("../donnees_xml/"+fic)
 	print(fic)
 	cinemas2xmlpivot.writeInFile(dic,"crous", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+
+	print("Création du fichier pivot des bibliothèques")
+	fic = open("../donnees_xml/Bibliotheque.xml","r")
+	out = open("../xml_formattes_pivot/Bibliotheque_pivot.xml","w")
+	out.write(fic.readline())
+	out.write("<root>\n")
+	dico = {}
+	dico2 = {}
+	num_l=0
+	lines =fic.readlines()
+	print(len(lines))
+	for line in lines:
+		num_l+=1
+		if "<elem" in line:
+			dico[line] = lines[num_l:num_l+8]
+	# pprint (dico)
+	for cle in dico:
+		for balise in dico[cle]:
+			if "750" in balise:
+				if balise not in dico2:
+					dico2[balise] = [dico[cle]]
+				else:
+					dico2[balise] += [dico[cle]]
+	#pprint (dico2)
+	num_bib = 0
+	for cle in dico2:
+		clef = cle.split("<")[1].split(">")[1]
+		out.write('\t<arrondissement num ="'+clef+'">\n')
+		for item in dico2[cle]:
+			num_bib +=1
+			out.write('\t\t<element id="'+str(num_bib)+'" type="bibli">\n')
+			for balise in item:
+				if"Designation" in balise:
+					name = balise.split("<")[1].split(">")[1]
+					out.write("\t\t\t<nom>"+name.lower()+"</nom>\n")
+				if "voie" in balise:
+					for bal in item:
+						if "num" in bal:
+							balises = balise.split("<")[1].split(">")[1]
+							bals = bal.split("<")[1].split(">")[1]
+							adresse = bals+", "+balises.lower()
+							out.write("\t\t\t<adresse>"+adresse+"</adresse>\n")
+							g=geocoder.google(adresse)
+							out.write("\t\t\t<longitude>"+str(g.lng)+"</longitude>\n")	
+							out.write("\t\t\t<latitude>"+str(g.lat)+"</latitude>\n")
+			out.write("\t\t</element>\n")
+		out.write("\t</arrondissement>\n")
+	out.write("</root>")
+
 
 	# deuxième étape, utilisation des fichiers au format pivot pour la création du  fichier pivot final
 	# TODO : faire une boucle recursive sur les fichiers du dossier "../xml_formattes_pivot/" et sortir le xml_pivot dans un autre dossier pour eviter doublons si le script est relancé.
