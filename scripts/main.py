@@ -18,9 +18,6 @@ import openbeermap_pivot2
 from openbeermap_pivot2 import recuperation_infos
 from openbeermap_pivot2 import impression_xml_pivot
 
-# ici j'ai modifié les imports pour qu'on puisse voir plus facilement quels scripts sont utilisés où
-# aide pour le debug et la compréhension du bouzin
-
 if __name__ == '__main__':
 	print("Création du fichier xml des bibliothèques")
 	bibliotheque2xml.get_data("../donnees_brutes/equipements_de_proximite.csv", "Bibliothèque")
@@ -34,7 +31,7 @@ if __name__ == '__main__':
 		infile="../donnees_brutes/"+fichier+".json"
 		outfile="../donnees_xml/"+fichier+".xml"
 		print("\t"+fichier)
-		# json2xml2.main(infile, outfile)
+		json2xml2.main(infile, outfile)
 
 	print("Récupération des données d'OpenBeerMap")
 	infile = open('../donnees_brutes/OpenBeerMap_IDF.csv','r')
