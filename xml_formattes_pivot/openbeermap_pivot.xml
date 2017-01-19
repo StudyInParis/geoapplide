@@ -4,7 +4,7 @@
 		<element id="0" type="bar">
 			<latitude>48.8579257</latitude>
 			<longitude>2.3463544</longitude>
-			<adresse>Avenue Victoria, St-Germain-l'Auxerrois, 1er</adresse>
+			<adresse>Quai de la Mégisserie, St-Germain-l'Auxerrois, 1er</adresse>
 			<nom>Les Arènes</nom>
 		</element>
 		<element id="1" type="bar">
@@ -378,7 +378,7 @@
 		<element id="4" type="bar">
 			<latitude>48.8419073</latitude>
 			<longitude>2.300498</longitude>
-			<adresse>135, Rue Lecourbe, St-Lambert, 15e</adresse>
+			<adresse>Rue Lecourbe, St-Lambert, 15e</adresse>
 			<nom>Les Fontaines</nom>
 		</element>
 	</arrondissement>
@@ -403,11 +403,5 @@
 	<arrondissement num ="75019">
 	</arrondissement>
 	<arrondissement num ="75020">
-		<element id="0" type="bar">
-			<latitude>48.8510126</latitude>
-			<longitude>2.4018663</longitude>
-			<adresse>Rue des Grands Champs, Saint-Blaise, Charonne, 20e</adresse>
-			<nom>Le Bureau</nom>
-		</element>
 	</arrondissement>
 </root>

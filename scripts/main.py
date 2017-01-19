@@ -24,7 +24,7 @@ if __name__ == '__main__':
 	bibliotheque2xml.get_data("../donnees_brutes/equipements_de_proximite.csv", "Bibliothèque")
 
 	print("Création des fichiers xml à partir des fichiers json")
-	liste=["annuaire_immobilier_de_l_enseignement_superieur","liste-des-cafes-a-un-euro","quartier_paris", "liste_des_marches_de_quartier_a_paris","cinemas-a-paris", "distributeurspreservatifsmasculinsparis2012"]
+	liste=["annuaire_immobilier_de_l_enseignement_superieur","quartier_paris", "liste_des_marches_de_quartier_a_paris","cinemas-a-paris", "distributeurspreservatifsmasculinsparis2012", "liste-des-cafes-a-un-euro"]
 
 	print("Traitement du fichier : ")
 	for fichier in liste:
@@ -40,6 +40,7 @@ if __name__ == '__main__':
 
 	print("Traitement du fichier des CROUS")
 	crous2xml.clean_crous('../donnees_brutes/restauration_france_entiere.xml')
+
 
 	print("Création du fichier xml_pivot")
 	# première étape, formalisation des xml vers un format xml_pivot
@@ -65,13 +66,32 @@ if __name__ == '__main__':
 	print("Impression du fichier OpenBeerMap_pivot")
 	openbeermap_pivot.impression_xml_pivot(dic_infos)
 
+
 	print("Création des autres fichiers au format xml pivot")
-	fics = {"cinemas-a-paris.xml":"cinema","liste_des_marches_de_quartier_a_paris.xml":"marche", "liste-des-cafes-a-un-euro.xml":"cafe", "distributeurspreservatifsmasculinsparis2012.xml":"preservatifs", "restauration_france_entiere.xml":"crous"}
-	for fic in fics:
-		print("\t"+fic)
-		dic=cinemas2xmlpivot.getInfos("../donnees_xml/"+fic, arrond="arrondissement", nom="nom_etablissement", adresse="adresse", coordinates="coordonnees")
-		print(fic)
-		cinemas2xmlpivot.writeInFile(dic, fics[fic], "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+	fic="cinemas-a-paris.xml"
+	dic=cinemas2xmlpivot.getInfos("../donnees_xml/"+fic, arrond="arrondissement", nom="nom_etablissement", adresse="adresse", coordinates="coordonnees")
+	print(fic)
+	cinemas2xmlpivot.writeInFile(dic, "cinema", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+	
+	fic="liste_des_marches_de_quartier_a_paris.xml"
+	dic=cinemas2xmlpivot.getInfos("../donnees_xml/"+fic, arrond="arrondissement", nom="marche", adresse="adresse_complete_poi_approchant", coordinates="geo_coordinates")
+	print(fic)
+	cinemas2xmlpivot.writeInFile(dic, "marche", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+
+	fic = "liste-des-cafes-a-un-euro.xml"
+	dic=cinemas2xmlpivot.getInfos("../donnees_xml/"+fic, arrond="arrondissement", nom="nom_du_cafe", adresse="adresse", coordinates="geoloc")
+	print(fic)
+	cinemas2xmlpivot.writeInFile(dic,"cafe", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+
+	fic="distributeurspreservatifsmasculinsparis2012.xml"
+	dic=cinemas2xmlpivot.getInfos("../donnees_xml/"+fic, arrond="arrond", nom="site", adresse="adresse", coordinates="xy")
+	print(fic)
+	cinemas2xmlpivot.writeInFile(dic,"preservatifs", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
+
+	fic="restauration_france_entiere.xml"
+	dic=cinemas2xmlpivot.getInfosCrous("../donnees_xml/"+fic)
+	print(fic)
+	cinemas2xmlpivot.writeInFile(dic,"crous", "../xml_formattes_pivot/"+fic[:-4]+"_pivot.xml")
 
 	print("Création du fichier pivot des bibliothèques")
 	fic = open("../donnees_xml/Bibliotheque.xml","r")
@@ -82,12 +102,10 @@ if __name__ == '__main__':
 	dico2 = {}
 	num_l=0
 	lines =fic.readlines()
-	print(len(lines))
 	for line in lines:
 		num_l+=1
 		if "<elem" in line:
 			dico[line] = lines[num_l:num_l+8]
-	# pprint (dico)
 	for cle in dico:
 		for balise in dico[cle]:
 			if "750" in balise:
@@ -95,7 +113,6 @@ if __name__ == '__main__':
 					dico2[balise] = [dico[cle]]
 				else:
 					dico2[balise] += [dico[cle]]
-	#pprint (dico2)
 	num_bib = 0
 	for cle in dico2:
 		clef = cle.split("<")[1].split(">")[1]
@@ -124,6 +141,7 @@ if __name__ == '__main__':
 
 	# deuxième étape, utilisation des fichiers au format pivot pour la création du  fichier pivot final
 	# TODO : faire une boucle recursive sur les fichiers du dossier "../xml_formattes_pivot/" et sortir le xml_pivot dans un autre dossier pour eviter doublons si le script est relancé.
+	print("Création du fichier pivot général à partir des fichier formatés")
 	dic = {}
 	dic = creation_xml_pivot.open_and_dic("../xml_formattes_pivot/cinemas-a-paris_pivot.xml",dic)
 	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/Bibliotheque_pivot.xml",dic))
@@ -133,6 +151,4 @@ if __name__ == '__main__':
 	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/openbeermap_pivot.xml",dic))
 	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/restauration_france_entiere_pivot.xml",dic))
 
-
-	#pprint(dic)
 	creation_xml_pivot.out_xml(dic, "../xml_pivot/xml_pivot.xml")

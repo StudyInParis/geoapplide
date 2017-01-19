@@ -10,7 +10,6 @@ def open_and_dic(fichier,dic):
 	num_l=0
 	for line in lines:
 		num_l +=1
-		#print(num_l)
 		if "<arron" in line:
 			arr = line.split('"')[1]
 			for ligne in lines[num_l:]:

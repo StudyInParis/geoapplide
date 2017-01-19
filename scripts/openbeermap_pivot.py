@@ -21,7 +21,6 @@ def recuperation_infos(liste_noms, liste_osm):
     dico = {}
     for element in liste_osm:
         try:
-            print(liste_noms[cpt])
             api = osmapi.OsmApi()
             coord = api.NodeGet(element) #un des elements de openbeermap
             lat = coord["lat"]
