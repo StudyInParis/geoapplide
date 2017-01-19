@@ -61,7 +61,7 @@ if __name__ == '__main__':
 		osm_id = re.sub('</osm_id>','',osm_id)
 		liste_osm.append(osm_id)
 
-	print('Création du dictionnaire qui contient nom, latitude, longitude et adresse pour chaque bar')
+	print('Création du dictionnaire qui contient {bar:nom, latitude, longitude et adresse')
 	dic_infos = openbeermap_pivot.recuperation_infos(liste_noms, liste_osm)
 	print("Impression du fichier OpenBeerMap_pivot")
 	openbeermap_pivot.impression_xml_pivot(dic_infos)
