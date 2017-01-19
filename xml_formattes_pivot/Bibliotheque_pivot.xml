@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<arrondissement num ="75017">
+		<element id="1" type="bibli">
+			<longitude>2.3198144</longitude>
+			<latitude>48.8898213</latitude>
+			<adresse>6, RUE FOURNEYRON</adresse>
+			<nom>bibliotheque colette vivier</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75012">
+		<element id="2" type="bibli">
+			<longitude>2.3775478</longitude>
+			<latitude>48.8459507</latitude>
+			<adresse>42, AVENUE DAUMESNIL</adresse>
+			<nom>bibliotheque municipale diderot</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75005">
+		<element id="3" type="bibli">
+			<longitude>2.3451014</longitude>
+			<latitude>48.8520496</latitude>
+			<adresse>6, RUE DES PRETRES SAINT-SEVERIN</adresse>
+			<nom>bibliotheque municipale l'heure joyeuse</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75003">
+		<element id="4" type="bibli">
+			<longitude>2.3600918</longitude>
+			<latitude>48.8636388</latitude>
+			<adresse>8, RUE PORTEFOIN</adresse>
+			<nom>bibliotheque marguerite audoux</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75016">
+		<element id="5" type="bibli">
+			<longitude>2.2633768</longitude>
+			<latitude>48.8420999</latitude>
+			<adresse>20, RUE DE MUSSET</adresse>
+			<nom>bibliotheque municipale musset</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75010">
+		<element id="6" type="bibli">
+			<longitude>2.3573783</longitude>
+			<latitude>48.8717768</latitude>
+			<adresse>72, RUE DU FAUBOURG SAINT-MARTIN</adresse>
+			<nom>bibliotheque municipale chateau d'eau</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75015">
+		<element id="7" type="bibli">
+			<longitude>2.2786821</longitude>
+			<latitude>48.8402088</latitude>
+			<adresse>8, RUE DE LA MONTAGNE D'AULAS</adresse>
+			<nom>bibliotheque municipale gutenberg</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75009">
+		<element id="8" type="bibli">
+			<longitude>2.332445</longitude>
+			<latitude>48.8814478</latitude>
+			<adresse>26, RUE CHAPTAL</adresse>
+			<nom>bibliotheque chaptal</nom>
+		</element>
+		<element id="9" type="bibli">
+			<longitude>2.3404298</longitude>
+			<latitude>48.8734566</latitude>
+			<adresse>11, RUE DROUOT</adresse>
+			<nom>bibliotheque municipale drouot</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75018">
+		<element id="10" type="bibli">
+			<longitude>2.364134</longitude>
+			<latitude>48.894839</latitude>
+			<adresse>19, RUE TRISTAN TZARA</adresse>
+			<nom>bibliotheque municipale maurice genevoix</nom>
+		</element>
+		<element id="11" type="bibli">
+			<longitude>2.3362029</longitude>
+			<latitude>48.8993947</latitude>
+			<adresse>18, AVENUE DE LA PORTE DE MONTMARTRE</adresse>
+			<nom>bibliotheque municipale de la porte montmartre</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75008">
+		<element id="12" type="bibli">
+			<longitude>2.3029806</longitude>
+			<latitude>48.8778252</latitude>
+			<adresse>17, AVENUE BEAUCOUR</adresse>
+			<nom>bibliotheque municipale courcelles</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75020">
+		<element id="13" type="bibli">
+			<longitude>2.4010836</longitude>
+			<latitude>48.8531649</latitude>
+			<adresse>29, RUE DES HAIES</adresse>
+			<nom>bibliotheque municipale reunion</nom>
+		</element>
+		<element id="14" type="bibli">
+			<longitude>2.3928486</longitude>
+			<latitude>48.8659674</latitude>
+			<adresse>17, RUE SORBIER</adresse>
+			<nom>bibliotheque municipale sorbier</nom>
+		</element>
+		<element id="15" type="bibli">
+			<longitude>2.408426</longitude>
+			<latitude>48.8715903</latitude>
+			<adresse>109, BOULEVARD MORTIER</adresse>
+			<nom>bibliotheque municipale mortier</nom>
+		</element>
+		<element id="16" type="bibli">
+			<longitude>2.4028325</longitude>
+			<latitude>48.8597079</latitude>
+			<adresse>109, RUE DE BAGNOLET</adresse>
+			<nom>bibliotheque mediatheque marguerite duras</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75014">
+		<element id="17" type="bibli">
+			<longitude>2.3255196</longitude>
+			<latitude>48.8339554</latitude>
+			<adresse>38, RUE GASSENDI</adresse>
+			<nom>bibliotheque municipale georges brassens</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75001">
+		<element id="18" type="bibli">
+			<longitude>2.3478752</longitude>
+			<latitude>48.8624676</latitude>
+			<adresse>91, RUE RAMBUTEAU</adresse>
+			<nom>bibliotheque municipale la fontaine</nom>
+		</element>
+		<element id="19" type="bibli">
+			<longitude>2.3412674</longitude>
+			<latitude>48.8600425</latitude>
+			<adresse>4, PLACE DU LOUVRE</adresse>
+			<nom>bibliotheque municipale du louvre</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75019">
+		<element id="20" type="bibli">
+			<longitude>2.3790148</longitude>
+			<latitude>48.89277939999999</latitude>
+			<adresse>141, AVENUE DE FLANDRE</adresse>
+			<nom>bibliotheque municipale benjamin rabier</nom>
+		</element>
+		<element id="21" type="bibli">
+			<longitude>2.3881565</longitude>
+			<latitude>48.8762884</latitude>
+			<adresse>6, RUE FESSART</adresse>
+			<nom>bibliotheque municipale fessart</nom>
+		</element>
+		<element id="22" type="bibli">
+			<longitude>2.3712394</longitude>
+			<latitude>48.8862963</latitude>
+			<adresse>35, AVENUE DE FLANDRE</adresse>
+			<nom>bibliotheque municipale flandre</nom>
+		</element>
+		<element id="23" type="bibli">
+			<longitude>2.3828658</longitude>
+			<latitude>48.8848829</latitude>
+			<adresse>42, RUE PETIT</adresse>
+			<nom>bibliotheque municipale crimee</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75004">
+		<element id="24" type="bibli">
+			<longitude>2.3556738</longitude>
+			<latitude>48.8563391</latitude>
+			<adresse>2, PLACE BAUDOYER</adresse>
+			<nom>bibliotheque municipale baudoyer</nom>
+		</element>
+		<element id="25" type="bibli">
+			<longitude>2.3572189</longitude>
+			<latitude>48.8515021</latitude>
+			<adresse>21, RUE SAINT-LOUIS EN L'ILE</adresse>
+			<nom>bibliotheque municipale isle saint-louis</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75002">
+		<element id="26" type="bibli">
+			<longitude>2.3403795</longitude>
+			<latitude>48.8665115</latitude>
+			<adresse>2, PASSAGE DES PETITS PERES</adresse>
+			<nom>bibliotheque municipale charlotte belbo</nom>
+		</element>
+	</arrondissement>
+</root>

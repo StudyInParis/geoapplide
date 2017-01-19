@@ -18,7 +18,7 @@ def clean_crous(filename):
 		for att in newatt:
 			child.set(att, newatt[att])
 		child.append(data)
-	tree.write('crous_propre.xml')
+	tree.write('../donnees_xml/restauration_france_entiere.xml')
 
 if __name__ == '__main__':
-	clean_crous('crous_restauration_france_entiere.xml')
+	clean_crous('../donnees_brutes/restauration_france_entiere.xml')
