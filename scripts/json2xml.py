@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python
 # -*- coding: utf-8 -*-
 import json
 import dicttoxml
@@ -29,7 +29,10 @@ def get_values(json_dict):
 
 
 def main(input_file, outfile):
-	output = open(outfile, 'w')
+	# si lancé en python2
+	# output = open(outfile, 'w')
+	# si lancé en python3
+	output = open(outfile, 'wb')
 	# importation du fichier json dans un dictionnaire
 	with open(input_file, 'r') as f:
 		json_file = json.load(f)
@@ -37,10 +40,10 @@ def main(input_file, outfile):
 		# + extraction des infos necessaires(mm fichier - les infos superflues)
 		xml_file = dicttoxml.dicttoxml(get_values(json_file), attr_type=False, ids=True)
 		# impression dans le fichier de sortie
-		output.write(xml_file)
+	output.write(xml_file)
 
 if __name__ == '__main__':
-	liste=["annuaire_immobilier_de_l_enseignement_superieur","liste-des-cafes-a-un-euro","quartier_paris"]
+	liste=["annuaire_immobilier_de_l_enseignement_superieur","liste-des-cafes-a-un-euro","quartier_paris", "liste_des_marches_de_quartier_a_paris","cinemas-a-paris"]
 	for fichier in liste:
 		infile="../donnees_brutes/"+fichier+".json"
 		outfile="../donnees_xml/"+fichier+".xml"

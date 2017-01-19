@@ -1,10 +1,15 @@
 #! usr/bin/python3
 #! coding: utf-8
 
-from lxml import etree
+import xml.etree.ElementTree as ET
 import osmapi # pip install module python pour acces api open street map
 from geopy.geocoders import Nominatim
 from pprint import pprint
+
+
+"""
+script pour transformer le fichier OpenBeerMap.xml au format pour le fichier xml_pivot
+"""
 
 def recuperation_infos(liste_noms, liste_osm):
     """ recupere infos sur bars openbeermap, latitude et longitude à partir de coordonnees OSM avec OsmApi
@@ -73,11 +78,15 @@ def impression_xml_pivot(dico):
 
 if __name__ == "__main__":
     print("parser le fichier xml en entrée")
-    tree = etree.parse('../donnees_xml/OpenBeerMap.xml')
+    tree = ET.parse('../donnees_xml/OpenBeerMap.xml')
     root = tree.getroot()
     print("récupérer l'ensemble des osm_id avec le name du bar correspondant dans 2 listes")
-    liste_noms = root.xpath("//name/text()")
-    liste_osm = root.xpath("//osm_id/text()")
+    liste_noms = []
+    for nom in root.findall('item'):
+        liste_noms.append(nom.find('name').text)
+    liste_osm = []
+    for osm in root.findall('item'):
+        liste_osm.append(nom.find('osm_id').text)
     print('création du dictionnaire qui contient nom, latitude, longitude et adresse pour chaque bar')
     dic_infos = recuperation_infos(liste_noms, liste_osm)
     print("Impression du fichier de sortie")

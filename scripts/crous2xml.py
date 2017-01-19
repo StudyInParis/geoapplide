@@ -4,6 +4,11 @@
 import xml.etree.ElementTree as ET
 
 def clean_crous(filename):
+	"""
+	fonction qui créé un fichier de sortie au format XML
+	entree : nom de fichier
+	sortie : impression directement dans un fichier de sortie au format XML
+	"""
 	tree = ET.parse(filename)
 	root = tree.getroot()
 	for child in root:

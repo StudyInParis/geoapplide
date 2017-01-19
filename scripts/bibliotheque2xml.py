@@ -5,6 +5,10 @@ import csv, os
 from csv2xml import prepare
 
 def get_data(infilename, pattern):
+	"""
+	entree : nom de fichier, motif
+	sortie : impression directement dans un fichier de sortie
+	"""
 	liste = []
 	with open(infilename) as csvfile:
 		# reader = csv.reader(csvfile, delimiter=";")
@@ -28,6 +32,11 @@ def get_data(infilename, pattern):
 	xmlfile.write("""</root>""")
 
 def arrange_data(string):
+	"""
+	fonctin pour nettoyage, élimine les accents
+	entree : string
+	sortie : string
+	"""
 	equivalents={
 	"é":"e",
 	"è":"e",

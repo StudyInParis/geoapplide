@@ -5,6 +5,11 @@ import xml.etree.ElementTree as ET
 from pprint import pprint
 
 def getInfosCrous(infilename):
+	"""
+	fonction qui parse un fichier XML et renvoie son contenu sous forme d'un dictionnaire
+	entree : nom de fichier
+	sortie : dictionnaire {id:[nom, adresse, coordonnees]}
+	"""
 	dic={}
 	tree = ET.parse(infilename)
 	root = tree.getroot()
@@ -24,6 +29,10 @@ def getInfosCrous(infilename):
 	return dic
 
 def getInfos(infilename, arrond="arrondissement", nom="nom", adresse="adresse", coordinates="coordonnees"):
+	"""
+	entree : fichier XML
+	sortie : dictionnaire
+	"""
 	dic={}
 	tree = ET.parse(infilename)
 	root = tree.getroot()
@@ -50,11 +59,20 @@ def getInfos(infilename, arrond="arrondissement", nom="nom", adresse="adresse", 
 	return dic
 
 def getArrondFromAdress(adresse):
+	"""
+	fonction qui détermine le numéro d'arrondissement
+	entree: adresse
+	sortie : numéro d'arrondissement
+	"""
 	for elem in adresse.split():
 		if elem.startswith("750"):
 			return elem
 
 def writeInFile(dic, typeLieu, outfilename):
+	"""
+	entree :
+	sortie : 
+	"""
 	with open(outfilename, 'w') as f:
 		f.write("""<?xml version="1.0" encoding="utf-8" standalone="no"?>\n<root>\n""")
 		i=0

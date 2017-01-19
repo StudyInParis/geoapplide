@@ -3,6 +3,7 @@
 import glob,re
 from loyers import create_dic
 from pprint import pprint
+
 def open_and_dic(fichier,dic):
 	fic = open(fichier,'r')
 	lines = fic.readlines()
@@ -19,6 +20,7 @@ def open_and_dic(fichier,dic):
 					dic[arr] = []
 				dic[arr] += [ligne]
 	return dic
+
 def out_xml(dico, outpath):
 	fic = open(outpath,'w')
 	fic.write("<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<root>\n")

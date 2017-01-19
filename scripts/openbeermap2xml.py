@@ -2,6 +2,10 @@ import re
 import osmapi
 import pprint
 
+"""
+script qui transforme le fichier CSV d'OpenBeerMap au format XML
+"""
+
 
 def line_mod(line):
 	"""

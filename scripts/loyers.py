@@ -1,7 +1,13 @@
 # conding: utf-8
 import math
 from pprint import pprint
+
 def create_dic(fichier):
+	"""
+	fonction pour le fichier des loyers
+	entree : nom de fichier
+	sortie : dictionnaire contenant les informations du fichier
+	"""
 	fic = open(fichier,"r")
 	useless_ligne = fic.readline()
 	lignes = fic.readlines()
