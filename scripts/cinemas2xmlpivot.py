@@ -33,6 +33,7 @@ def getInfos(infilename, arrond="arrondissement", nom="nom", adresse="adresse", 
 	entree : fichier XML
 	sortie : dictionnaire
 	"""
+	arrondissement = ""
 	dic={}
 	tree = ET.parse(infilename)
 	root = tree.getroot()

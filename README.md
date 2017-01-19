@@ -78,8 +78,8 @@ Modules utilisés pour la réalisation des scripts :
 - codecs
 - xml.sax
 - [dicttoxml](https://github.com/quandyfactory/dicttoxml) (génère un fichier xml à partir d'un dictionnaire python)
-- json (gestion des fichiers json et conversion en dictionnaire python)
-- lxml
+- [json](https://docs.python.org/3/library/json.html) (gestion des fichiers json et conversion en dictionnaire python)
+- [lxml](https://pypi.python.org/pypi/lxml/3.3.3)
 - [geopy](https://github.com/geopy/geopy)
 
 ### Problèmes rencontrés lors de la création des scripts

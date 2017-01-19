@@ -37,6 +37,7 @@ def out_xml(dico, outpath):
 			fic.write(ligne)
 		fic.write("\t</arrondissement>\n")
 	fic.write("</root>")
+
 if __name__=='__main__':
 	dic = {}
 	dic = open_and_dic("../xml_formattes_pivot/cinemas-a-paris_pivot.xml",dic)

@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<arrondissement num="75001" loyer="27">
+		<element id="1" type="cinema">
+			<latitude>48.859785</latitude>
+			<longitude>2.346716</longitude>
+			<adresse>FORUM DES HALLES</adresse>
+			<nom>UGC CINE CITE LES HALLES 1</nom>
+		</element>
+		<element id="2" type="cinema">
+			<latitude>48.861661</latitude>
+			<longitude>2.347857</longitude>
+			<adresse>1 RUE DE L'ORIENT-EXPRESS</adresse>
+			<nom>FORUM ORIENT EXPRESS 1</nom>
+		</element>
+		<element id="3" type="bar">
+			<latitude>48.8579257</latitude>
+			<longitude>2.3463544</longitude>
+			<adresse>Avenue Victoria, St-Germain-l'Auxerrois, 1er</adresse>
+			<nom>Les Arènes</nom>
+		</element>
+		<element id="4" type="bar">
+			<latitude>48.8616362</latitude>
+			<longitude>2.3492126</longitude>
+			<adresse>Boulevard de Sébastopol, Les Halles, 1er</adresse>
+			<nom>Pop In</nom>
+		</element>
+		<element id="5" type="bar">
+			<latitude>48.861037</latitude>
+			<longitude>2.3488844</longitude>
+			<adresse>Rue Saint-Denis, Les Halles, 1er</adresse>
+			<nom>Hall's Beer Tavern</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75002" loyer="26">
+		<element id="6" type="cinema">
+			<latitude>48.8701164</latitude>
+			<longitude>2.3486831</longitude>
+			<adresse>14 RUE VILLE NEUVE 31 BOULEVARD BONNE NLL</adresse>
+			<nom>BEVERLEY</nom>
+		</element>
+		<element id="7" type="cinema">
+			<latitude>48.870632</latitude>
+			<longitude>2.334338</longitude>
+			<adresse>32 RUE LOUIS LEGRAND</adresse>
+			<nom>GAUMONT OPERA PREMIER 1</nom>
+		</element>
+		<element id="8" type="cinema">
+			<latitude>48.870623</latitude>
+			<longitude>2.347254</longitude>
+			<adresse>1 A 5 BOULEVARD POISSONNIERE</adresse>
+			<nom>GRAND REX</nom>
+		</element>
+		<element id="9" type="bar">
+			<latitude>48.8693141</latitude>
+			<longitude>2.3323713</longitude>
+			<adresse>4, Rue Daunou, Gaillon, 2e</adresse>
+			<nom>MKP Opéra</nom>
+		</element>
+		<element id="10" type="bar">
+			<latitude>48.8678347</latitude>
+			<longitude>2.3438681</longitude>
+			<adresse>Rue Montmartre, Mail, 2e</adresse>
+			<nom>O'Sullivans Rebel Red</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75003" loyer="25">
+		<element id="11" type="cinema">
+			<latitude>48.861555</latitude>
+			<longitude>2.352217</longitude>
+			<adresse>50 RUE RAMBUTEAU</adresse>
+			<nom>MK2 BEAUBOURG 1</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75004" loyer="25">
+		<element id="12" type="cinema">
+			<latitude>48.858689</latitude>
+			<longitude>2.353591</longitude>
+			<adresse>20 RUE DU TEMPLE</adresse>
+			<nom>LATINA 1</nom>
+		</element>
+		<element id="13" type="bar">
+			<latitude>48.8556943</latitude>
+			<longitude>2.3595261</longitude>
+			<adresse>Rue de Rivoli, St-Gervais, 4e</adresse>
+			<nom>Le Comptoir</nom>
+		</element>
+		<element id="14" type="bar">
+			<latitude>48.8595197</latitude>
+			<longitude>2.3519694</longitude>
+			<adresse>Place Igor Stravinsky, Beaubourg, St-Merri, 4e</adresse>
+			<nom>Le Festin Nu</nom>
+		</element>
+		<element id="15" type="bar">
+			<latitude>48.8538804</latitude>
+			<longitude>2.3682665</longitude>
+			<adresse>Rue de la Bastille, Arsenal, 4e</adresse>
+			<nom>Le Bouillon St Stef</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75005" loyer="24">
+		<element id="16" type="cinema">
+			<latitude>48.84815</latitude>
+			<longitude>2.341975</longitude>
+			<adresse>20 RUE CUJAS</adresse>
+			<nom>ACCATONE</nom>
+		</element>
+		<element id="17" type="cinema">
+			<latitude>48.841535</latitude>
+			<longitude>2.34958</longitude>
+			<adresse>100 RUE MOUFFETARD</adresse>
+			<nom>EPEE DE BOIS 1</nom>
+		</element>
+		<element id="18" type="cinema">
+			<latitude>48.851619</latitude>
+			<longitude>2.347076</longitude>
+			<adresse>42 RUE GALANDE</adresse>
+			<nom>STUDIO GALANDE</nom>
+		</element>
+		<element id="19" type="cinema">
+			<latitude>48.849983</latitude>
+			<longitude>2.343211</longitude>
+			<adresse>51 RUE DES ECOLES</adresse>
+			<nom>LE CHAMPO SALLE 1</nom>
+		</element>
+		<element id="20" type="cinema">
+			<latitude>48.842733</latitude>
+			<longitude>2.342044</longitude>
+			<adresse>10 RUE DES URSULINES</adresse>
+			<nom>STUDIO DES URSULINES</nom>
+		</element>
+		<element id="21" type="cinema">
+			<latitude>48.848384</latitude>
+			<longitude>2.348973</longitude>
+			<adresse>23 RUE DES ECOLES</adresse>
+			<nom>LE DESPERADO 1</nom>
+		</element>
+		<element id="22" type="cinema">
+			<latitude>48.849591</latitude>
+			<longitude>2.342836</longitude>
+			<adresse>7 RUE CHAMPOLLION</adresse>
+			<nom>REFLET MEDICIS 1</nom>
+		</element>
+		<element id="23" type="cinema">
+			<latitude>48.849504</latitude>
+			<longitude>2.342788</longitude>
+			<adresse>9 RUE CHAMPOLLION</adresse>
+			<nom>QUARTIER LATIN 1</nom>
+		</element>
+		<element id="24" type="cinema">
+			<latitude>48.853093</latitude>
+			<longitude>2.344228</longitude>
+			<adresse>7 PLACE ST MICHEL</adresse>
+			<nom>ESPACE SAINT MICHEL 1</nom>
+		</element>
+		<element id="25" type="cinema">
+			<latitude>48.847537</latitude>
+			<longitude>2.352122</longitude>
+			<adresse>5 RUE DES ECOLES</adresse>
+			<nom>LE GRAND ACTION 1</nom>
+		</element>
+		<element id="26" type="cinema">
+			<latitude>48.841154</latitude>
+			<longitude>2.353269</longitude>
+			<adresse>21 RUE CLEF 34 RUE DAUBENTON</adresse>
+			<nom>LA CLEF 1</nom>
+		</element>
+		<element id="27" type="cinema">
+			<latitude>48.847502</latitude>
+			<longitude>2.342301</longitude>
+			<adresse>13 RUE VICTOR COUSIN</adresse>
+			<nom>LE CINEMA DU PANTHEON</nom>
+		</element>
+		<element id="28" type="bar">
+			<latitude>48.8449764</latitude>
+			<longitude>2.3549028</longitude>
+			<adresse>Rue Guy de la Brosse, St-Victor, 5e</adresse>
+			<nom>Chez Michel</nom>
+		</element>
+		<element id="29" type="bar">
+			<latitude>48.8490395</latitude>
+			<longitude>2.348557</longitude>
+			<adresse>Rue de la Montagne Sainte-Geneviève, Sorbonne, 5e</adresse>
+			<nom>Dupont Versailles</nom>
+		</element>
+		<element id="30" type="bar">
+			<latitude>48.8525447</latitude>
+			<longitude>2.3466628</longitude>
+			<adresse>Rue du Petit Pont, Sorbonne, 5e</adresse>
+			<nom>L'Alibi</nom>
+		</element>
+		<element id="31" type="bar">
+			<latitude>48.850854</latitude>
+			<longitude>2.3477158</longitude>
+			<adresse>Rue des Anglais, Sorbonne, 5e</adresse>
+			<nom>L'Europe</nom>
+		</element>
+		<element id="32" type="bar">
+			<latitude>48.8457908</latitude>
+			<longitude>2.3539346</longitude>
+			<adresse>Rue des Boulangers, St-Victor, 5e</adresse>
+			<nom>Le Bistrot des Artistes</nom>
+		</element>
+		<element id="33" type="bar">
+			<latitude>48.845275</latitude>
+			<longitude>2.3491659</longitude>
+			<adresse>45, Rue Descartes, 5e Arrondissement, 5e</adresse>
+			<nom>Finnegan's Wake</nom>
+		</element>
+		<element id="34" type="bar">
+			<latitude>48.853075</latitude>
+			<longitude>2.3455319</longitude>
+			<adresse>20, Rue de la Huchette, Ilot Saint-Severin, Sorbonne, 5e</adresse>
+			<nom>Mc Brides</nom>
+		</element>
+		<element id="35" type="bar">
+			<latitude>48.8423393</latitude>
+			<longitude>2.3498473</longitude>
+			<adresse>Rue Mouffetard, 5e Arrondissement, 5e</adresse>
+			<nom>Le Havane</nom>
+		</element>
+		<element id="36" type="bar">
+			<latitude>48.8474266</latitude>
+			<longitude>2.3471508</longitude>
+			<adresse>18, Rue Laplace, Sorbonne, 5e</adresse>
+			<nom>The Frog &amp;amp; Rosbif</nom>
+		</element>
+		<element id="37" type="bar">
+			<latitude>48.8424716</latitude>
+			<longitude>2.3498216</longitude>
+			<adresse>Rue Mouffetard, 5e Arrondissement, 5e</adresse>
+			<nom>Le Dumas</nom>
+		</element>
+		<element id="38" type="bar">
+			<latitude>48.8442543</latitude>
+			<longitude>2.3498652</longitude>
+			<adresse>51, Rue Lacépède, 5e Arrondissement, 5e</adresse>
+			<nom>Le Sully</nom>
+		</element>
+		<element id="39" type="bar">
+			<latitude>48.8430061</latitude>
+			<longitude>2.3486843</longitude>
+			<adresse>16, Rue du Pot de Fer, Val-de-Grâce, 5e</adresse>
+			<nom>Dr. Feelgood</nom>
+		</element>
+		<element id="40" type="bar">
+			<latitude>48.8456039</latitude>
+			<longitude>2.3547969</longitude>
+			<adresse>Place Jussieu, St-Victor, 5e</adresse>
+			<nom>Lush</nom>
+		</element>
+		<element id="41" type="bar">
+			<latitude>48.8457052</latitude>
+			<longitude>2.3419808</longitude>
+			<adresse>Rue Royer-Collard, Val-de-Grâce, 5e</adresse>
+			<nom>Fauve Paris L'abreuvoir</nom>
+		</element>
+		<element id="42" type="bar">
+			<latitude>48.8462166</latitude>
+			<longitude>2.342933</longitude>
+			<adresse>Rue Malebranche, 5e Arrondissement, 5e</adresse>
+			<nom>Celtic Corner</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75006" loyer="27">
+		<element id="43" type="cinema">
+			<latitude>48.851278</latitude>
+			<longitude>2.330648</longitude>
+			<adresse>76 RUE DE RENNES</adresse>
+			<nom>L'ARLEQUIN PANORAMA</nom>
+		</element>
+		<element id="44" type="cinema">
+			<latitude>48.843752</latitude>
+			<longitude>2.324925</longitude>
+			<adresse>73 BOULEVARD DU MONTPARNASSE</adresse>
+			<nom>BRETAGNE 1</nom>
+		</element>
+		<element id="45" type="cinema">
+			<latitude>48.84351</latitude>
+			<longitude>2.325646</longitude>
+			<adresse>83 BOULEVARDD DU MONTPARNASSE</adresse>
+			<nom>UGC MONTPARNASSE 1</nom>
+		</element>
+		<element id="46" type="cinema">
+			<latitude>48.854455</latitude>
+			<longitude>2.340132</longitude>
+			<adresse>4 RUE CHRISTINE</adresse>
+			<nom>STUDIO CHRISTINE 1</nom>
+		</element>
+		<element id="47" type="cinema">
+			<latitude>48.842813</latitude>
+			<longitude>2.330525</longitude>
+			<adresse>11 RUE JULES CHAPLAIN</adresse>
+			<nom>MK2 PARNASSE 1</nom>
+		</element>
+		<element id="48" type="cinema">
+			<latitude>48.853442</latitude>
+			<longitude>2.340503</longitude>
+			<adresse>3O RUE ST ANDRE DES ARTS</adresse>
+			<nom>SAINT ANDRE DES ARTS 1</nom>
+		</element>
+		<element id="49" type="cinema">
+			<latitude>48.852353</latitude>
+			<longitude>2.339834</longitude>
+			<adresse>124 BOULEVARD ST GERMAIN</adresse>
+			<nom>UGC ODEON 2</nom>
+		</element>
+		<element id="50" type="cinema">
+			<latitude>48.85467</latitude>
+			<longitude>2.333052</longitude>
+			<adresse>22 RUE GUILLAUME APOLLINAIRE</adresse>
+			<nom>ST GERMAIN DES PRES</nom>
+		</element>
+		<element id="51" type="cinema">
+			<latitude>48.842318</latitude>
+			<longitude>2.328975</longitude>
+			<adresse>103 BOULEVARD DU MONTPARNASSE</adresse>
+			<nom>UGC ROTONDE 1</nom>
+		</element>
+		<element id="52" type="cinema">
+			<latitude>48.852437</latitude>
+			<longitude>2.338266</longitude>
+			<adresse>113 BOULEVARD ST GERMAIN</adresse>
+			<nom>MK2 ODEON 2</nom>
+		</element>
+		<element id="53" type="cinema">
+			<latitude>48.852188</latitude>
+			<longitude>2.342788</longitude>
+			<adresse>7 RUE HAUTEFEUILLE</adresse>
+			<nom>MK2 HAUTEFEUILLE 1</nom>
+		</element>
+		<element id="54" type="cinema">
+			<latitude>48.844244</latitude>
+			<longitude>2.330407</longitude>
+			<adresse>53 RUE NOTRE DAME DES CHAMPS</adresse>
+			<nom>LUCERNAIRE FORUM GRANDE SAL</nom>
+		</element>
+		<element id="55" type="cinema">
+			<latitude>48.850764</latitude>
+			<longitude>2.341747</longitude>
+			<adresse>6 RUE DE L ECOLE DE MEDECINE</adresse>
+			<nom>NOUVEL ODEON</nom>
+		</element>
+		<element id="56" type="cinema">
+			<latitude>48.852138</latitude>
+			<longitude>2.338995</longitude>
+			<adresse>99 BOULEVARD ST GERMAIN</adresse>
+			<nom>UGC DANTON 1</nom>
+		</element>
+		<element id="57" type="cinema">
+			<latitude>48.84824</latitude>
+			<longitude>2.340797</longitude>
+			<adresse>67 69 RUE MONSIEUR LE PRINCE</adresse>
+			<nom>LUXEMBOURG 1</nom>
+		</element>
+		<element id="58" type="bar">
+			<latitude>48.8522792</latitude>
+			<longitude>2.3345573</longitude>
+			<adresse>Rue Princesse, Odéon, 6e</adresse>
+			<nom>Au Fût et à Mesure</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75007" loyer="28">
+		<element id="59" type="cinema">
+			<latitude>48.851726</latitude>
+			<longitude>2.316361</longitude>
+			<adresse>57 BIS RUE DE BABYLONE</adresse>
+			<nom>LA PAGODE 1</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75008" loyer="26">
+		<element id="60" type="cinema">
+			<latitude>48.872794</latitude>
+			<longitude>2.296984</longitude>
+			<adresse>133 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>PUBLICIS CINEMA 2</nom>
+		</element>
+		<element id="61" type="cinema">
+			<latitude>48.872431</latitude>
+			<longitude>2.299525</longitude>
+			<adresse>1 RUE BALZAC</adresse>
+			<nom>BALZAC 1</nom>
+		</element>
+		<element id="62" type="cinema">
+			<latitude>48.870843</latitude>
+			<longitude>2.304317</longitude>
+			<adresse>GRAND PALAIS CHAMPS ELYSEES</adresse>
+			<nom>MK2 GRAND PALAIS</nom>
+		</element>
+		<element id="63" type="cinema">
+			<latitude>48.872265</latitude>
+			<longitude>2.300938</longitude>
+			<adresse>116 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>UGC NORMANDIE 2</nom>
+		</element>
+		<element id="64" type="cinema">
+			<latitude>48.870512</latitude>
+			<longitude>2.303157</longitude>
+			<adresse>14 RUE LINCOLN</adresse>
+			<nom>ELYSEES LINCOLN 1</nom>
+		</element>
+		<element id="65" type="cinema">
+			<latitude>48.869654</latitude>
+			<longitude>2.306873</longitude>
+			<adresse>27/33 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>GAUMONT CHAMPS ELYSEES MARIGNAN 3</nom>
+		</element>
+		<element id="66" type="cinema">
+			<latitude>48.870374</latitude>
+			<longitude>2.306888</longitude>
+			<adresse>50 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>GAUMONT CHAMPS ELYSEES AMBASSADE 7</nom>
+		</element>
+		<element id="67" type="cinema">
+			<latitude>48.873073</latitude>
+			<longitude>2.298394</longitude>
+			<adresse>146 AVENUE DES CHAMPS ELYSEES</adresse>
+			<nom>GEORGE V 4</nom>
+		</element>
+		<element id="68" type="cinema">
+			<latitude>48.874832</latitude>
+			<longitude>2.323941</longitude>
+			<adresse>44 RUE PASQUIER</adresse>
+			<nom>SAINT LAZARE PASQUIER 1</nom>
+		</element>
+		<element id="69" type="bar">
+			<latitude>48.8778514</latitude>
+			<longitude>2.3157284</longitude>
+			<adresse>Rue de Lisbonne, Europe, 8e</adresse>
+			<nom>Patrick's Le Ballon Vert</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75009" loyer="24">
+		<element id="70" type="cinema">
+			<latitude>48.871332</latitude>
+			<longitude>2.335302</longitude>
+			<adresse>32 BOULEVARDD DES ITALIENS</adresse>
+			<nom>UGC OPERA 1</nom>
+		</element>
+		<element id="71" type="cinema">
+			<latitude>48.87561</latitude>
+			<longitude>2.32791</longitude>
+			<adresse>101 RUE ST LAZARE</adresse>
+			<nom>CAUMARTIN 4 (EX CINEVOG 4 )</nom>
+		</element>
+		<element id="72" type="cinema">
+			<latitude>48.871044</latitude>
+			<longitude>2.33361</longitude>
+			<adresse>2/4 BOULEVARD DES CAPUCINES</adresse>
+			<nom>GAUMONT OPERA CAPUCINES 2</nom>
+		</element>
+		<element id="73" type="cinema">
+			<latitude>48.871048</latitude>
+			<longitude>2.334386</longitude>
+			<adresse>38 BOULEVARD DES ITALIENS</adresse>
+			<nom>GAUMONT OPERA FRANCAIS 8</nom>
+		</element>
+		<element id="74" type="cinema">
+			<latitude>48.871363</latitude>
+			<longitude>2.344886</longitude>
+			<adresse>24 BOULEVARD POISSONNIERE</adresse>
+			<nom>MAX LINDER</nom>
+		</element>
+		<element id="75" type="bar">
+			<latitude>48.870988</latitude>
+			<longitude>2.3449749</longitude>
+			<adresse>Boulevard Poissonnière, Sentier, 9e Arrondissement</adresse>
+			<nom>James Hetfeeld's Pub</nom>
+		</element>
+		<element id="76" type="bar">
+			<latitude>48.8713994</latitude>
+			<longitude>2.3446987</longitude>
+			<adresse>Boulevard Poissonnière, Sentier, 9e Arrondissement</adresse>
+			<nom>Margen's Pub</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75010" loyer="23">
+		<element id="77" type="cinema">
+			<latitude>48.883487</latitude>
+			<longitude>2.349853</longitude>
+			<adresse>170 BOULEVARD DE MAGENTA</adresse>
+			<nom>LE LOUXOR SALLE 1 YOUSSEF CHAHINE</nom>
+		</element>
+		<element id="78" type="cinema">
+			<latitude>48.871771</latitude>
+			<longitude>2.355398</longitude>
+			<adresse>39 BOULEVARD DE STRASBOURG</adresse>
+			<nom>LE BRADY 1</nom>
+		</element>
+		<element id="79" type="cinema">
+			<latitude>48.870455</latitude>
+			<longitude>2.35466</longitude>
+			<adresse>17 BOULEVARD DE STRASBOURG</adresse>
+			<nom>L'ARCHIPEL 1</nom>
+		</element>
+		<element id="80" type="bar">
+			<latitude>48.8713202</latitude>
+			<longitude>2.365856</longitude>
+			<adresse>Quai de Jemmapes, Porte-St-Martin, 10e</adresse>
+			<nom>Le chinois</nom>
+		</element>
+		<element id="81" type="bar">
+			<latitude>48.8703084</latitude>
+			<longitude>2.3528255</longitude>
+			<adresse>Rue du Faubourg Saint-Denis, Porte-St-Denis, 10e</adresse>
+			<nom>Thirsty Mad Cat</nom>
+		</element>
+		<element id="82" type="bar">
+			<latitude>48.8782984</latitude>
+			<longitude>2.3583405</longitude>
+			<adresse>1, Rue des Deux Gares, St-Vincent-de-Paul, 10e</adresse>
+			<nom>L'Adresse</nom>
+		</element>
+		<element id="83" type="bar">
+			<latitude>48.8727411</latitude>
+			<longitude>2.3545133</longitude>
+			<adresse>Rue du Château d'Eau, Porte-St-Denis, 10e</adresse>
+			<nom>Le Comptoir</nom>
+		</element>
+		<element id="84" type="bar">
+			<latitude>48.8711993</latitude>
+			<longitude>2.3697018</longitude>
+			<adresse>13, Rue Jacques Louvel-Tessier, Hôpital-St-Louis, 10e</adresse>
+			<nom>Le Rivolux</nom>
+		</element>
+		<element id="85" type="bar">
+			<latitude>48.8746926</latitude>
+			<longitude>2.3541936</longitude>
+			<adresse>12, Rue de Paradis, Porte-St-Denis, 10e</adresse>
+			<nom>Le Château d'Eau</nom>
+		</element>
+		<element id="86" type="bar">
+			<latitude>48.8707201</latitude>
+			<longitude>2.3498182</longitude>
+			<adresse>Rue d'Hauteville, Porte-St-Denis, 10e</adresse>
+			<nom>L'Iris</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75011" loyer="22">
+		<element id="87" type="cinema">
+			<latitude>48.853157</latitude>
+			<longitude>2.370719</longitude>
+			<adresse>5 RUE DU FAUBOURG ST ANTOINE</adresse>
+			<nom>LA BASTILLE 1</nom>
+		</element>
+		<element id="88" type="cinema">
+			<latitude>48.85399</latitude>
+			<longitude>2.369949</longitude>
+			<adresse>4 BOULEVARD RICHARD LENOIR</adresse>
+			<nom>MAJESTIC BASTILLE 1</nom>
+		</element>
+		<element id="89" type="cinema">
+			<latitude>48.854674</latitude>
+			<longitude>2.369381</longitude>
+			<adresse>3 BOULEVARD RICHARD LENOIR 4/6 BOULEVARD BEAUMARCHAIS</adresse>
+			<nom>MK2 BASTILLE 1</nom>
+		</element>
+		<element id="90" type="bar">
+			<latitude>48.8648511</latitude>
+			<longitude>2.3817815</longitude>
+			<adresse>6, Avenue Jean Aicard, St-Ambroise, 11e</adresse>
+			<nom>Le Dernier Bar Avant la Fin du Monde</nom>
+		</element>
+		<element id="91" type="bar">
+			<latitude>48.8614116</latitude>
+			<longitude>2.3675537</longitude>
+			<adresse>105, Rue Amelot, St-Ambroise, 11e</adresse>
+			<nom>L'antidote</nom>
+		</element>
+		<element id="92" type="bar">
+			<latitude>48.8527486</latitude>
+			<longitude>2.3889981</longitude>
+			<adresse>Rue Alexandre Dumas, Ste-Marguerite, 11e</adresse>
+			<nom>Taverne de la Butte</nom>
+		</element>
+		<element id="93" type="bar">
+			<latitude>48.8553007</latitude>
+			<longitude>2.3755708</longitude>
+			<adresse>34, Rue Keller, Roquette, 11e</adresse>
+			<nom>Sunset</nom>
+		</element>
+		<element id="94" type="bar">
+			<latitude>48.8666898</latitude>
+			<longitude>2.369421</longitude>
+			<adresse>Boulevard Richard Lenoir, Folie-Méricourt, 11e</adresse>
+			<nom>Paradis 13</nom>
+		</element>
+		<element id="95" type="bar">
+			<latitude>48.8584243</latitude>
+			<longitude>2.3685727</longitude>
+			<adresse>Rue Amelot, St-Ambroise, 11e</adresse>
+			<nom>Black Mad Crawler</nom>
+		</element>
+		<element id="96" type="bar">
+			<latitude>48.8687538</latitude>
+			<longitude>2.379949</longitude>
+			<adresse>Rue Jean-Pierre Timbaud, Folie-Méricourt, 11e</adresse>
+			<nom>Le Berny</nom>
+		</element>
+		<element id="97" type="bar">
+			<latitude>48.8683391</latitude>
+			<longitude>2.3714311</longitude>
+			<adresse>Rue de la Fontaine au Roi, Folie-Méricourt, 11e</adresse>
+			<nom>Le bar à mine</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75012" loyer="22">
+		<element id="98" type="cinema">
+			<latitude>48.833007</latitude>
+			<longitude>2.38666</longitude>
+			<adresse>2 COUR SAINT-EMILION</adresse>
+			<nom>UGC CINE CITE BERCY 10</nom>
+		</element>
+		<element id="99" type="cinema">
+			<latitude>48.848213</latitude>
+			<longitude>2.39311</longitude>
+			<adresse>133 BOULEVARD DIDEROT</adresse>
+			<nom>MK2 NATION 1</nom>
+		</element>
+		<element id="100" type="cinema">
+			<latitude>48.847502</latitude>
+			<longitude>2.371855</longitude>
+			<adresse>12 RUE DE LYON</adresse>
+			<nom>UGC LYON BASTILLE 3</nom>
+		</element>
+		<element id="101" type="bar">
+			<latitude>48.8467474</latitude>
+			<longitude>2.3783883</longitude>
+			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
+			<nom>Le Maryland</nom>
+		</element>
+		<element id="102" type="bar">
+			<latitude>48.8486443</latitude>
+			<longitude>2.3753679</longitude>
+			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
+			<nom>L'Acapulco</nom>
+		</element>
+		<element id="103" type="bar">
+			<latitude>48.8468648</latitude>
+			<longitude>2.3840074</longitude>
+			<adresse>88, Boulevard Diderot, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
+			<nom>Le Calbar</nom>
+		</element>
+		<element id="104" type="bar">
+			<latitude>48.8494366</latitude>
+			<longitude>2.3743781</longitude>
+			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
+			<nom>L'Assassin</nom>
+		</element>
+		<element id="105" type="bar">
+			<latitude>48.8492104</latitude>
+			<longitude>2.389517</longitude>
+			<adresse>Rue Claude Tillier, 12e Arrondissement (urbain), Picpus, 12e</adresse>
+			<nom>L'Escargot</nom>
+		</element>
+		<element id="106" type="bar">
+			<latitude>48.847497</latitude>
+			<longitude>2.3970587</longitude>
+			<adresse>Place de la Nation, 12e Arrondissement (urbain), Picpus, 12e</adresse>
+			<nom>Tête à l'envers</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75013" loyer="22">
+		<element id="107" type="cinema">
+			<latitude>48.833718</latitude>
+			<longitude>2.373922</longitude>
+			<adresse>128 A 162 AVENUE DE FRANCE</adresse>
+			<nom>MK2 BIBLIOTHEQUE A</nom>
+		</element>
+		<element id="108" type="cinema">
+			<latitude>48.836817</latitude>
+			<longitude>2.349632</longitude>
+			<adresse>11 BOULEVARD PORT ROYAL</adresse>
+			<nom>ESCURIAL 1</nom>
+		</element>
+		<element id="109" type="cinema">
+			<latitude>48.833574</latitude>
+			<longitude>2.353775</longitude>
+			<adresse>58 AVENUE DES GOBELINS</adresse>
+			<nom>GAUMONT GOBELINS 1</nom>
+		</element>
+		<element id="110" type="cinema">
+			<latitude>48.832888</latitude>
+			<longitude>2.354241</longitude>
+			<adresse>66 BIS AVENUE DES GOBELINS</adresse>
+			<nom>UGC GOBELINS 3</nom>
+		</element>
+		<element id="111" type="bar">
+			<latitude>48.8304045</latitude>
+			<longitude>2.3475111</longitude>
+			<adresse>Rue Edmond Gondinet, Croulebarbe, 13e</adresse>
+			<nom>Chez Anna</nom>
+		</element>
+		<element id="112" type="bar">
+			<latitude>48.8276841</latitude>
+			<longitude>2.3501384</longitude>
+			<adresse>Rue de la Butte aux Cailles, Butte aux Cailles, Maison-Blanche, 13e</adresse>
+			<nom>L'Olivier</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75014" loyer="23">
+		<element id="113" type="cinema">
+			<latitude>48.833879</latitude>
+			<longitude>2.330976</longitude>
+			<adresse>24 PLACE DENFERT ROCHEREAU</adresse>
+			<nom>CHAPLIN DENFERT</nom>
+		</element>
+		<element id="114" type="cinema">
+			<latitude>48.83393</latitude>
+			<longitude>2.31652</longitude>
+			<adresse>7 ET 9 RUE FRANCIS DE PRESSENSE</adresse>
+			<nom>ENTREPOT 1</nom>
+		</element>
+		<element id="115" type="cinema">
+			<latitude>48.843074</latitude>
+			<longitude>2.324424</longitude>
+			<adresse>3 RUE D'ODESSA</adresse>
+			<nom>GAUMONT PARNASSE 1</nom>
+		</element>
+		<element id="116" type="cinema">
+			<latitude>48.829473</latitude>
+			<longitude>2.328009</longitude>
+			<adresse>70 AVENUE DU GENERAL LECLERC</adresse>
+			<nom>MISTRAL 2</nom>
+		</element>
+		<element id="117" type="cinema">
+			<latitude>48.828166</latitude>
+			<longitude>2.327463</longitude>
+			<adresse>73 AVENUE DU GENERAL LECLERC</adresse>
+			<nom>GAUMONT ALESIA 1</nom>
+		</element>
+		<element id="118" type="cinema">
+			<latitude>48.841914</latitude>
+			<longitude>2.324596</longitude>
+			<adresse>18 RUE D'ODESSA</adresse>
+			<nom>MONTPARNOS 1</nom>
+		</element>
+		<element id="119" type="cinema">
+			<latitude>48.842443</latitude>
+			<longitude>2.327625</longitude>
+			<adresse>98 BOULEVARD DU MONTPARNASSE</adresse>
+			<nom>PARNASSIEN 1</nom>
+		</element>
+		<element id="120" type="bar">
+			<latitude>48.8366253</latitude>
+			<longitude>2.3205726</longitude>
+			<adresse>33, Rue de l'Ouest, Plaisance, 14e</adresse>
+			<nom>Osmoz Café</nom>
+		</element>
+		<element id="121" type="bar">
+			<latitude>48.8341125</latitude>
+			<longitude>2.3181604</longitude>
+			<adresse>Rue Raymond Losserand, Plaisance, 14e</adresse>
+			<nom>Au Métro</nom>
+		</element>
+		<element id="122" type="bar">
+			<latitude>48.8428397</latitude>
+			<longitude>2.3260648</longitude>
+			<adresse>42, Rue du Montparnasse, Montparnasse, 14e</adresse>
+			<nom>The Cork and Cavan</nom>
+		</element>
+		<element id="123" type="bar">
+			<latitude>48.8281219</latitude>
+			<longitude>2.3158457</longitude>
+			<adresse>Rue Didot, Plaisance, 14e</adresse>
+			<nom>Le Falstaff</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75015" loyer="24">
+		<element id="124" type="cinema">
+			<latitude>48.843204</latitude>
+			<longitude>2.298558</longitude>
+			<adresse>6 RUE PECLET</adresse>
+			<nom>CHAPLIN SAINT LAMBERT 1</nom>
+		</element>
+		<element id="125" type="cinema">
+			<latitude>48.838033</latitude>
+			<longitude>2.295827</longitude>
+			<adresse>27 A 31 RUE ALAIN CHARTIER</adresse>
+			<nom>GAUMONT CONVENTION 2</nom>
+		</element>
+		<element id="126" type="cinema">
+			<latitude>48.83039</latitude>
+			<longitude>2.276254</longitude>
+			<adresse>8/16 RUE DU COLONEL PIERRE AVIA</adresse>
+			<nom>GAUMONT AQUABOULEVARD 1</nom>
+		</element>
+		<element id="127" type="bar">
+			<latitude>48.8503692</latitude>
+			<longitude>2.2930824</longitude>
+			<adresse>Boulevard de Grenelle, Grenelle, 15e</adresse>
+			<nom>James Joyce</nom>
+		</element>
+		<element id="128" type="bar">
+			<latitude>48.8357125</latitude>
+			<longitude>2.2929761</longitude>
+			<adresse>354, Rue de Vaugirard, St-Lambert, 15e</adresse>
+			<nom>Café Leffe</nom>
+		</element>
+		<element id="129" type="bar">
+			<latitude>48.8350897</latitude>
+			<longitude>2.3042236</longitude>
+			<adresse>Rue de Vouillé, St-Lambert, 15e</adresse>
+			<nom>Au train de vie</nom>
+		</element>
+		<element id="130" type="bar">
+			<latitude>48.84384</latitude>
+			<longitude>2.2958801</longitude>
+			<adresse>88, Rue de la Croix Nivert, Grenelle, 15e</adresse>
+			<nom>Le Pantalon</nom>
+		</element>
+		<element id="131" type="bar">
+			<latitude>48.8419073</latitude>
+			<longitude>2.300498</longitude>
+			<adresse>135, Rue Lecourbe, St-Lambert, 15e</adresse>
+			<nom>Les Fontaines</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75016" loyer="25">
+		<element id="132" type="cinema">
+			<latitude>48.858204</latitude>
+			<longitude>2.282104</longitude>
+			<adresse>18 - 20 RUE DE PASSY</adresse>
+			<nom>MAJESTIC PASSY 1</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75017" loyer="24">
+		<element id="133" type="cinema">
+			<latitude>48.875539</latitude>
+			<longitude>2.294478</longitude>
+			<adresse>5/7 AV MAC MAHON</adresse>
+			<nom>MAC MAHON</nom>
+		</element>
+		<element id="134" type="cinema">
+			<latitude>48.879964</latitude>
+			<longitude>2.283381</longitude>
+			<adresse>PALAIS CONGRES PLACE PORTE MAILLOT</adresse>
+			<nom>UGC MAILLOT 3</nom>
+		</element>
+		<element id="135" type="cinema">
+			<latitude>48.876113</latitude>
+			<longitude>2.295345</longitude>
+			<adresse>14 RUE TROYON</adresse>
+			<nom>CLUB DE L ETOILE</nom>
+		</element>
+		<element id="136" type="cinema">
+			<latitude>48.884303</latitude>
+			<longitude>2.326888</longitude>
+			<adresse>7 AVENUE DE CLICHY</adresse>
+			<nom>LE CINEMA DES CINEASTES 1</nom>
+		</element>
+		<element id="137" type="bar">
+			<latitude>48.8851266</latitude>
+			<longitude>2.3251655</longitude>
+			<adresse>Rue des Dames, Batignolles, 17e</adresse>
+			<nom>Le Triangle</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75018" loyer="22">
+		<element id="138" type="cinema">
+			<latitude>48.883938</latitude>
+			<longitude>2.328034</longitude>
+			<adresse>132 -140 BOULEVARD DE CLICHY</adresse>
+			<nom>PATHE WEPLER 8</nom>
+		</element>
+		<element id="139" type="cinema">
+			<latitude>48.886142</latitude>
+			<longitude>2.335342</longitude>
+			<adresse>10 RUE THOLOZE</adresse>
+			<nom>STUDIO 28</nom>
+		</element>
+		<element id="140" type="bar">
+			<latitude>48.8904696</latitude>
+			<longitude>2.3392991</longitude>
+			<adresse>10, Rue de la Fontaine du But, Grandes-Carrières, 18e</adresse>
+			<nom>Epsilon</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75019" loyer="21">
+		<element id="141" type="cinema">
+			<latitude>48.885073</latitude>
+			<longitude>2.371493</longitude>
+			<adresse>14 QUAI DE LA SEINE</adresse>
+			<nom>MK2 QUAI DE SEINE 1</nom>
+		</element>
+		<element id="142" type="cinema">
+			<latitude>48.888947</latitude>
+			<longitude>2.392436</longitude>
+			<adresse>211 AVENUE JEAN JAURES</adresse>
+			<nom>BORIS VIAN</nom>
+		</element>
+		<element id="143" type="cinema">
+			<latitude>48.898991</latitude>
+			<longitude>2.376757</longitude>
+			<adresse>166 BOULEVARD MACDONALD</adresse>
+			<nom>UGC CINE CITE PARIS 19 (1)</nom>
+		</element>
+		<element id="144" type="cinema">
+			<latitude>48.885067</latitude>
+			<longitude>2.374123</longitude>
+			<adresse>5/19 QUAI DE LA LOIRE</adresse>
+			<nom>MK2 QUAI DE LOIRE 1</nom>
+		</element>
+		<element id="145" type="cinema">
+			<latitude>48.896314</latitude>
+			<longitude>2.384409</longitude>
+			<adresse>26 AVENUE CORENTIN CARIOU</adresse>
+			<nom>LA GEODE</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num="75020" loyer="21">
+		<element id="146" type="cinema">
+			<latitude>48.864763</latitude>
+			<longitude>2.399555</longitude>
+			<adresse>6 RUE BELGRAND</adresse>
+			<nom>MK2 GAMBETTA 1</nom>
+		</element>
+		<element id="147" type="cinema">
+			<latitude>48.877995</latitude>
+			<longitude>2.409433</longitude>
+			<adresse>PLACE DU MAQUIS DU VERCORS</adresse>
+			<nom>ETOILE LILAS 1</nom>
+		</element>
+		<element id="148" type="bar">
+			<latitude>48.8510126</latitude>
+			<longitude>2.4018663</longitude>
+			<adresse>Rue des Grands Champs, Saint-Blaise, Charonne, 20e</adresse>
+			<nom>Le Bureau</nom>
+		</element>
+	</arrondissement>
+</root>

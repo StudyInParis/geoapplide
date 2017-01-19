@@ -403,5 +403,11 @@
 	<arrondissement num ="75019">
 	</arrondissement>
 	<arrondissement num ="75020">
+		<element id="0" type="bar">
+			<latitude>48.8510126</latitude>
+			<longitude>2.4018663</longitude>
+			<adresse>Rue des Grands Champs, Saint-Blaise, Charonne, 20e</adresse>
+			<nom>Le Bureau</nom>
+		</element>
 	</arrondissement>
 </root>

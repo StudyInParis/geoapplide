@@ -74,15 +74,19 @@
 											<h2 id="titre">Les données</h2>
 
 											<h3 id="datagouv">DataGouv</h3>
+												<img src="images/datagouv.png" alt="logo paris opendata" height="100px"/>
 												<p>Une partie de nos données viennent du site <a href="http://www.data.gouv.fr/fr/">data.gouv</a>, un site gourvernemental qui propose les données mises en ligne par le gouvernement. Nous y avons par exemple récupéré les données sur les loyers moyens à Paris ou les bibliothèques.</p>
 												<p>Beaucoup de données y sont présentes au format CSV ou JSON, peu de choses sont récupérables en XML, nous avons du les transformer donc en xml, c'est expliqué <a href="#data2xml">un peu plus loin</a>.</p>
-												<img src="images/datagouv.png" alt="logo paris opendata" height="100px"/>
+
 											<h3 id="parisdata">Paris OpenData</h3>
-												<p>La plus grosse partie de nos sources vient du site <a href="https://opendata.paris.fr">opendata</a> de la ville de Paris. De même, la plupart des données y sont présentes au format CSV, donc elles ont été transformées aussi.</p>
 												<img src="images/parisdata.png" alt="logo paris opendata" width="300px"/>
-												<h2 id="scripts">Transofrmations des données avec Python</h2>
+												<p>La plus grosse partie de nos sources vient du site <a href="https://opendata.paris.fr">opendata</a> de la ville de Paris. De même, la plupart des données y sont présentes au format CSV, donc elles ont été transformées aussi.</p>
+												
+											<h2 id="scripts">Transformations des données avec Python</h2>
+											
 											<h3 id="data2xml">Transformation en fichiers XML</h3>
-											<h4 id="csv2xml">CSV</h4>
+											
+											<h4 id="csv2xml">Traitement du fichier OpenBeerMap</h4>
 												<p>Le fichier OpenBeerMap est construit de la façon suivante :
 
 												<ul><li>OpenBeerMap_IDF.1126088147,1126088147,(1:Akerbeltz_ambrée),Non,L'Express,pub</li></ul>
@@ -91,39 +95,51 @@
 
 												<ul><li>OpenBeerMap_IDF.1305927682,1305927682,"(9:Chouffe,Desperados,Guinness,Heineken,Hoegarden blanche,Leffe,...)",Non,Osmoz Café,pub</li></ul>
 
-												Donc on ne peut pas spliter(séparer les éléments) sur la virgule directement. On extrait donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contenant toutes les informations pour les imprimer dans le fichier de sortie.</p>
+												Donc on ne peut pas spliter (séparer les éléments) sur la virgule directement. On extrait donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire. On peut ainsi spliter la ligne sur la virgule et récupérer un tableau contenant toutes les informations pour les imprimer dans le fichier de sortie.</p>
 
 												<p>On obtient le fichier <a href="../donnees_xml/OpenBeerMap.xml">openbeermap.xml</a>.</p>
+
 											<h4 id="json2xml">JSON</h4>
-												<p>Les fichiers json ont été très simples (dans un premier temps..) à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
+												<p>Les fichiers json ont été très simples (dans un premier temps ...) à passer en XML, python propose le module <a href="https://docs.python.org/3/library/json.html">json</a> qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
 
-												Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
-												- facs.xml <br/>
-												- cinemas.xml <br/>
-												- preservatifs.xml <br/>
-												- quartiers.xml <br/>
-												- cafes.xml <br/>
-												- marches.xml <br/>
+												Ensuite un module, <a href="https://github.com/quandyfactory/dicttoxml">dicttoxml</a>, permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
+												<ul>
+													<li>facs.xml</li>
+													<li>cinemas.xml</li>
+													<li>preservatifs.xml</li>
+													<li>quartiers.xml</li>
+													<li>cafes.xml</li>
+													<li>marches.xml</li>
+												</ul>
 
-												Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise <item>
-												chaque liste du json d'origine. il y avait plusieurs balises <item>, dans différents noeuds...
-												  -> Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.</p>
+												Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise &lt;item&gt;
+												chaque liste du json d'origine. il y avait plusieurs balises &lt;item&gt;, dans différents noeuds...<br/>
+												Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.</p>
+
 											<h3 id="xmlpivot">Réalisation d'un fichier pivot en XML</h3>
-												<p>Après avoir transformé toutes nos données en xml, l'étendue des dégâts est grande : deuxfichiers xml sont inutilisables (quartiers de Paris et les facs) et plusieurs éléments inutilisables du fait du manque de données à l'intérieur du fichier d'origine. </p>
-												<p>Nous avons décidé d'un modèle de xml pour visualiser a posteriori nos données : le format xml_pivot. <br/> Ce modèle étant défini, on a transformé chaque xml en un format xml_pivot avec une balise "arrondissement" qui est la sous racine, et à l'intérieur de chaque balise "arrondissement" tous les équipements contenus dans l'arrondissement avec balise "element" et attribut "type" et un id pour les numéroter, chaque élément contenant à son tour quatre balises : "latitude" "longitude" "adresse" "nom." Nous verrons ensuite l'utilité des geocoordonnées<br/>
-												Remarque : pour le fichier bibliotheque, les coordonnées n'étant pas présentes, nous avons du aller les chercher avec un module qui prend en entrée une adresse et donne ses long/lat.<br/>
-												</p>
-												<p>Dès lors que nous avions formaté nos données de façon identique, le xml pivot final fut assez facile à réaliser, les détails se trouvent dans le script de création.</p>
-											<h4 id = "loyers">Ajout des loyers</h4>
+												<p>Après avoir transformé toutes nos données en xml, l'étendue des dégâts est grande : deux fichiers xml sont inutilisables (quartiers de Paris et les facs) et plusieurs éléments inutilisables du fait du manque de données à l'intérieur du fichier d'origine.</p>
 
-												<p>On passe par un fichier csv pour récupérer les loyers par quartier, malheureusement les quartiers étant identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. Ensuite on établit la moyenne de loyer par arrondissement, par quartier, par taille d'appartement et par date de construction, pour obtenir un arrondi au mètre carré. Il est informé comme attribut de la balise'arrondissement'dans le xml pivot.</p>
+												<p>Nous avons décidé d'un modèle de xml pour visualiser a posteriori nos données : le format xml_pivot. <br/>
+												Ce modèle étant défini, on a transformé chaque xml en un format xml_pivot avec une balise "arrondissement" qui est la sous racine, et à l'intérieur de chaque balise "arrondissement" tous les équipements contenus dans l'arrondissement avec balise "element" et attribut "type" et un id pour les numéroter, chaque élément contenant à son tour quatre balises : "latitude", "longitude", "adresse" et "nom." Nous verrons ensuite l'utilité des geocoordonnées<br/>
+												Remarque : pour le fichier bibliotheque, les coordonnées n'étant pas présentes, nous avons du aller les chercher avec un module qui prend en entrée une adresse et donne ses coordonnées, latitude et longitude.<br/>
+												</p>
+												<p>Dès lors, nos données étaietn formatées de façon identique, le xml pivot final fut assez facile à réaliser, les détails se trouvent dans le script de création disponible en <a href="../scripts/creation_xml_pivot.py">ici</a>.</p>
+											
+											<h4 id = "loyers">Ajout des loyers</h4>
+												<p>On passe par un fichier CSV pour récupérer les loyers par quartier. Malheureusement les quartiers étant identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. <br/>
+												Ensuite on établit la moyenne de loyer par arrondissement, par quartier, par taille d'appartement et par date de construction, pour obtenir un arrondi au mètre carré. Il est informé comme attribut de la balise 'arrondissement' dans le xml pivot.</p>
 
 											<h3 id="stats">Calculs de statistiques sur les données</h3>
-												<p>On a aussi créé un tableau excel (si on a le temps on fera un script qui le crée de A à Z mais ce n'est pas le plus urgent à ce jour) qui regroupe toutes les statistiques sur chaque arrondissement. Sa conception a été facilitée par la structure de données d'origine de python(dictionnaires) qui a permis d'extraire les chiffres intuitivement -> on trouve les moyennes de chaque type de lieu par arrondissement et en total, le max et le min de chacun, et deux matrices, une de covariance et une autre de corrélation qui nous sera utile à l'heure de formuler nos hypothèses.</p>
-												<p>De cette matrice sont nés plusieurs graphiques, les équipements pour chaque arrondissement, et la quantité d'un équipement par arrondissement</p>
+												<p>On a aussi créé un tableau excel qui regroupe toutes les statistiques sur chaque arrondissement. Sa conception a été facilitée par la structure de données d'origine de python (dictionnaires) qui a permis d'extraire les chiffres intuitivement.<br/>
+												On trouve les moyennes de chaque type de lieu par arrondissement et en total, le max et le min de chacun, et deux matrices, une de covariance et une autre de corrélation qui nous sera utile à l'heure de formuler nos hypothèses.</p>
+												<p>De cette matrice sont nés plusieurs graphiques, les équipements pour chaque arrondissement, et la quantité d'un équipement par arrondissement, visibles sur la page des <a href="page2_graphes.html">graphes</a>.</p>
+											
 											<h3 id="javascript">Utilisation de javascript pour la réalisation du site</h3>
-												<p>Pour le site, il y a eu deux étapes, bien distinctes, la première est la modélisation des statistiques avec des graphiques, en parsant le xml pivot. Jquery a ressorti les nombres de chaque element par arrondissement, et l'on a pu en sortir des graphiques  <a href ="page2_graphes.html">comme cela</a>. La seconde étape fut la création d'une carte googlemaps référençant à la fois chaque équipement avec un marqueur, ce qui fut rendu possible avec une requête ajax depuis le serveur github sur notre xml pivot, et également une échelle de prix du m² en location par arrondissement, avec une visualisation chromatique, disponible <a href ="page3_carte.html">ici</a>.</p>
+												<p>Pour le site, il y a eu deux étapes, bien distinctes, la première est la modélisation des statistiques avec des graphiques, en parsant le xml pivot. Jquery a ressorti les nombres de chaque element par arrondissement, et l'on a pu en sortir des graphiques  <a href ="page2_graphes.html">comme cela</a>. <br/>
+												La seconde étape fut la création d'une carte googlemaps référençant à la fois chaque équipement avec un marqueur, ce qui fut rendu possible avec une requête ajax depuis le serveur github sur notre xml pivot, et également une échelle de prix du m² en location par arrondissement, avec une visualisation chromatique, disponible <a href ="page3_carte.html">ici</a>.</p>
 												<p></p>
+
+
 										</article>
 
 								</div>

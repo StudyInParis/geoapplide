@@ -16,7 +16,7 @@ import json2xml
 import loyers
 import openbeermap2xml
 import openbeermap_pivot
-import test_xml_pivot
+import creation_xml_pivot
 import xmlcrous2pivot
 
 if __name__ == '__main__':
@@ -125,14 +125,14 @@ if __name__ == '__main__':
 	# deuxième étape, utilisation des fichiers au format pivot pour la création du  fichier pivot final
 	# TODO : faire une boucle recursive sur les fichiers du dossier "../xml_formattes_pivot/" et sortir le xml_pivot dans un autre dossier pour eviter doublons si le script est relancé.
 	dic = {}
-	dic = test_xml_pivot.open_and_dic("../xml_formattes_pivot/cinemas-a-paris_pivot.xml",dic)
-	dic.update(test_xml_pivot.open_and_dic("../xml_formattes_pivot/Bibliotheque_pivot.xml",dic))
-	dic.update(test_xml_pivot.open_and_dic("../xml_formattes_pivot/distributeurspreservatifsmasculinsparis2012_pivot.xml",dic))
-	dic.update(test_xml_pivot.open_and_dic("../xml_formattes_pivot/liste_des_marches_de_quartier_a_paris_pivot.xml",dic))
-	dic.update(test_xml_pivot.open_and_dic("../xml_formattes_pivot/liste-des-cafes-a-un-euro_pivot.xml",dic))
-	dic.update(test_xml_pivot.open_and_dic("../xml_formattes_pivot/openbeermap_pivot.xml",dic))
-	dic.update(test_xml_pivot.open_and_dic("../xml_formattes_pivot/restauration_france_entiere_pivot.xml",dic))
+	dic = creation_xml_pivot.open_and_dic("../xml_formattes_pivot/cinemas-a-paris_pivot.xml",dic)
+	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/Bibliotheque_pivot.xml",dic))
+	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/distributeurspreservatifsmasculinsparis2012_pivot.xml",dic))
+	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/liste_des_marches_de_quartier_a_paris_pivot.xml",dic))
+	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/liste-des-cafes-a-un-euro_pivot.xml",dic))
+	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/openbeermap_pivot.xml",dic))
+	dic.update(creation_xml_pivot.open_and_dic("../xml_formattes_pivot/restauration_france_entiere_pivot.xml",dic))
 
 
 	#pprint(dic)
-	test_xml_pivot.out_xml(dic, "../xml_pivot/xml_pivot.xml")
+	creation_xml_pivot.out_xml(dic, "../xml_pivot/xml_pivot.xml")
