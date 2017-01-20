@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 #! coding: utf-8
 
+"""
+script pour traitement du fichier XML des CROUS
+"""
+
 import xml.etree.ElementTree as ET
 
 def clean_crous(filename):

@@ -5,7 +5,17 @@ import xml.etree.ElementTree as ET
 from pprint import pprint
 from cinemas2xmlpivot import writeInFile
 
+"""
+script pour récupérer les infos du fichier CROUS et renvoyer un dictionnaire pour impression dans un fichier de sortie au format XML
+utilisation de la fonction writeInFile du fichier cinemas2xmlpivot pour impression du fichier de sortie
+"""
+
 def getInfos(infilename):
+	"""
+	parcours le fichier XML et renvoie un dictionnaire poru permettre la création du fichier XML formatés
+	entree : nom du fichier
+	sortie : dictionnaire {arrondissement : {id : {adresse:value, coordonnees : [lat, lon], nom:value}}}
+	"""
 	dic={}
 	tree = ET.parse(infilename)
 	root = tree.getroot()

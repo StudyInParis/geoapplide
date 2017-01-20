@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 # coding: utf-8
+
+"""
+script de création du fichier XML pivot à partir de fichiers au format XML
+"""
+
 import glob,re
 from loyers import create_dic
 from pprint import pprint

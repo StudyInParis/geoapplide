@@ -1,6 +1,13 @@
 #! /usr/bin/python3
 #! coding: utf-8
 
+"""
+script général du projet pour récupération des informations de tous les fichiers de données brutes
+traitement des données vers un format XML à partir de formats JSON, XML et CSV
+traitement des données XML vers un format XML pivot
+réalisation d'un fichier XML pivot final contenant toutes les données
+"""
+
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 import re

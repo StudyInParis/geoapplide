@@ -8,7 +8,7 @@ from pprint import pprint
 
 
 """
-script pour transformer le fichier OpenBeerMap.xml au format pour le fichier xml_pivot
+script pour transformer le fichier OpenBeerMap.xml au format correct pour le fichier xml_pivot
 """
 
 def recuperation_infos(liste_noms, liste_osm):

@@ -11,7 +11,7 @@ encadré par :
 Johan FERGUTH et Clément PLANCQ
 
 ## Objectif :
-Déterminer le meilleur quartier étudiant en fonction de :
+Déterminer le meilleur quartier étudiant en fonction des données suivantes :
 - les distributeurs de préservatifs
 - les cinémas
 - les marchés de quartiers
@@ -61,7 +61,7 @@ Description détaillée des données :
 - [CROUS (France entière)](https://www.data.gouv.fr/fr/datasets/ensemble-des-lieux-de-restauration-des-crous-france-entiere-1/)
   - source : data.gouv.fr/fr
   - informations fournies dans le fichier : id, lat, long, nom, type (resto/cafeteria), contact (adresse complète).
-- [LOYERS DE PARIS] (https://www.data.gouv.fr/fr/datasets/encadrement-des-loyers-a-paris/)
+- [LOYERS DE PARIS](https://www.data.gouv.fr/fr/datasets/encadrement-des-loyers-a-paris/)
   - source : data.gouv.fr/fr
   - informations fournies dans le fichier: zoneGL,quartier, n-pieces, prix moyen au m², prix mini, prix max
 
@@ -70,7 +70,7 @@ Nous avons réalisé plusieurs scripts en python3 pour transformer toutes nos do
 - openbeermap2xml.py (transormation du fichier CSV d'OpenBeerMap)
 - json2xml.py (transformation des fichiers au format json vers du XML)
 - csv2xml.py (transformation du fichier CSV adresse_bibliotheque)
-- format_xml (formattage du fichier CROUS)
+- crous2xml (formattage du fichier CROUS)
 
 Modules utilisés pour la réalisation des scripts :
 - re (utilisation des expressions régulières)
@@ -81,6 +81,7 @@ Modules utilisés pour la réalisation des scripts :
 - [json](https://docs.python.org/3/library/json.html) (gestion des fichiers json et conversion en dictionnaire python)
 - [lxml](https://pypi.python.org/pypi/lxml/3.3.3)
 - [geopy](https://github.com/geopy/geopy)
+- [osmapi](https://pypi.python.org/pypi/osmapi/)
 
 ### Problèmes rencontrés lors de la création des scripts
 #### OpenBeerMap
@@ -95,10 +96,12 @@ Voilà un exemple pour les brasseries qui proposent plusieurs types de bières :
 Donc on ne peut pas spliter sur la virgule directement. On extraie donc ce qui est entre parenthèses, on le supprime de la ligne en le sauvegardant en mémoire pour pouvoir spliter la ligne sur la virgule et récupérer un tableau contenant toutes les informations pour les imprimer dans le fichier de sortie.
 
 On obtient le fichier openbeermap.xml.
+
 #### Scripts json2xml
 Les fichiers json ont été très simples à passer en XML, python propose le module json qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
 
 Ensuite un module dicttoxml permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
+
 - facs.xml
 - cinemas.xml
 - preservatifs.xml
@@ -112,6 +115,7 @@ chaque liste du json d'origine. il y avait plusieurs balises <item>, dans diffé
 Récurrente sur tous les fichiers json d'origine
 
   Tous les XML ont à ce jour été validés par une DTD.
+
 #### Récupération des adresses  partir des OSM_ID d'OpenBeerMap
 Dans le fichier OpenBeerMap, on a les OSM_ID pour chaque bar, à partir de ces IDs, on utilise le module osmapi qui permet théoriquement d'obtenir la latitude, la longitude et l'adresse ocmplète (arrondissement, numéro et nom de la rue, ville, etc). Problème, l'adresse complète n'est récupérable que dans 34 (ou 38) cas sur les 119 entrées que compte le fichier. On utilise donc osmapi pour retrouver latitude et longitude puis un autre module (geopy) pour obtenir, à partir des coordonnées une adresse complète.
 Ces étapes sont dans le script : openbeermap_pivot.py.
@@ -128,3 +132,6 @@ On a aussi créé un tableau excel (si on a le temps on fera un script qui le cr
 
 
 ## Réalisation d'un site pour le rendu final
+Nous avons réalisé un site pour la présentation du projet, de nos données et une visualisation de nos données. Nous avons utilisé du jquery principalement et les librairies jquery suivantes :
+- visualize.js pour les graphiques
+- gmaps pour la carte

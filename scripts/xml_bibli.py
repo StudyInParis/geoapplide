@@ -4,6 +4,11 @@ import sys
 import math
 import geocoder
 from pprint import pprint
+
+"""
+script pour traitement des bibliothèques
+récupération des informations du fichier XML des bibliothèques pour mise au format du fichier XML pivot
+"""
 fic = open("../donnees_xml/Bibliotheque.xml","r")
 out = open("../xml_formattes_pivot/Bibliotheque_pivot.xml","w")
 out.write(fic.readline())

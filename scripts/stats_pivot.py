@@ -1,6 +1,14 @@
 #!/usr/bin/python
 # coding: utf-8
+
 from pprint import pprint
+
+"""
+script pour réalisation de statistiques sur le fichier XML pivot
+comptage du nobmre d'équipements par arrondissement, etc.
+réalisation d'un fichier xls de statistiques pour réalisation de graphiques pour intégration dans le site
+"""
+
 def open_and_dic(fichier,dic):
 	fic = open(fichier,'r')
 	lines = fic.readlines()
@@ -17,6 +25,7 @@ def open_and_dic(fichier,dic):
 					dic[arr] = []
 				dic[arr] += [ligne]
 	return dic
+
 def compter(dic):
 	dic = open_and_dic("../xml_formattes_pivot/xml_pivot.xml",{})
 	dico2 = {}
@@ -33,6 +42,7 @@ def compter(dic):
 				else: dico2[cle][line.split('"')[3]] += 1
 			dico2[cle]["total_lieux"] = nbr_total
 	return dico2
+
 def csv_like(xls_out,dic2):
 	out = open(xls_out,'w')
 	dic2 = compter({})
@@ -42,5 +52,6 @@ def csv_like(xls_out,dic2):
 		for clef in dic2[cle]:
 			out.write("\n"+clef+"\t"+str(dic2[cle][clef]))
 		out.write("\n")
+
 if __name__=='__main__':
 	csv_like("../xml_formattes_pivot/stats_pivot.xls",{})

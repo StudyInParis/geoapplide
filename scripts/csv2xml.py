@@ -5,6 +5,10 @@ import csv
 import codecs, sys
 from xml.sax.saxutils import escape
 
+"""
+script pour transformation des fichiers CSV vers le format XML
+"""
+
 def conversion(infilename, file_encoding):
 	print(infilename[:-4]+".xml")
 	xmlfile=codecs.open(infilename[:-4]+".xml", 'w', 'utf-8')
