@@ -3,11 +3,11 @@
 
 import xml.etree.ElementTree as ET
 from pprint import pprint
-from cinemas2xmlpivot import writeInFile
+from jsonxml2xmlpivot import writeInFile
 
 """
 script pour récupérer les infos du fichier CROUS et renvoyer un dictionnaire pour impression dans un fichier de sortie au format XML
-utilisation de la fonction writeInFile du fichier cinemas2xmlpivot pour impression du fichier de sortie
+utilisation de la fonction writeInFile du fichier jsonxml2xmlpivot pour impression du fichier de sortie
 """
 
 def getInfos(infilename):

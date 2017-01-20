@@ -4,7 +4,7 @@
 """
 script pour traitement du fichier XML des CROUS
 """
-
+import os
 import xml.etree.ElementTree as ET
 
 def clean_crous(filename):
@@ -27,7 +27,7 @@ def clean_crous(filename):
 		for att in newatt:
 			child.set(att, newatt[att])
 		child.append(data)
-	tree.write('../donnees_xml/restauration_france_entiere.xml')
+	tree.write('../donnees_xml/'+os.path.basename(filename))
 
 if __name__ == '__main__':
-	clean_crous('../donnees_brutes/restauration_france_entiere.xml')
+	clean_crous('../donnees_brutes/crous_restauration_france_entiere.xml')

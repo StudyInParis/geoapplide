@@ -88,42 +88,42 @@
 	</arrondissement>
 	<arrondissement num="75014">
 		<element id="13" type="preservatifs">
-			<latitude>48.831449</latitude>
-			<longitude>2.30941</longitude>
-			<adresse>181/183 rue de Vercingétorix</adresse>
-			<nom>Centre d'animation Vercingétorix</nom>
-		</element>
-		<element id="14" type="preservatifs">
 			<latitude>48.821057</latitude>
 			<longitude>2.329049</longitude>
 			<adresse>7-15 Av Paul Appell</adresse>
 			<nom>Centre sportif Elisabeth</nom>
 		</element>
-		<element id="15" type="preservatifs">
+		<element id="14" type="preservatifs">
 			<latitude>48.824547</latitude>
 			<longitude>2.314142</longitude>
 			<adresse>3 Av Maurice D'Ocagne</adresse>
 			<nom>Centre sportif Jules Noël</nom>
 		</element>
+		<element id="15" type="preservatifs">
+			<latitude>48.831449</latitude>
+			<longitude>2.30941</longitude>
+			<adresse>181/183 rue de Vercingétorix</adresse>
+			<nom>Centre d'animation Vercingétorix</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75015">
 		<element id="16" type="preservatifs">
-			<latitude>48.826626</latitude>
-			<longitude>2.300413</longitude>
-			<adresse>18 Av de la Porte de Brancion</adresse>
-			<nom>Centre sportif Rigoulot</nom>
-		</element>
-		<element id="17" type="preservatifs">
 			<latitude>48.855739</latitude>
 			<longitude>2.290049</longitude>
 			<adresse>101 Quai Branly</adresse>
 			<nom>Kiosque jeunes Champ de Mars</nom>
 		</element>
-		<element id="18" type="preservatifs">
+		<element id="17" type="preservatifs">
 			<latitude>48.840339</latitude>
 			<longitude>2.279119</longitude>
 			<adresse>11 rue de la Montagne d'Aulas</adresse>
 			<nom>Gymnase Cévennes</nom>
+		</element>
+		<element id="18" type="preservatifs">
+			<latitude>48.826626</latitude>
+			<longitude>2.300413</longitude>
+			<adresse>18 Av de la Porte de Brancion</adresse>
+			<nom>Centre sportif Rigoulot</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num="75016">
@@ -144,34 +144,34 @@
 	</arrondissement>
 	<arrondissement num="75018">
 		<element id="21" type="preservatifs">
-			<latitude>48.88504</latitude>
-			<longitude>2.353856</longitude>
-			<adresse>10-12 passage de la Goutte d'Or</adresse>
-			<nom>Centre sportif Goutte d'Or</nom>
+			<latitude>48.89968</latitude>
+			<longitude>2.352224</longitude>
+			<adresse>2 rue Jean Cocteau</adresse>
+			<nom>Centre sportif Poissonniers</nom>
 		</element>
 		<element id="22" type="preservatifs">
-			<latitude>48.898661</latitude>
-			<longitude>2.364089</longitude>
-			<adresse>54 Bd Ney</adresse>
-			<nom>Espace jeunes Charles Hermitte</nom>
-		</element>
-		<element id="23" type="preservatifs">
 			<latitude>48.884298</latitude>
 			<longitude>2.354045</longitude>
 			<adresse>1 rue Fleury Centre Musical</adresse>
 			<nom>Kiosque jeunes Goutte D'Or</nom>
 		</element>
-		<element id="24" type="preservatifs">
+		<element id="23" type="preservatifs">
 			<latitude>48.885028</latitude>
 			<longitude>2.354614</longitude>
 			<adresse>6 rue de la Goutte d'Or</adresse>
 			<nom>Espace jeunes Goutte D'Or</nom>
 		</element>
+		<element id="24" type="preservatifs">
+			<latitude>48.898661</latitude>
+			<longitude>2.364089</longitude>
+			<adresse>54 Bd Ney</adresse>
+			<nom>Espace jeunes Charles Hermitte</nom>
+		</element>
 		<element id="25" type="preservatifs">
-			<latitude>48.89968</latitude>
-			<longitude>2.352224</longitude>
-			<adresse>2 rue Jean Cocteau</adresse>
-			<nom>Centre sportif Poissonniers</nom>
+			<latitude>48.88504</latitude>
+			<longitude>2.353856</longitude>
+			<adresse>10-12 passage de la Goutte d'Or</adresse>
+			<nom>Centre sportif Goutte d'Or</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num="75019">
@@ -182,36 +182,36 @@
 			<nom>Centre d'animation Place des Fêtes</nom>
 		</element>
 		<element id="27" type="preservatifs">
-			<latitude>48.887097</latitude>
-			<longitude>2.372115</longitude>
-			<adresse>49 ter Av de Flandre</adresse>
-			<nom>Antenne jeunes Flandre</nom>
-		</element>
-		<element id="28" type="preservatifs">
 			<latitude>48.889698</latitude>
 			<longitude>2.395738</longitude>
 			<adresse>Place de la Porte de Pantin</adresse>
 			<nom>Centre sportif Jules Ladoumègue</nom>
 		</element>
-		<element id="29" type="preservatifs">
+		<element id="28" type="preservatifs">
 			<latitude>48.885151</latitude>
 			<longitude>2.379099</longitude>
 			<adresse>87 Av J.Jaurès</adresse>
 			<nom>Gymnase Jean Jaurès</nom>
 		</element>
+		<element id="29" type="preservatifs">
+			<latitude>48.887097</latitude>
+			<longitude>2.372115</longitude>
+			<adresse>49 ter Av de Flandre</adresse>
+			<nom>Antenne jeunes Flandre</nom>
+		</element>
 	</arrondissement>
 	<arrondissement num="75020">
 		<element id="30" type="preservatifs">
-			<latitude>48.856657</latitude>
-			<longitude>2.411711</longitude>
-			<adresse>34 rue des docteurs Déjérine</adresse>
-			<nom>Centre sportif Déjérine</nom>
-		</element>
-		<element id="31" type="preservatifs">
 			<latitude>48.854917</latitude>
 			<longitude>2.407541</longitude>
 			<adresse>1 rue Pauline Kergomard</adresse>
 			<nom>Espace jeunes St Blaise</nom>
+		</element>
+		<element id="31" type="preservatifs">
+			<latitude>48.856657</latitude>
+			<longitude>2.411711</longitude>
+			<adresse>34 rue des docteurs Déjérine</adresse>
+			<nom>Centre sportif Déjérine</nom>
 		</element>
 	</arrondissement>
 </root>

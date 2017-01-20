@@ -10,6 +10,7 @@ def getInfosCrous(infilename):
 	entree : nom de fichier
 	sortie : dictionnaire {id:[nom, adresse, coordonnees]}
 	"""
+	print(infilename)
 	dic={}
 	tree = ET.parse(infilename)
 	root = tree.getroot()

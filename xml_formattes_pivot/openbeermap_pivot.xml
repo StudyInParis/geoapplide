@@ -16,7 +16,7 @@
 		<element id="2" type="bar">
 			<latitude>48.861037</latitude>
 			<longitude>2.3488844</longitude>
-			<adresse>Rue Saint-Denis, Les Halles, 1er</adresse>
+			<adresse>Boulevard de Sébastopol, Les Halles, 1er</adresse>
 			<nom>Hall's Beer Tavern</nom>
 		</element>
 	</arrondissement>
@@ -35,24 +35,6 @@
 		</element>
 	</arrondissement>
 	<arrondissement num ="75004">
-		<element id="0" type="bar">
-			<latitude>48.8556943</latitude>
-			<longitude>2.3595261</longitude>
-			<adresse>Rue de Rivoli, St-Gervais, 4e</adresse>
-			<nom>Le Comptoir</nom>
-		</element>
-		<element id="1" type="bar">
-			<latitude>48.8595197</latitude>
-			<longitude>2.3519694</longitude>
-			<adresse>Place Igor Stravinsky, Beaubourg, St-Merri, 4e</adresse>
-			<nom>Le Festin Nu</nom>
-		</element>
-		<element id="2" type="bar">
-			<latitude>48.8538804</latitude>
-			<longitude>2.3682665</longitude>
-			<adresse>Rue de la Bastille, Arsenal, 4e</adresse>
-			<nom>Le Bouillon St Stef</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75005">
 		<element id="0" type="bar">
@@ -127,42 +109,10 @@
 			<adresse>16, Rue du Pot de Fer, Val-de-Grâce, 5e</adresse>
 			<nom>Dr. Feelgood</nom>
 		</element>
-		<element id="12" type="bar">
-			<latitude>48.8456039</latitude>
-			<longitude>2.3547969</longitude>
-			<adresse>Place Jussieu, St-Victor, 5e</adresse>
-			<nom>Lush</nom>
-		</element>
-		<element id="13" type="bar">
-			<latitude>48.8457052</latitude>
-			<longitude>2.3419808</longitude>
-			<adresse>Rue Royer-Collard, Val-de-Grâce, 5e</adresse>
-			<nom>Fauve Paris L'abreuvoir</nom>
-		</element>
-		<element id="14" type="bar">
-			<latitude>48.8462166</latitude>
-			<longitude>2.342933</longitude>
-			<adresse>Rue Malebranche, 5e Arrondissement, 5e</adresse>
-			<nom>Celtic Corner</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75006">
-		<element id="0" type="bar">
-			<latitude>48.8522792</latitude>
-			<longitude>2.3345573</longitude>
-			<adresse>Rue Princesse, Odéon, 6e</adresse>
-			<nom>Au Fût et à Mesure</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75007">
-	</arrondissement>
-	<arrondissement num ="75008">
-		<element id="0" type="bar">
-			<latitude>48.8778514</latitude>
-			<longitude>2.3157284</longitude>
-			<adresse>Rue de Lisbonne, Europe, 8e</adresse>
-			<nom>Patrick's Le Ballon Vert</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75009">
 		<element id="0" type="bar">
@@ -197,30 +147,6 @@
 			<adresse>1, Rue des Deux Gares, St-Vincent-de-Paul, 10e</adresse>
 			<nom>L'Adresse</nom>
 		</element>
-		<element id="3" type="bar">
-			<latitude>48.8727411</latitude>
-			<longitude>2.3545133</longitude>
-			<adresse>Rue du Château d'Eau, Porte-St-Denis, 10e</adresse>
-			<nom>Le Comptoir</nom>
-		</element>
-		<element id="4" type="bar">
-			<latitude>48.8711993</latitude>
-			<longitude>2.3697018</longitude>
-			<adresse>13, Rue Jacques Louvel-Tessier, Hôpital-St-Louis, 10e</adresse>
-			<nom>Le Rivolux</nom>
-		</element>
-		<element id="5" type="bar">
-			<latitude>48.8746926</latitude>
-			<longitude>2.3541936</longitude>
-			<adresse>12, Rue de Paradis, Porte-St-Denis, 10e</adresse>
-			<nom>Le Château d'Eau</nom>
-		</element>
-		<element id="6" type="bar">
-			<latitude>48.8707201</latitude>
-			<longitude>2.3498182</longitude>
-			<adresse>Rue d'Hauteville, Porte-St-Denis, 10e</adresse>
-			<nom>L'Iris</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75011">
 		<element id="0" type="bar">
@@ -247,30 +173,6 @@
 			<adresse>34, Rue Keller, Roquette, 11e</adresse>
 			<nom>Sunset</nom>
 		</element>
-		<element id="4" type="bar">
-			<latitude>48.8666898</latitude>
-			<longitude>2.369421</longitude>
-			<adresse>Boulevard Richard Lenoir, Folie-Méricourt, 11e</adresse>
-			<nom>Paradis 13</nom>
-		</element>
-		<element id="5" type="bar">
-			<latitude>48.8584243</latitude>
-			<longitude>2.3685727</longitude>
-			<adresse>Rue Amelot, St-Ambroise, 11e</adresse>
-			<nom>Black Mad Crawler</nom>
-		</element>
-		<element id="6" type="bar">
-			<latitude>48.8687538</latitude>
-			<longitude>2.379949</longitude>
-			<adresse>Rue Jean-Pierre Timbaud, Folie-Méricourt, 11e</adresse>
-			<nom>Le Berny</nom>
-		</element>
-		<element id="7" type="bar">
-			<latitude>48.8683391</latitude>
-			<longitude>2.3714311</longitude>
-			<adresse>Rue de la Fontaine au Roi, Folie-Méricourt, 11e</adresse>
-			<nom>Le bar à mine</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75012">
 		<element id="0" type="bar">
@@ -290,24 +192,6 @@
 			<longitude>2.3840074</longitude>
 			<adresse>88, Boulevard Diderot, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
 			<nom>Le Calbar</nom>
-		</element>
-		<element id="3" type="bar">
-			<latitude>48.8494366</latitude>
-			<longitude>2.3743781</longitude>
-			<adresse>Rue de Charenton, 12e Arrondissement (urbain), Quinze-Vingts, 12e</adresse>
-			<nom>L'Assassin</nom>
-		</element>
-		<element id="4" type="bar">
-			<latitude>48.8492104</latitude>
-			<longitude>2.389517</longitude>
-			<adresse>Rue Claude Tillier, 12e Arrondissement (urbain), Picpus, 12e</adresse>
-			<nom>L'Escargot</nom>
-		</element>
-		<element id="5" type="bar">
-			<latitude>48.847497</latitude>
-			<longitude>2.3970587</longitude>
-			<adresse>Place de la Nation, 12e Arrondissement (urbain), Picpus, 12e</adresse>
-			<nom>Tête à l'envers</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num ="75013">
@@ -357,51 +241,11 @@
 			<adresse>Boulevard de Grenelle, Grenelle, 15e</adresse>
 			<nom>James Joyce</nom>
 		</element>
-		<element id="1" type="bar">
-			<latitude>48.8357125</latitude>
-			<longitude>2.2929761</longitude>
-			<adresse>354, Rue de Vaugirard, St-Lambert, 15e</adresse>
-			<nom>Café Leffe</nom>
-		</element>
-		<element id="2" type="bar">
-			<latitude>48.8350897</latitude>
-			<longitude>2.3042236</longitude>
-			<adresse>Rue de Vouillé, St-Lambert, 15e</adresse>
-			<nom>Au train de vie</nom>
-		</element>
-		<element id="3" type="bar">
-			<latitude>48.84384</latitude>
-			<longitude>2.2958801</longitude>
-			<adresse>88, Rue de la Croix Nivert, Grenelle, 15e</adresse>
-			<nom>Le Pantalon</nom>
-		</element>
-		<element id="4" type="bar">
-			<latitude>48.8419073</latitude>
-			<longitude>2.300498</longitude>
-			<adresse>Rue Lecourbe, St-Lambert, 15e</adresse>
-			<nom>Les Fontaines</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75016">
 	</arrondissement>
 	<arrondissement num ="75017">
-		<element id="0" type="bar">
-			<latitude>48.8851266</latitude>
-			<longitude>2.3251655</longitude>
-			<adresse>Rue des Dames, Batignolles, 17e</adresse>
-			<nom>Le Triangle</nom>
-		</element>
 	</arrondissement>
 	<arrondissement num ="75018">
-		<element id="0" type="bar">
-			<latitude>48.8904696</latitude>
-			<longitude>2.3392991</longitude>
-			<adresse>10, Rue de la Fontaine du But, Grandes-Carrières, 18e</adresse>
-			<nom>Epsilon</nom>
-		</element>
-	</arrondissement>
-	<arrondissement num ="75019">
-	</arrondissement>
-	<arrondissement num ="75020">
 	</arrondissement>
 </root>
