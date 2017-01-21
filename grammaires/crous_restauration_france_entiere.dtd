@@ -1,0 +1,10 @@
+<!ELEMENT root (resto+)>
+<!ELEMENT resto (contact)>
+<!ATTLIST resto
+          id CDATA #REQUIRED
+          lat CDATA #REQUIRED
+          lon CDATA #REQUIRED
+          title CDATA #REQUIRED
+          type CDATA #REQUIRED
+          zone CDATA #REQUIRED>
+<!ELEMENT contact (#PCDATA)>

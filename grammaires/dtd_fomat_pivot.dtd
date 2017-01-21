@@ -1,0 +1,12 @@
+<!ELEMENT root (arrondissement+)>
+<!ELEMENT arrondissement (element+)>
+<!ATTLIST arrondissement
+          num CDATA #REQUIRED>
+<!ELEMENT element (adresse, longitude, latitude, nom)>
+<!ATTLIST element
+          id CDATA #REQUIRED
+          type CDATA #REQUIRED>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>

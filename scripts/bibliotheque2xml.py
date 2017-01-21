@@ -20,7 +20,7 @@ def get_data(infilename, pattern):
 				if row[data] == pattern:
 					liste+=[row]
 	xmlfile=open("../donnees_xml/"+arrange_data(pattern)+".xml", 'w')
-	xmlfile.write("""<?xml version="1.0" encoding="utf-8"?>\n<root>\n""")
+	xmlfile.write("""<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n""")
 	i=1
 	for elem in liste:
 		xmlfile.write("""\t<element id="{}">\n""".format(str(i)))

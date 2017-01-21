@@ -27,7 +27,7 @@ def open_and_dic(fichier,dic):
 
 def out_xml(dico, outpath, additionnaldata):
 	fic = open(outpath,'w')
-	fic.write("<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<root>\n")
+	fic.write(""""<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n""")
 	compteur = 0
 	if additionnaldata != {}:
 		dic2=additionnaldata

@@ -76,7 +76,7 @@ def writeInFile(dic, typeLieu, outfilename):
 	sortie : 
 	"""
 	with open(outfilename, 'w') as f:
-		f.write("""<?xml version="1.0" encoding="utf-8" standalone="no"?>\n<root>\n""")
+		f.write("""<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n""")
 		i=0
 		for arrondissement in sorted(list(dic.keys())):
 			f.write("""\t<arrondissement num="{}">\n""".format(arrondissement))

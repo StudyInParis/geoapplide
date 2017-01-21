@@ -12,7 +12,7 @@ script pour transformation des fichiers CSV vers le format XML
 def conversion(infilename, file_encoding):
 	print(infilename[:-4]+".xml")
 	xmlfile=codecs.open(infilename[:-4]+".xml", 'w', 'utf-8')
-	xmlfile.write("""<?xml version="1.0" encoding="utf-8"?>\n<root>\n""")
+	xmlfile.write("""<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n""")
 	with open(infilename) as csvfile:
 		reader = csv.DictReader(csvfile)
 		i=1

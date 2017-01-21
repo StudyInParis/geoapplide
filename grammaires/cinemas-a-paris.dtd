@@ -1,0 +1,292 @@
+<!ELEMENT root (n41, n44, n79, n12, n37, n20, n78, n18, n26, n75, n22, n38, n17, n13, n83, n84, n67, n40, n80, n60, n11, n62, n29, n6, n16, n25, n68, n81, n57, n77, n48, n1, n71, n35, n76, n8, n47, n50, n65, n82, n59, n66, n5, n27, n32, n24, n19, n69, n2, n21, n4, n15, n85, n42, n3, n56, n54, n10, n36, n51, n9, n72, n33, n23, n52, n88, n87, n70, n64, n30, n46, n58, n61, n31, n34, n86, n73, n7, n53, n63, n39, n55, n74, n43, n45, n49, n14, n28)>
+<!ELEMENT n41 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n41
+          id CDATA #REQUIRED>
+<!ELEMENT coordonnees (item+)>
+<!ATTLIST coordonnees
+          id CDATA #REQUIRED>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+          id CDATA #REQUIRED>
+<!ELEMENT ecrans (#PCDATA)>
+<!ATTLIST ecrans
+          id CDATA #REQUIRED>
+<!ELEMENT adresse (#PCDATA)>
+<!ATTLIST adresse
+          id CDATA #REQUIRED>
+<!ELEMENT arrondissement (#PCDATA)>
+<!ATTLIST arrondissement
+          id CDATA #REQUIRED>
+<!ELEMENT nom_etablissement (#PCDATA)>
+<!ATTLIST nom_etablissement
+          id CDATA #REQUIRED>
+<!ELEMENT art_et_essai (#PCDATA)>
+<!ATTLIST art_et_essai
+          id CDATA #REQUIRED>
+<!ELEMENT ndegauto (#PCDATA)>
+<!ATTLIST ndegauto
+          id CDATA #REQUIRED>
+<!ELEMENT fauteuils (#PCDATA)>
+<!ATTLIST fauteuils
+          id CDATA #REQUIRED>
+<!ELEMENT n44 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n44
+          id CDATA #REQUIRED>
+<!ELEMENT n79 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n79
+          id CDATA #REQUIRED>
+<!ELEMENT n12 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n12
+          id CDATA #REQUIRED>
+<!ELEMENT n37 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n37
+          id CDATA #REQUIRED>
+<!ELEMENT n20 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n20
+          id CDATA #REQUIRED>
+<!ELEMENT n78 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n78
+          id CDATA #REQUIRED>
+<!ELEMENT n18 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n18
+          id CDATA #REQUIRED>
+<!ELEMENT n26 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n26
+          id CDATA #REQUIRED>
+<!ELEMENT n75 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n75
+          id CDATA #REQUIRED>
+<!ELEMENT n22 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n22
+          id CDATA #REQUIRED>
+<!ELEMENT n38 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n38
+          id CDATA #REQUIRED>
+<!ELEMENT n17 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n17
+          id CDATA #REQUIRED>
+<!ELEMENT n13 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n13
+          id CDATA #REQUIRED>
+<!ELEMENT n83 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n83
+          id CDATA #REQUIRED>
+<!ELEMENT n84 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n84
+          id CDATA #REQUIRED>
+<!ELEMENT n67 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n67
+          id CDATA #REQUIRED>
+<!ELEMENT n40 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n40
+          id CDATA #REQUIRED>
+<!ELEMENT n80 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n80
+          id CDATA #REQUIRED>
+<!ELEMENT n60 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n60
+          id CDATA #REQUIRED>
+<!ELEMENT n11 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n11
+          id CDATA #REQUIRED>
+<!ELEMENT n62 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n62
+          id CDATA #REQUIRED>
+<!ELEMENT n29 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n29
+          id CDATA #REQUIRED>
+<!ELEMENT n6 (nom_etablissement, art_et_essai, ndegauto, fauteuils, ecrans)>
+<!ATTLIST n6
+          id CDATA #REQUIRED>
+<!ELEMENT n16 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n16
+          id CDATA #REQUIRED>
+<!ELEMENT n25 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n25
+          id CDATA #REQUIRED>
+<!ELEMENT n68 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n68
+          id CDATA #REQUIRED>
+<!ELEMENT n81 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n81
+          id CDATA #REQUIRED>
+<!ELEMENT n57 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n57
+          id CDATA #REQUIRED>
+<!ELEMENT n77 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n77
+          id CDATA #REQUIRED>
+<!ELEMENT n48 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n48
+          id CDATA #REQUIRED>
+<!ELEMENT n1 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n1
+          id CDATA #REQUIRED>
+<!ELEMENT n71 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n71
+          id CDATA #REQUIRED>
+<!ELEMENT n35 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n35
+          id CDATA #REQUIRED>
+<!ELEMENT n76 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n76
+          id CDATA #REQUIRED>
+<!ELEMENT n8 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n8
+          id CDATA #REQUIRED>
+<!ELEMENT n47 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n47
+          id CDATA #REQUIRED>
+<!ELEMENT n50 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n50
+          id CDATA #REQUIRED>
+<!ELEMENT n65 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n65
+          id CDATA #REQUIRED>
+<!ELEMENT n82 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n82
+          id CDATA #REQUIRED>
+<!ELEMENT n59 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n59
+          id CDATA #REQUIRED>
+<!ELEMENT n66 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n66
+          id CDATA #REQUIRED>
+<!ELEMENT n5 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n5
+          id CDATA #REQUIRED>
+<!ELEMENT n27 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n27
+          id CDATA #REQUIRED>
+<!ELEMENT n32 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n32
+          id CDATA #REQUIRED>
+<!ELEMENT n24 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n24
+          id CDATA #REQUIRED>
+<!ELEMENT n19 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n19
+          id CDATA #REQUIRED>
+<!ELEMENT n69 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n69
+          id CDATA #REQUIRED>
+<!ELEMENT n2 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n2
+          id CDATA #REQUIRED>
+<!ELEMENT n21 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n21
+          id CDATA #REQUIRED>
+<!ELEMENT n4 (nom_etablissement, art_et_essai, ndegauto, fauteuils, ecrans)>
+<!ATTLIST n4
+          id CDATA #REQUIRED>
+<!ELEMENT n15 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n15
+          id CDATA #REQUIRED>
+<!ELEMENT n85 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n85
+          id CDATA #REQUIRED>
+<!ELEMENT n42 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n42
+          id CDATA #REQUIRED>
+<!ELEMENT n3 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n3
+          id CDATA #REQUIRED>
+<!ELEMENT n56 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n56
+          id CDATA #REQUIRED>
+<!ELEMENT n54 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n54
+          id CDATA #REQUIRED>
+<!ELEMENT n10 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n10
+          id CDATA #REQUIRED>
+<!ELEMENT n36 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n36
+          id CDATA #REQUIRED>
+<!ELEMENT n51 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n51
+          id CDATA #REQUIRED>
+<!ELEMENT n9 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n9
+          id CDATA #REQUIRED>
+<!ELEMENT n72 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n72
+          id CDATA #REQUIRED>
+<!ELEMENT n33 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n33
+          id CDATA #REQUIRED>
+<!ELEMENT n23 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n23
+          id CDATA #REQUIRED>
+<!ELEMENT n52 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n52
+          id CDATA #REQUIRED>
+<!ELEMENT n88 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n88
+          id CDATA #REQUIRED>
+<!ELEMENT n87 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n87
+          id CDATA #REQUIRED>
+<!ELEMENT n70 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n70
+          id CDATA #REQUIRED>
+<!ELEMENT n64 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n64
+          id CDATA #REQUIRED>
+<!ELEMENT n30 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n30
+          id CDATA #REQUIRED>
+<!ELEMENT n46 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n46
+          id CDATA #REQUIRED>
+<!ELEMENT n58 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n58
+          id CDATA #REQUIRED>
+<!ELEMENT n61 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n61
+          id CDATA #REQUIRED>
+<!ELEMENT n31 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n31
+          id CDATA #REQUIRED>
+<!ELEMENT n34 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n34
+          id CDATA #REQUIRED>
+<!ELEMENT n86 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n86
+          id CDATA #REQUIRED>
+<!ELEMENT n73 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n73
+          id CDATA #REQUIRED>
+<!ELEMENT n7 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n7
+          id CDATA #REQUIRED>
+<!ELEMENT n53 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n53
+          id CDATA #REQUIRED>
+<!ELEMENT n63 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n63
+          id CDATA #REQUIRED>
+<!ELEMENT n39 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n39
+          id CDATA #REQUIRED>
+<!ELEMENT n55 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n55
+          id CDATA #REQUIRED>
+<!ELEMENT n74 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n74
+          id CDATA #REQUIRED>
+<!ELEMENT n43 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n43
+          id CDATA #REQUIRED>
+<!ELEMENT n45 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n45
+          id CDATA #REQUIRED>
+<!ELEMENT n49 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n49
+          id CDATA #REQUIRED>
+<!ELEMENT n14 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n14
+          id CDATA #REQUIRED>
+<!ELEMENT n28 (coordonnees, ecrans, adresse, arrondissement, nom_etablissement, art_et_essai, ndegauto, fauteuils)>
+<!ATTLIST n28
+          id CDATA #REQUIRED>

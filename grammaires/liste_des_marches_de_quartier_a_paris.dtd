@@ -1,0 +1,331 @@
+<!ELEMENT root (n44, n66, n59, n40, n73, n77, n90, n71, n84, n87, n20, n42, n5, n78, n79, n67, n9, n30, n83, n14, n92, n1, n61, n74, n3, n27, n75, n31, n25, n29, n18, n80, n86, n33, n54, n32, n2, n56, n16, n10, n53, n63, n94, n37, n65, n68, n69, n12, n19, n21, n88, n89, n46, n72, n76, n60, n17, n55, n49, n82, n28, n39, n13, n91, n41, n26, n7, n22, n45, n52, n64, n6, n24, n4, n11, n35, n62, n36, n15, n81, n34, n57, n85, n51, n8, n48, n93, n50, n47, n38, n58, n23, n43, n70)>
+<!ELEMENT n44 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n44
+          id CDATA #REQUIRED>
+<!ELEMENT geo_coordinates (item+)>
+<!ATTLIST geo_coordinates
+          id CDATA #REQUIRED>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+          id CDATA #REQUIRED>
+<!ELEMENT adresse_complete_poi_approchant (#PCDATA)>
+<!ATTLIST adresse_complete_poi_approchant
+          id CDATA #REQUIRED>
+<!ELEMENT societe_gestionnaire (#PCDATA)>
+<!ATTLIST societe_gestionnaire
+          id CDATA #REQUIRED>
+<!ELEMENT samedi (#PCDATA)>
+<!ATTLIST samedi
+          id CDATA #REQUIRED>
+<!ELEMENT arrondissement (#PCDATA)>
+<!ATTLIST arrondissement
+          id CDATA #REQUIRED>
+<!ELEMENT localisation (#PCDATA)>
+<!ATTLIST localisation
+          id CDATA #REQUIRED>
+<!ELEMENT marche (#PCDATA)>
+<!ATTLIST marche
+          id CDATA #REQUIRED>
+<!ELEMENT mercredi (#PCDATA)>
+<!ATTLIST mercredi
+          id CDATA #REQUIRED>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST type
+          id CDATA #REQUIRED>
+<!ELEMENT n66 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n66
+          id CDATA #REQUIRED>
+<!ELEMENT jeudi (#PCDATA)>
+<!ATTLIST jeudi
+          id CDATA #REQUIRED>
+<!ELEMENT dimanche (#PCDATA)>
+<!ATTLIST dimanche
+          id CDATA #REQUIRED>
+<!ELEMENT n59 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n59
+          id CDATA #REQUIRED>
+<!ELEMENT n40 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n40
+          id CDATA #REQUIRED>
+<!ELEMENT vendredi (#PCDATA)>
+<!ATTLIST vendredi
+          id CDATA #REQUIRED>
+<!ELEMENT mardi (#PCDATA)>
+<!ATTLIST mardi
+          id CDATA #REQUIRED>
+<!ELEMENT n73 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n73
+          id CDATA #REQUIRED>
+<!ELEMENT n77 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n77
+          id CDATA #REQUIRED>
+<!ELEMENT n90 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n90
+          id CDATA #REQUIRED>
+<!ELEMENT n71 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n71
+          id CDATA #REQUIRED>
+<!ELEMENT n84 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type)>
+<!ATTLIST n84
+          id CDATA #REQUIRED>
+<!ELEMENT n87 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type, mardi)>
+<!ATTLIST n87
+          id CDATA #REQUIRED>
+<!ELEMENT n20 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, type)>
+<!ATTLIST n20
+          id CDATA #REQUIRED>
+<!ELEMENT n42 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n42
+          id CDATA #REQUIRED>
+<!ELEMENT n5 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n5
+          id CDATA #REQUIRED>
+<!ELEMENT n78 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, lundi, marche, mercredi)>
+<!ATTLIST n78
+          id CDATA #REQUIRED>
+<!ELEMENT lundi (#PCDATA)>
+<!ATTLIST lundi
+          id CDATA #REQUIRED>
+<!ELEMENT n79 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n79
+          id CDATA #REQUIRED>
+<!ELEMENT n67 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n67
+          id CDATA #REQUIRED>
+<!ELEMENT n9 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, mercredi, type, dimanche)>
+<!ATTLIST n9
+          id CDATA #REQUIRED>
+<!ELEMENT n30 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n30
+          id CDATA #REQUIRED>
+<!ELEMENT n83 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n83
+          id CDATA #REQUIRED>
+<!ELEMENT n14 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n14
+          id CDATA #REQUIRED>
+<!ELEMENT n92 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n92
+          id CDATA #REQUIRED>
+<!ELEMENT n1 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n1
+          id CDATA #REQUIRED>
+<!ELEMENT n61 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n61
+          id CDATA #REQUIRED>
+<!ELEMENT n74 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n74
+          id CDATA #REQUIRED>
+<!ELEMENT n3 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n3
+          id CDATA #REQUIRED>
+<!ELEMENT n27 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n27
+          id CDATA #REQUIRED>
+<!ELEMENT n75 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, lundi, localisation, marche, type, dimanche)>
+<!ATTLIST n75
+          id CDATA #REQUIRED>
+<!ELEMENT n31 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type, mardi)>
+<!ATTLIST n31
+          id CDATA #REQUIRED>
+<!ELEMENT n25 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n25
+          id CDATA #REQUIRED>
+<!ELEMENT n29 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n29
+          id CDATA #REQUIRED>
+<!ELEMENT n18 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type, mardi)>
+<!ATTLIST n18
+          id CDATA #REQUIRED>
+<!ELEMENT n80 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, dimanche, type, jour_ferie)>
+<!ATTLIST n80
+          id CDATA #REQUIRED>
+<!ELEMENT jour_ferie (#PCDATA)>
+<!ATTLIST jour_ferie
+          id CDATA #REQUIRED>
+<!ELEMENT n86 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n86
+          id CDATA #REQUIRED>
+<!ELEMENT n33 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n33
+          id CDATA #REQUIRED>
+<!ELEMENT n54 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n54
+          id CDATA #REQUIRED>
+<!ELEMENT n32 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, mercredi, type, dimanche)>
+<!ATTLIST n32
+          id CDATA #REQUIRED>
+<!ELEMENT n2 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n2
+          id CDATA #REQUIRED>
+<!ELEMENT n56 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n56
+          id CDATA #REQUIRED>
+<!ELEMENT n16 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, type)>
+<!ATTLIST n16
+          id CDATA #REQUIRED>
+<!ELEMENT n10 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n10
+          id CDATA #REQUIRED>
+<!ELEMENT n53 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n53
+          id CDATA #REQUIRED>
+<!ELEMENT n63 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n63
+          id CDATA #REQUIRED>
+<!ELEMENT n94 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, lundi, marche, mercredi)>
+<!ATTLIST n94
+          id CDATA #REQUIRED>
+<!ELEMENT n37 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n37
+          id CDATA #REQUIRED>
+<!ELEMENT n65 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n65
+          id CDATA #REQUIRED>
+<!ELEMENT n68 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n68
+          id CDATA #REQUIRED>
+<!ELEMENT n69 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n69
+          id CDATA #REQUIRED>
+<!ELEMENT n12 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n12
+          id CDATA #REQUIRED>
+<!ELEMENT n19 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n19
+          id CDATA #REQUIRED>
+<!ELEMENT n21 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, lundi, marche, mercredi)>
+<!ATTLIST n21
+          id CDATA #REQUIRED>
+<!ELEMENT n88 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n88
+          id CDATA #REQUIRED>
+<!ELEMENT n89 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type)>
+<!ATTLIST n89
+          id CDATA #REQUIRED>
+<!ELEMENT n46 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n46
+          id CDATA #REQUIRED>
+<!ELEMENT n72 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, lundi, marche, mercredi)>
+<!ATTLIST n72
+          id CDATA #REQUIRED>
+<!ELEMENT n76 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, lundi, localisation, marche, type, dimanche)>
+<!ATTLIST n76
+          id CDATA #REQUIRED>
+<!ELEMENT n60 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n60
+          id CDATA #REQUIRED>
+<!ELEMENT n17 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n17
+          id CDATA #REQUIRED>
+<!ELEMENT n55 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n55
+          id CDATA #REQUIRED>
+<!ELEMENT n49 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n49
+          id CDATA #REQUIRED>
+<!ELEMENT n82 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type)>
+<!ATTLIST n82
+          id CDATA #REQUIRED>
+<!ELEMENT n28 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n28
+          id CDATA #REQUIRED>
+<!ELEMENT n39 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n39
+          id CDATA #REQUIRED>
+<!ELEMENT n13 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n13
+          id CDATA #REQUIRED>
+<!ELEMENT n91 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, type)>
+<!ATTLIST n91
+          id CDATA #REQUIRED>
+<!ELEMENT n41 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type)>
+<!ATTLIST n41
+          id CDATA #REQUIRED>
+<!ELEMENT n26 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n26
+          id CDATA #REQUIRED>
+<!ELEMENT n7 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n7
+          id CDATA #REQUIRED>
+<!ELEMENT n22 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n22
+          id CDATA #REQUIRED>
+<!ELEMENT n45 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n45
+          id CDATA #REQUIRED>
+<!ELEMENT n52 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n52
+          id CDATA #REQUIRED>
+<!ELEMENT n64 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n64
+          id CDATA #REQUIRED>
+<!ELEMENT n6 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n6
+          id CDATA #REQUIRED>
+<!ELEMENT n24 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n24
+          id CDATA #REQUIRED>
+<!ELEMENT n4 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n4
+          id CDATA #REQUIRED>
+<!ELEMENT n11 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type)>
+<!ATTLIST n11
+          id CDATA #REQUIRED>
+<!ELEMENT n35 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n35
+          id CDATA #REQUIRED>
+<!ELEMENT n62 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n62
+          id CDATA #REQUIRED>
+<!ELEMENT n36 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n36
+          id CDATA #REQUIRED>
+<!ELEMENT n15 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type, mardi)>
+<!ATTLIST n15
+          id CDATA #REQUIRED>
+<!ELEMENT n81 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, mercredi, type, dimanche)>
+<!ATTLIST n81
+          id CDATA #REQUIRED>
+<!ELEMENT n34 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, type)>
+<!ATTLIST n34
+          id CDATA #REQUIRED>
+<!ELEMENT n57 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n57
+          id CDATA #REQUIRED>
+<!ELEMENT n85 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n85
+          id CDATA #REQUIRED>
+<!ELEMENT n51 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n51
+          id CDATA #REQUIRED>
+<!ELEMENT n8 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n8
+          id CDATA #REQUIRED>
+<!ELEMENT n48 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, type, dimanche)>
+<!ATTLIST n48
+          id CDATA #REQUIRED>
+<!ELEMENT n93 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, lundi, localisation, marche, type, dimanche)>
+<!ATTLIST n93
+          id CDATA #REQUIRED>
+<!ELEMENT n50 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n50
+          id CDATA #REQUIRED>
+<!ELEMENT n47 (vendredi, geo_coordinates, samedi, mardi, jeudi, localisation, dimanche, type, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, marche, mercredi)>
+<!ATTLIST n47
+          id CDATA #REQUIRED>
+<!ELEMENT n38 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, jeudi, localisation, marche, type)>
+<!ATTLIST n38
+          id CDATA #REQUIRED>
+<!ELEMENT n58 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, jeudi, localisation, marche, type, dimanche)>
+<!ATTLIST n58
+          id CDATA #REQUIRED>
+<!ELEMENT n23 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, samedi, arrondissement, localisation, marche, mercredi, type)>
+<!ATTLIST n23
+          id CDATA #REQUIRED>
+<!ELEMENT n43 (vendredi, geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, mardi, arrondissement, localisation, marche, type)>
+<!ATTLIST n43
+          id CDATA #REQUIRED>
+<!ELEMENT n70 (geo_coordinates, adresse_complete_poi_approchant, societe_gestionnaire, arrondissement, localisation, marche, mercredi, type, dimanche)>
+<!ATTLIST n70
+          id CDATA #REQUIRED>

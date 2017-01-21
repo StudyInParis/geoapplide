@@ -1,11 +1,11 @@
 <!ELEMENT root (element+)>
-<!ELEMENT element (Mairie_gestionnaire, Type_d_equipement, Ap_voie, AP_cnu, AP_cp, AP_num, Designation_longue)>
+<!ELEMENT element (Type_d_equipement, Designation_longue, AP_num, AP_cnu, AP_cp, Ap_voie, Mairie_gestionnaire)>
 <!ATTLIST element
           id CDATA #REQUIRED>
-<!ELEMENT Mairie_gestionnaire (#PCDATA)>
 <!ELEMENT Type_d_equipement (#PCDATA)>
-<!ELEMENT Ap_voie (#PCDATA)>
+<!ELEMENT Designation_longue (#PCDATA)>
+<!ELEMENT AP_num (#PCDATA)>
 <!ELEMENT AP_cnu (#PCDATA)>
 <!ELEMENT AP_cp (#PCDATA)>
-<!ELEMENT AP_num (#PCDATA)>
-<!ELEMENT Designation_longue (#PCDATA)>
+<!ELEMENT Ap_voie (#PCDATA)>
+<!ELEMENT Mairie_gestionnaire (#PCDATA)>

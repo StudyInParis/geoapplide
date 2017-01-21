@@ -81,7 +81,7 @@ def fromcsv2xml(csv_file, xml_output):
 				cpt_line += 1
 
 	# Impression du résultat dans le fichier de sortie
-	xml_output.write('<?xml version="1.0" standalone="yes"?>\n<document id="open beer map">\n')
+	xml_output.write('<?xml version="1.0" encoding="UTF-8" ?>\n<document id="open beer map">\n')
 	for element in final_tab:
 		xml_output.write('<item id="'+str(element)+'">\n')
 		for item in final_tab[element]:

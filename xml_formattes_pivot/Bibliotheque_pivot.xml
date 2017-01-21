@@ -1,123 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE root SYSTEM "../grammaires/dtd_fomat_pivot.dtd">
+
 <root>
-	<arrondissement num ="75012">
+	<arrondissement num ="75017">
 		<element id="1" type="bibli">
-			<adresse>42, avenue daumesnil</adresse>
-			<longitude>2.3775478</longitude>
-			<latitude>48.8459507</latitude>
-			<nom>bibliotheque municipale diderot</nom>
-		</element>
-	</arrondissement>
-	<arrondissement num ="75009">
-		<element id="2" type="bibli">
-			<adresse>26, rue chaptal</adresse>
-			<longitude>2.332445</longitude>
-			<latitude>48.8814478</latitude>
-			<nom>bibliotheque chaptal</nom>
-		</element>
-		<element id="3" type="bibli">
-			<adresse>11, rue drouot</adresse>
-			<longitude>2.3404298</longitude>
-			<latitude>48.8734566</latitude>
-			<nom>bibliotheque municipale drouot</nom>
-		</element>
-	</arrondissement>
-	<arrondissement num ="75010">
-		<element id="4" type="bibli">
-			<adresse>72, rue du faubourg saint-martin</adresse>
-			<longitude>2.3573783</longitude>
-			<latitude>48.8717768</latitude>
-			<nom>bibliotheque municipale chateau d'eau</nom>
-		</element>
-	</arrondissement>
-	<arrondissement num ="75020">
-		<element id="5" type="bibli">
-			<adresse>109, boulevard mortier</adresse>
-			<longitude>2.408426</longitude>
-			<latitude>48.8715903</latitude>
-			<nom>bibliotheque municipale mortier</nom>
-		</element>
-		<element id="6" type="bibli">
-			<adresse>17, rue sorbier</adresse>
-			<longitude>2.3928486</longitude>
-			<latitude>48.8659674</latitude>
-			<nom>bibliotheque municipale sorbier</nom>
-		</element>
-		<element id="7" type="bibli">
-			<adresse>109, rue de bagnolet</adresse>
-			<longitude>2.4028325</longitude>
-			<latitude>48.8597079</latitude>
-			<nom>bibliotheque mediatheque marguerite duras</nom>
-		</element>
-		<element id="8" type="bibli">
-			<adresse>29, rue des haies</adresse>
-			<longitude>2.4010836</longitude>
-			<latitude>48.8531649</latitude>
-			<nom>bibliotheque municipale reunion</nom>
-		</element>
-	</arrondissement>
-	<arrondissement num ="75001">
-		<element id="9" type="bibli">
-			<adresse>91, rue rambuteau</adresse>
-			<longitude>2.3478752</longitude>
-			<latitude>48.8624676</latitude>
-			<nom>bibliotheque municipale la fontaine</nom>
-		</element>
-		<element id="10" type="bibli">
-			<adresse>4, place du louvre</adresse>
-			<longitude>2.3412674</longitude>
-			<latitude>48.8600425</latitude>
-			<nom>bibliotheque municipale du louvre</nom>
+			<adresse>6, rue fourneyron</adresse>
+			<longitude>2.3198144</longitude>
+			<latitude>48.8898213</latitude>
+			<nom>bibliotheque colette vivier</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num ="75008">
-		<element id="11" type="bibli">
+		<element id="2" type="bibli">
 			<adresse>17, avenue beaucour</adresse>
 			<longitude>2.3029806</longitude>
 			<latitude>48.8778252</latitude>
 			<nom>bibliotheque municipale courcelles</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num ="75014">
-		<element id="12" type="bibli">
-			<adresse>38, rue gassendi</adresse>
-			<longitude>2.3255196</longitude>
-			<latitude>48.8339554</latitude>
-			<nom>bibliotheque municipale georges brassens</nom>
+	<arrondissement num ="75019">
+		<element id="3" type="bibli">
+			<adresse>6, rue fessart</adresse>
+			<longitude>2.3881565</longitude>
+			<latitude>48.8762884</latitude>
+			<nom>bibliotheque municipale fessart</nom>
+		</element>
+		<element id="4" type="bibli">
+			<adresse>42, rue petit</adresse>
+			<longitude>2.3828658</longitude>
+			<latitude>48.8848829</latitude>
+			<nom>bibliotheque municipale crimee</nom>
+		</element>
+		<element id="5" type="bibli">
+			<adresse>35, avenue de flandre</adresse>
+			<longitude>2.3712394</longitude>
+			<latitude>48.8862963</latitude>
+			<nom>bibliotheque municipale flandre</nom>
+		</element>
+		<element id="6" type="bibli">
+			<adresse>141, avenue de flandre</adresse>
+			<longitude>2.3790148</longitude>
+			<latitude>48.89277939999999</latitude>
+			<nom>bibliotheque municipale benjamin rabier</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num ="75018">
-		<element id="13" type="bibli">
+		<element id="7" type="bibli">
 			<adresse>19, rue tristan tzara</adresse>
 			<longitude>2.364134</longitude>
 			<latitude>48.894839</latitude>
 			<nom>bibliotheque municipale maurice genevoix</nom>
 		</element>
-		<element id="14" type="bibli">
+		<element id="8" type="bibli">
 			<adresse>18, avenue de la porte de montmartre</adresse>
 			<longitude>2.3362029</longitude>
 			<latitude>48.8993947</latitude>
 			<nom>bibliotheque municipale de la porte montmartre</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num ="75005">
-		<element id="15" type="bibli">
-			<adresse>6, rue des pretres saint-severin</adresse>
-			<longitude>2.3451014</longitude>
-			<latitude>48.8520496</latitude>
-			<nom>bibliotheque municipale l'heure joyeuse</nom>
-		</element>
-	</arrondissement>
-	<arrondissement num ="75002">
-		<element id="16" type="bibli">
-			<adresse>2, passage des petits peres</adresse>
-			<longitude>2.340455</longitude>
-			<latitude>48.866384</latitude>
-			<nom>bibliotheque municipale charlotte belbo</nom>
+	<arrondissement num ="75014">
+		<element id="9" type="bibli">
+			<adresse>38, rue gassendi</adresse>
+			<longitude>2.3255196</longitude>
+			<latitude>48.8339554</latitude>
+			<nom>bibliotheque municipale georges brassens</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num ="75016">
-		<element id="17" type="bibli">
+		<element id="10" type="bibli">
 			<adresse>20, rue de musset</adresse>
 			<longitude>2.2633768</longitude>
 			<latitude>48.8420999</latitude>
@@ -125,67 +75,119 @@
 		</element>
 	</arrondissement>
 	<arrondissement num ="75015">
-		<element id="18" type="bibli">
+		<element id="11" type="bibli">
 			<adresse>8, rue de la montagne d'aulas</adresse>
 			<longitude>2.2786821</longitude>
 			<latitude>48.8402088</latitude>
 			<nom>bibliotheque municipale gutenberg</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num ="75003">
+	<arrondissement num ="75002">
+		<element id="12" type="bibli">
+			<adresse>2, passage des petits peres</adresse>
+			<longitude>2.340455</longitude>
+			<latitude>48.866384</latitude>
+			<nom>bibliotheque municipale charlotte belbo</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75005">
+		<element id="13" type="bibli">
+			<adresse>6, rue des pretres saint-severin</adresse>
+			<longitude>2.3451014</longitude>
+			<latitude>48.8520496</latitude>
+			<nom>bibliotheque municipale l'heure joyeuse</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75010">
+		<element id="14" type="bibli">
+			<adresse>72, rue du faubourg saint-martin</adresse>
+			<longitude>2.3573783</longitude>
+			<latitude>48.8717768</latitude>
+			<nom>bibliotheque municipale chateau d'eau</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75009">
+		<element id="15" type="bibli">
+			<adresse>26, rue chaptal</adresse>
+			<longitude>2.332445</longitude>
+			<latitude>48.8814478</latitude>
+			<nom>bibliotheque chaptal</nom>
+		</element>
+		<element id="16" type="bibli">
+			<adresse>11, rue drouot</adresse>
+			<longitude>2.3404298</longitude>
+			<latitude>48.8734566</latitude>
+			<nom>bibliotheque municipale drouot</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75001">
+		<element id="17" type="bibli">
+			<adresse>91, rue rambuteau</adresse>
+			<longitude>2.3478752</longitude>
+			<latitude>48.8624676</latitude>
+			<nom>bibliotheque municipale la fontaine</nom>
+		</element>
+		<element id="18" type="bibli">
+			<adresse>4, place du louvre</adresse>
+			<longitude>2.3412674</longitude>
+			<latitude>48.8600425</latitude>
+			<nom>bibliotheque municipale du louvre</nom>
+		</element>
+	</arrondissement>
+	<arrondissement num ="75020">
 		<element id="19" type="bibli">
-			<adresse>8, rue portefoin</adresse>
-			<longitude>2.3600918</longitude>
-			<latitude>48.8636388</latitude>
-			<nom>bibliotheque marguerite audoux</nom>
+			<adresse>29, rue des haies</adresse>
+			<longitude>2.4010836</longitude>
+			<latitude>48.8531649</latitude>
+			<nom>bibliotheque municipale reunion</nom>
+		</element>
+		<element id="20" type="bibli">
+			<adresse>17, rue sorbier</adresse>
+			<longitude>2.3928486</longitude>
+			<latitude>48.8659674</latitude>
+			<nom>bibliotheque municipale sorbier</nom>
+		</element>
+		<element id="21" type="bibli">
+			<adresse>109, boulevard mortier</adresse>
+			<longitude>2.408426</longitude>
+			<latitude>48.8715903</latitude>
+			<nom>bibliotheque municipale mortier</nom>
+		</element>
+		<element id="22" type="bibli">
+			<adresse>109, rue de bagnolet</adresse>
+			<longitude>2.4028325</longitude>
+			<latitude>48.8597079</latitude>
+			<nom>bibliotheque mediatheque marguerite duras</nom>
 		</element>
 	</arrondissement>
 	<arrondissement num ="75004">
-		<element id="20" type="bibli">
+		<element id="23" type="bibli">
 			<adresse>21, rue saint-louis en l'ile</adresse>
 			<longitude>2.3572189</longitude>
 			<latitude>48.8515021</latitude>
 			<nom>bibliotheque municipale isle saint-louis</nom>
 		</element>
-		<element id="21" type="bibli">
+		<element id="24" type="bibli">
 			<adresse>2, place baudoyer</adresse>
 			<longitude>2.3556738</longitude>
 			<latitude>48.8563391</latitude>
 			<nom>bibliotheque municipale baudoyer</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num ="75019">
-		<element id="22" type="bibli">
-			<adresse>42, rue petit</adresse>
-			<longitude>2.3828658</longitude>
-			<latitude>48.8848829</latitude>
-			<nom>bibliotheque municipale crimee</nom>
-		</element>
-		<element id="23" type="bibli">
-			<adresse>6, rue fessart</adresse>
-			<longitude>2.3881565</longitude>
-			<latitude>48.8762884</latitude>
-			<nom>bibliotheque municipale fessart</nom>
-		</element>
-		<element id="24" type="bibli">
-			<adresse>141, avenue de flandre</adresse>
-			<longitude>2.3790148</longitude>
-			<latitude>48.89277939999999</latitude>
-			<nom>bibliotheque municipale benjamin rabier</nom>
-		</element>
+	<arrondissement num ="75003">
 		<element id="25" type="bibli">
-			<adresse>35, avenue de flandre</adresse>
-			<longitude>2.3712394</longitude>
-			<latitude>48.8862963</latitude>
-			<nom>bibliotheque municipale flandre</nom>
+			<adresse>8, rue portefoin</adresse>
+			<longitude>2.3600918</longitude>
+			<latitude>48.8636388</latitude>
+			<nom>bibliotheque marguerite audoux</nom>
 		</element>
 	</arrondissement>
-	<arrondissement num ="75017">
+	<arrondissement num ="75012">
 		<element id="26" type="bibli">
-			<adresse>6, rue fourneyron</adresse>
-			<longitude>2.3198144</longitude>
-			<latitude>48.8898213</latitude>
-			<nom>bibliotheque colette vivier</nom>
+			<adresse>42, avenue daumesnil</adresse>
+			<longitude>2.3775478</longitude>
+			<latitude>48.8459507</latitude>
+			<nom>bibliotheque municipale diderot</nom>
 		</element>
 	</arrondissement>
 </root>

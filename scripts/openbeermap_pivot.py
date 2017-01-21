@@ -59,7 +59,7 @@ def impression_xml_pivot(dico):
     sortie = void
     """
     output = open("../xml_formattes_pivot/openbeermap_pivot.xml", 'w')
-    output.write('<?xml version="1.0" encoding="utf-8" standalone="no"?>\n<root>\n')
+    output.write('<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n')
     for element in sorted(dico):
         if element.startswith("750"):
             output.write('\t<arrondissement num ="'+element+'">\n')

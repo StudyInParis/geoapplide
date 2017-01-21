@@ -1,15 +1,15 @@
-<!ELEMENT root (n165, n133, n132, n131, n130, n137, n136, n135, n134, n139, n138, n166, n24, n25, n26, n27, n20, n21, n22, n23, n160, n28, n29, n161, n4, n8, n163, n119, n120, n121, n122, n123, n124, n125, n126, n127, n128, n129, n167, n118, n59, n58, n55, n54, n57, n56, n51, n50, n53, n52, n164, n179, n178, n115, n114, n88, n89, n111, n110, n113, n112, n82, n83, n80, n81, n86, n87, n84, n85, n3, n177, n7, n108, n109, n102, n103, n100, n101, n106, n107, n104, n105, n39, n38, n33, n32, n31, n30, n37, n36, n35, n34, n176, n60, n61, n62, n63, n64, n65, n66, n67, n68, n69, n175, n174, n173, n172, n171, n170, n181, n180, n2, n162, n6, n99, n98, n168, n169, n91, n90, n93, n92, n95, n94, n97, n96, n11, n10, n13, n12, n15, n14, n17, n16, n19, n18, n117, n116, n151, n150, n153, n152, n155, n154, n157, n156, n159, n158, n48, n49, n46, n47, n44, n45, n42, n43, n40, n41, n1, n5, n9, n146, n147, n144, n145, n142, n143, n140, n141, n148, n149, n77, n76, n75, n74, n73, n72, n71, n70, n79, n78)>
-<!ELEMENT n165 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n165
+<!ELEMENT root (n140, n71, n136, n40, n174, n77, n84, n146, n20, n5, n79, n9, n138, n164, n30, n83, n101, n147, n175, n61, n150, n3, n149, n141, n75, n34, n163, n18, n43, n109, n33, n170, n117, n176, n130, n37, n10, n69, n96, n122, n14, n160, n173, n88, n145, n51, n67, n167, n60, n112, n17, n151, n114, n110, n82, n111, n68, n23, n137, n91, n105, n41, n26, n171, n178, n22, n45, n52, n64, n6, n131, n4, n11, n35, n62, n108, n134, n181, n103, n135, n92, n123, n47, n166, n58, n36, n57, n124, n172, n44, n66, n125, n104, n100, n59, n73, n169, n168, n119, n87, n56, n42, n144, n129, n78, n148, n155, n46, n115, n121, n86, n99, n128, n133, n142, n1, n180, n107, n27, n31, n25, n29, n80, n165, n154, n159, n32, n2, n16, n90, n53, n63, n94, n65, n39, n12, n19, n21, n89, n54, n98, n76, n156, n153, n55, n116, n49, n113, n106, n95, n152, n132, n102, n38, n24, n72, n127, n162, n157, n177, n97, n15, n81, n85, n70, n74, n28, n8, n48, n158, n139, n161, n93, n126, n143, n179, n118, n50, n7, n13, n120)>
+<!ELEMENT n140 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n140
+          id CDATA #REQUIRED>
+<!ELEMENT prix_comptoir (#PCDATA)>
+<!ATTLIST prix_comptoir
+          id CDATA #REQUIRED>
+<!ELEMENT nom_du_cafe (#PCDATA)>
+<!ATTLIST nom_du_cafe
           id CDATA #REQUIRED>
 <!ELEMENT arrondissement (#PCDATA)>
 <!ATTLIST arrondissement
-          id CDATA #REQUIRED>
-<!ELEMENT adresse (#PCDATA)>
-<!ATTLIST adresse
-          id CDATA #REQUIRED>
-<!ELEMENT prix_salle (#PCDATA)>
-<!ATTLIST prix_salle
           id CDATA #REQUIRED>
 <!ELEMENT geoloc (item+)>
 <!ATTLIST geoloc
@@ -17,555 +17,555 @@
 <!ELEMENT item (#PCDATA)>
 <!ATTLIST item
           id CDATA #REQUIRED>
-<!ELEMENT nom_du_cafe (#PCDATA)>
-<!ATTLIST nom_du_cafe
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+          id CDATA #REQUIRED>
+<!ELEMENT adresse (#PCDATA)>
+<!ATTLIST adresse
           id CDATA #REQUIRED>
 <!ELEMENT prix_terasse (#PCDATA)>
 <!ATTLIST prix_terasse
           id CDATA #REQUIRED>
-<!ELEMENT date (#PCDATA)>
-<!ATTLIST date
+<!ELEMENT prix_salle (#PCDATA)>
+<!ATTLIST prix_salle
           id CDATA #REQUIRED>
-<!ELEMENT prix_comptoir (#PCDATA)>
-<!ATTLIST prix_comptoir
-          id CDATA #REQUIRED>
-<!ELEMENT n133 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n133
-          id CDATA #REQUIRED>
-<!ELEMENT n132 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n132
-          id CDATA #REQUIRED>
-<!ELEMENT n131 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n131
-          id CDATA #REQUIRED>
-<!ELEMENT n130 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n130
-          id CDATA #REQUIRED>
-<!ELEMENT n137 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n137
-          id CDATA #REQUIRED>
-<!ELEMENT n136 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n136
-          id CDATA #REQUIRED>
-<!ELEMENT n135 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n135
-          id CDATA #REQUIRED>
-<!ELEMENT n134 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n134
-          id CDATA #REQUIRED>
-<!ELEMENT n139 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n139
-          id CDATA #REQUIRED>
-<!ELEMENT n138 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n138
-          id CDATA #REQUIRED>
-<!ELEMENT n166 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n166
-          id CDATA #REQUIRED>
-<!ELEMENT n24 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n24
-          id CDATA #REQUIRED>
-<!ELEMENT n25 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n25
-          id CDATA #REQUIRED>
-<!ELEMENT n26 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n26
-          id CDATA #REQUIRED>
-<!ELEMENT n27 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n27
-          id CDATA #REQUIRED>
-<!ELEMENT n20 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n20
-          id CDATA #REQUIRED>
-<!ELEMENT n21 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n21
-          id CDATA #REQUIRED>
-<!ELEMENT n22 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n22
-          id CDATA #REQUIRED>
-<!ELEMENT n23 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n23
-          id CDATA #REQUIRED>
-<!ELEMENT n160 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n160
-          id CDATA #REQUIRED>
-<!ELEMENT n28 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n28
-          id CDATA #REQUIRED>
-<!ELEMENT n29 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n29
-          id CDATA #REQUIRED>
-<!ELEMENT n161 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n161
-          id CDATA #REQUIRED>
-<!ELEMENT n4 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n4
-          id CDATA #REQUIRED>
-<!ELEMENT n8 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n8
-          id CDATA #REQUIRED>
-<!ELEMENT n163 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n163
-          id CDATA #REQUIRED>
-<!ELEMENT n119 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n119
-          id CDATA #REQUIRED>
-<!ELEMENT n120 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n120
-          id CDATA #REQUIRED>
-<!ELEMENT n121 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n121
-          id CDATA #REQUIRED>
-<!ELEMENT n122 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n122
-          id CDATA #REQUIRED>
-<!ELEMENT n123 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n123
-          id CDATA #REQUIRED>
-<!ELEMENT n124 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n124
-          id CDATA #REQUIRED>
-<!ELEMENT n125 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n125
-          id CDATA #REQUIRED>
-<!ELEMENT n126 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n126
-          id CDATA #REQUIRED>
-<!ELEMENT n127 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n127
-          id CDATA #REQUIRED>
-<!ELEMENT n128 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n128
-          id CDATA #REQUIRED>
-<!ELEMENT n129 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n129
-          id CDATA #REQUIRED>
-<!ELEMENT n167 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n167
-          id CDATA #REQUIRED>
-<!ELEMENT n118 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n118
-          id CDATA #REQUIRED>
-<!ELEMENT n59 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n59
-          id CDATA #REQUIRED>
-<!ELEMENT n58 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n58
-          id CDATA #REQUIRED>
-<!ELEMENT n55 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n55
-          id CDATA #REQUIRED>
-<!ELEMENT n54 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n54
-          id CDATA #REQUIRED>
-<!ELEMENT n57 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n57
-          id CDATA #REQUIRED>
-<!ELEMENT n56 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n56
-          id CDATA #REQUIRED>
-<!ELEMENT n51 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n51
-          id CDATA #REQUIRED>
-<!ELEMENT n50 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n50
-          id CDATA #REQUIRED>
-<!ELEMENT n53 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n53
-          id CDATA #REQUIRED>
-<!ELEMENT n52 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n52
-          id CDATA #REQUIRED>
-<!ELEMENT n164 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n164
-          id CDATA #REQUIRED>
-<!ELEMENT n179 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n179
-          id CDATA #REQUIRED>
-<!ELEMENT n178 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n178
-          id CDATA #REQUIRED>
-<!ELEMENT n115 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n115
-          id CDATA #REQUIRED>
-<!ELEMENT n114 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n114
-          id CDATA #REQUIRED>
-<!ELEMENT n88 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n88
-          id CDATA #REQUIRED>
-<!ELEMENT n89 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n89
-          id CDATA #REQUIRED>
-<!ELEMENT n111 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n111
-          id CDATA #REQUIRED>
-<!ELEMENT n110 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n110
-          id CDATA #REQUIRED>
-<!ELEMENT n113 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n113
-          id CDATA #REQUIRED>
-<!ELEMENT n112 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n112
-          id CDATA #REQUIRED>
-<!ELEMENT n82 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n82
-          id CDATA #REQUIRED>
-<!ELEMENT n83 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n83
-          id CDATA #REQUIRED>
-<!ELEMENT n80 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n80
-          id CDATA #REQUIRED>
-<!ELEMENT n81 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n81
-          id CDATA #REQUIRED>
-<!ELEMENT n86 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n86
-          id CDATA #REQUIRED>
-<!ELEMENT n87 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n87
-          id CDATA #REQUIRED>
-<!ELEMENT n84 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n84
-          id CDATA #REQUIRED>
-<!ELEMENT n85 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n85
-          id CDATA #REQUIRED>
-<!ELEMENT n3 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n3
-          id CDATA #REQUIRED>
-<!ELEMENT n177 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n177
-          id CDATA #REQUIRED>
-<!ELEMENT n7 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n7
-          id CDATA #REQUIRED>
-<!ELEMENT n108 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n108
-          id CDATA #REQUIRED>
-<!ELEMENT n109 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n109
-          id CDATA #REQUIRED>
-<!ELEMENT n102 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n102
-          id CDATA #REQUIRED>
-<!ELEMENT n103 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n103
-          id CDATA #REQUIRED>
-<!ELEMENT n100 (arrondissement, adresse, prix_salle, nom_du_cafe, prix_terasse, date)>
-<!ATTLIST n100
-          id CDATA #REQUIRED>
-<!ELEMENT n101 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n101
-          id CDATA #REQUIRED>
-<!ELEMENT n106 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n106
-          id CDATA #REQUIRED>
-<!ELEMENT n107 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n107
-          id CDATA #REQUIRED>
-<!ELEMENT n104 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n104
-          id CDATA #REQUIRED>
-<!ELEMENT n105 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n105
-          id CDATA #REQUIRED>
-<!ELEMENT n39 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n39
-          id CDATA #REQUIRED>
-<!ELEMENT n38 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n38
-          id CDATA #REQUIRED>
-<!ELEMENT n33 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n33
-          id CDATA #REQUIRED>
-<!ELEMENT n32 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n32
-          id CDATA #REQUIRED>
-<!ELEMENT n31 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n31
-          id CDATA #REQUIRED>
-<!ELEMENT n30 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n30
-          id CDATA #REQUIRED>
-<!ELEMENT n37 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n37
-          id CDATA #REQUIRED>
-<!ELEMENT n36 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n36
-          id CDATA #REQUIRED>
-<!ELEMENT n35 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n35
-          id CDATA #REQUIRED>
-<!ELEMENT n34 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n34
-          id CDATA #REQUIRED>
-<!ELEMENT n176 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n176
-          id CDATA #REQUIRED>
-<!ELEMENT n60 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n60
-          id CDATA #REQUIRED>
-<!ELEMENT n61 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n61
-          id CDATA #REQUIRED>
-<!ELEMENT n62 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n62
-          id CDATA #REQUIRED>
-<!ELEMENT n63 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n63
-          id CDATA #REQUIRED>
-<!ELEMENT n64 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n64
-          id CDATA #REQUIRED>
-<!ELEMENT n65 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n65
-          id CDATA #REQUIRED>
-<!ELEMENT n66 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n66
-          id CDATA #REQUIRED>
-<!ELEMENT n67 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n67
-          id CDATA #REQUIRED>
-<!ELEMENT n68 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n68
-          id CDATA #REQUIRED>
-<!ELEMENT n69 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n69
-          id CDATA #REQUIRED>
-<!ELEMENT n175 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n175
-          id CDATA #REQUIRED>
-<!ELEMENT n174 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n174
-          id CDATA #REQUIRED>
-<!ELEMENT n173 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n173
-          id CDATA #REQUIRED>
-<!ELEMENT n172 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n172
-          id CDATA #REQUIRED>
-<!ELEMENT n171 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n171
-          id CDATA #REQUIRED>
-<!ELEMENT n170 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n170
-          id CDATA #REQUIRED>
-<!ELEMENT n181 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n181
-          id CDATA #REQUIRED>
-<!ELEMENT n180 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n180
-          id CDATA #REQUIRED>
-<!ELEMENT n2 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n2
-          id CDATA #REQUIRED>
-<!ELEMENT n162 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n162
-          id CDATA #REQUIRED>
-<!ELEMENT n6 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n6
-          id CDATA #REQUIRED>
-<!ELEMENT n99 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n99
-          id CDATA #REQUIRED>
-<!ELEMENT n98 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n98
-          id CDATA #REQUIRED>
-<!ELEMENT n168 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n168
-          id CDATA #REQUIRED>
-<!ELEMENT n169 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n169
-          id CDATA #REQUIRED>
-<!ELEMENT n91 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n91
-          id CDATA #REQUIRED>
-<!ELEMENT n90 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n90
-          id CDATA #REQUIRED>
-<!ELEMENT n93 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n93
-          id CDATA #REQUIRED>
-<!ELEMENT n92 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, date, prix_comptoir)>
-<!ATTLIST n92
-          id CDATA #REQUIRED>
-<!ELEMENT n95 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n95
-          id CDATA #REQUIRED>
-<!ELEMENT n94 (arrondissement, adresse, prix_salle, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n94
-          id CDATA #REQUIRED>
-<!ELEMENT n97 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n97
-          id CDATA #REQUIRED>
-<!ELEMENT n96 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date)>
-<!ATTLIST n96
-          id CDATA #REQUIRED>
-<!ELEMENT n11 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n11
-          id CDATA #REQUIRED>
-<!ELEMENT n10 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n10
-          id CDATA #REQUIRED>
-<!ELEMENT n13 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n13
-          id CDATA #REQUIRED>
-<!ELEMENT n12 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n12
-          id CDATA #REQUIRED>
-<!ELEMENT n15 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n15
-          id CDATA #REQUIRED>
-<!ELEMENT n14 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n14
-          id CDATA #REQUIRED>
-<!ELEMENT n17 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n17
-          id CDATA #REQUIRED>
-<!ELEMENT n16 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n16
-          id CDATA #REQUIRED>
-<!ELEMENT n19 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n19
-          id CDATA #REQUIRED>
-<!ELEMENT n18 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n18
-          id CDATA #REQUIRED>
-<!ELEMENT n117 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n117
-          id CDATA #REQUIRED>
-<!ELEMENT n116 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n116
-          id CDATA #REQUIRED>
-<!ELEMENT n151 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n151
-          id CDATA #REQUIRED>
-<!ELEMENT n150 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n150
-          id CDATA #REQUIRED>
-<!ELEMENT n153 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n153
-          id CDATA #REQUIRED>
-<!ELEMENT n152 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n152
-          id CDATA #REQUIRED>
-<!ELEMENT n155 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n155
-          id CDATA #REQUIRED>
-<!ELEMENT n154 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n154
-          id CDATA #REQUIRED>
-<!ELEMENT n157 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n157
-          id CDATA #REQUIRED>
-<!ELEMENT n156 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n156
-          id CDATA #REQUIRED>
-<!ELEMENT n159 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n159
-          id CDATA #REQUIRED>
-<!ELEMENT n158 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n158
-          id CDATA #REQUIRED>
-<!ELEMENT n48 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n48
-          id CDATA #REQUIRED>
-<!ELEMENT n49 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n49
-          id CDATA #REQUIRED>
-<!ELEMENT n46 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n46
-          id CDATA #REQUIRED>
-<!ELEMENT n47 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n47
-          id CDATA #REQUIRED>
-<!ELEMENT n44 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date)>
-<!ATTLIST n44
-          id CDATA #REQUIRED>
-<!ELEMENT n45 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n45
-          id CDATA #REQUIRED>
-<!ELEMENT n42 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n42
-          id CDATA #REQUIRED>
-<!ELEMENT n43 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n43
-          id CDATA #REQUIRED>
-<!ELEMENT n40 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n40
-          id CDATA #REQUIRED>
-<!ELEMENT n41 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n41
-          id CDATA #REQUIRED>
-<!ELEMENT n1 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n1
-          id CDATA #REQUIRED>
-<!ELEMENT n5 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n5
-          id CDATA #REQUIRED>
-<!ELEMENT n9 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n9
-          id CDATA #REQUIRED>
-<!ELEMENT n146 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n146
-          id CDATA #REQUIRED>
-<!ELEMENT n147 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n147
-          id CDATA #REQUIRED>
-<!ELEMENT n144 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n144
-          id CDATA #REQUIRED>
-<!ELEMENT n145 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n145
-          id CDATA #REQUIRED>
-<!ELEMENT n142 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n142
-          id CDATA #REQUIRED>
-<!ELEMENT n143 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n143
-          id CDATA #REQUIRED>
-<!ELEMENT n140 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n140
-          id CDATA #REQUIRED>
-<!ELEMENT n141 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n141
-          id CDATA #REQUIRED>
-<!ELEMENT n148 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n148
-          id CDATA #REQUIRED>
-<!ELEMENT n149 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n149
-          id CDATA #REQUIRED>
-<!ELEMENT n77 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n77
-          id CDATA #REQUIRED>
-<!ELEMENT n76 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n76
-          id CDATA #REQUIRED>
-<!ELEMENT n75 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n75
-          id CDATA #REQUIRED>
-<!ELEMENT n74 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n74
-          id CDATA #REQUIRED>
-<!ELEMENT n73 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n73
-          id CDATA #REQUIRED>
-<!ELEMENT n72 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n72
-          id CDATA #REQUIRED>
-<!ELEMENT n71 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
+<!ELEMENT n71 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
 <!ATTLIST n71
           id CDATA #REQUIRED>
-<!ELEMENT n70 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
-<!ATTLIST n70
+<!ELEMENT n136 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n136
           id CDATA #REQUIRED>
-<!ELEMENT n79 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
+<!ELEMENT n40 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n40
+          id CDATA #REQUIRED>
+<!ELEMENT n174 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n174
+          id CDATA #REQUIRED>
+<!ELEMENT n77 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n77
+          id CDATA #REQUIRED>
+<!ELEMENT n84 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n84
+          id CDATA #REQUIRED>
+<!ELEMENT n146 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n146
+          id CDATA #REQUIRED>
+<!ELEMENT n20 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n20
+          id CDATA #REQUIRED>
+<!ELEMENT n5 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n5
+          id CDATA #REQUIRED>
+<!ELEMENT n79 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
 <!ATTLIST n79
           id CDATA #REQUIRED>
-<!ELEMENT n78 (arrondissement, adresse, prix_salle, geoloc, nom_du_cafe, prix_terasse, date, prix_comptoir)>
+<!ELEMENT n9 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n9
+          id CDATA #REQUIRED>
+<!ELEMENT n138 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n138
+          id CDATA #REQUIRED>
+<!ELEMENT n164 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n164
+          id CDATA #REQUIRED>
+<!ELEMENT n30 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n30
+          id CDATA #REQUIRED>
+<!ELEMENT n83 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n83
+          id CDATA #REQUIRED>
+<!ELEMENT n101 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n101
+          id CDATA #REQUIRED>
+<!ELEMENT n147 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n147
+          id CDATA #REQUIRED>
+<!ELEMENT n175 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n175
+          id CDATA #REQUIRED>
+<!ELEMENT n61 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n61
+          id CDATA #REQUIRED>
+<!ELEMENT n150 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n150
+          id CDATA #REQUIRED>
+<!ELEMENT n3 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n3
+          id CDATA #REQUIRED>
+<!ELEMENT n149 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n149
+          id CDATA #REQUIRED>
+<!ELEMENT n141 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n141
+          id CDATA #REQUIRED>
+<!ELEMENT n75 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n75
+          id CDATA #REQUIRED>
+<!ELEMENT n34 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n34
+          id CDATA #REQUIRED>
+<!ELEMENT n163 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n163
+          id CDATA #REQUIRED>
+<!ELEMENT n18 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n18
+          id CDATA #REQUIRED>
+<!ELEMENT n43 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n43
+          id CDATA #REQUIRED>
+<!ELEMENT n109 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n109
+          id CDATA #REQUIRED>
+<!ELEMENT n33 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n33
+          id CDATA #REQUIRED>
+<!ELEMENT n170 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n170
+          id CDATA #REQUIRED>
+<!ELEMENT n117 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n117
+          id CDATA #REQUIRED>
+<!ELEMENT n176 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n176
+          id CDATA #REQUIRED>
+<!ELEMENT n130 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n130
+          id CDATA #REQUIRED>
+<!ELEMENT n37 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n37
+          id CDATA #REQUIRED>
+<!ELEMENT n10 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n10
+          id CDATA #REQUIRED>
+<!ELEMENT n69 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n69
+          id CDATA #REQUIRED>
+<!ELEMENT n96 (nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n96
+          id CDATA #REQUIRED>
+<!ELEMENT n122 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n122
+          id CDATA #REQUIRED>
+<!ELEMENT n14 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n14
+          id CDATA #REQUIRED>
+<!ELEMENT n160 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n160
+          id CDATA #REQUIRED>
+<!ELEMENT n173 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n173
+          id CDATA #REQUIRED>
+<!ELEMENT n88 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n88
+          id CDATA #REQUIRED>
+<!ELEMENT n145 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n145
+          id CDATA #REQUIRED>
+<!ELEMENT n51 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n51
+          id CDATA #REQUIRED>
+<!ELEMENT n67 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n67
+          id CDATA #REQUIRED>
+<!ELEMENT n167 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n167
+          id CDATA #REQUIRED>
+<!ELEMENT n60 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n60
+          id CDATA #REQUIRED>
+<!ELEMENT n112 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n112
+          id CDATA #REQUIRED>
+<!ELEMENT n17 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n17
+          id CDATA #REQUIRED>
+<!ELEMENT n151 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n151
+          id CDATA #REQUIRED>
+<!ELEMENT n114 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n114
+          id CDATA #REQUIRED>
+<!ELEMENT n110 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n110
+          id CDATA #REQUIRED>
+<!ELEMENT n82 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n82
+          id CDATA #REQUIRED>
+<!ELEMENT n111 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n111
+          id CDATA #REQUIRED>
+<!ELEMENT n68 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n68
+          id CDATA #REQUIRED>
+<!ELEMENT n23 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n23
+          id CDATA #REQUIRED>
+<!ELEMENT n137 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n137
+          id CDATA #REQUIRED>
+<!ELEMENT n91 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n91
+          id CDATA #REQUIRED>
+<!ELEMENT n105 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n105
+          id CDATA #REQUIRED>
+<!ELEMENT n41 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n41
+          id CDATA #REQUIRED>
+<!ELEMENT n26 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n26
+          id CDATA #REQUIRED>
+<!ELEMENT n171 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n171
+          id CDATA #REQUIRED>
+<!ELEMENT n178 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n178
+          id CDATA #REQUIRED>
+<!ELEMENT n22 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n22
+          id CDATA #REQUIRED>
+<!ELEMENT n45 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n45
+          id CDATA #REQUIRED>
+<!ELEMENT n52 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n52
+          id CDATA #REQUIRED>
+<!ELEMENT n64 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n64
+          id CDATA #REQUIRED>
+<!ELEMENT n6 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n6
+          id CDATA #REQUIRED>
+<!ELEMENT n131 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n131
+          id CDATA #REQUIRED>
+<!ELEMENT n4 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n4
+          id CDATA #REQUIRED>
+<!ELEMENT n11 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n11
+          id CDATA #REQUIRED>
+<!ELEMENT n35 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n35
+          id CDATA #REQUIRED>
+<!ELEMENT n62 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n62
+          id CDATA #REQUIRED>
+<!ELEMENT n108 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n108
+          id CDATA #REQUIRED>
+<!ELEMENT n134 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n134
+          id CDATA #REQUIRED>
+<!ELEMENT n181 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n181
+          id CDATA #REQUIRED>
+<!ELEMENT n103 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n103
+          id CDATA #REQUIRED>
+<!ELEMENT n135 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n135
+          id CDATA #REQUIRED>
+<!ELEMENT n92 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_salle)>
+<!ATTLIST n92
+          id CDATA #REQUIRED>
+<!ELEMENT n123 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n123
+          id CDATA #REQUIRED>
+<!ELEMENT n47 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n47
+          id CDATA #REQUIRED>
+<!ELEMENT n166 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n166
+          id CDATA #REQUIRED>
+<!ELEMENT n58 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n58
+          id CDATA #REQUIRED>
+<!ELEMENT n36 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n36
+          id CDATA #REQUIRED>
+<!ELEMENT n57 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n57
+          id CDATA #REQUIRED>
+<!ELEMENT n124 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n124
+          id CDATA #REQUIRED>
+<!ELEMENT n172 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n172
+          id CDATA #REQUIRED>
+<!ELEMENT n44 (nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n44
+          id CDATA #REQUIRED>
+<!ELEMENT n66 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n66
+          id CDATA #REQUIRED>
+<!ELEMENT n125 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n125
+          id CDATA #REQUIRED>
+<!ELEMENT n104 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n104
+          id CDATA #REQUIRED>
+<!ELEMENT n100 (nom_du_cafe, arrondissement, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n100
+          id CDATA #REQUIRED>
+<!ELEMENT n59 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n59
+          id CDATA #REQUIRED>
+<!ELEMENT n73 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n73
+          id CDATA #REQUIRED>
+<!ELEMENT n169 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n169
+          id CDATA #REQUIRED>
+<!ELEMENT n168 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n168
+          id CDATA #REQUIRED>
+<!ELEMENT n119 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n119
+          id CDATA #REQUIRED>
+<!ELEMENT n87 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n87
+          id CDATA #REQUIRED>
+<!ELEMENT n56 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n56
+          id CDATA #REQUIRED>
+<!ELEMENT n42 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n42
+          id CDATA #REQUIRED>
+<!ELEMENT n144 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n144
+          id CDATA #REQUIRED>
+<!ELEMENT n129 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n129
+          id CDATA #REQUIRED>
+<!ELEMENT n78 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
 <!ATTLIST n78
+          id CDATA #REQUIRED>
+<!ELEMENT n148 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n148
+          id CDATA #REQUIRED>
+<!ELEMENT n155 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n155
+          id CDATA #REQUIRED>
+<!ELEMENT n46 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n46
+          id CDATA #REQUIRED>
+<!ELEMENT n115 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n115
+          id CDATA #REQUIRED>
+<!ELEMENT n121 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n121
+          id CDATA #REQUIRED>
+<!ELEMENT n86 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n86
+          id CDATA #REQUIRED>
+<!ELEMENT n99 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n99
+          id CDATA #REQUIRED>
+<!ELEMENT n128 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n128
+          id CDATA #REQUIRED>
+<!ELEMENT n133 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n133
+          id CDATA #REQUIRED>
+<!ELEMENT n142 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n142
+          id CDATA #REQUIRED>
+<!ELEMENT n1 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n1
+          id CDATA #REQUIRED>
+<!ELEMENT n180 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n180
+          id CDATA #REQUIRED>
+<!ELEMENT n107 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n107
+          id CDATA #REQUIRED>
+<!ELEMENT n27 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n27
+          id CDATA #REQUIRED>
+<!ELEMENT n31 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n31
+          id CDATA #REQUIRED>
+<!ELEMENT n25 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n25
+          id CDATA #REQUIRED>
+<!ELEMENT n29 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n29
+          id CDATA #REQUIRED>
+<!ELEMENT n80 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n80
+          id CDATA #REQUIRED>
+<!ELEMENT n165 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n165
+          id CDATA #REQUIRED>
+<!ELEMENT n154 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n154
+          id CDATA #REQUIRED>
+<!ELEMENT n159 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n159
+          id CDATA #REQUIRED>
+<!ELEMENT n32 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n32
+          id CDATA #REQUIRED>
+<!ELEMENT n2 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n2
+          id CDATA #REQUIRED>
+<!ELEMENT n16 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n16
+          id CDATA #REQUIRED>
+<!ELEMENT n90 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n90
+          id CDATA #REQUIRED>
+<!ELEMENT n53 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n53
+          id CDATA #REQUIRED>
+<!ELEMENT n63 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n63
+          id CDATA #REQUIRED>
+<!ELEMENT n94 (nom_du_cafe, prix_comptoir, arrondissement, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n94
+          id CDATA #REQUIRED>
+<!ELEMENT n65 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n65
+          id CDATA #REQUIRED>
+<!ELEMENT n39 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n39
+          id CDATA #REQUIRED>
+<!ELEMENT n12 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n12
+          id CDATA #REQUIRED>
+<!ELEMENT n19 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n19
+          id CDATA #REQUIRED>
+<!ELEMENT n21 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n21
+          id CDATA #REQUIRED>
+<!ELEMENT n89 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n89
+          id CDATA #REQUIRED>
+<!ELEMENT n54 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n54
+          id CDATA #REQUIRED>
+<!ELEMENT n98 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n98
+          id CDATA #REQUIRED>
+<!ELEMENT n76 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n76
+          id CDATA #REQUIRED>
+<!ELEMENT n156 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n156
+          id CDATA #REQUIRED>
+<!ELEMENT n153 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n153
+          id CDATA #REQUIRED>
+<!ELEMENT n55 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n55
+          id CDATA #REQUIRED>
+<!ELEMENT n116 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n116
+          id CDATA #REQUIRED>
+<!ELEMENT n49 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n49
+          id CDATA #REQUIRED>
+<!ELEMENT n113 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n113
+          id CDATA #REQUIRED>
+<!ELEMENT n106 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n106
+          id CDATA #REQUIRED>
+<!ELEMENT n95 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n95
+          id CDATA #REQUIRED>
+<!ELEMENT n152 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n152
+          id CDATA #REQUIRED>
+<!ELEMENT n132 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n132
+          id CDATA #REQUIRED>
+<!ELEMENT n102 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n102
+          id CDATA #REQUIRED>
+<!ELEMENT n38 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n38
+          id CDATA #REQUIRED>
+<!ELEMENT n24 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n24
+          id CDATA #REQUIRED>
+<!ELEMENT n72 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n72
+          id CDATA #REQUIRED>
+<!ELEMENT n127 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n127
+          id CDATA #REQUIRED>
+<!ELEMENT n162 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n162
+          id CDATA #REQUIRED>
+<!ELEMENT n157 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n157
+          id CDATA #REQUIRED>
+<!ELEMENT n177 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n177
+          id CDATA #REQUIRED>
+<!ELEMENT n97 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n97
+          id CDATA #REQUIRED>
+<!ELEMENT n15 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n15
+          id CDATA #REQUIRED>
+<!ELEMENT n81 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n81
+          id CDATA #REQUIRED>
+<!ELEMENT n85 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n85
+          id CDATA #REQUIRED>
+<!ELEMENT n70 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n70
+          id CDATA #REQUIRED>
+<!ELEMENT n74 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n74
+          id CDATA #REQUIRED>
+<!ELEMENT n28 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n28
+          id CDATA #REQUIRED>
+<!ELEMENT n8 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n8
+          id CDATA #REQUIRED>
+<!ELEMENT n48 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n48
+          id CDATA #REQUIRED>
+<!ELEMENT n158 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n158
+          id CDATA #REQUIRED>
+<!ELEMENT n139 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n139
+          id CDATA #REQUIRED>
+<!ELEMENT n161 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n161
+          id CDATA #REQUIRED>
+<!ELEMENT n93 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n93
+          id CDATA #REQUIRED>
+<!ELEMENT n126 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n126
+          id CDATA #REQUIRED>
+<!ELEMENT n143 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n143
+          id CDATA #REQUIRED>
+<!ELEMENT n179 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n179
+          id CDATA #REQUIRED>
+<!ELEMENT n118 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n118
+          id CDATA #REQUIRED>
+<!ELEMENT n50 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n50
+          id CDATA #REQUIRED>
+<!ELEMENT n7 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n7
+          id CDATA #REQUIRED>
+<!ELEMENT n13 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n13
+          id CDATA #REQUIRED>
+<!ELEMENT n120 (prix_comptoir, nom_du_cafe, arrondissement, geoloc, date, adresse, prix_terasse, prix_salle)>
+<!ATTLIST n120
           id CDATA #REQUIRED>

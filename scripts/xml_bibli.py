@@ -30,7 +30,7 @@ def open_2dico(url):
 def ecriture(url,url2):
 	dico2 = open_2dico(url)
 	out = open(url2,"w")
-	out.write('<?xml version="1.0" encoding="utf-8" standalone="no"?>\n')
+	out.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
 	out.write("<root>\n")
 	num_bib = 0
 	for cle in dico2:
