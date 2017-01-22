@@ -102,10 +102,10 @@
 												<p>On obtient le fichier <a href="../donnees_xml/OpenBeerMap.xml">openbeermap.xml</a>.</p>
 
 											<h4 id="csv2xml">CSV</h4>
-											<p>Chaque fichier CSV a nécessité un script spécifique, ainsi pour la liste des bibliothèques, nous avons utilisé le fichier <a href="../donnees_brutes/equipements_de_proximite.csv">equipements_de_proximite.csv</a> et nous y aovns récupérer uniquement les bibliothèques à l'aide de <a href="../scripts/bibliotheque2xml.py">ce script</a> et nous en avons tiré un fichier au format XML.</p>
+											<p>Chaque fichier CSV a nécessité un script spécifique, ainsi pour la liste des bibliothèques, nous avons utilisé le fichier <a href="../donnees_brutes/equipements_de_proximite.csv">equipements_de_proximite.csv</a> et nous y avons récupéré uniquement les bibliothèques à l'aide de <a href="../scripts/bibliotheque2xml.py">ce script</a> et nous en avons tiré un fichier au format XML.</p>
 
 											<h4 id="json2xml">JSON</h4>
-												<p>Les fichiers json ont été très simples (dans un premier temps ...) à passer en XML, python propose le module <a href="https://docs.python.org/3/library/json.html">json</a> qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
+												<p>Les fichiers json ont été très simples (dans un premier temps ...) à passer en XML. Python propose le module <a href="https://docs.python.org/3/library/json.html">json</a> qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
 
 												Ensuite un module, <a href="https://github.com/quandyfactory/dicttoxml">dicttoxml</a>, permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
 												<ul>
@@ -117,7 +117,7 @@
 													<li>marches.xml</li>
 												</ul>
 
-												Après tentative de validation, les dtd montraient un problème dans la structure du xml: le module transformant en balise &lt;item&gt;
+												Après tentative de validation, les dtd montraient un problème dans la structure du xml : le module transformant en balise &lt;item&gt;
 												chaque liste du json d'origine. il y avait plusieurs balises &lt;item&gt;, dans différents noeuds...<br/>
 												Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.</p>
 
@@ -128,7 +128,7 @@
 												Ce modèle étant défini, on a transformé chaque xml en un format xml_pivot avec une balise "arrondissement" qui est la sous racine, et à l'intérieur de chaque balise "arrondissement" tous les équipements contenus dans l'arrondissement avec balise "element" et attribut "type" et un id pour les numéroter, chaque élément contenant à son tour quatre balises : "latitude", "longitude", "adresse" et "nom." Nous verrons ensuite l'utilité des geocoordonnées.<br/>
 												Remarque : pour le fichier bibliotheque, les coordonnées n'étant pas présentes, nous avons du aller les chercher avec un module qui prend en entrée une adresse et donne ses coordonnées, latitude et longitude.<br/>
 												</p>
-												<p>Dès lors, nos données étaietn formatées de façon identique, le xml pivot final fut assez facile à réaliser, les détails se trouvent dans le script de création disponible en <a href="../scripts/creation_xml_pivot.py">ici</a>.</p>
+												<p>Dès lors, nos données étaient formatées de façon identique, le xml pivot final fut assez facile à réaliser, les détails se trouvent dans le script de création disponible en <a href="../scripts/creation_xml_pivot.py">ici</a>.</p>
 											
 											<h4 id = "loyers">Ajout des loyers</h4>
 												<p>On passe par un fichier CSV pour récupérer les loyers par quartier. Malheureusement les quartiers étant identifiés par id et non par arrondissement, on doit passer par une comparaison avec les quartiers administratifs de Paris grâce à un tableau wikipédia. <br/>
@@ -174,7 +174,7 @@
 												<li>visualize.js</li>
 												<li>gmaps.js</li>
 											</ul>
-											La librairie visualize.js permet la créaiton de graphique simples à partir d'un tableau en javascript.</p>
+											La librairie visualize.js permet la création de graphiques simples à partir d'un tableau en javascript.</p>
 											<p>La librairie gmaps.js permet la création de cartes à partir de Google Maps.</p>
 
 
@@ -239,7 +239,7 @@
 							<div class="12u">
 								<div id="copyright">
 									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li> Hébergé coopérativement par <a href="www.ouvaton.coop">Ouvaton</a> :)</li>
 									</ul>
 								</div>
 							</div>

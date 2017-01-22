@@ -2,8 +2,8 @@
 #! coding: utf-8
 
 
-# def extraction(url) : 
-# 	
+# def extraction(url) :
+#
 import urllib.request
 import ssl
 
