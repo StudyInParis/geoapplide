@@ -4,7 +4,7 @@
 
 Ce [projet](http://plancq.clement.free.fr/python/project/) a été réalisé dans le cadre de notre [M2 TAL](http://www.tal.univ-paris3.fr/plurital/) pour les cours de XML et de python réalisé par :
 
-Chloé Monnin, Mathilde POULAIN, Léon-Paul SCHAUB
+Chloé MONNIN, Mathilde POULAIN, Léon-Paul SCHAUB
 
 encadré par :
 
