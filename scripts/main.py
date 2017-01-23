@@ -151,7 +151,6 @@ if __name__ == '__main__':
 
 	# bars
 	print("traitement des données des bars")
-	# Extraction du fichier sur le web => ?????????,,
 	fichier_bars_csv=donnees_brutes+"OpenBeerMap_IDF.csv"
 	# extraction.ecrire("Adresse de téléchargement des données des bars")
 	# Transformation csv -> xml
