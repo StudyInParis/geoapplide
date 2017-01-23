@@ -102,10 +102,10 @@
 												<p>On obtient le fichier <a href="../donnees_xml/OpenBeerMap.xml">openbeermap.xml</a>.</p>
 
 											<h4 id="csv2xml">CSV</h4>
-											<p>Chaque fichier CSV a nécessité un script spécifique, ainsi pour la liste des bibliothèques, nous avons utilisé le fichier <a href="../donnees_brutes/equipements_de_proximite.csv">equipements_de_proximite.csv</a> et nous y avons récupéré uniquement les bibliothèques à l'aide de <a href="../scripts/bibliotheque2xml.py">ce script</a> et nous en avons tiré un fichier au format XML.</p>
+											<p>Chaque fichier CSV a eu besoin d'un script spécifique, ainsi pour la liste des bibliothèques, nous avons utilisé le fichier <a href="../donnees_brutes/equipements_de_proximite.csv">equipements_de_proximite.csv</a> et nous y avons récupéré uniquement les bibliothèques à l'aide de <a href="../scripts/bibliotheque2xml.py">ce script</a> et nous en avons tiré un fichier au format XML.</p>
 
 											<h4 id="json2xml">JSON</h4>
-												<p>Les fichiers json ont été très simples (dans un premier temps ...) à passer en XML. Python propose le module <a href="https://docs.python.org/3/library/json.html">json</a> qui traite un fichier json et créé un dictionnaire contenant toutes les données du fichier.
+												<p>Les fichiers json ont été très simples (dans un premier temps ...) à passer en XML. Python propose le module <a href="https://docs.python.org/3/library/json.html">json</a> qui traite un fichier json et crée un dictionnaire contenant toutes les données du fichier.
 
 												Ensuite un module, <a href="https://github.com/quandyfactory/dicttoxml">dicttoxml</a>, permet dans l'autre sens, c'est à dire à partir d'un dictionnaire, de créer un fichier xml. C'est avec ce script que nous avons généré les fichiers suivants :
 												<ul>
@@ -122,7 +122,7 @@
 												Résolution : il a fallu ne sélectionner que la clé qui nous intéressait dans le json pour supprimer l'erreur.</p>
 
 											<h3 id="xmlpivot">Réalisation d'un fichier pivot en XML</h3>
-												<p>Après avoir transformé toutes nos données en xml, l'étendue des dégâts est grande : deux fichiers xml sont inutilisables (quartiers de Paris et les facs) et plusieurs éléments inutilisables du fait du manque de données à l'intérieur du fichier d'origine.</p>
+												<p>Après avoir transformé toutes nos données en xml, l'étendue des dégâts est grande : deux fichiers xml sont inutilisables (quartiers de Paris et les facs) et plusieurs éléments non exploitables du fait du manque de données à l'intérieur du fichier d'origine.</p>
 
 												<p>Nous avons décidé d'un modèle de xml pour visualiser a posteriori nos données : le format xml_pivot. <br/>
 												Ce modèle étant défini, on a transformé chaque xml en un format xml_pivot avec une balise "arrondissement" qui est la sous racine, et à l'intérieur de chaque balise "arrondissement" tous les équipements contenus dans l'arrondissement avec balise "element" et attribut "type" et un id pour les numéroter, chaque élément contenant à son tour quatre balises : "latitude", "longitude", "adresse" et "nom." Nous verrons ensuite l'utilité des geocoordonnées.<br/>
