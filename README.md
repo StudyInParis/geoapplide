@@ -9,7 +9,7 @@ Chloé MONNIN, Mathilde POULAIN, Léon-Paul SCHAUB
 encadré par :
 
 Johan FERGUTH et Clément PLANCQ
-
+Note finale : 19.25/20
 ## Objectif :
 Déterminer le meilleur quartier étudiant en fonction des données suivantes :
 - les distributeurs de préservatifs
